@@ -1,0 +1,15 @@
+{
+  "agent": "framework",
+  "model": "gpt-6-luna",
+  "effort": null,
+  "judge": "gpt-6-luna",
+  "judge_effort": null,
+  "split": "test",
+  "ids": null,
+  "categories": null,
+  "workers": 3,
+  "out": "results/test_abl_no_clock",
+  "agent_kw": "{\"clock\":false}",
+  "resume": false,
+  "n": 150
+}
