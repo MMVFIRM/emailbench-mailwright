@@ -1,0 +1,15 @@
+{
+  "agent": "baseline",
+  "model": "gpt-5.6-luna",
+  "effort": null,
+  "judge": "gpt-6-luna",
+  "judge_effort": null,
+  "split": "test",
+  "ids": null,
+  "categories": null,
+  "workers": 3,
+  "out": "results/test_baseline_gpt-5.6-luna",
+  "agent_kw": "{}",
+  "resume": false,
+  "n": 150
+}
