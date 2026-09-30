@@ -1,0 +1,15 @@
+{
+  "agent": "framework",
+  "model": "gpt-6-luna",
+  "effort": null,
+  "judge": "gpt-6-luna",
+  "judge_effort": null,
+  "split": "holdout2",
+  "ids": null,
+  "categories": null,
+  "workers": 2,
+  "out": "results/h2_framework_v2",
+  "agent_kw": "{}",
+  "resume": true,
+  "n": 85
+}

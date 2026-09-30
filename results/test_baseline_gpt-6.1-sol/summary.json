@@ -1,0 +1,30 @@
+{
+  "n": 150,
+  "passed": 125,
+  "pass_rate": 83.3,
+  "mean_score": 0.848,
+  "calls": 4.01,
+  "call_ok": 98.8,
+  "latency": 8.5,
+  "errors": 0,
+  "input_tokens": 1638590,
+  "output_tokens": 35689,
+  "by_category": {
+    "boards": "3/7",
+    "calendar-read": "3/9",
+    "calendar-triage": "3/7",
+    "calendar-write": "10/11",
+    "contacts": "7/7",
+    "cross-domain": "11/11",
+    "filters": "8/8",
+    "folders": "6/7",
+    "inbox-cleanup": "4/6",
+    "meeting-prep": "7/8",
+    "messages-read": "25/27",
+    "messages-write": "12/12",
+    "multi-domain": "7/8",
+    "orchestration": "7/10",
+    "settings": "5/5",
+    "todo": "7/7"
+  }
+}
