@@ -1,0 +1,792 @@
+{
+ "run_id": "R873A919502CA",
+ "benchmark_task_id": "H09",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTo: Margaret Zhao (CEO); David Herrera (General Counsel). Re: Dr. Rajesh Anand / Novacel - trade secret and restrictive covenant enforcement options.\nRecord runs through May 26, 2025; today is Oct. 2, 2026 (see Sec. 8).\n\n1. BOTTOM LINE\n(a) Lead with trade secret and confidentiality claims (DTSA, Massachusetts UTSA, breach of EICA/SCTSA/ENCNSA Sec. 5), not the non-compete. The exfiltration evidence is strong, but we have no proof yet of use or disclosure at Novacel.\n(b) File first, in Massachusetts (Suffolk Superior Court Business Litigation Session, or D. Mass.), to avoid a California declaratory/Bus. & Prof. Code 16600.5 action. Seek a narrow TRO/PI aimed at conduct (sequester, return, forensic inspection, non-use, preservation), not at Anand's employment.\n(c) The non-compete is a secondary, higher-risk claim: it is likely valid in Massachusetts only if the 24L formalities hold (several vulnerabilities below), and a California court is likely to refuse it. Keep paying garden leave to preserve it.\n(d) Reasonable-measures evidence has internal inconsistencies to fix before any declaration is signed.\n\n2. KEY FACTS (matter documents)\n- Anand: hired June 15, 2016; VP from Mar. 1, 2020; $385,000 salary; resigned voluntarily May 2, 2025; last day May 16; announced as Novacel CSO May 19 (San Diego; LNP/polymer competitor). Now in La Jolla, CA.\n- Forensic report (Trevelyan, May 22): 2,347 files/4.8 GB to a personal USB over 14 sessions (Mar. 15-Apr. 28, 2025), 312 rated Highly Confidential/Trade Secret (VelluSphere compositions, Aurora, VTX-401, pricing, RTP parameters, patent drafts); 17 emails/34 attachments to a personal Gmail (Apr. 1-25); a Saturday 11:47 PM-2:13 AM lab visit Apr. 26 matching the 341-file session; Feb.-Mar. searches on Novacel and California non-compete law; a Jan. 22 dinner with \"L. Forsythe\". USB not returned.\n- Separation Certification (May 14): items 3-4 flatly deny retention (including USB/personal email) and third-party transfer; items 1-2 say \"returned, or will return,\" so the forensic report paraphrases it too categorically.\n- Agreements: EICA (2016; perpetual confidentiality; no non-compete); ENCNSA (Mar. 1, 2020; Restricted Period 12 months, 24 if fiduciary breach or unlawful taking, burden on Company; 50% garden leave; Suffolk forum); SCTSA (Sept. 12, 2023; six Aurora categories). All carry DTSA immunity notices and Massachusetts law.\n- Garden leave first tendered May 26, 2025 (prorated May 17-31). No demand sent.\n\n3. TRADE SECRET CLAIMS\nFederal DTSA (18 U.S.C. 1836) and Massachusetts UTSA (G.L. c. 93, ss. 42-42G, eff. Oct. 1, 2018). Elements: a protectable secret (independent value from secrecy; reasonable measures), and misappropriation (acquisition by improper means, or use/disclosure in breach of a duty). Strengths: formulations, process parameters, unpublished patent drafts, clinical data and pricing are classic secrets; his agreements acknowledge secrecy; Policy Sec. 4.1 bans personal media outright; the escalating evening pattern and the contrary certification support improper acquisition and intent. Authorized access is not a defense to copying to personal media in breach of EICA 2.4/4.2 and SCTSA 4(c). Remedies: injunction, damages, and up to 2x exemplary damages and fees for willful and malicious misappropriation (per the SCTSA recital; verify).\nLimits. The DTSA bars injunctions that prevent employment or impose conditions based merely on what the person knows, or that conflict with state law barring restraints on trade (1836(b)(3)(A)(i), confirmed by secondary sources; primary text not retrieved). Massachusetts UTSA permits enjoining \"threatened misappropriation\" in equity, which secondary sources read as a limited inevitable-disclosure route; unsettled. California rejects inevitable disclosure (Whyte v. Schlage Lock, 101 Cal. App. 4th 1443 (2002)). So relief must rest on evidence of actual taking and risk of use, not on his seniority at Novacel. Internal/Public files (about 87% by the forensic count) are not secrets.\nReasonable measures: strengths are a four-tier classification, RBAC, audit logs, annual training (Nov. 8, 2024), badge control, NDAs/SCTSA, exit protocol. Weaknesses defendants will use: log-only USB mode and no blocking; the forensic report (no email DLP) conflicts with Policy Sec. 4.3 (DLP exists) and the spreadsheet (DLP rule triggered but log-only); Policy Sec. 3.3/4.2 require monthly anomaly reports flagging >50 files, >500 MB, Tier 4 transfers and after-hours access, yet nothing was flagged for 44 days; Policy Sec. 7.1 required, on the May 2 resignation notice, HR notice to the CISO within 24 hours, a 90-day activity report, a USB-block decision and enhanced DLP, and no document shows these happened; his Trade Secret access was auto-provisioned, not dual-approved as Sec. 2.2 describes. The standard is reasonable, not perfect; frame the case around what existed, not \"robust.\"\n\n4. NON-COMPETE (ENCNSA) - MASSACHUSETTS\n24L applies (agreement after Oct. 1, 2018; Anand employed in Massachusetts). Checklist:\n- Resigned voluntarily, so the \"terminated without cause or laid off\" bar (24L(c)) does not apply.\n- Duration: capped at 12 months unless breach of fiduciary duty or unlawful physical/electronic taking, then up to 2 years (24L(b)(iv)). The USB/Gmail taking supports 24 months, but the ENCNSA puts the burden on Vellura and the court decides \"at the time enforcement is sought.\" Plan for 12 months as the realistic outer limit unless proven.\n- Garden leave must be paid pro rata during the entire restricted period at not less than 50% of highest base salary of the prior two years (confirmed: $192,500/yr), and the employer may not unilaterally discontinue except on employee breach (24L(b)(vii)). Risks: (i) ENCNSA 4.4 allows offset down to 25% of salary, below the statutory 50% floor; do not apply it; (ii) payments began May 26 (10 days after separation), within ENCNSA 4.2's 30-day window, but Anand can argue lateness; ENCNSA 4.5 gives a 15-business-day cure after his written notice (none reported); (iii) if we claim 24 months we must pay through May 2027; (iv) continue payments while suing: stopping would hand him the \"unilateral discontinuance\" argument, while 7.3 forfeiture should be reserved, not exercised, until a court finds breach.\n- Consideration: because signed mid-employment, it needs fair and reasonable consideration independent of continued employment, plus 10 business days' notice and a written right-to-counsel statement. Exhibit A lists promotion, $50,000 bonus, garden leave, continued employment and access; continued employment will not count, but the bonus and garden leave likely suffice. Our copies have blank signature lines; obtain executed originals and proof of 10-day delivery.\n- Scope: \"Competing Enterprise\" is enterprise-wide, 2.1(a) and (c) reach any capacity, and the territory is U.S.-plus, broader than the 24L presumptions (services performed; areas worked). A court may reform (ENCNSA 10.3; 24L(d) discretionary); expect narrowing to an LNP-formulation role. The 3.1 no-hire and 2.3 tolling clauses may collide with the statutory cap.\n- Waiver/selective enforcement: Osei (to MIT, 2021) and Ramirez (non-LNP pharma, 2023) were not pursued, with no written rationale. Distinguishable (not direct competitors) and ENCNSA 10.4 is a non-waiver clause, but the undocumented history is a fact issue. Do not create after-the-fact memos. The 4.3 election window (to June 15, 2025) lapsed without election.\n- 24L(e) voids a choice-of-law clause that avoids the statute for a Massachusetts resident/employee of 30 days; 24L(f) allows Suffolk venue by agreement with exclusive Superior Court/BLS jurisdiction. These bind Massachusetts courts, not California.\nNonsolicit and confidentiality covenants fall outside 24L's definition (my understanding; full text not retrieved); in California the nonsolicits are also at risk.\n\n5. CALIFORNIA CONFLICT\nBus. & Prof. Code 16600 voids non-competes (Edwards v. Arthur Andersen, 44 Cal.4th 937 (2008), even narrow ones); courts have refused to honor out-of-state choice-of-law clauses (Application Group v. Hunter Group, 61 Cal. App. 4th 881 (1998)). Effective Jan. 1, 2024, 16600.5 makes covenants unenforceable \"regardless of where and when the contract was signed,\" makes enforcement attempts a civil violation, and gives employees a private action with mandatory fees to a prevailing employee (16600.5(d)-(e)). Consequences: (1) a California suit by Anand/Novacel is likely if we send an aggressive letter before filing; (2) pressing the non-compete adds fee exposure; (3) a Massachusetts judge may apply 24L(e) and the forum clause, but enforcing a Massachusetts order in California may meet resistance. Labor Code 925 likely does not reach a 2020 contract signed by a Massachusetts resident (unverified). The FTC non-compete rule was set aside (Ryan LLC v. FTC) and the FTC dropped its appeal in Sept. 2025, so no federal overlay applies.\n\n6. OTHER CLAIMS AND EVIDENCE\n- Contract: breach of EICA 2.1, 2.4, 4.1-4.2; SCTSA 4(c), 5; ENCNSA 5.2-5.3 (fee/indemnity clauses; bond waivers do not bind the court). Strongest, fastest claims; forum is exclusive Massachusetts.\n- Fiduciary/loyalty: plead; it also supports the 24-month tier.\n- Misrepresentation via the certification: falsity is clear for item 3 (USB/Gmail); item 4 (third parties) is unproven; reliance and damages are thin (HR sought a review the same day), so use it mainly as intent evidence.\n- Novacel: liability needs knowledge or reason to know of improper acquisition or use; today we have only timing, the press release and the Jan. 22 dinner. Tortious interference needs Novacel's knowledge of the ENCNSA (unknown). Massachusetts personal jurisdiction over Novacel is uncertain; a claim may require a California forum. Use a demand and expedited discovery before naming Novacel.\n- CFAA: weak after Van Buren v. United States, 593 U.S. 374 (2021) (authorized access to the files).\n- Chapter 93A s.11 and a criminal referral (18 U.S.C. 1832) are options; not researched.\n- Deshmukh/Ridgeline: observer 2019-Q4 2022 under a confidentiality agreement (not in the file); her access predates Aurora's 2023 start; no evidence of leakage. Do not plead; obtain the NDA and Meridian terms and investigate quietly. Do not confuse her with current employee Anita Deshmukh.\n\n7. EVIDENCE INCONSISTENCIES TO RESOLVE BEFORE ANY AFFIDAVIT\n- Classification counts: forensic report 147 Trade Secret/165 Highly Confidential/623 Public; spreadsheet 214/98/Internal 147/Public 0 (459 files from listed repositories); total 2,347.\n- \"Trade Secret\" (forensic, spreadsheet) vs \"Top Secret\" (HR; Policy 2.2) clearance.\n- Employee ID, laptop model, asset tags, badge number, email domain and certification form number differ across documents.\n- Laptop return: May 14 (forensic) vs May 16 (HR).\n- Last access review: Jan. 15, 2025 (forensic, spreadsheet) vs Apr. 1 (Policy 3.2).\n- After-hours: Policy defines it as outside 7 AM-8 PM and grants VPs standing authorization; forensic report uses 9 PM and calls the visit anomalous; the CEO email says there was no approved access.\n- Log-only mode: deliberate Aug. 2024 choice (forensic) vs default setting (Policy 4.2).\n- The forensic report says Apr. 26 was \"two weeks\" before resignation (it was six days); the SCTSA misstates his title history.\n- Privilege: the report is also the routine Policy Sec. 7.3 post-separation review, weakening the work-product claim; Trevelyan is a fact witness on the gaps. Use an independent testifying examiner.\n- Whitfield & Crane drafted the agreements; consider independent review of drafting defects.\n\n8. TIMING NOTE (as of Oct. 2, 2026)\nIf nothing has been filed, the 12-month period ended about May 16, 2026; a proven 24-month period runs to about May 16, 2027 (tolling disputed). Delay undercuts irreparable harm; verify events since May 26, 2025. DTSA's three-year limitations period (my recollection, unverified) is not an immediate constraint.\n\n9. RECOMMENDED ACTIONS (priority order)\n1. Immediately: reconcile Sec. 7, engage an independent forensic examiner, extend the hold to Finance/HR/IT configuration records, and image current USB/DLP settings before changing them.\n2. File a verified complaint in Suffolk BLS or D. Mass. against Anand (DTSA, MUTSA, contract, fiduciary duty, declaratory relief on ENCNSA) with a TRO/PI motion: return and non-use of Vellura data, sequestration of USB/Gmail/devices with a neutral examiner, accounting of recipients, preservation, expedited discovery on Novacel. Do not seek to bar the CSO role at the outset; the non-compete is an alternate request.\n3. Serve a preservation/non-use demand on Novacel with the filing, not before.\n4. Keep paying garden leave on schedule; send a written statement that payments are under reservation; instruct Finance not to apply the 4.4 offset below 50%.\n5. Retain California counsel for a likely declaratory action; do not seek non-compete relief there.\n6. Remediate security (USB block, email DLP, anomaly alerts) after preserving configurations; route remediation memos through counsel.\n7. Consider law-enforcement referral after filing; give insurance notice now.\n",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Trade secret status and reasonable measures (incl. security-control gaps and record inconsistencies)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Misappropriation evidence: exfiltration, intent, false Separation Certification; no proof yet of use/disclosure",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Massachusetts 24L enforceability of ENCNSA: formalities, consideration, duration 12 vs 24 months, scope, reformation",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Garden leave: statutory requirements, late first payment, offset clause, ongoing payment",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "California conflict: 16600/16600.5, choice-of-law/forum, race to courthouse, fee exposure",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "DTSA/MUTSA remedies and limits on injunctions affecting employment (inevitable disclosure)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I7",
+   "text": "Claims against Anand and Novacel (contract, fiduciary, interference, CFAA, 93A) and Novacel knowledge/jurisdiction",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "Waiver/selective enforcement from Osei and Ramirez non-enforcement",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Deshmukh/Ridgeline leakage theory",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Source-document inconsistencies and privilege/witness issues",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "Prioritized immediate actions: forum, TRO/PI, cease-and-desist, hold, preservation",
+   "criticality": "critical"
+  },
+  {
+   "id": "I12",
+   "text": "Currentness as of Oct. 2, 2026 (restricted period lapse, delay, FTC rule status)",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "EICA (eica-anand-2016.docx) Arts. 2,4,6,7; 8.1",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "EICA imposes perpetual confidentiality, bars removal/transmission to personal devices/accounts, requires return and no copies; no non-compete; MA law/forum; DTSA notice",
+   "verified": true,
+   "current_as_of": "2025-05-26",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "ENCNSA (encnsa-anand-2020.docx) 1.5, 2, 3, 4, 7, 8, 10",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "ENCNSA: 12-month Restricted Period (24 if fiduciary breach/unlawful taking, burden on Company); 50% garden leave; 4.4 offset to 50% of payable amount; Suffolk forum; reformation request; 4.3 election within 30 days",
+   "verified": true,
+   "current_as_of": "2025-05-26",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "SCTSA (sctsa-project-aurora-2023.docx) Secs. 3-7, Ex. A",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "SCTSA identifies six Aurora trade secret categories, bars copying/downloading without written authorization, requires return/certification, DTSA notice, fee/exemplary remedies recital",
+   "verified": true,
+   "current_as_of": "2025-05-26",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "IT Forensic Report VT-CISO-2025-0047 (May 22, 2025)",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "2,347 files/4.8GB to personal USB (Mar 15-Apr 28), 312 HC/TS; 17 emails to Gmail; Apr 26 night lab access; browser searches; USB not returned; log-only USB, no email DLP per report",
+   "verified": true,
+   "current_as_of": "2025-05-22",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "Exit Interview Summary and Separation Certification (May 14, 2025)",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "Certification items 3-4 deny retention and third-party transfer; items 1-2 are 'returned, or will return'; Anand declined to name employer; HR recounts restrictive covenants as 24 months",
+   "verified": true,
+   "current_as_of": "2025-05-14",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "Novacel press release (May 19, 2025)",
+   "source_type": "matter_document",
+   "jurisdiction": "CA/DE",
+   "level": "not_applicable",
+   "proposition": "Novacel is San Diego LNP/polymer platform company, Delaware corp., $195M Series D Jan 2025; Anand appointed CSO to lead platform development",
+   "verified": true,
+   "current_as_of": "2025-05-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E7",
+   "source": "Herrera/Zhao/Okonkwo email chain (May 22-26, 2025)",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "Garden leave first wired May 26; no prior enforcement against Osei (2021) or Ramirez (2023), undocumented; Deshmukh observer 2019-Q4 2022 with NDA; no post-departure contact; lit hold issued",
+   "verified": true,
+   "current_as_of": "2025-05-26",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E8",
+   "source": "Vellura Information Security Policy v4.2 excerpts",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "Policy bans personal USB; log-only default; says DLP exists; requires monthly anomaly reports and exit-notice actions; VP standing after-hours access; last quarterly review Apr 1, 2025; Top Secret clearance term",
+   "verified": true,
+   "current_as_of": "2024-08-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E9",
+   "source": "org-chart-access-log.xlsx (all sheets)",
+   "source_type": "matter_document",
+   "jurisdiction": "MA",
+   "level": "not_applicable",
+   "proposition": "Access spreadsheet: classification counts differ from forensic report (214 TS/98 HC/147 Internal/0 Public of 459); email DLP rule triggered but log-only; auto-provisioned role access; last review Jan 15, 2025",
+   "verified": true,
+   "current_as_of": "2025-05-22",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E10",
+   "source": "G.L. c. 149, s. 24L (via search-result excerpts: beckreedriden, massbar, faircompetitionlaw, ebglaw summaries of statutory text)",
+   "source_type": "statute",
+   "jurisdiction": "MA",
+   "level": "controlling",
+   "proposition": "12-month cap, 2 years if fiduciary breach or unlawful taking; garden leave = pro rata, at least 50% of highest base salary of prior 2 years, no unilateral discontinuance except employee breach; 24L(c) no enforcement against employees terminated without cause; 24L(e) choice of law; 24L(f) venue Suffolk/BLS. Official statute page was egress-blocked; text taken from search excerpts",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E11",
+   "source": "18 U.S.C. 1836(b)(3)(A)(i) (via search-result excerpts)",
+   "source_type": "statute",
+   "jurisdiction": "US",
+   "level": "controlling",
+   "proposition": "DTSA injunction may not prevent entering employment or impose conditions based merely on information person knows, or conflict with state law barring restraints on trade. Primary text egress-blocked",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E12",
+   "source": "Mass. UTSA G.L. c. 93 ss. 42-42G (via Boston Bar/Orrick/Epstein Becker summaries)",
+   "source_type": "statute",
+   "jurisdiction": "MA",
+   "level": "controlling",
+   "proposition": "Effective Oct 1, 2018; reasonable-efforts element; threatened misappropriation may be enjoined in equity; inevitable disclosure status unsettled",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E13",
+   "source": "Cal. Bus. & Prof. Code 16600.5 (via search excerpts)",
+   "source_type": "statute",
+   "jurisdiction": "CA",
+   "level": "controlling",
+   "proposition": "Void contracts unenforceable regardless of where/when signed; attempt to enforce is civil violation; private action; prevailing employee gets fees (eff. Jan 1, 2024)",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E14",
+   "source": "Edwards v. Arthur Andersen LLP, 44 Cal.4th 937 (2008) (via summaries)",
+   "source_type": "case",
+   "jurisdiction": "CA",
+   "level": "controlling",
+   "proposition": "Non-competes void under 16600 even if narrow, absent statutory exception",
+   "verified": false,
+   "current_as_of": "2008-08-07",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E15",
+   "source": "Application Group v. Hunter Group, 61 Cal.App.4th 881 (1998) (via summaries)",
+   "source_type": "case",
+   "jurisdiction": "CA",
+   "level": "binding",
+   "proposition": "California will not let choice-of-law clause evade 16600",
+   "verified": false,
+   "current_as_of": "1998-01-01",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E16",
+   "source": "Whyte v. Schlage Lock Co., 101 Cal.App.4th 1443 (2002) (via summaries)",
+   "source_type": "case",
+   "jurisdiction": "CA",
+   "level": "binding",
+   "proposition": "California rejects inevitable disclosure doctrine",
+   "verified": false,
+   "current_as_of": "2002-01-01",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E17",
+   "source": "Van Buren v. United States, 593 U.S. 374 (2021) (via summaries)",
+   "source_type": "case",
+   "jurisdiction": "US",
+   "level": "controlling",
+   "proposition": "CFAA 'exceeds authorized access' covers only off-limits areas, not misuse of accessible data",
+   "verified": false,
+   "current_as_of": "2021-06-03",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E18",
+   "source": "FTC press release Sept 2025 and Fed. Reg. Feb 12, 2026 (search results)",
+   "source_type": "agency_guidance",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "FTC acceded to vacatur of Non-Compete Rule; Fifth Circuit dismissed Ryan appeal Sept 8, 2025",
+   "verified": false,
+   "current_as_of": "2026-02-12",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Lead with DTSA/MUTSA and confidentiality-contract claims; non-compete is secondary and higher risk",
+   "central": true,
+   "issue_ids": [
+    "I1",
+    "I2",
+    "I3",
+    "I5",
+    "I6",
+    "I11"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E11",
+    "E12",
+    "E13"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Documents show systematic exfiltration of 312 sensitive files plus emails to personal Gmail before a contrary certification, supporting improper acquisition and intent; use/disclosure at Novacel is unproven",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E4",
+    "E5",
+    "E8",
+    "E9"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Trade secret status is supportable but reasonable-measures proof has gaps (log-only USB, DLP conflicts, unperformed exit-notice steps, monthly anomaly reports) and must be reconciled before declarations",
+   "central": true,
+   "issue_ids": [
+    "I1",
+    "I10"
+   ],
+   "evidence_ids": [
+    "E4",
+    "E8",
+    "E9"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "24L governs the ENCNSA; vulnerabilities: consideration, burden for 24 months, offset clause below 50%, enterprise-wide scope, reformation discretionary; resignation avoids the without-cause bar",
+   "central": true,
+   "issue_ids": [
+    "I3",
+    "I4"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E10"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Garden leave must continue pro rata at least 50% for the whole period and cannot be discontinued absent employee breach; first payment May 26 was within the contract's 30-day window; do not apply 4.4 offset below 50%",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E7",
+    "E10"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "California law (16600, 16600.5, Edwards, Application Group) makes the non-compete likely unenforceable there and creates fee exposure; file first in Massachusetts and avoid pre-suit aggressive letter",
+   "central": true,
+   "issue_ids": [
+    "I5",
+    "I11"
+   ],
+   "evidence_ids": [
+    "E13",
+    "E14",
+    "E15",
+    "E10"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "DTSA and California bar employment-prevention/inevitable-disclosure injunctions; relief should target conduct (sequester, return, non-use, forensic inspection)",
+   "central": true,
+   "issue_ids": [
+    "I6",
+    "I11"
+   ],
+   "evidence_ids": [
+    "E11",
+    "E12",
+    "E16"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Contract, fiduciary and misrepresentation claims against Anand are viable; Novacel claims require knowledge evidence and face jurisdiction uncertainty; CFAA weak",
+   "central": false,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E5",
+    "E6",
+    "E17"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Non-enforcement against Osei/Ramirez is distinguishable but undocumented and a waiver/selective-enforcement risk",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E7"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Deshmukh/Ridgeline theory lacks evidence; do not plead; obtain NDA",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E7"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "Record has numerous factual inconsistencies and privilege/witness issues to resolve before sworn statements",
+   "central": true,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E4",
+    "E5",
+    "E8",
+    "E9"
+   ]
+  },
+  {
+   "id": "C12",
+   "text": "As of Oct 2, 2026 the 12-month period would have run about May 16, 2026; delay undercuts irreparable harm; FTC rule no longer a factor",
+   "central": false,
+   "issue_ids": [
+    "I12"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E18"
+   ]
+  },
+  {
+   "id": "C13",
+   "text": "Prioritized action plan: reconcile facts, independent examiner, file in Suffolk BLS/D. Mass. with narrow TRO/PI, preservation demand to Novacel on filing, keep paying garden leave, California counsel, remediate after preserving",
+   "central": true,
+   "issue_ids": [
+    "I11"
+   ],
+   "evidence_ids": [
+    "E4",
+    "E7",
+    "E10",
+    "E13"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1",
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C1",
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C1",
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4",
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C1",
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C1",
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C3",
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C1",
+    "C6",
+    "C7",
+    "C13"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C12"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C4",
+   "action": "qualify",
+   "reason": "Official 24L text blocked; statutory propositions rest on search-result excerpts; marked unverified and qualified (e.g., 'my understanding')."
+  },
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "California authorities verified only through secondary summaries; Labor Code 925 and 16600.1 left unverified and flagged."
+  },
+  {
+   "claim_id": "C7",
+   "action": "narrow",
+   "reason": "Stated DTSA limits only to what search excerpts support; MUTSA inevitable-disclosure effect described as unsettled."
+  },
+  {
+   "claim_id": "C8",
+   "action": "narrow",
+   "reason": "93A s.11, 18 USC 1832, personal jurisdiction over Novacel not researched; stated as options/uncertain."
+  },
+  {
+   "claim_id": "C12",
+   "action": "qualify",
+   "reason": "DTSA 3-year limitations stated from recollection, marked unverified; search budget exhausted."
+  },
+  {
+   "claim_id": "C2",
+   "action": "narrow",
+   "reason": "Forensic report overstates certification text (items 3-4 only); limited falsity claim to item 3."
+  },
+  {
+   "claim_id": "C1",
+   "action": "none",
+   "reason": "Supported by matter documents and authorities."
+  }
+ ],
+ "citations": [
+  {
+   "citation": "G.L. c. 149, s. 24L",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter149/Section24L",
+   "claim": "C4,C5 (statute page egress-blocked; excerpts via search)"
+  },
+  {
+   "citation": "Cal. Bus. & Prof. Code s. 16600.5",
+   "url": "https://california.public.law/codes/business_and_professions_code_section_16600.5",
+   "claim": "C6 (egress-blocked; excerpts via search)"
+  },
+  {
+   "citation": "Edwards v. Arthur Andersen LLP, 44 Cal.4th 937 (2008)",
+   "url": "https://law.justia.com/cases/california/supreme-court/2008/s147190/",
+   "claim": "C6"
+  },
+  {
+   "citation": "Application Group v. Hunter Group, 61 Cal.App.4th 881 (1998)",
+   "url": "https://law.justia.com/cases/california/court-of-appeal/4th/61/881.html",
+   "claim": "C6"
+  },
+  {
+   "citation": "Whyte v. Schlage Lock Co., 101 Cal.App.4th 1443 (2002)",
+   "url": "https://law.justia.com/cases/california/court-of-appeal/4th/101/1443.html",
+   "claim": "C7"
+  },
+  {
+   "citation": "Van Buren v. United States, 593 U.S. 374 (2021)",
+   "url": "https://www.supremecourt.gov/opinions/20pdf/19-783_k53l.pdf",
+   "claim": "C8"
+  },
+  {
+   "citation": "FTC press release, Sept. 2025 (accede to vacatur of Non-Compete Rule)",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/federal-trade-commission-files-accede-vacatur-non-compete-clause-rule",
+   "claim": "C12"
+  },
+  {
+   "citation": "18 U.S.C. s. 1836(b)(3)(A)",
+   "url": "https://www.congress.gov/114/plaws/publ153/PLAW-114publ153.pdf",
+   "claim": "C7 (Public Law 114-153 listed in search results; not fetched)"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "eica-anand-2016.docx",
+   "purpose": "2016 confidentiality/invention terms"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "encnsa-anand-2020.docx",
+   "purpose": "non-compete, garden leave, remedies"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "sctsa-project-aurora-2023.docx",
+   "purpose": "Aurora trade secret acknowledgment"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "it-forensic-report-anand.docx",
+   "purpose": "forensic findings"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "exit-interview-separation-cert.docx",
+   "purpose": "exit interview and certification text"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "novacel-press-release.docx",
+   "purpose": "competitor role"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "herrera-internal-email-chain.eml",
+   "purpose": "facts, garden leave, prior non-enforcement, Deshmukh"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "vellura-infosec-policy-excerpts.docx",
+   "purpose": "reasonable measures, exit protocol"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "org-chart-access-log.xlsx",
+   "purpose": "access and classification data"
+  },
+  {
+   "seq": 10,
+   "type": "fetch",
+   "target": "malegislature.gov 24L",
+   "purpose": "statute text - blocked"
+  },
+  {
+   "seq": 11,
+   "type": "fetch",
+   "target": "law.cornell.edu 18 USC 1836",
+   "purpose": "statute text - blocked"
+  },
+  {
+   "seq": 12,
+   "type": "statute_search",
+   "target": "24L garden leave pro rata 50%",
+   "purpose": "verify garden leave language"
+  },
+  {
+   "seq": 13,
+   "type": "statute_search",
+   "target": "Cal. B&P 16600.5 SB 699",
+   "purpose": "verify extraterritorial voiding"
+  },
+  {
+   "seq": 14,
+   "type": "fetch",
+   "target": "law.justia.com 24L",
+   "purpose": "statute text - blocked"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "california.public.law 16600.5",
+   "purpose": "statute text - blocked"
+  },
+  {
+   "seq": 16,
+   "type": "statute_search",
+   "target": "24L(b) duration/garden leave quotations",
+   "purpose": "verify 12/24-month and no-unilateral-discontinuance text"
+  },
+  {
+   "seq": 17,
+   "type": "statute_search",
+   "target": "24L(c),(e),(f)",
+   "purpose": "verify without-cause bar, choice of law, venue"
+  },
+  {
+   "seq": 18,
+   "type": "statute_search",
+   "target": "18 USC 1836(b)(3)(A) employment limits",
+   "purpose": "verify DTSA injunction limits"
+  },
+  {
+   "seq": 19,
+   "type": "statute_search",
+   "target": "MUTSA c.93 ss.42-42G",
+   "purpose": "verify MA UTSA and threatened misappropriation"
+  },
+  {
+   "seq": 20,
+   "type": "statute_search",
+   "target": "Cal. 16600.5(d),(e) remedies",
+   "purpose": "verify civil violation and fees"
+  },
+  {
+   "seq": 21,
+   "type": "case_search",
+   "target": "Whyte, Edwards, Application Group",
+   "purpose": "verify California authorities"
+  },
+  {
+   "seq": 22,
+   "type": "web_search",
+   "target": "FTC noncompete rule status",
+   "purpose": "currentness of federal rule"
+  },
+  {
+   "seq": 23,
+   "type": "case_search",
+   "target": "Van Buren CFAA",
+   "purpose": "verify CFAA limit"
+  },
+  {
+   "seq": 24,
+   "type": "web_search",
+   "target": "18 USC 1833(b)(3)/1836(d)/seizure",
+   "purpose": "attempted; refused (search budget exhausted)"
+  },
+  {
+   "seq": 25,
+   "type": "case_search",
+   "target": "Cynosure v. Reveal Lasers 24L consideration",
+   "purpose": "attempted; refused (search budget exhausted)"
+  }
+ ],
+ "unresolved": [
+  "Official texts of 24L, 18 USC 1836/1833(b), MUTSA, Cal. 16600.5 were egress-blocked; relied on search excerpts and secondary summaries; cite-check before filing.",
+  "Not verified: DTSA 3-year limitations, 1833(b)(3) notice consequences, ex parte seizure, Cal. Labor Code 925, Cal. 16600.1, Wage Act treatment of garden leave, Massachusetts waiver/selective-enforcement and personal-jurisdiction case law, 93A s.11 and MUTSA preemption.",
+  "Facts after May 26, 2025 unknown (filings, garden leave payments, Novacel actions).",
+  "Conflicting counts, dates and policy descriptions across source documents (Sec. 7) unresolved.",
+  "Whether executed originals and 10-business-day delivery proof of the ENCNSA exist."
+ ],
+ "usage": {
+  "tool_calls": 25,
+  "elapsed_sec": null
+ }
+}

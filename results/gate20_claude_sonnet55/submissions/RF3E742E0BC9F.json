@@ -1,0 +1,114 @@
+{
+ "run_id": "RF3E742E0BC9F",
+ "benchmark_task_id": "H20",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRECEDENT MAPPING MEMO AND MARKET DEFINITION EXTRACTION (text form of the two requested deliverables; the xlsx and docx were not generated)\nMatter: Vericara/Polaris (deal memo dated Mar. 10, 2025). Sources: the seven supplied precedent documents plus the deal memo; external law checked online.\n\nBOTTOM LINE\n1. None of the seven is binding. They are an administrative complaint (Oranta, Castellon: allegations only), consent orders or proposed orders (Ketheros, Palisade, Zephyra, Brevanta: neither admit nor deny), and a DOJ proposed final judgment (Talworth). Courts decide market definition under Brown Shoe (370 U.S. 294, 325 (1962)) and the hypothetical-monopolist test; I did not independently verify Brown Shoe and cite it from memory. The precedents show likely FTC staff positions only.\n2. Three deal-memo premises should be corrected. (a) \"Precedents hold\" licence = ownership rests on a single unadjudicated complaint (Castellon), applied on facts of control, 70% cost share, IND sponsorship and milestones. (b) The Phase II threshold is not uniform: Castellon treated a Phase I asset as an innovation-market participant. (c) Only one precedent (Palisade) uses the 24-month entrant window. Ketheros and Zephyra use marketed-only markets, and Ketheros expressly distinguishes the 24-month approach.\n3. Revised risk order: PD-1/PD-L1 (highest); IL-17 (raise to moderate-high); PCSK9 (high to moderate-high, depends on a fact to confirm); JAK (moderate, turning on forum approach); CDK4/6 (low, confirmed).\n\nA. EXTRACTION TABLE (one row per market; xlsx column order: matter | forum/date/posture | market | key definitional choices | shares/HHI as stated | geography)\n1. Zephyra/Helion, FTC D&O C-4652, 6/14/2018 (final order). (a) Branded and generic CDK4/6 inhibitors, HR+/HER2- advanced/metastatic breast cancer. Generics in (PBM substitution, clinical equivalence); channels not segmented; participants only currently marketed products (Phase I-III, pending NDAs, approved-unlaunched excluded). 64% combined, +1,020, HHI about 4,180. (b) Branded and generic fixed-dose ACEI/ARB+CCB antihypertensives; 53%, >3,200, +840. US.\n2. Talworth/Genara, DOJ Competitive Impact Statement, D.D.C. 1:19-cv-02147, 7/29/2019 (proposed judgment, Tunney Act). All JAK inhibitors regardless of indication (common mechanism, cross-indication prescribing, supply-side indication expansion, class-level PBM contracting). Indication-specific markets expressly rejected; no separate innovation market. 42%+14%=56%; HHI stated 2,650 to 3,826 (+1,176). US. 2010 Guidelines.\n3. Ketheros/Acrion, FTC C-4712, 11/22/2020. PD-1/PD-L1 inhibitors for first-line metastatic NSCLC. All-checkpoint market rejected (would show 31%). Monotherapy vs combination not separated (same molecule; physician regimen choice; unified NCCN algorithm), despite 68% vs 45% combination use. Marketed products only; 3 pending NDAs (18-24 months) considered in effects, not the market. 58% (36+22); HHI >4,500, +>1,800 stated. US including territories.\n4. Oranta/Selova, FTC Part 3 Complaint 9-4107, 9/15/2021 (allegations). (a) All immune checkpoint inhibitors regardless of indication (PD-1, PD-L1, CTLA-4, LAG-3); demand-side class view plus supply-side label expansion; indication markets considered and rejected, though staff say harm exists under either (n.13). 32.8% (38.6% with Selotrex); HHI 2,340 to 2,830 (+490). (b) Separate IO combination-regimen market (checkpoint plus another anti-neoplastic); 44%; four to three. US; n.17 reserves sub-national specialty-pharmacy markets. EC's narrower PD-1/PD-L1 and indication markets disregarded.\n5. Brevanta/Novacel, FTC Analysis to Aid Public Comment, File 221-0147, 3/8/2022 (proposed order). (a) Injectable PCSK9 mAbs (siRNA Repacept included) for hypercholesterolemia/ASCVD; single all-PCSK9 market rejected (prescriber, channel, population, payer differences; orals expected to expand the market); REMS does not carve out product; 87%, HHI stated 5,938/+2,346. (b) Innovation market: R&D and commercialization of oral PCSK9 inhibitors; participants need Phase II plus proof of concept; preclinical and Phase I without PoC excluded; four firms to three. (c) IV direct thrombin inhibitors for HIT, branded and generic; about 62%. US.\n6. Palisade/Verion, FTC C-4781, 2/3/2023. Three indication-specific JAK markets: RA (38%; combined 50-56%; HHI >3,000, +>900), atopic dermatitis (44%; 54-59%), ulcerative colitis (31%; 39-45%). Mechanism alone does not make a market (para. 21). Participants include reasonably anticipated entrants: Phase II or later, proof of concept, probable launch within 24 months of closing (Phase III products included); Phase I and preclinical excluded. US.\n7. Castellon/Omura, FTC Part 3 Complaint 9-4127, 1/12/2024 (allegations; 4-1 vote). (a) Branded-only CDK4/6 inhibitors for HR+/HER2- metastatic breast cancer; generics excluded on oncologist loyalty, promotion, patient assistance and oncology formularies; marketed products only; 64% (41+23), HHI about 5,200 (+1,900). (b) Innovation market: R&D and sale of IL-17A/F bispecifics for psoriasis/PsA; Phase I programs counted; exclusive licence plus co-development treated as ownership (operational control, 70% trial cost, exclusive commercial rights, IND sponsor, milestones/royalties); four firms to three. US.\n\nSource-quality flags (each precedent's own figures were checked; none changes a definition):\n- Ketheros: 36% x 22% gives a delta of about 1,584, not \">1,800\"; the stated post-merger HHI of >4,500 is also higher than the stated shares support (about 4,000).\n- Brevanta: an 87/13 split implies a post-merger HHI near 7,700, not 5,938.\n- Talworth: the stated shares imply a pre-merger HHI near 2,750 and post-merger near 3,930; the CIS says Genara's alopecia candidate is Phase III in one place and Phase II in the remedy.\n- Palisade: para. 41 has Verion divesting PLT-4190, which is described as Palisade's asset.\n- Oranta: \"five other manufacturers\" is inconsistent with \"five to four competitors.\"\n- Ketheros: a consent agreement dated 11/22/2020 also recites finalization after comments.\nVerify against the official FTC/DOJ dockets before external reliance.\n\nB. MAPPING TO THE FIVE OVERLAP AREAS\n\n1. PD-1/PD-L1 (Oncivex $4.1B / Tumorex $3.6B). Closest analogue: Ketheros (PD-1 plus PD-L1 merger; first-line NSCLC; 58%). Oranta supports the broad frame and adds a separate combination market. Breadth: Ketheros (final order) and Oranta (complaint) conflict in form, but Oranta's staff analysis found harm under both frames, so a broad-market defence is weak. At the broad $22.4B market, shares are 18.3% and 16.1%: combined 34.4%, delta about 590. Under the 2023 Merger Guidelines (retained by FTC/DOJ memoranda of Feb. 18, 2025, which I verified online), a share above 30% with delta above 100 triggers the structural presumption; Oranta was challenged at 32.8%. So 34.4% is not a safe harbour. Narrow NSCLC first-line (>55%) matches Ketheros's 58%. Combination vs monotherapy: Ketheros rejected segmentation (Ketrivex 68% combination vs Acrimmune 45% closely parallels Oncivex vs Tumorex), while Oranta alleged a separate combination market (72% combination use, like Oncivex). Expect staff to plead in the alternative; do not assume a combination-market defence succeeds. Anticipated entrants: Ketheros keeps pending-NDA products out of shares but weighs them in entry (found insufficient). The three pending PD-1/PD-L1 NDAs would dilute shares only under a Palisade-style approach; Ketheros makes them an entry argument that must show timely, likely, sufficient entry. Geography: US in all seven; Oranta n.17 only reserves sub-national markets. Assessment: highest risk; plan a divestiture (Ketheros remedy was divestiture of the PD-L1 product).\n\n2. PCSK9 (Cardioren injectable $2.3B; VRC-7718 oral Phase II). Brevanta is directly on point. Oral and injectable are separate; no all-PCSK9 market; innovation market for oral programs at Phase II plus PoC. VRC-7718 (Phase II, early LDL-C proof of concept) qualifies as a participant. But Brevanta's innovation-market harm required both merging parties to have oral programs (BHS-4420 and NVC-7200). Polaris's oral pipeline status is not stated in the deal memo; if it has none, Brevanta supports no horizontal overlap and no innovation-market overlap. The remaining theory is Castellon-style (marketed incumbent acquires a next-generation pipeline rival, delay or abandonment incentives), but Brevanta found orals expand the patient population rather than substitute, which weakens cannibalization. Brevanta also said orals may constrain injectables at the margin, and the 45.1% share is relevant if staff collapse the market. Assessment: moderate-high; downgrade if Polaris has no oral program and Vericara's internal documents show no cannibalization concern; the 45.1% share on the injectable market is a Polaris-only fact (no Vericara injectable).\n\n3. JAK (Rheumavant RA $2.8B; PLB-2290 Phase III atopic dermatitis). Direct conflict. Palisade (FTC, 2023, three indication markets, mechanism insufficient) vs Talworth (DOJ, 2019, all JAK inhibitors). Facts matter: Talworth is the closer factual analogue, because Genara's overlap was AD against Talworth's RA/PsA/UC, i.e., cross-indication. Palisade, however, is the more recent, FTC-issued authority, and the FTC is the expected reviewer (the deal memo's assumption; I did not verify the clearance allocation). Under Palisade, RA vs AD are separate markets, so the overlap disappears unless PLB-2290 has, or is reasonably expected to obtain within 24 months, an RA (or other Rheumavant) indication. Talworth's rationale (class-level PBM contracting, 35% cross-indication prescribers, supply-side expansion) is fact-driven; diligence should test PBM class-level negotiation and PLB-2290's multi-indication plans. A Phase III asset qualifies as a participant under Palisade only in its own indication. Do not rely on the $9.3B/30.1% all-JAK figure unless Talworth's approach applies. Assessment: moderate, tending low if no same-indication overlap.\n\n4. CDK4/6 (Neovanta $1.4B; VRC-9102 preclinical). Conflict on generics: Zephyra (2018, branded plus generic) vs Castellon (2024, branded only; the recent oncology-specific reasoning matches Neovanta, 2027 palbociclib generics). Because VRC-9102 is preclinical, the question is academic: Brevanta (Phase II plus PoC), Palisade (preclinical and Phase I excluded) and Zephyra (marketed only, even Phase III excluded) all exclude it, and Castellon alleges no preclinical overlap. Neovanta's 17.9% share is a Polaris-only number. Assessment: low, confirmed. Confirm Vericara has no marketed or clinical CDK4/6 product.\n\n5. IL-17 (Immunoguard $1.9B marketed IL-17A; KBX-330 IL-17A/F bispecific, Phase I, exclusive Kensho licence). Castellon is nearly identical (marketed IL-17A plus a Phase I IL-17A/F bispecific held by exclusive licence). The theory is a Castellon-style innovation market for IL-17A/F bispecifics, not horizontal overlap in a $8.6B IL-17 market, so the 22.1% share is the wrong frame. Licence = ownership is fact-specific, not automatic; test Vericara's control of protocols and sites, trial cost share (70% in Castellon), IND sponsorship, exclusivity and milestones against the Kensho agreement. Phase I: Brevanta and Palisade would exclude Phase I without proof of concept, but Castellon did not. Count other IL-17A/F programs (Castellon: three others, none beyond Phase I). Assessment: moderate-high (raise from moderate-low): the FTC's newest matter, same fact pattern, a Phase I licence that is the weakest link only if Vericara lacks control.\n\nC. ANSWERS TO THE TEN QUESTIONS (short)\n1 Narrow (Ketheros) vs broad (Oranta); staff can use both. 2 Ketheros: one market; Oranta: separate combination market (complaint only). 3 Brevanta: oral innovation market; formulations segmented. 4 Palisade by indication; Talworth by mechanism. 5 Phase II plus PoC (Brevanta, Palisade); Castellon an outlier counting Phase I; preclinical never counted. 6 Zephyra includes generics; Castellon excludes; oncology reasoning favours Castellon. 7 Castellon: fact-specific control test, complaint only. 8 Marketed-only (Zephyra, Castellon, Ketheros denominator); 24-month Palisade (Phase II+, PoC, probable launch); Brevanta Phase II innovation. 9 US in all seven; Oranta n.17 only. 10 More recent FTC matters (Palisade 2023, Castellon 2024) are more probative of current staff views, but all are non-binding, and 2018-2022 matters used the 2010 Guidelines (2,500/200 HHI) rather than 2023 (1,800/100). No litigated decision is in the set.\n\nD. CURRENCY NOTES\nThe deal memo cites the 1995 IP Licensing Guidelines; those were replaced in 2017 and now use \"research and development markets\" (verified online). Today is October 2026: the 2025 HSR form was vacated on Feb. 12, 2026 and the Fifth Circuit denied a stay on Mar. 19, 2026, so the March 2025 filing assumptions are historical; confirm current FTC posture and any later decisions.\n\nE. NEXT STEPS\nObtain Polaris's oral PCSK9 status, PLB-2290 indication plans, the Kensho licence, and PBM JAK contracting; run share calculations on 2023 Guidelines thresholds; pull the official dockets to cure the numerical inconsistencies above.",
+ "citations": [
+  {
+   "citation": "2023 Merger Guidelines (FTC/DOJ): HHI >1,800 with change >100; share >30% with change >100",
+   "url": "https://www.paulweiss.com/insights/client-memos/doj-and-ftc-issue-final-2023-merger-guidelines",
+   "claim": "Structural presumption thresholds"
+  },
+  {
+   "citation": "FTC Chairman Ferguson memo (Feb. 18, 2025) retaining 2023 Merger Guidelines",
+   "url": "https://www.wilmerhale.com/en/insights/client-alerts/20250228-here-to-stay-ftc-and-doj-announce-that-2023-merger-guidelines-remain-in-effect",
+   "claim": "2023 Guidelines remain in effect"
+  },
+  {
+   "citation": "Chamber of Commerce v. FTC (E.D. Tex. Feb. 12, 2026), new HSR form vacated; Fifth Circuit denied stay Mar. 19, 2026",
+   "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260319-whats-old-is-new-again-fifth-circuit-lifts-stay-new-hsr-form-is-vacated",
+   "claim": "HSR form currency"
+  },
+  {
+   "citation": "2017 Antitrust Guidelines for the Licensing of Intellectual Property",
+   "url": "https://www.ftc.gov/system/files/documents/public_statements/1049793/ip_guidelines_2017.pdf",
+   "claim": "Replaced 1995 Guidelines; R&D markets terminology"
+  },
+  {
+   "citation": "Brown Shoe Co. v. United States, 370 U.S. 294 (1962)",
+   "url": "",
+   "claim": "Market definition standard (cited from memory, not verified online)"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "deal-overview-memo.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "brevanta-novacel-analysis.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "castellon-omura-complaint.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "ketheros-acrion-consent-order.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "oranta-selova-complaint.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "palisade-verion-consent-order.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "talworth-genara-cis.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "zephyra-helion-consent-order.docx",
+   "purpose": "Extract market definitions"
+  },
+  {
+   "seq": 9,
+   "type": "web_search",
+   "target": "2023 Merger Guidelines thresholds; Ferguson memo",
+   "purpose": "Current law"
+  },
+  {
+   "seq": 10,
+   "type": "web_search",
+   "target": "HSR new form vacatur",
+   "purpose": "Timing/currency"
+  },
+  {
+   "seq": 11,
+   "type": "web_search",
+   "target": "2017 IP licensing guidelines replace 1995",
+   "purpose": "Verify deal memo's cited guideline"
+  }
+ ],
+ "unresolved": [
+  "xlsx and docx files not generated; content provided in final_answer",
+  "Polaris oral PCSK9 pipeline status unknown",
+  "Kensho licence terms unknown",
+  "FTC vs DOJ clearance allocation not verified",
+  "Brown Shoe cite unverified online",
+  "Precedent documents not verified against official dockets; internal numerical inconsistencies noted"
+ ],
+ "usage": {
+  "tool_calls": 24,
+  "elapsed_sec": null
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "expected": 40,
+  "found_valid_structure": 40,
+  "missing": [],
+  "errors": [],
+  "constraint_violations": [
+    {
+      "run_id": "R80E90F81BB86",
+      "type": "word_cap",
+      "value": 2279,
+      "limit": 2000
+    }
+  ],
+  "STRUCTURALLY_VALID": true
+}

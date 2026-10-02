@@ -1,0 +1,487 @@
+{
+ "run_id": "R53671E7204A1",
+ "benchmark_task_id": "H03",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY-CLIENT COMMUNICATION / WORK PRODUCT\nEXECUTIVE BRIEFING MEMORANDUM (cpra-enforcement-briefing-memo.docx content)\nTo: Lars Engebretsen (CEO); Brian Hsu (CMO); Fiona Driscoll (CTO). From: Legal & Compliance. Re: CPRA/CCPA enforcement risk, CPPA Inquiry (Case No. CPPA-ENF-2025-01847), remediation priorities. Framed as of the matter record (documents dated through Feb 10, 2025); the matter file shows no later status, so confirm whether the Mar 18, 2025 response was made.\n\n1. BOTTOM LINE\n- The immediate event is the CPPA inquiry letter of Feb 3, 2025 (two October 2024 deletion complaints). It is not a finding of violation, but the CPPA says it may open a formal investigation (Civ. Code 1798.199.45) if the response is late or incomplete. Response is due Mar 18, 2025; the CEO has directed no extension.\n- The inquiry is the narrow entry point to five systemic gaps (Thornbury audit, Jan 15, 2025): no GPC/opt-out preference signal handling; dark-pattern consent banner; stale privacy policy and no SPI/limit-use disclosures; late deletion processing; nine pre-CPRA vendor agreements. Ad-partner \"sharing/sale\" and the loyalty program are additional unaudited exposures.\n- Recommended: (1) retain Oakvale Hale LLP now and run the response under counsel; (2) answer completely and truthfully; (3) start remediation immediately, GPC first; (4) take the budget request (about $425,000-$480,000) to the board in late February.\n\n2. LEGAL FRAMEWORK AND SOURCE-RELIABILITY CORRECTIONS\nThe internal documents contain statements that should not go to the board or the CPPA uncorrected:\n- Regulations timing. The internal summary and audit say the CPPA regulations were finalized Mar 29, 2024 and effective July 1, 2024, and that CPPA enforcement began July 1, 2023. My research indicates the first CPPA regulations were approved Mar 29, 2023; a superior court delayed their enforcement to Mar 29, 2024, and the Court of Appeal vacated that delay on Feb 9, 2024 (Cal. Privacy Protection Agency v. Cal. Chamber of Commerce). Substantive CPRA obligations have applied since Jan 1, 2023. Practical effect: CHG cannot argue the regulations were not enforceable during 2024. (Verified through secondary sources only; the leginfo site was blocked.)\n- Penalty amounts. The inquiry letter and internal documents use $2,500/$7,500 per violation. Those are the statutory figures (Civ. Code 1798.155/1798.199.55), but the Agency adjusts them for CPI; I found the Agency's announcement of $2,663 and $7,988 effective Jan 1, 2025. Exposure figures below use statutory amounts for comparability and should be read as roughly 6.5 percent low.\n- Unverified agency materials. I could not verify the \"Oct 15, 2024 advisory opinion,\" the \"January 2025 six priorities\" statement, or the August/November 2024 \"sweeps\" from primary sources; they come only from CHG's internal summary. The statute itself supports the key point: \"sharing\" is disclosure to a third party for cross-context behavioral advertising whether or not consideration is paid (1798.140(ah)); a \"sale\" requires monetary or other valuable consideration (1798.140(ad)). Publicly reported CPPA actions I could confirm (Honda, $632,500, Mar 2025; Todd Snyder, May 2025) post-date the matter record and concern opt-out/verification friction, not these sweeps. Treat the settlement range ($250,000-$950,000) as an unverified internal figure.\n\n3. DATA INCONSISTENCIES THAT AFFECT THE NUMBERS\na) Deletion volume. Thornbury says ~34,000 total requests, of which ~18,000 are deletion requests (Appendix B). Yet \"22% (7,480) of deletion requests\" equals 22% of 34,000, not of 18,000. If 22% applies to deletions, the figure is about 3,960. The CTO email also calls all 34,000 \"deletion requests.\" Until Thornbury's logs are re-run, use \"about 3,960 to 7,480\" late-beyond-90-days deletions. Thornbury also reports about 72% of deletions exceeded 45 days (about 13,000), many without a valid extension notice.\nb) Vendor list. The audit's Appendix A and the CTO's Feb 7 vendor tracker both count 9 outdated DPAs, but they name different vendors beyond ADN, Prism and Locale Metrics (the vendor names do not match for most of the 23). The tracker is later and more granular, so I use it: ADN, Prism, Locale Metrics, Northbluff, Canopy, Brackenridge, Ashgrove, Crestwood Loyalty Engine, Oakmont. Reconcile before the vendor list (request (c)) is produced.\nc) DPA cost. Tracker total $51,000 vs Thornbury $45,000 ($6,000 gap).\nd) Acknowledgment facts. Complaints say no acknowledgment; the CTO says consumer 1 was acknowledged at 8 business days. Regulation 11 CCR 7021 requires confirmation within 10 business days, so 8 days may comply, but verify the portal logs before asserting it.\ne) GPC count. Thornbury's 29,250 \"website visitors\" is 15 percent of 195,000, which is the mobile-app user count, not the 1.62 million consumer base. The exposure arithmetic is therefore unreliable.\nf) Audit chronology. The audit is dated Jan 15, 2025 but describes the Feb 3, 2025 inquiry letter, so it was apparently revised after the date shown. Obtain the final version; this matters for privilege and for what the CPPA may later request.\n\n4. ISSUES, EXPOSURE, AND PRIORITY (statutory maximums unless noted; theoretical, not predictions)\nP1 - Deletion timeliness and downstream deletion (Inquiry core). Law: respond within 45 days, one 45-day extension only with notice to the consumer inside the first 45 days (1798.130(a)(2)); notify service providers, contractors and third parties to delete (1798.105(c)); confirm receipt in 10 business days (11 CCR 7021). Facts: the two complainants waited 72 and 74 days and received no extension notice, so CHG cannot rely on the 90-day outer limit; average 68 days. Exposure: late-beyond-90 deletions 3,960 to 7,480 x $2,500 = $9.9M-$18.7M; at intentional rate $29.7M-$56.1M. Realistic: far lower; an intentional finding is the main risk driver, and the documented known staffing gap (2 FTEs) is aggravating once leadership has notice.\nP2 - GPC/opt-out preference signals. 1798.135 and 11 CCR 7025 require treating signals as opt-outs of sale/sharing, with no verification. Thornbury testing showed all 23 tags fire when GPC is sent. CTO estimate 8-12 weeks (Thornbury 4-6). Realistic: internal settlement range $250,000-$950,000 (unverified); the real public actions are in a similar six-figure range. The audit's $73.1M and the internal summary's $487.5M are not credible planning figures.\nP3 - Ad-partner sharing/sale and loyalty program. ADN and Prism receive Cascadia Rewards data (412,000 California members) for $2.26M per year; this is almost certainly both \"sale\" and \"sharing\"; the contracts call them \"partners\" and neither has been classified. CHG has no Do Not Sell or Share link (the footer link uses old wording only), no opt-out flow, and no disclosure in the privacy policy. Consent by joining a loyalty program does not replace the notice/opt-out obligations, and the Rewards terms are silent. Also, if the program offers value in exchange for data, notice of financial incentive may be required (1798.125; 11 CCR 7016) - whether this applies depends on whether Rewards benefits are conditioned on PI use; counsel should confirm; the CEO's question is answered yes, it is a plausible regulatory target. Revenue at risk: $2.26M plus the CMO's estimate of $3-4M ROAS loss if sharing stopped (unverified marketing estimate); opt-out, not termination, is the legal requirement. Contract levers: Prism's term ended Jan 9, 2025 (auto-renewed annually); ADN renews Jun 14, 2025.\nP4 - Dark-pattern consent banner. No Reject All, dominant Accept All, default-on toggles in the preference panel; consent so obtained is not valid (1798.140(h), (l); 11 CCR 7004). Fix: 2-3 weeks. Note that a cookie banner is not itself the statutory opt-out mechanism, so the independent bigger risk is the missing opt-out link and GPC handling.\nP5 - Precise geolocation (SPI). About 195,000 California app users; accuracy about 50 feet, well inside the precise-geolocation radius (internal materials say 1,750 ft; I believe the statute says 1,850 ft; verify). Missing: SPI disclosure, Limit the Use of My Sensitive Personal Information link or alternative, and a CPRA-compliant contract with Locale Metrics. Mobile app also has stale 2022 disclosures. Standalone enforcement exposure; this is the CTO's open question and the answer is yes.\nP6 - Vendor contracts (9 of 23). Required terms are in 1798.100(d) and 11 CCR 7051. Without compliant terms, a recipient may not qualify as a service provider/contractor and the disclosure may be a sale/sharing; Canopy, Ashgrove, Oakmont, ADN and Prism are likely third parties on their own facts (own-advertising use). Crestwood powers the loyalty program and feeds ADN/Prism. Cost $51,000; all tracker targets are Apr-Jun 2025 and status is Not Started.\nP7 - Privacy policy and notices. Last updated Mar 12, 2023; missing correction right, limit right, retention periods, sharing disclosure, SPI categories; five showrooms reference a 2021 policy. Also employee/HR data: the CCPA exemptions expired Jan 1, 2023, so 380 California employees plus applicants are covered. Not audited in depth.\nP8 - Lower: minors' data, partner data-broker status, 12 moderate audit items.\n\n5. CPPA RESPONSE STRATEGY (recommendation)\n- Retain Oakvale Hale LLP today; the CPPA response is prepared under counsel. Privilege covers counsel's communications and work product; underlying business records (portal logs, policies, vendor lists) are not privileged and must be produced if requested. The Thornbury report states it was prepared at counsel's direction but also says it is not legal advice and that no attorney-client relationship is created, so the privilege claim is uncertain. The CPPA letter requires a privilege log by the deadline; do not assert privilege over the audit without outside counsel review.\n- Scope: answer requests (a)-(d) fully and accurately for the two complainants. The internal preference to avoid \"volunteering\" broader gaps is acceptable only to the extent of not exceeding the question; no statement may be false or misleading by omission. Do not produce a policy as compliant if it is not. Request (c) must identify ADN, Prism and any other vendor that received the two consumers' data (likely Rewards members), and (d) must say candidly what deletion notices were or were not sent. Expect the response to reveal the deletion policy gaps, the 10-day/45-day facts and the ADN/Prism relationship; plan on follow-up and a possible expanded investigation.\n- Immediately: complete the two consumers' deletions and confirm in writing; send downstream deletion notices to all recipients (including ADN and Prism as third parties) and keep proof; preserve documents (litigation hold); counsel may contact the analyst (Daniela Vargas) to clarify scope; if facts cannot be gathered in time, reconsider an extension request, which is not an admission.\n- Do not describe remediation as complete before it is; it may mitigate but does not erase past violations.\n\n6. REMEDIATION ROADMAP AND BUDGET\nWeek 0-2: retain counsel; litigation hold; complete two deletions and downstream notices; assemble logs; backlog sweep of all open deletion requests past day 30; hire 2 FTEs; instruct engineers to start GPC.\nWeeks 2-6: redesign banner (Accept/Reject equal, no default-on); deploy homepage Do Not Sell or Share and Limit SPI links; GPC at the tag manager/CMP level and pass-through to ADN, Prism, Locale (8-12 weeks per CTO; interim: suppress ad tags when Sec-GPC:1 is present); begin privacy policy rewrite.\nWeeks 6-12: publish policy and Rewards notices; renegotiate DPAs (priority Critical: ADN, Prism, Locale, Canopy, Ashgrove, Crestwood by Apr 15-30); deletion workflow automation; update the app.\nOngoing: quarterly tag scans, annual DPA review, training, HR data assessment.\nBudget: Thornbury $425,000 (platform $185,000; DPA $45,000; policy/UX $62,000; process/training $38,000; counsel $95,000). Adjust to $431,000 for the DPA tracker, and note the $95,000 counsel line likely understates a CPPA response and possible investigation; this exceeds the $340,000 privacy allocation by about $85,000-$91,000, requiring supplemental approval.\n\n7. EXPOSURE SUMMARY FOR THE BOARD\nWorst case (statutory, theoretical): deletion $9.9M-$56.1M depending on count and intent finding; GPC and sharing, per-consumer theories could reach tens to hundreds of millions on paper; none is a forecast. Realistic planning: six- to low-seven-figure settlement plus a compliance order, rising if the CPPA finds intent or non-cooperation. Remediation cost is under $0.5M versus $2.26M annual ad-partner revenue, which is itself at risk only to the extent consumers opt out.\n\n8. DECISIONS REQUESTED\n(1) Approve outside counsel and supplemental budget; (2) approve GPC and opt-out build as the first engineering priority; (3) direct marketing to pause adding new data flows to ADN/Prism until opt-out and contract terms are fixed; (4) approve the response approach in section 5; (5) set a board date.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "CPPA inquiry response: scope, deadline, privilege, candor",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Deletion timeliness and downstream deletion (1798.105, 1798.130, 7021/7022); data inconsistencies",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "GPC/opt-out preference signals",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "ADN/Prism sale and sharing; opt-out link; loyalty financial incentive",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Dark-pattern consent banner",
+   "criticality": "important"
+  },
+  {
+   "id": "I6",
+   "text": "Precise geolocation SPI / Locale Metrics",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "Vendor DPAs (9 of 23) and classification; source conflicts",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "Privacy policy, employee data, secondary items",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Exposure quantification, penalty amounts, remediation roadmap and budget",
+   "criticality": "critical"
+  },
+  {
+   "id": "I10",
+   "text": "Reliability of internal sources and regulatory timeline (regs date, unverified sweeps/advisory)",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "privacy-audit-report.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "California",
+   "level": "not_applicable",
+   "proposition": "Audit findings C-01..C-05, M-01..12, appendix B volumes, costs",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "cppa-inquiry-letter.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "California",
+   "level": "not_applicable",
+   "proposition": "Four requests, Mar 18 2025 deadline, fines language, privilege log",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "cppa-enforcement-summary.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "California",
+   "level": "not_applicable",
+   "proposition": "Internal summary of sweeps, advisory opinion, 2025 priorities (unverified)",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "vendor-agreements-summary.xlsx",
+   "source_type": "matter_document",
+   "jurisdiction": "California",
+   "level": "not_applicable",
+   "proposition": "9 outdated DPAs list, $51,000 cost, revenue, renewal dates",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "stakeholder-email-thread.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "California",
+   "level": "not_applicable",
+   "proposition": "72/74-day deletions, no extension notice, strategy, loyalty issue",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "Cal. Civ. Code 1798.130(a)(2), 1798.105(c) (via secondary summaries)",
+   "source_type": "statute",
+   "jurisdiction": "California",
+   "level": "controlling",
+   "proposition": "45-day response, one 45-day extension with notice in first period; notify SPs/contractors/third parties to delete",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E7",
+   "source": "11 CCR 7021 (via search summary)",
+   "source_type": "regulation",
+   "jurisdiction": "California",
+   "level": "binding",
+   "proposition": "Confirm receipt of deletion request within 10 business days",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E8",
+   "source": "CPPA announcement of 2025 CPI fine adjustment",
+   "source_type": "agency_guidance",
+   "jurisdiction": "California",
+   "level": "binding",
+   "proposition": "Fines $2,663 / $7,988 effective Jan 1 2025",
+   "verified": true,
+   "current_as_of": "2024-12-17",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E9",
+   "source": "Ropes & Gray / FindLaw on CPPA v. Cal. Chamber of Commerce (Cal. Ct. App. Feb 9 2024)",
+   "source_type": "case",
+   "jurisdiction": "California",
+   "level": "binding",
+   "proposition": "Regs approved Mar 29 2023; enforcement delay to Mar 29 2024 vacated Feb 9 2024",
+   "verified": false,
+   "current_as_of": "2024-02-09",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E10",
+   "source": "CPPA/secondary reports on Honda and Todd Snyder actions",
+   "source_type": "secondary",
+   "jurisdiction": "California",
+   "level": "persuasive",
+   "proposition": "2025 opt-out enforcement actions in six-figure range",
+   "verified": false,
+   "current_as_of": "2025-09-30",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Respond to CPPA by Mar 18 2025 via outside counsel, complete and truthful; privilege limited; audit privilege uncertain",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E5",
+    "E1"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Complainants' deletions took 72/74 days with no extension notice; systemic average 68 days; volume figures inconsistent (22% of 34,000 vs 18,000 deletions)",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E1",
+    "E6",
+    "E7"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "GPC not honored; priority remediation",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "ADN/Prism arrangements are likely sale and sharing; opt-out, disclosure and financial-incentive analysis needed",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E5"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Banner is dark pattern",
+   "central": false,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "Geolocation SPI gaps with Locale Metrics",
+   "central": false,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Nine DPAs outdated; lists differ between audit and tracker; cost $51k vs $45k",
+   "central": false,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Policy stale; employee data covered; secondary items",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Penalty amounts CPI-adjusted; exposure figures theoretical; roadmap and budget",
+   "central": true,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E8",
+    "E1",
+    "E4",
+    "E10"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Internal regulatory timeline and sweep claims are wrong or unverified",
+   "central": true,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E9",
+    "E3",
+    "E10"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C10",
+   "action": "qualify",
+   "reason": "Sweeps/advisory opinion could not be verified from primary sources; marked unverified"
+  },
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "Precise geolocation radius stated inconsistently; flagged for verification"
+  },
+  {
+   "claim_id": "C9",
+   "action": "narrow",
+   "reason": "Theoretical exposure framed as non-forecast; statutory figures vs CPI-adjusted noted"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "CPPA 2025 fine adjustment",
+   "url": "https://cppa.ca.gov/announcements/2024/20241217.html",
+   "claim": "C9"
+  },
+  {
+   "citation": "Ropes & Gray on CPPA v. Cal. Chamber of Commerce",
+   "url": "https://www.ropesgray.com/en/insights/alerts/2024/02/california--court-of-appeal-restores-cppa-authority-to-enforce-privacy-regulations",
+   "claim": "C10"
+  },
+  {
+   "citation": "11 CCR 7021",
+   "url": "https://www.law.cornell.edu/regulations/california/11-CCR-7021",
+   "claim": "C2"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "cppa-inquiry-letter.docx",
+   "purpose": "requests, deadline"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "privacy-audit-report.docx",
+   "purpose": "findings"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "cppa-enforcement-summary.docx",
+   "purpose": "enforcement context"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "vendor-agreements-summary.xlsx",
+   "purpose": "vendors"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "stakeholder-email-thread.eml",
+   "purpose": "facts and strategy"
+  },
+  {
+   "seq": 6,
+   "type": "fetch",
+   "target": "leginfo 1798.130 (blocked)",
+   "purpose": "statute text"
+  },
+  {
+   "seq": 7,
+   "type": "fetch",
+   "target": "leginfo 1798.155 (blocked)",
+   "purpose": "fine text"
+  },
+  {
+   "seq": 8,
+   "type": "web_search",
+   "target": "CPPA regs effective date litigation",
+   "purpose": "timeline check"
+  },
+  {
+   "seq": 9,
+   "type": "web_search",
+   "target": "CPI fine adjustment 2025",
+   "purpose": "penalty amounts"
+  },
+  {
+   "seq": 10,
+   "type": "web_search",
+   "target": "Honda Todd Snyder CPPA",
+   "purpose": "real enforcement"
+  },
+  {
+   "seq": 11,
+   "type": "web_search",
+   "target": "1798.130/1798.105/7021/7022",
+   "purpose": "deletion rules"
+  }
+ ],
+ "unresolved": [
+  "Primary statute/regulation text not retrieved (leginfo blocked); relied on secondary summaries",
+  "Oct 15 2024 advisory opinion, Jan 2025 priorities and 2024 sweeps unverified",
+  "Deletion count discrepancy (7,480 vs about 3,960)",
+  "Vendor list mismatch between audit and tracker",
+  "Whether Rewards constitutes a financial incentive under 1798.125",
+  "Precise geolocation radius (1,750 vs 1,850 ft)",
+  "Status of Mar 18 2025 response unknown"
+ ],
+ "usage": {
+  "tool_calls": 11,
+  "elapsed_sec": null
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "run_id": "REC6D84798ADE",
+ "benchmark_task_id": "H16",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nTO: Thomas Whitfield, General Counsel, Meridian Health Systems\nRE: ClinAssist AI - AI disclosure comparison across 14 U.S. states and Germany, France and the Netherlands; prioritized remediation\nBASIS: Seven matter documents (S&C U.S. memo and EU briefing, Halberd analysis, tech spec v3.2, consent form, tracker v3.2, email chain), dated 2024-July 2025, plus public-source checks run in October 2026.\n\n1. BOTTOM LINE\n\n(a) No single disclosure protocol works everywhere, and the current form fails everywhere. Its Section 3 sentence (\"computer-assisted tools\") names no AI system, role, rights or auto-population. Its statement that no tool \"operates independently of physician oversight\" is inaccurate, because ClinAssist writes to the EHR with no physician step. That is a deception risk in itself (e.g., M.G.L. c. 93A).\n(b) The tech spec is the controlling constraint, and neither law-firm memo accounts for it. There is no patient-level opt-out, no per-facility or per-jurisdiction toggle, and auto-population is always on. A patient-level bypass would take 4-6 months and probably a 510(k) supplement to K241876, and is unbudgeted. Any regime needing opt-out, consent or pre-disclosure gating (Washington, Maryland if enacted, Netherlands, arguably Texas) cannot be met by the software as built. S&C's Washington options (a)-(c) all assume a configurability that does not exist.\n(c) The matter documents contradict one another on basic facts, and several statutory descriptions conflict with public law. Do not finalize forms or the Board message until counsel verifies each statute against enrolled text (Section 2).\n(d) Do not let investor timing (Arbor Ridge email) set go-live; gate each site on written compliance certification.\n\n2. VERIFICATION FINDINGS (public law, checked October 2026)\n\n- California SB 1047 (2024) was the frontier-model safety bill. Governor Newsom vetoed it on 29 Sept 2024. It is not an in-force healthcare disclosure statute, so the \"July 1, 2025 effective\" premise and the \"$6.3 billion\" exposure have no basis. California's actual health-AI statute is AB 3030 (effective 1 Jan 2025). It requires generative-AI disclaimers on unvetted patient clinical communications and exempts communications reviewed by a human provider. It is probably not triggered by ClinAssist's back-end outputs, but applies if patient-facing generative messaging is added. Whether \"AB 2930\" (tracker) exists as described is unverified.\n- Illinois HB 3773 (P.A. 103-0804, signed Aug 2024) amends the Human Rights Act for AI in employment (effective 1 Jan 2026). It is not a patient-care statute. S&C says \"signed August 2025\"; the tracker says August 2024.\n- Texas: the real health-AI disclosure laws are SB 1188 (effective 1 Sept 2025; practitioners using AI for diagnosis must disclose and review AI-generated records; $5,000-$250,000 per violation) and HB 149/TRAIGA (effective 1 Jan 2026; written plain-language disclosure not later than date of service; AG enforcement, up to $200,000 per violation). \"HB 2100\" as described was not located.\n- Colorado SB 24-205 never took effect on 1 Feb 2026. SB 25B-004 moved it to 30 June 2026, and SB 26-189 (signed May 2026) repealed and replaced it, effective 1 Jan 2027. The replacement drops impact assessments and risk-management programs, keeping pre-use notice and adverse-outcome explanations. This shrinks the Colorado workstream both advisers prioritize.\n- EU AI Act: Article 50 applies from 2 Aug 2026, not 2025. The Digital Omnibus (in force 27 July 2026) defers stand-alone Annex III high-risk duties to 2 Dec 2027 and Annex I product-embedded systems to 2 Aug 2028, and left Article 50 unchanged. ClinAssist, a medical device, is high-risk through Article 6(1) and Annex I (MDR), not \"Annex III, 5(a),\" which S&C and the tech spec mis-describe as \"critical infrastructure.\" Secondary sources place the Art. 27 FRIA on public-law bodies, public-service providers and Annex III 5(b)-(c); product-route devices are generally outside it. S&C's \"Article 27 applies\" is doubtful, though a FRIA is prudent if the EU hospitals are public-service providers.\n- S&C's Article 50 mapping is wrong. 50(2) binds providers (machine-readable marking of synthetic content), not deployers notifying patients. Emotion-recognition and biometric-categorization disclosure is 50(3); deepfakes and public-interest text is 50(4). The patient-information duty for high-risk Annex III deployers is Art. 26(11); the notice basis that fits ClinAssist is GDPR Arts. 12-14 and 22 plus Art. 26(11)/86 once those apply. Deployer-obligation penalties (Art. 26, 50) are the EUR 15m/3% tier (Art. 99(4)); S&C's 7% figure for \"Title III non-compliance\" is wrong, as 7% covers prohibited practices.\n- Unverified: CT SB 1103, VA HB 1534, WA HB 1951, MN HF 2290, MD SB 818, OR SB 621, NY AB 5691. No bill text was supplied and I could not confirm them. They are analyzed below only as described by the matter documents.\n\n3. SOURCE CONFLICTS (resolve before relying on any table)\n\n- Effective dates: Connecticut 1 Mar 2026 (S&C/Halberd) vs 1 Oct 2025 (tracker); Virginia 1 Jan 2026 vs 1 Jul 2026; Minnesota 1 Apr 2026 vs 1 Aug 2026; Washington 1 Jan 2026 (Phase 2) vs 1 Jan 2027 (tracker, Phase 3).\n- Phasing: tracker puts Washington and Georgia in Phase 3 and Phase 2 at six hospitals; memos say eight. Hospital counts do not reconcile to 38 (12+8+18 in the memos; 12+6+5 in the tracker). The memos never say which states host the 18 Phase 3 U.S. hospitals, so every state's exposure may extend further.\n- Content: Illinois timing (\"at point of care\" vs \"prior to AI use\") and private right of action (S&C/Halberd yes; tracker no); Texas penalty ($5,000 tracker; none stated by Halberd) and opt-out clause; NY AB 5691 (badge only vs verbal plus written disclosure plus accountability officer); Oregon SB 621 (registration plus assessments vs informed consent plus public audit); Maryland (written consent per S&C; the tracker's \"written disclosure from patients\" is garbled and Halberd labels it disclosure). Treat Maryland as consent unless bill text says otherwise.\n- The tracker lists statutes the memos omit (CA AB 2930, IL SB 2243 BIPA-style consent, TX SB 940, NY SB 7503). IL SB 2243 as described (written consent before AI processes health data, private right of action) would be the highest-risk Phase 1 item if real. Verify immediately.\n- Document control is sloppy (tracker names \"Hawksmere & Oakvale\"; S&C memo calls itself \"H&O\").\n\n4. COMPARISON (as described in matter documents; verification status above)\n\nPhase 1. California: notice, role explanation, human-review right, Spanish/Mandarin (Civ. Code 1632); confirm source. Texas: disclosure before or at diagnosis; EHR notation; verified analogs SB 1188 and HB 149; AG only. Illinois: point-of-care or prior notice plus EHR documentation. Colorado: now Jan 2027 notice and adverse-outcome explanation. New York: pending (badge or verbal/written). Massachusetts: no AI statute; c. 93A and informed-consent exposure.\nPhase 2. Connecticut: public documentation plus individualized notice. Virginia: disclosure. Washington: name system, function, opt-out right. Minnesota: disclosure plus (tracker) validation summary on request, 5-year records. Maryland (pending): opt-in consent. Oregon (pending): registration/assessment or consent. NJ and Georgia: none.\nPhase 3 EU. Germany: BMG draft guidance (CE status, conformity summary; tracker adds written, German, system named in record, possible physician co-signature); not binding or final. France: GDPR Art. 22 plus Art. 12-14 notice, French language. Netherlands: AP position requiring explicit Art. 9(2)(a) consent (Germany and France may rely on Art. 9(2)(h)); non-binding and aggressive, but treat as enforcement posture.\n\n5. RESOLVED DISPUTES\n\n- Minnesota carve-out: do not rely. The exemption is conditioned (as quoted by S&C) on FDA clearance and on systems that \"provide information\" to a practitioner exercising independent judgment. The tech spec (4.3, 6.2) concedes ClinAssist writes to the record without physician approval. Halberd's clearance-alone reading ignores the second prong.\n- Virginia administrative-task exemption: does not apply. The tech spec itself says the functions are \"clinical, not administrative.\" Withdraw Halberd's \"no action\" advice for both states and restore them to the exposure model.\n- Maryland: consent, not disclosure, subject to bill text.\n- Impact assessments: S&C and the EU briefing are right that one document cannot satisfy all regimes. Use a common core plus jurisdiction-specific deliverables. Halberd's \"unified workstream\" is acceptable only as core-plus-modules. Colorado's assessment duty has been repealed.\n- Article 50(4)/biometrics: not applicable. The tech spec (2.2, 7.4) states no emotion recognition, biometric categorization, audio or video. Vitals and imaging are not biometric categorization; S&C's \"biometric-adjacent\" theory and the tracker's \"patient symptom assessment module\" are unsupported. Drop the precautionary 50(4) notice; get written CTO confirmation that no such module exists.\n- GDPR Art. 22: material risk at Lyon because auto-populated values are written before review and rubber-stamping is plausible (WP251 rev.01). Adopt: DPIA, affirmative per-field acceptance, override-rate audit logging, Art. 22 notice.\n\n6. EXPOSURE\n\n- Headline numbers are unreliable. Halberd's $12.5B (CA plus IL) rests on a vetoed or mis-described statute and on an encounters-times-maximum-penalty method no regulator would apply. S&C's \"over $13 billion\" is arithmetically wrong (6.3 + 6.2 + 0.351 = 12.85).\n- The $45-120M \"realistic\" range is internally inconsistent: CA ($63M) plus IL ($62M) at 1% already totals $125M before Texas or any other state, and the tracker's realistic figures for enacted rows sum to about $582M. The range also excludes Minnesota and Virginia on exemptions that fail, and excludes the EU.\n- Better: model exposure by enforcement channel (AG, license discipline, private suit) per verified statute. Anchor on verified Texas ceilings ($200,000 per TRAIGA violation; $250,000 SB 1188); EU deployer tier is EUR 15m/3% (about $351M on $11.7B turnover), GDPR EUR 20m/4% (about $468M), cumulative.\n\n7. PRIORITIZED REMEDIATION\n\nPriority 1 (immediately)\n1. Freeze real-patient processing at any site lacking a compliant notice. Texas duties have run since 1 Sept 2025 (SB 1188) and 1 Jan 2026 (TRAIGA). The email chain (Choi, 3 and 6 June 2025) shows the company knew; confirm whether Phase 1 launched and what was disclosed, and treat any gap as a live incident for counsel review.\n2. Statute verification sprint (two weeks): obtain enrolled text for all state items and the tracker's four extra statutes; reconcile Section 3 conflicts; republish one controlled tracker.\n3. Correct the consent form misstatement and issue an interim AI notice naming ClinAssist, its role, auto-population and a human-review contact.\n4. CTO decision memo: fund patient-level bypass and per-site configuration now (4-6 months plus FDA assessment of a 510(k) supplement); consider an interim staging option that holds auto-populated values until notice.\n\nPriority 2 (before each phase)\n5. Modular notice: one core plus state and EU addenda; Spanish, Mandarin, German, French, Dutch by qualified translators. Consider Vietnamese, Portuguese, Arabic and Haitian Creole where LEP/Title VI duties and site demographics require (Choi email).\n6. Two-stage disclosure: written notice at registration, plus verbal or displayed confirmation at the encounter; add an EHR notation field (documentation duties described for Illinois, Texas and Virginia).\n7. Washington and Maryland: do not deploy until bypass exists; Maryland also needs separate written consent and a dual non-AI workflow if enacted.\n8. Minnesota and Virginia: full compliance.\n\nPriority 3 (EU, before Phase 3)\n9. France: Art. 22 DPIA, affirmative acceptance workflow, override audit. Netherlands: separate explicit consent plus non-AI pathway. Germany: track BMG final guidance. All: MDR conformity assessment (pending per spec) gates any EU use; map Art. 26(11) and Clearpoint flow-down duties.\n\nPriority 4 (governance)\n10. Run impact-assessment work as core-plus-modules, now smaller after Colorado's repeal; keep Connecticut public documentation and any EU FRIA as separate deliverables if confirmed.\n11. Quarterly legislative review, with owner and escalation trigger for NY, MD and OR; correct the Maryland classification.\n12. Tell the Board in writing that deployment is feasible only on a site-by-site certification basis.\n\n8. LIMITS\nThis memo relies on summaries, not bill text, for the jurisdictions marked unverified. EU points rest on secondary sources because EUR-Lex was inaccessible. Events after July 2025 (including whether Phase 1 launched) are unknown.",
+ "citations": [
+  {
+   "citation": "California SB 1047 vetoed Sept. 29, 2024",
+   "url": "https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2024/10/california-governor-signs-ai-laws-vetoes-sb-1047",
+   "claim": "SB 1047 was the frontier-model safety bill and was vetoed"
+  },
+  {
+   "citation": "Illinois HB 3773, P.A. 103-0804",
+   "url": "https://natlawreview.com/article/illinois-anti-discrimination-law-address-ai-goes-effect-1-january-2026",
+   "claim": "Amends Human Rights Act for AI in employment; effective Jan. 1, 2026"
+  },
+  {
+   "citation": "Colorado SB 25B-004; SB 26-189",
+   "url": "https://www.dwt.com/blogs/privacy--security-law-blog/2026/05/colorado-ai-act-repeal-new-transparency-law",
+   "claim": "SB 24-205 delayed then repealed and replaced, effective Jan. 1, 2027"
+  },
+  {
+   "citation": "Texas SB 1188 and HB 149 (TRAIGA)",
+   "url": "https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/texas-enacts-a-pair-of-ai-governance-laws-hb-149-and-sb-1188",
+   "claim": "Real Texas health-AI disclosure laws, effective Sept. 1, 2025 and Jan. 1, 2026"
+  },
+  {
+   "citation": "Regulation (EU) 2024/1689 Art. 50, as amended by Digital Omnibus (2026)",
+   "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+   "claim": "Art. 50 applies from Aug. 2, 2026; high-risk dates deferred to Dec. 2027 / Aug. 2028"
+  },
+  {
+   "citation": "Regulation (EU) 2024/1689 Art. 50(2)-(4)",
+   "url": "https://artificialintelligenceact.eu/transparency-rules-article-50/",
+   "claim": "50(2) providers marking; 50(3) emotion/biometric categorisation; 50(4) deepfakes (secondary source)"
+  },
+  {
+   "citation": "Regulation (EU) 2024/1689 Arts. 26(11), 27, 6(1)",
+   "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+   "claim": "Deployer notice duty and FRIA scope; device product route (secondary sources)"
+  },
+  {
+   "citation": "California AB 3030",
+   "url": "https://www.afslaw.com/perspectives/alerts/california-requires-disclaimers-health-care-providers-ai-generated-patient",
+   "claim": "Generative-AI patient communication disclaimers; human-review exemption"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "sc-regulatory-memo.docx",
+   "purpose": "S&C U.S./EU memo"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "halberd-gap-analysis.docx",
+   "purpose": "Halberd gap analysis"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "clinassist-tech-spec.docx",
+   "purpose": "technical facts"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "current-consent-form.docx",
+   "purpose": "baseline form"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "eu-ai-act-briefing.docx",
+   "purpose": "EU briefing"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "legislative-tracker.xlsx",
+   "purpose": "tracker"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "internal-email-chain.eml",
+   "purpose": "context and instructions"
+  },
+  {
+   "seq": 8,
+   "type": "web_search",
+   "target": "California SB 1047 veto",
+   "purpose": "verify status"
+  },
+  {
+   "seq": 9,
+   "type": "web_search",
+   "target": "Illinois HB 3773 P.A. 103-0804",
+   "purpose": "verify subject matter"
+  },
+  {
+   "seq": 10,
+   "type": "web_search",
+   "target": "Colorado SB 24-205 delay SB25B-004",
+   "purpose": "verify effective date"
+  },
+  {
+   "seq": 11,
+   "type": "web_search",
+   "target": "EU AI Act Digital Omnibus delay dates",
+   "purpose": "verify timeline"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "Colorado 2026 repeal/replace",
+   "purpose": "verify current status"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "Texas SB 1188 / HB 149 health AI disclosure",
+   "purpose": "verify Texas law"
+  },
+  {
+   "seq": 14,
+   "type": "fetch",
+   "target": "ropesgray.com Colorado article (blocked)",
+   "purpose": "attempted detail; egress blocked"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "artificialintelligenceact.eu Art. 50 (blocked)",
+   "purpose": "attempted text; blocked"
+  },
+  {
+   "seq": 16,
+   "type": "fetch",
+   "target": "artificialintelligenceact.eu Art. 99 (blocked)",
+   "purpose": "attempted text; blocked"
+  },
+  {
+   "seq": 17,
+   "type": "fetch",
+   "target": "eur-lex AI Act text (blocked)",
+   "purpose": "attempted primary text; blocked"
+  },
+  {
+   "seq": 18,
+   "type": "web_search",
+   "target": "Colorado SB 26-189 health care requirements",
+   "purpose": "verify replacement act"
+  },
+  {
+   "seq": 19,
+   "type": "web_search",
+   "target": "AI Act Art. 50(2)-(4) allocation",
+   "purpose": "verify article mapping"
+  },
+  {
+   "seq": 20,
+   "type": "web_search",
+   "target": "AI Act Art. 26(11), Art. 27 scope, Art. 6(1) devices",
+   "purpose": "verify deployer/FRIA scope"
+  },
+  {
+   "seq": 21,
+   "type": "web_search",
+   "target": "California AB 3030",
+   "purpose": "identify real California health AI statute"
+  }
+ ],
+ "unresolved": [
+  "Enrolled text of CT SB 1103, VA HB 1534, WA HB 1951, MN HF 2290, MD SB 818, OR SB 621, NY AB 5691 not verified",
+  "Tracker-only statutes (CA AB 2930, IL SB 2243, TX SB 940, NY SB 7503) unverified",
+  "EU article text confirmed only via secondary sources; EUR-Lex blocked",
+  "Whether Phase 1 launched and current state of conformity assessment unknown"
+ ],
+ "usage": {
+  "tool_calls": 21,
+  "elapsed_sec": null
+ }
+}

@@ -1,0 +1,577 @@
+{
+ "run_id": "R220EC058F4F5",
+ "benchmark_task_id": "H11",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM (privileged and confidential; attorney-client)\nTO: Rachel Ogilvie, General Counsel. FROM: Nathan Hsu. RE: UCC warranty analysis, Max 9000 launch.\n\nSOURCE NOTE. Facts are from the nine supplied documents; AquaMonitor documentation, the email campaign and PO terms were not supplied. External research tools failed, so all statutory and case references are from general knowledge, UNVERIFIED, and need cite-checking.\n\n1. BOTTOM LINE\n(a) The disclaimer's formatting is a secondary problem. The real exposure is that the marketing and the sales script create express warranties that the 2021 warranty cannot disclaim, and CIT's own instructions keep buyers from seeing the warranty before they buy.\n(b) The \"Total Performance Guarantee\" almost certainly creates enforceable express warranties of 99.97% removal, 98.5% uptime and regulatory compliance. Defending them as puffery is weak; they are numeric and called \"guarantees.\"\n(c) As written, the exclusive remedy and consequential-damages exclusion are at material risk for Max 9000 sales. The claims data and the Redmond case show why.\n(d) AquaMonitor is a large unaddressed gap. Insurance probably will not respond to pure performance claims.\n(e) Recommendation: do not launch with the current framework. Either (i) convert the guarantee into a defined, tested performance warranty with a negotiated remedy ladder, or (ii) recast the figures as design specifications and strip \"guarantee\" language. Option (i) fits the Board commitment better. Details in section 8.\n\n2. CURRENT WARRANTY: CONSPICUOUSNESS AND ASSENT\nFacts verified from the document. Body text is 11-pt Times New Roman. The Section 5 heading is 14-pt bold capitals, and the disclaimer text beneath it is all capitals in 11-pt, not bold. Sections 5 and 6 therefore have a larger bold capitalized heading plus capitalized body. The disclaimer names \"merchantability\" and UCC 2-314/2-315.\nLaw (UCC 2-316(2); 1-201(b)(10); unverified). Merchantability must be mentioned by name and, in a writing, be conspicuous; fitness must be in a conspicuous writing. Conspicuousness is a question for the court. A heading in capitals at least as large as the surrounding text is a listed example. Your worry is only partly right: the formatting is likely adequate for a commercial buyer in most states, though bold, a box or a contrasting body would remove the question cheaply. BSK recommended at least two additional measures; none was implemented.\nLarger problem: timing. The warranty is first delivered with the product (Section 1 says taking delivery is acknowledgment); the quotation says terms come \"with product delivery\"; the January 8 memo tells reps NOT to give the warranty before purchase. A buyer cannot \"notice\" a term it was never shown, and post-sale terms between merchants are vulnerable under 2-207 and 2-209 (BSK's 2021 \"highest priority\" point). Section 7.3's integration clause cannot supersede pre-contract statements unless the buyer agreed to it. The instruction also reads as concealment, supporting procedural-unconscionability, fraud or deceptive-practice theories that fall outside any liability cap.\nVersion conflict (unresolved): BSK says the March 15, 2021 warranty lacked an integration clause, governing law and registration; the supplied document with that date has them. Confirm version history.\n\n3. EXPRESS WARRANTIES (UCC 2-313)\nLaw (unverified): an affirmation of fact or promise that becomes part of the basis of the bargain creates an express warranty; no specific reliance need be shown; opinion or puffery is excluded. Under 2-316(1) an inconsistent disclaimer is inoperative; under 2-202 a final writing excludes prior statements only if actually agreed.\nApplication:\n- Brochure: 'We guarantee ... 99.97% ... or we'll make it right,' 98.5% uptime, 'your water will meet or exceed all EPA and state purity standards,' FDA/USDA and USP claims, and AquaMonitor data 'you can rely on for regulatory compliance.' Strongest express warranties.\n- Sales deck: 'Our Promise to You' slide, pharmaceutical WFI and Part 11 claims, comparative claims; also '20+ years' against a 2009 founding.\n- January 8 memo: tells reps to call the numbers guarantees, promise to 'make customers whole,' and withhold the warranty. Oral statements bind CIT; the memo is discoverable.\n- Quotation template: softer ('designed to achieve'; non-binding) but repeats the figures, defers warranty terms to delivery and promises a purchase agreement with 'agreed-upon specifications.'\nCollective effect: a court would likely treat the numeric performance statements as basis-of-the-bargain, especially for buyers (Triton, Great Lakes) who told CIT they came because of the guarantee. Warranty Section 5 (\"no warranty regarding results\"; \"no oral or written information creates a warranty\") contradicts the marketing; the express statements likely prevail. Mitigating: Section 2 defines Defect by nonconformity with \"published hardware specifications,\" arguably importing the published figures.\nInconsistency: brochure and quotation limit AquaMonitor to the Enhanced configuration; the deck and January 8 memo include it in Base (Triton's configuration).\n\n4. STATE ANALYSIS (all unverified; cite-check)\nTexas / Triton ($5.7M, governmental buyer). No Texas statute I know of generally bars a seller from disclaiming implied warranties to a governmental buyer; Tex. Bus. & Com. Code 2.316 and 2.719 track the uniform text. The practical traps are different: (1) procurement. A water authority will buy through competitive procurement (Local Gov't Code ch. 252/271 or Water Code regimes), so its solicitation, specifications and contract terms are likely to control, to incorporate your proposal and performance claims, and to override CIT's standard warranty and Oregon law/venue; (2) Local Gov't Code ch. 271, subch. I waives immunity for written goods contracts and limits recovery against the entity (generally excluding consequential damages), which constrains CIT's remedies against Triton, not Triton's against CIT; (3) the DTPA (Bus. & Com. Code 17.45, 17.49) can reach governmental entities as \"consumers\" but exempts transactions over $500,000, which Triton's would exceed; (4) regulatory approvals and certifications for drinking-water treatment (TCEQ review; NSF/ANSI 61 and similar) and statutory disclosure forms for governmental contracts (for example Gov't Code 2252.908) must be confirmed. Marketing that Triton will \"meet every regulatory requirement\" is the biggest exposure here, because CIT does not control feed water, rule changes (PFAS limits are in flux) or Triton's operations.\nCalifornia / Harmon Valley ($2.4M). The Song-Beverly Consumer Warranty Act covers \"consumer goods\" bought primarily for personal, family or household use, so it should not reach a cooperative buying commercial water treatment equipment; the CLRA likewise protects individual consumers. Magnuson-Moss applies to products \"normally used\" for personal or household purposes (16 CFR 700.1), a product-type test, so a farm's use does not convert this equipment. The co-op's purchase on behalf of members is not a consumer purchase. Real California risks: express warranty law (Hauter v. Zogarts: broad performance statements could not be disclaimed; seller bore the burden on reliance), the Unfair Competition Law and False Advertising Law (business plaintiffs may sue), and unconscionability (Civ. Code 1670.5) given the small-buyer profile BSK described. The agreement should disclaim member third-party-beneficiary rights.\n Illinois / Great Lakes ($4.2M, LOI signed). General commercial UCC (810 ILCS 5/2) applies: the express-warranty exposure is the same; the failure-of-essential-purpose and unconscionability analysis follows Illinois case law (Razor v. Hyundai is the leading case on consequential-damages exclusions; unverified). The FDA overlay cuts against CIT: statements that the system \"ensures FDA compliance\" and reduces recall risk invite reliance, and FDA does not certify equipment. Consider limiting statements to specifications and customer-run validation. \nNew York and Massachusetts (flags). Massachusetts has non-uniform G.L. c.106 2-316A limiting disclaimers for consumer goods and, more importantly, c.93A, 11, which allows business plaintiffs multiple damages and fees for unfair or deceptive acts; the pharmaceutical claims (USP/WFI, Part 11) and the \"do not provide the warranty\" instruction are 93A risks. New York: GBL 349/350 (consumer-oriented conduct), municipal procurement rules, and strong enforcement of express warranties without proof of reliance. NYC municipal buyers will impose their own contract terms.\nRedmond (Missouri) tests the same theories; research Missouri essential-purpose law.\n\n5. SOFTWARE (AquaMonitor v3.2)\nArticle 2 covers goods; software embedded in a good generally travels with it, while a standalone license, the 12-month cloud subscription and analytics service are more likely common-law services or licenses (predominant-purpose test; courts have treated packaged software as goods, e.g., Advent v. Unisys, 3d Cir. 1991; unverified). The present warranty reaches only hardware \"defects in materials and workmanship\" and says nothing on data accuracy, availability or cybersecurity, while marketing promises \"accurate, real-time data you can rely on for regulatory compliance\" and \"audit-ready\" reports. Those are express warranties that the warranty's Section 5 disclaimer of \"accuracy or reliability of any information\" cannot defeat. Claims history shows nine software or firmware claims in 180 claims, including a pharmaceutical customer's wrong pH readings and a software crash that left cleaning chemicals in a system six hours; CIT repaired them under warranty, undermining a \"software is not covered\" position (course of performance). A false \"all clear\" that leads to distribution of contaminated water is a personal-injury and regulatory exposure that the purchase-price cap does not reliably limit (limits on personal injury damages for consumer goods are prima facie unconscionable; for commercial goods the analysis is open, and public-health harms to third parties are not bound by the contract). Recommend a separate software license and service terms (SLA, accuracy disclaimers with defined calibration limits, data ownership, update and security obligations, limited remedy), a statement that AquaMonitor is a monitoring aid and not a compliance determination, correction of the Part 11 claim unless validated, and a cybersecurity representation CIT can actually meet.\n\n6. REMEDY DURABILITY AND CLAIMS DATA\nLaw (unverified): 2-719(1) permits limited remedies; 2-719(2) restores UCC remedies if the remedy fails of its essential purpose; 2-719(3) allows consequential damages exclusion unless unconscionable. Courts split on whether the consequential exclusion survives failure of the exclusive remedy: some treat the clauses as independent (Chatlos, 3d Cir. 1980), others as dependent (S.M. Wilson, 9th Cir. 1978); results turn on whether the clauses are drafted independently and on the facts. Warranty Section 6 already says the limits apply even if the remedy fails; that helps in independent-clause states but is not a guarantee, particularly where the seller's conduct is the cause.\nData: claims 47/62/71 (FY2022-24); repair cost $1.34M/$1.87M/$2.21M; $680,000 consequential settlements in FY2024 (WC-2024-022 $145,000; WC-2024-039 $535,000); Redmond $1.2M claimed (suit Nov 4, 2024, Greene County; CIT estimate $150,000-$1.4M). Resolution time 28/35/47 days; 8-week parts delays open. Both settlements involved essential-purpose arguments. All three consequential claims involve AquaPure 7000, the closest analog.\nData integrity warning: Claim Detail repair totals (about $1.21M / $2.11M / $2.34M) do not match the Summary ($1.34M / $1.87M / $2.21M), and replacement counts differ (2/5/8 vs 1/3/3). Reconcile before external use. The Max 9000 projections are speculative.\nAssessment: given 10-to-14 week lead times and 8-week parts delays, a court may find the remedy failed if CIT cannot promptly restore specified performance. Risk: high.\n\n7. INSURANCE (Stoneridge, Jan 22, 2025)\nFacts: $5M per occurrence, $15M aggregate, $700,000 premium rising 22% ($154,000); the carrier will not alter the contractual-liability exclusion. Analysis: (1) a CGL policy generally covers injury or property damage from an occurrence, not failure to perform as promised; economic loss and the your-product, impaired-property and recall exclusions likely bar much of a performance claim (policy not supplied). (2) Stoneridge overstates somewhat: that exclusion usually excepts liability that would exist without the contract, so defect-caused physical injury may be covered. (3) Software claims may hit electronic-data or professional-services exclusions; ask about cyber and technology E&O. (4) One Triton loss could exceed $5M. The premium increase is an underwriter signal, not a rounding error. Give Redmond notice to the carrier now.\n\n8. RECOMMENDATIONS (priority order)\n1. Withdraw the instruction not to provide the warranty; remove 'guarantee,' 'ensures' and compliance promises from scripts; issue a litigation hold (Redmond).\n2. Choose by March 17 between a defined Performance Warranty (test protocol, feed-water and maintenance conditions, 90-day cure, remedy ladder, cap, independent consequential exclusion) or design-specification language with clear disclaimer.\n3. Give the warranty with every quotation, incorporate it in the purchase agreement with signed acknowledgment, and format the disclaimer conspicuously.\n4. Reconcile all documents (including AquaMonitor configuration).\n5. Deal-specific terms for Triton, Harmon Valley and Great Lakes.\n6. Separate software license and service terms.\n7. Insurance steps above; reconcile claims data; cite-check all authority.\n\nUNRESOLVED: version history; missing documents; unverified authority; Missouri law; policy text.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Conspicuousness and form of disclaimer (2-316, 1-201(b)(10))",
+   "criticality": "important"
+  },
+  {
+   "id": "I2",
+   "text": "Express warranty creation from brochure, deck, quote, sales memo (2-313, 2-316(1), 2-202)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Pre-sale disclosure/assent; sales memo withholds warranty; 2-207/2-209; version conflict with BSK",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Exclusive remedy and consequential damages exclusion; failure of essential purpose (2-719); claims trend; Redmond",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Texas governmental buyer issues (procurement, ch. 271, DTPA)",
+   "criticality": "important"
+  },
+  {
+   "id": "I6",
+   "text": "California cooperative: Song-Beverly/MMWA/UCL reach",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "Illinois general UCC and FDA overlay",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "New York and Massachusetts flags (93A, 2-316A)",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "AquaMonitor software warranty gap and Article 2 applicability",
+   "criticality": "critical"
+  },
+  {
+   "id": "I10",
+   "text": "Insurance coverage and premium increase",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "Source-data inconsistencies (AquaMonitor config, claims totals, document version)",
+   "criticality": "important"
+  },
+  {
+   "id": "I12",
+   "text": "Unverified external law / missing documents",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "Cit warranty docx (Sections 2-7; formatting 11pt body, 14pt bold heading)",
+   "source_type": "matter_document",
+   "jurisdiction": "Oregon/N.A.",
+   "level": "not_applicable",
+   "proposition": "Disclaimer in caps, heading 14pt bold, names merchantability; exclusive remedy; Sec 6 survives failure; integration, Oregon law; delivered at product delivery",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "Brochure, deck, quote template, Jan 8 sales memo",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Numeric performance guarantees, EPA/FDA/USP claims; memo instructs not to give warranty pre-sale; AquaMonitor config inconsistency",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "BSK memo Mar 22 2021",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "background",
+   "proposition": "Recommended conspicuousness, pre-sale disclosure, cure period; says no integration or governing-law clause (conflicts with supplied warranty)",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "Claims workbook",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Claims 47/62/71, consequential settlements $680k, Redmond $1.2M, resolution times, software claims; detail does not reconcile to summary",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "Stoneridge letter and Ogilvie/Dasgupta emails",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Policy limits, 22% premium increase, deal facts and timeline",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "UCC 2-313, 2-316, 2-719, 1-201(b)(10), 2-202 (uniform text, recalled)",
+   "source_type": "statute",
+   "jurisdiction": "Uniform/Oregon",
+   "level": "persuasive",
+   "proposition": "Express warranty, disclaimer, remedy limits",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E7",
+   "source": "Texas CPRC ch.271 subch. I; DTPA 17.49; Local Gov't Code ch.252 (recalled)",
+   "source_type": "statute",
+   "jurisdiction": "TX",
+   "level": "binding",
+   "proposition": "Governmental waiver/damage limits; DTPA $500k exemption",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E8",
+   "source": "Hauter v. Zogarts; Song-Beverly; 16 CFR 700.1; Razor v. Hyundai; Chatlos; S.M. Wilson; Advent v. Unisys; M.G.L. c.93A s.11, c.106 s.2-316A (recalled)",
+   "source_type": "case",
+   "jurisdiction": "CA/IL/3d Cir/9th Cir/MA",
+   "level": "persuasive",
+   "proposition": "Illustrative authorities, unverified",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Disclaimer formatting is probably adequate commercially but should be strengthened; BSK recommendations not implemented",
+   "central": false,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E6"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Marketing and sales script likely create express warranties; Sec 5 cannot disclaim them",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E6"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Warranty is not shown pre-sale; withholding instruction heightens enforceability, unconscionability and deception risk; version conflict unresolved",
+   "central": true,
+   "issue_ids": [
+    "I3",
+    "I11"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Exclusive remedy/consequential exclusion at high risk; data shows trend; data does not reconcile",
+   "central": true,
+   "issue_ids": [
+    "I4",
+    "I11"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4",
+    "E6"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Texas: no special disclaimer bar identified; procurement documents, ch.271, DTPA exemption, certifications are the issues (unverified)",
+   "central": false,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E7",
+    "E5"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "California consumer statutes likely do not reach the co-op; UCL/FAL and unconscionability do",
+   "central": false,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E8"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Illinois general UCC; FDA claims create reliance risk",
+   "central": false,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E8"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "NY/MA flags incl. c.93A s.11",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E8"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Software gap: warranty covers hardware only; marketing promises data accuracy; Art.2 coverage split; separate license needed",
+   "central": true,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E4",
+    "E8"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Insurance unlikely to cover performance-guarantee economic loss; Stoneridge somewhat overstated; premium increase is a risk signal",
+   "central": false,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E5"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "Authority unverified and documents missing",
+   "central": false,
+   "issue_ids": [
+    "I12"
+   ],
+   "evidence_ids": [
+    "E6",
+    "E7",
+    "E8"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C3",
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C1",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C2",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C3",
+   "action": "none",
+   "reason": "Matter-document supported"
+  },
+  {
+   "claim_id": "C4",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C5",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C7",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C8",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C9",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  },
+  {
+   "claim_id": "C10",
+   "action": "none",
+   "reason": "Matter-document supported"
+  },
+  {
+   "claim_id": "C11",
+   "action": "qualify",
+   "reason": "External research tools failed; authority flagged unverified and narrowed"
+  }
+ ],
+ "citations": [],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "task file",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "ogilvie-hsu-memo-assignment.eml",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "cit-standard-limited-warranty.docx (text and formatting)",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "bsk-warranty-memo-2021.docx",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "sales-team-instruction-memo.docx",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "aquapure-max-9000-marketing-brochure.docx",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "draft-quotation-letter-template.docx",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "stoneridge-insurance-letter.eml",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "warranty-claims-summary-fy22-fy24.xlsx",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "aquapure-max-9000-sales-deck.pptx",
+   "purpose": "read matter document"
+  },
+  {
+   "seq": 11,
+   "type": "fetch",
+   "target": "cornell UCC 2-316",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 12,
+   "type": "fetch",
+   "target": "cornell UCC 2-719",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 13,
+   "type": "fetch",
+   "target": "cornell UCC 2-313",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 14,
+   "type": "fetch",
+   "target": "Texas CPRC ch.271",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "Texas BCC ch.17",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 16,
+   "type": "web_search",
+   "target": "search Tex CPRC 271.153",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 17,
+   "type": "web_search",
+   "target": "search Chatlos/2-719",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 18,
+   "type": "web_search",
+   "target": "search MA 2-316A/93A",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 19,
+   "type": "fetch",
+   "target": "texas.public.law 271.153",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  },
+  {
+   "seq": 20,
+   "type": "fetch",
+   "target": "justia MA 2-316A",
+   "purpose": "attempted external law verification; blocked or budget exhausted, no content obtained"
+  }
+ ],
+ "unresolved": [
+  "External law unverified (fetch/search blocked); cite-check required",
+  "Warranty version conflict with BSK memo",
+  "AquaMonitor documentation, email campaign, PO terms not supplied",
+  "Missouri essential-purpose law and Redmond status",
+  "Claims workbook detail does not reconcile to summary",
+  "Insurance policy text not reviewed"
+ ],
+ "usage": {
+  "tool_calls": 20,
+  "elapsed_sec": null
+ }
+}

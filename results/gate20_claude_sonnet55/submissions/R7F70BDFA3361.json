@@ -1,0 +1,298 @@
+{
+ "run_id": "R7F70BDFA3361",
+ "benchmark_task_id": "H12",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM (privileged draft for outside-counsel review)\nTo: CMB Executive Committee; D. Ishikawa. Re: QuickBridge Lending (QBL) regulatory path. Law checked through Oct. 2026; some matter dates (June and Sept. 2025) may have passed.\n\nEXECUTIVE SUMMARY\n1. Incorporation by June 15 is not blocked: Reg Y likely requires only a post-commencement notice, not prior Fed approval.\n2. Leadership's premise is wrong. CNB's charter gives QBL no preemption or licensing relief, and making QBL a CNB operating subsidiary would not fix that after Dodd-Frank. State licenses are needed in all eight states.\n3. Pricing in the term sheets breaches rate caps in several states. The EWA product, as modeled, is not viable.\n4. Several premises in the source documents are wrong or unverified (Part 8).\n5. A Q1 2026 eight-state launch is unrealistic; phase it.\n\n1. FEDERAL APPROVALS\nFederal Reserve. Extending credit and servicing loans is a listed activity (12 CFR 225.28(b)(1); BHC Act 4(c)(8), 12 U.S.C. 1843(c)(8)). Under 12 CFR 225.22(a), a BHC may engage de novo in a 225.28(b) activity without prior approval if it meets 225.23(c)(1), (2) and (6) (well-capitalized, well-managed and related conditions; I could not retrieve the full text, so verify (c)(6)). It must then give the Reserve Bank written notice within 10 business days after commencing, certifying those conditions. Answer: a post-commencement notice, if CMB qualifies. Sections 225.23-.24 are the fallback; if CMB fails the conditions, a prior notice or application is needed and the timeline is at risk. The $25 million (28.7% of net income; 0.52% of assets) is not a trigger; 225.23's size tests concern acquisitions. Actions: confirm CMB's ratings and capital; confirm CNB's composite 2 rating and open MRA do not impair \"well managed\" (pre-clear with the Reserve Bank). The trigger is commencing lending, not incorporation. The January 15 resolution required a report to the Board on regulatory approvals before binding commitments. The Ridgeline MSA was signed Feb. 20 and ratified March 5; document that cure.\nOCC. QBL is not OCC-regulated, but: (i) Sections 23A/23B (12 U.S.C. 371c, 371c-1; 12 CFR Part 223): QBL is a CNB affiliate, so CNB's planned participation purchases are covered transactions with quantitative limits (generally 10% of capital per affiliate, 20% aggregate), asset-quality limits and market-terms rules. The record omits this; (ii) the open BSA MRA; (iii) shared \"Cascadia\" branding must not imply bank or FDIC status.\nFinCEN. A lender has no FinCEN registration duty. MSB registration (31 CFR 1022.380) applies only to money services businesses; disbursing one's own funds is generally not money transmission, but confirm for EWA.\nCFPB. Consumer installment lending and EWA are not larger-participant markets (12 CFR Part 1090: consumer reporting, debt collection, student loan servicing, international money transfer, auto finance). Other hooks: 12 U.S.C. 5514(a)(1)(E) (payday loans), relevant if EWA is treated as a payday-type loan, and 5514(a)(1)(C) risk determinations, which require notice, a chance to respond and the 12 CFR Part 1091 procedures; the CFPB proposed in Aug. 2025 to narrow that standard. CFPB enforcement (12 U.S.C. 5531, 5536) and Fed examination of BHC subsidiaries (12 U.S.C. 1844(c)) remain. Risk: medium.\n\n2. STATE LICENSING AND PREEMPTION\nNo preemption. 12 U.S.C. 85 and OCC preemption protect the national bank. QBL, a CMB subsidiary, is an affiliate with no protection. Dodd-Frank also provides that state consumer financial laws apply to subsidiaries and affiliates of national banks (12 U.S.C. 25b(e), (h)(2)), reversing Watters v. Wachovia Bank, 550 U.S. 1 (2007).\nThe alternative is not a fix. A CNB operating subsidiary (12 CFR 5.34) no longer gets state-law preemption under Section 25b, contrary to the assumption in Clearwater and the GC's emails. It would still bring OCC filings and supervision, CRA effects and bank-level concentration issues, though it would remove the 23A problem. Real preemption requires CNB itself to lend (12 U.S.C. 85 exportation), which raises true-lender and Madden v. Midland Funding (2d Cir. 2015) risk if QBL does the economic work.\nStates (per Clearwater; timelines unverified):\n- OR: consumer finance license, ORS ch. 725 (DFR). Loans of $50,000 or less require it; unlicensed loans are void. Cap 36% (ORS 725.340). \"SB 1515 (2025)\" is not a rate cap; the 2024 SB 1515 concerns leave and child safety.\n- WA: Consumer Loan Act, RCW 31.04 (DFI). Cap 25% simple interest plus a 4% origination fee on the first $20,000 and 2% thereafter (RCW 31.04.105). Clearwater's \"no cap\" is wrong.\n- CA: CFL (DFPI); 4-6+ months; caps below $10,000. ID: regulated lender license; NV: installment loan license (NRS 675); generally no caps (confirm).\n- AZ: consumer lender license; 36% on the first $3,000 and 24% above, for loans of $10,000 or less (A.R.S. 6-632).\n- CO: supervised lender license (UCCC); greater of 36/21/15% by tier or 21% flat (C.R.S. 5-2-201). \"SB 21-196\" unverified.\n- TX: Finance Code ch. 342 license (OCCC); ch. 342-E ceilings 30/24/18% on tiers to $2,500, ch. 303 ceilings above. Clearwater's \"no cap\" is wrong.\nNMLS registration requires the entity to exist first, plus financial statements, bonds and control-person filings. Business LOCs are mostly outside consumer caps, but confirm each state's business-purpose exemption; the CFL also covers commercial lending.\n\n3. PRODUCTS\nPersonal loans. A 29.99% rate with a 3% origination fee deducted from proceeds gives a Reg Z APR of 36.07% on 12 months (32.4% at 36; 31.6% at 60), as I calculated. If 29.99% is the note rate, short-term loans exceed Oregon's 36% and the Military Lending Act's 36% MAPR (10 U.S.C. 987; 32 CFR Part 232); if it is already the APR, say so. Either way 29.99% exceeds Washington's 25% (plus fee), Colorado's 21% flat or tiered cap on larger loans, and Texas ceilings above $2,500. Pricing must be state-specific. Also: Reg E bars conditioning credit on preauthorized EFT repayment (15 U.S.C. 1693k; 12 CFR 1005.10(e)(1)), yet the term sheet requires ACH autodebit; citizen/permanent-resident-only eligibility raises ECOA/alienage risk (12 CFR 1002.6(b)(7); 42 U.S.C. 1981).\nBusiness LOC. Reg B applies (12 CFR 1002.9(a)(3), 1002.7(d)); the personal guarantee above $100,000 needs spousal-signature review.\nEWA, federal. The CFPB's Dec. 23, 2025 advisory opinion says \"Covered EWA\" is not credit under Reg Z and withdrew the 2024 proposed rule. Covered EWA requires, among other things, accrued-wage data, payroll-deduction repayment, no recourse and no credit-risk assessment. QBL's term sheet provides ACH recovery from the employee's bank account after termination and uses repayment history, so the safe harbor cannot be assumed. States still govern.\nEWA, state. California: DFPI adopted regulations under the CCFPL (not an \"Interpretive Rule 2024-03\"), with registration from Feb. 15, 2025; DFPI treats EWA, including fees and tips, as loans under the CFL. Washington: the \"Consumer Protection for EWA Services Act effective July 1, 2025\" could not be verified. I found SSB 5328 (2025-26), reportedly requiring DFI licensing from July 1, 2026, excluding EWA from \"loan\" and \"credit,\" and capping aggregate fees on employer-integrated EWA at $10 per month. Enacted text not retrieved; verify. If accurate, two $3.99 advances per period exceed that. Oregon, Colorado and others: no EWA statute verified.\nAPR (fee/advance x 365/days): $100: 208% (7 days), 104% (14). $150 (stated average): 139%, 69%. $250: 83%, 42%. $500: 42%, 21%. If treated as a loan, Oregon's 36% and Colorado's caps fail for advances under about $290 held 14 days (about $580 at 7); Washington's 25% fails in any scenario if the EWA carve-out is unavailable; the MLA also applies.\nViability. The business plan projects $1.5 million from 376,000 express transactions on $25 million, implying a $66 average advance; the term sheet says $150, which implies about 167,000 advances and at most about $665,000 even if every advance pays the fee, against a 5% charge-off ($1.25 million). Revenue depends on near-universal fee uptake, undercutting \"optional.\" Recommendation: drop or cap the fee, no express default, state-by-state opinions first, and hold CA, WA, OR and CO.\n\n4. VENDOR RISK\nGoverning guidance is the June 2023 Interagency Guidance on Third-Party Relationships (88 Fed. Reg. 37920), OCC Bulletin 2023-17, FDIC FIL-29-2023 and Fed SR 23-4. These replaced OCC 2013-29 and FIL-44-2008, which the assignment still cites. CNB's 2021 policy predates them and CMB has no enterprise program. MSA gaps (key-terms summary only; full MSA not seen):\n- No audit or regulator-access right; no examination carve-out from confidentiality; cooperation limited to information \"reasonably available.\"\n- Ridgeline owns the model; CMB cannot inspect or test it; no ECOA warranty, fair-lending testing or validation protocol.\n- Liability cap of $2.4 million versus $180 million of originations; breach duties are 72-hour notice, cooperation and remediation, without cost allocation; subcontractors need only notice; no regulatory termination right; transition help at $250-$350 per hour; renewal is automatic absent 180 days' notice, while the Board resolution says renewals are \"at CMB's election.\"\n- CMB is the contracting party; assignment under section 14.3 leaves CMB jointly liable.\nFair lending. ECOA/Reg B reach vendor models (CFPB Circulars 2022-03 and 2023-03 on specific adverse-action reasons). The model was trained on 2.3 million applications from other lenders, with no feature list or validation. Federal disparate-impact enforcement has been de-emphasized (Executive Order 14281, Apr. 2025), but state attorneys general, private plaintiffs and Reg B remain. Apply SR 11-7. Risk: critical; no go-live until independent testing and audit rights exist.\n\n5. BSA/AML AND CONSUMER COMPLIANCE\nBSA. FinCEN's \"loan or finance company\" definition (31 CFR 1010.100(lll)) covers only residential mortgage lenders and originators. So QBL's consumer and business loans are probably outside the 31 CFR Part 1029 program and SAR rules, and the CIP (31 CFR 1020.220) and CDD (31 CFR 1010.230) rules apply to banks and similar institutions. Clearwater's and Ms. Chandrasekaran's contrary statements are overbroad. QBL still needs a program: SARs as a nonbank BHC subsidiary under 12 CFR 225.4(f) (verify); OFAC; the FTC Safeguards Rule (16 CFR Part 314) and Red Flags Rule (16 CFR Part 681); and regulator and CNB-participation expectations. Recommend a QBL-specific risk assessment and procedures, governed through CNB's compliance function with shared tools. Risk: high.\nMRA. CNB's March 2024 beneficial-ownership MRA (moderate; 18 of 150 files deficient) is still unaccepted; the plan promised review by Q3 2024 and system fixes by Q4 2024, and no current status is documented. Get a status report and OCC correspondence before the Reserve Bank notice. Risk: critical.\nConsumer. TILA/Reg Z (origination fee in APR), ECOA, FCRA, UDAAP, MLA and SCRA, GLBA/Reg P, state privacy laws (CA, CO, OR) and FTC breach reporting. Ridgeline's de-identified-data carve-out threatens GLBA reuse limits.\n\n6. RISK RATINGS\nCritical, before incorporation or capitalization: correct the preemption premise and fix structure; confirm Reg Y eligibility and file notice; obtain MRA status. Critical before licensing or launch: state-specific pricing and MLA; EWA fee, classification and revenue; model validation and audit rights.\nHigh: MSA amendments; enterprise vendor program; 23A/23B plan; QBL compliance program; privacy assessment.\nMedium: CFPB designation exposure; Reg E and eligibility fixes; governance cleanup.\n\n7. TIMELINE\nQ1 2026 in eight states is not achievable. NMLS and applications cannot start until QBL exists; Clearwater estimates CA at 4-6+ months and AZ and TX at 90-120 days before deficiency cycles, so a September 2025 CA filing lands in March 2026 or later. Recommend: incorporate on schedule; file the Reserve Bank notice within 10 business days of commencing; NMLS in 2-4 weeks; revised pricing by August 2025; amended MSA and validated model before any application is processed. Launch OR, ID and NV personal loans first (Q1-Q2 2026, subject to licenses), then WA, AZ, TX and CO as pricing and licenses allow, CA last, EWA only after opinions, and the business LOC once beneficial-ownership controls are proven.\n\n8. RECORD ISSUES\nPrime was 7.50%, not 8.50%, in March 2025. The exam summary is dated April 2024 yet cites the January 2025 resolution. Whitfield & Crane's MSA review, due end of March, is not in the record. Unverified: Washington EWA enactment and fee cap, California registration scope, Oregon HB 4116 details, 12 CFR 225.23(c)(6) and 225.4(f) text.\n",
+ "citations": [
+  {
+   "citation": "12 CFR 225.22 (exempt nonbanking activities; de novo without prior notice; 10-business-day post-commencement notice)",
+   "url": "https://www.law.cornell.edu/cfr/text/12/225.22",
+   "claim": "Reg Y permits de novo 225.28(b) activities without prior approval if 225.23(c)(1),(2),(6) are met, with notice within 10 business days"
+  },
+  {
+   "citation": "12 U.S.C. 25b (Dodd-Frank preemption standards; subsidiaries and affiliates)",
+   "url": "https://www.law.cornell.edu/uscode/text/12/25b",
+   "claim": "State consumer financial laws apply to subsidiaries/affiliates of national banks, so operating-subsidiary preemption (Watters) ended"
+  },
+  {
+   "citation": "Watters v. Wachovia Bank, N.A., 550 U.S. 1 (2007)",
+   "url": "https://supreme.justia.com/cases/federal/us/550/1/",
+   "claim": "Operating-subsidiary preemption holding later superseded by 12 U.S.C. 25b"
+  },
+  {
+   "citation": "RCW 31.04.105 (Washington Consumer Loan Act)",
+   "url": "https://app.leg.wa.gov/Rcw/default.aspx?cite=31.04&full=true",
+   "claim": "25% simple-interest cap and 4%/2% origination fee limit"
+  },
+  {
+   "citation": "ORS 725.340 (Oregon consumer finance 36% cap) and DFR HB 4116 release",
+   "url": "https://dfr.oregon.gov/news/news2026/pages/20260604-high-interest-loans.aspx",
+   "claim": "36% cap on consumer finance loans of $50,000 or less; 2024 SB 1515 is unrelated; DIDMCA opt-out in 2026"
+  },
+  {
+   "citation": "C.R.S. 5-2-201 (Colorado supervised loan finance charge)",
+   "url": "https://law.justia.com/codes/colorado/2022/title-5/article-2/part-2/section-5-2-201/",
+   "claim": "Greater of 36/21/15% tiers or 21% flat"
+  },
+  {
+   "citation": "Tex. Fin. Code ch. 342, subch. E",
+   "url": "https://law.justia.com/codes/texas/2022/finance-code/title-4/subtitle-b/chapter-342/subchapter-e/section-342-201/",
+   "claim": "Tiered 30/24/18% ceilings"
+  },
+  {
+   "citation": "A.R.S. 6-632 (Arizona consumer lender finance charges)",
+   "url": "https://law.justia.com/codes/arizona/2011/title6/section6-632/",
+   "claim": "36% on first $3,000, 24% above for loans of $10,000 or less"
+  },
+  {
+   "citation": "31 CFR 1010.100(lll)",
+   "url": "https://www.law.cornell.edu/cfr/text/31/1010.100",
+   "claim": "Loan or finance company limited to residential mortgage lenders/originators"
+  },
+  {
+   "citation": "CFPB, Truth in Lending (Regulation Z); Non-application to Earned Wage Access Products, Dec. 23, 2025",
+   "url": "https://www.federalregister.gov/documents/2025/12/23/2025-23735/truth-in-lending-regulation-z-non-application-to-earned-wage-access-products",
+   "claim": "Covered EWA not credit under Reg Z; 2024 proposal withdrawn"
+  },
+  {
+   "citation": "California DFPI EWA (income-based advances) regulations",
+   "url": "https://www.gtlaw.com/en/insights/2025/1/california-dfpi-finalizes-new-earned-wage-access-regulations",
+   "claim": "Registration from Feb. 15, 2025; EWA treated as loans; no 'Interpretive Rule 2024-03' found"
+  },
+  {
+   "citation": "Washington SSB 5328 (earned wage access services)",
+   "url": "https://wa-law.org/bill/2025-26/sb/5328/S/",
+   "claim": "Licensing framework; reported July 1, 2026 licensing and $10/month fee cap; enacted text not retrieved"
+  },
+  {
+   "citation": "CFPB supervisory designation proceedings (12 CFR Part 1091; 12 U.S.C. 5514(a)(1)(C))",
+   "url": "https://www.federalregister.gov/documents/2025/09/25/2025-18622/procedures-for-supervisory-designation-proceedings",
+   "claim": "Risk-determination procedure; 2025 proposed narrowing"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "ishikawa-email-regulatory-path.eml (parts 1-2) [read 1/2]",
+   "purpose": "Assignment, instructions, facts"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "ishikawa-email-regulatory-path.eml (parts 1-2) [read 2/2]",
+   "purpose": "Assignment, instructions, facts"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "clearwater-gap-analysis.docx (6 pages of text) [read 1/6]",
+   "purpose": "Findings, state table, EWA/pricing claims"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "clearwater-gap-analysis.docx (6 pages of text) [read 2/6]",
+   "purpose": "Findings, state table, EWA/pricing claims"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "clearwater-gap-analysis.docx (6 pages of text) [read 3/6]",
+   "purpose": "Findings, state table, EWA/pricing claims"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "clearwater-gap-analysis.docx (6 pages of text) [read 4/6]",
+   "purpose": "Findings, state table, EWA/pricing claims"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "clearwater-gap-analysis.docx (6 pages of text) [read 5/6]",
+   "purpose": "Findings, state table, EWA/pricing claims"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "clearwater-gap-analysis.docx (6 pages of text) [read 6/6]",
+   "purpose": "Findings, state table, EWA/pricing claims"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "cmb-board-resolutions.docx (2 reads) [read 1/2]",
+   "purpose": "Authority, MSA ratification, capital"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "cmb-board-resolutions.docx (2 reads) [read 2/2]",
+   "purpose": "Authority, MSA ratification, capital"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "cnb-exam-summary-2024.docx (3 reads) [read 1/3]",
+   "purpose": "MRA and vendor comment status"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "cnb-exam-summary-2024.docx (3 reads) [read 2/3]",
+   "purpose": "MRA and vendor comment status"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "cnb-exam-summary-2024.docx (3 reads) [read 3/3]",
+   "purpose": "MRA and vendor comment status"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "quickbridge-business-plan-summary.docx (3 reads) [read 1/3]",
+   "purpose": "Structure, EWA revenue, timeline"
+  },
+  {
+   "seq": 15,
+   "type": "document_read",
+   "target": "quickbridge-business-plan-summary.docx (3 reads) [read 2/3]",
+   "purpose": "Structure, EWA revenue, timeline"
+  },
+  {
+   "seq": 16,
+   "type": "document_read",
+   "target": "quickbridge-business-plan-summary.docx (3 reads) [read 3/3]",
+   "purpose": "Structure, EWA revenue, timeline"
+  },
+  {
+   "seq": 17,
+   "type": "document_read",
+   "target": "quickbridge-product-term-sheets.docx (2 reads) [read 1/2]",
+   "purpose": "Pricing, fees, EWA terms"
+  },
+  {
+   "seq": 18,
+   "type": "document_read",
+   "target": "quickbridge-product-term-sheets.docx (2 reads) [read 2/2]",
+   "purpose": "Pricing, fees, EWA terms"
+  },
+  {
+   "seq": 19,
+   "type": "document_read",
+   "target": "ridgeline-msa-summary.docx (3 reads) [read 1/3]",
+   "purpose": "MSA gaps"
+  },
+  {
+   "seq": 20,
+   "type": "document_read",
+   "target": "ridgeline-msa-summary.docx (3 reads) [read 2/3]",
+   "purpose": "MSA gaps"
+  },
+  {
+   "seq": 21,
+   "type": "document_read",
+   "target": "ridgeline-msa-summary.docx (3 reads) [read 3/3]",
+   "purpose": "MSA gaps"
+  },
+  {
+   "seq": 22,
+   "type": "fetch",
+   "target": "ecfr.gov Reg Y 225.22 (blocked by egress)",
+   "purpose": "Reg Y text"
+  },
+  {
+   "seq": 23,
+   "type": "web_search",
+   "target": "12 CFR 225.22 Reg Y de novo exempt activities",
+   "purpose": "Reg Y notice route"
+  },
+  {
+   "seq": 24,
+   "type": "web_search",
+   "target": "12 U.S.C. 25b(e),(h) Watters",
+   "purpose": "Operating-subsidiary preemption"
+  },
+  {
+   "seq": 25,
+   "type": "web_search",
+   "target": "Washington EWA law 2025",
+   "purpose": "Verify WA EWA Act"
+  },
+  {
+   "seq": 26,
+   "type": "web_search",
+   "target": "California DFPI EWA regulation",
+   "purpose": "Verify CA rule"
+  },
+  {
+   "seq": 27,
+   "type": "fetch",
+   "target": "WA leg bill report 5328 (blocked by egress)",
+   "purpose": "WA bill status"
+  },
+  {
+   "seq": 28,
+   "type": "web_search",
+   "target": "Washington SSB 5328 status",
+   "purpose": "WA EWA effective date/fee cap"
+  },
+  {
+   "seq": 29,
+   "type": "web_search",
+   "target": "Oregon ORS 725.340 / SB 1515",
+   "purpose": "Verify OR cap"
+  },
+  {
+   "seq": 30,
+   "type": "web_search",
+   "target": "Washington RCW 31.04.105",
+   "purpose": "WA rate cap"
+  },
+  {
+   "seq": 31,
+   "type": "web_search",
+   "target": "31 CFR 1010.100(lll) loan or finance company",
+   "purpose": "BSA scope"
+  },
+  {
+   "seq": 32,
+   "type": "web_search",
+   "target": "CFPB EWA advisory opinion Dec 2025",
+   "purpose": "Federal EWA status"
+  },
+  {
+   "seq": 33,
+   "type": "web_search",
+   "target": "Colorado C.R.S. 5-2-201",
+   "purpose": "CO cap"
+  },
+  {
+   "seq": 34,
+   "type": "web_search",
+   "target": "Texas Fin. Code 342-E; Arizona 6-632",
+   "purpose": "TX/AZ caps"
+  },
+  {
+   "seq": 35,
+   "type": "web_search",
+   "target": "CFPB 5514(a)(1)(C) risk determination 2025",
+   "purpose": "CFPB exposure"
+  }
+ ],
+ "unresolved": [
+  "Washington EWA statute: enactment, effective date and fee cap not verified from enacted text (primary site blocked)",
+  "12 CFR 225.23(c)(6) and 225.4(f) text not retrieved; stated from background knowledge",
+  "Colorado SB 21-196, California below-$10,000 CFL tiers, Idaho/Nevada caps, Oregon/Colorado EWA treatment not verified",
+  "Reg E 1693k, Reg B alienage, Section 23A limits, OCC 2023-17 rescission of 2013-29 and FDIC FIL-29-2023 and Fed SR 23-4 cited from background knowledge without fetching",
+  "Status of CNB MRA remediation and Whitfield & Crane MSA review not in record; CMB's own Fed ratings unknown",
+  "Mismatch between document dates (April 2025) and current date (Oct 2026): deadlines may have passed"
+ ],
+ "usage": {
+  "tool_calls": 43,
+  "elapsed_sec": null
+ }
+}

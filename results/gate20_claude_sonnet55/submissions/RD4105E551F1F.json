@@ -1,0 +1,732 @@
+{
+ "run_id": "RD4105E551F1F",
+ "benchmark_task_id": "H14",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTo: Margaret Zhao (CEO); David Herrera (General Counsel). Re: Dr. Rajesh Anand / Novacel - trade secret and restrictive covenant enforcement options.\nRecord runs through May 26, 2025; today is Oct. 2, 2026 (see Sec. 8).\n\n1. BOTTOM LINE\n(a) Lead with trade secret and confidentiality claims (DTSA, Massachusetts UTSA, breach of EICA/SCTSA/ENCNSA Sec. 5), not the non-compete. The exfiltration evidence is strong, but we have no proof yet of use or disclosure at Novacel.\n(b) File first, in Massachusetts (Suffolk Superior Court Business Litigation Session, or D. Mass.), to avoid a California declaratory/Bus. & Prof. Code 16600.5 action. Seek a narrow TRO/PI aimed at conduct (sequester, return, forensic inspection, non-use, preservation), not at Anand's employment.\n(c) The non-compete is a secondary, higher-risk claim: it is likely valid in Massachusetts only if the 24L formalities hold (several vulnerabilities below), and a California court is likely to refuse it. Keep paying garden leave to preserve it.\n(d) Reasonable-measures evidence has internal inconsistencies to fix before any declaration is signed.\n\n2. KEY FACTS (matter documents)\n- Anand: hired June 15, 2016; VP from Mar. 1, 2020; $385,000 salary; resigned voluntarily May 2, 2025; last day May 16; announced as Novacel CSO May 19 (San Diego; LNP/polymer competitor). Now in La Jolla, CA.\n- Forensic report (Trevelyan, May 22): 2,347 files/4.8 GB to a personal USB over 14 sessions (Mar. 15-Apr. 28, 2025), 312 rated Highly Confidential/Trade Secret (VelluSphere compositions, Aurora, VTX-401, pricing, RTP parameters, patent drafts); 17 emails/34 attachments to a personal Gmail (Apr. 1-25); a Saturday 11:47 PM-2:13 AM lab visit Apr. 26 matching the 341-file session; Feb.-Mar. searches on Novacel and California non-compete law; a Jan. 22 dinner with \"L. Forsythe\". USB not returned.\n- Separation Certification (May 14): items 3-4 flatly deny retention (including USB/personal email) and third-party transfer; items 1-2 say \"returned, or will return,\" so the forensic report paraphrases it too categorically.\n- Agreements: EICA (2016; perpetual confidentiality; no non-compete); ENCNSA (Mar. 1, 2020; Restricted Period 12 months, 24 if fiduciary breach or unlawful taking, burden on Company; 50% garden leave; Suffolk forum); SCTSA (Sept. 12, 2023; six Aurora categories). All carry DTSA immunity notices and Massachusetts law.\n- Garden leave first tendered May 26, 2025 (prorated May 17-31). No demand sent.\n\n3. TRADE SECRET CLAIMS\nFederal DTSA (18 U.S.C. 1836) and Massachusetts UTSA (G.L. c. 93, ss. 42-42G, eff. Oct. 1, 2018). Elements: a protectable secret (independent value from secrecy; reasonable measures), and misappropriation (acquisition by improper means, or use/disclosure in breach of a duty). Strengths: formulations, process parameters, unpublished patent drafts, clinical data and pricing are classic secrets; his agreements acknowledge secrecy; Policy Sec. 4.1 bans personal media outright; the escalating evening pattern and the contrary certification support improper acquisition and intent. Authorized access is not a defense to copying to personal media in breach of EICA 2.4/4.2 and SCTSA 4(c). Remedies: injunction, damages, and up to 2x exemplary damages and fees for willful and malicious misappropriation (per the SCTSA recital; verify).\nLimits. The DTSA bars injunctions that prevent employment or impose conditions based merely on what the person knows, or that conflict with state law barring restraints on trade (1836(b)(3)(A)(i), confirmed by secondary sources; primary text not retrieved). Massachusetts UTSA permits enjoining \"threatened misappropriation\" in equity, which secondary sources read as a limited inevitable-disclosure route; unsettled. California rejects inevitable disclosure (Whyte v. Schlage Lock, 101 Cal. App. 4th 1443 (2002)). So relief must rest on evidence of actual taking and risk of use, not on his seniority at Novacel. Internal/Public files (about 87% by the forensic count) are not secrets.\nReasonable measures: strengths are a four-tier classification, RBAC, audit logs, annual training (Nov. 8, 2024), badge control, NDAs/SCTSA, exit protocol. Weaknesses defendants will use: log-only USB mode and no blocking; the forensic report (no email DLP) conflicts with Policy Sec. 4.3 (DLP exists) and the spreadsheet (DLP rule triggered but log-only); Policy Sec. 3.3/4.2 require monthly anomaly reports flagging >50 files, >500 MB, Tier 4 transfers and after-hours access, yet nothing was flagged for 44 days; Policy Sec. 7.1 required, on the May 2 resignation notice, HR notice to the CISO within 24 hours, a 90-day activity report, a USB-block decision and enhanced DLP, and no document shows these happened; his Trade Secret access was auto-provisioned, not dual-approved as Sec. 2.2 describes. The standard is reasonable, not perfect; frame the case around what existed, not \"robust.\"\n\n4. NON-COMPETE (ENCNSA) - MASSACHUSETTS\n24L applies (agreement after Oct. 1, 2018; Anand employed in Massachusetts). Checklist:\n- Resigned voluntarily, so the \"terminated without cause or laid off\" bar (24L(c)) does not apply.\n- Duration: capped at 12 months unless breach of fiduciary duty or unlawful physical/electronic taking, then up to 2 years (24L(b)(iv)). The USB/Gmail taking supports 24 months, but the ENCNSA puts the burden on Vellura and the court decides \"at the time enforcement is sought.\" Plan for 12 months as the realistic outer limit unless proven.\n- Garden leave must be paid pro rata during the entire restricted period at not less than 50% of highest base salary of the prior two years (confirmed: $192,500/yr), and the employer may not unilaterally discontinue except on employee breach (24L(b)(vii)). Risks: (i) ENCNSA 4.4 allows offset down to 25% of salary, below the statutory 50% floor; do not apply it; (ii) payments began May 26 (10 days after separation), within ENCNSA 4.2's 30-day window, but Anand can argue lateness; ENCNSA 4.5 gives a 15-business-day cure after his written notice (none reported); (iii) if we claim 24 months we must pay through May 2027; (iv) continue payments while suing: stopping would hand him the \"unilateral discontinuance\" argument, while 7.3 forfeiture should be reserved, not exercised, until a court finds breach.\n- Consideration: because signed mid-employment, it needs fair and reasonable consideration independent of continued employment, plus 10 business days' notice and a written right-to-counsel statement. Exhibit A lists promotion, $50,000 bonus, garden leave, continued employment and access; continued employment will not count, but the bonus and garden leave likely suffice. Our copies have blank signature lines; obtain executed originals and proof of 10-day delivery.\n- Scope: \"Competing Enterprise\" is enterprise-wide, 2.1(a) and (c) reach any capacity, and the territory is U.S.-plus, broader than the 24L presumptions (services performed; areas worked). A court may reform (ENCNSA 10.3; 24L(d) discretionary); expect narrowing to an LNP-formulation role. The 3.1 no-hire and 2.3 tolling clauses may collide with the statutory cap.\n- Waiver/selective enforcement: Osei (to MIT, 2021) and Ramirez (non-LNP pharma, 2023) were not pursued, with no written rationale. Distinguishable (not direct competitors) and ENCNSA 10.4 is a non-waiver clause, but the undocumented history is a fact issue. Do not create after-the-fact memos. The 4.3 election window (to June 15, 2025) lapsed without election.\n- 24L(e) voids a choice-of-law clause that avoids the statute for a Massachusetts resident/employee of 30 days; 24L(f) allows Suffolk venue by agreement with exclusive Superior Court/BLS jurisdiction. These bind Massachusetts courts, not California.\nNonsolicit and confidentiality covenants fall outside 24L's definition (my understanding; full text not retrieved); in California the nonsolicits are also at risk.\n\n5. CALIFORNIA CONFLICT\nBus. & Prof. Code 16600 voids non-competes (Edwards v. Arthur Andersen, 44 Cal.4th 937 (2008), even narrow ones); courts have refused to honor out-of-state choice-of-law clauses (Application Group v. Hunter Group, 61 Cal. App. 4th 881 (1998)). Effective Jan. 1, 2024, 16600.5 makes covenants unenforceable \"regardless of where and when the contract was signed,\" makes enforcement attempts a civil violation, and gives employees a private action with mandatory fees to a prevailing employee (16600.5(d)-(e)). Consequences: (1) a California suit by Anand/Novacel is likely if we send an aggressive letter before filing; (2) pressing the non-compete adds fee exposure; (3) a Massachusetts judge may apply 24L(e) and the forum clause, but enforcing a Massachusetts order in California may meet resistance. Labor Code 925 likely does not reach a 2020 contract signed by a Massachusetts resident (unverified). The FTC non-compete rule was set aside (Ryan LLC v. FTC) and the FTC dropped its appeal in Sept. 2025, so no federal overlay applies.\n\n6. OTHER CLAIMS AND EVIDENCE\n- Contract: breach of EICA 2.1, 2.4, 4.1-4.2; SCTSA 4(c), 5; ENCNSA 5.2-5.3 (fee/indemnity clauses; bond waivers do not bind the court). Strongest, fastest claims; forum is exclusive Massachusetts.\n- Fiduciary/loyalty: plead; it also supports the 24-month tier.\n- Misrepresentation via the certification: falsity is clear for item 3 (USB/Gmail); item 4 (third parties) is unproven; reliance and damages are thin (HR sought a review the same day), so use it mainly as intent evidence.\n- Novacel: liability needs knowledge or reason to know of improper acquisition or use; today we have only timing, the press release and the Jan. 22 dinner. Tortious interference needs Novacel's knowledge of the ENCNSA (unknown). Massachusetts personal jurisdiction over Novacel is uncertain; a claim may require a California forum. Use a demand and expedited discovery before naming Novacel.\n- CFAA: weak after Van Buren v. United States, 593 U.S. 374 (2021) (authorized access to the files).\n- Chapter 93A s.11 and a criminal referral (18 U.S.C. 1832) are options; not researched.\n- Deshmukh/Ridgeline: observer 2019-Q4 2022 under a confidentiality agreement (not in the file); her access predates Aurora's 2023 start; no evidence of leakage. Do not plead; obtain the NDA and Meridian terms and investigate quietly. Do not confuse her with current employee Anita Deshmukh.\n\n7. EVIDENCE INCONSISTENCIES TO RESOLVE BEFORE ANY AFFIDAVIT\n- Classification counts: forensic report 147 Trade Secret/165 Highly Confidential/623 Public; spreadsheet 214/98/Internal 147/Public 0 (459 files from listed repositories); total 2,347.\n- \"Trade Secret\" (forensic, spreadsheet) vs \"Top Secret\" (HR; Policy 2.2) clearance.\n- Employee ID, laptop model, asset tags, badge number, email domain and certification form number differ across documents.\n- Laptop return: May 14 (forensic) vs May 16 (HR).\n- Last access review: Jan. 15, 2025 (forensic, spreadsheet) vs Apr. 1 (Policy 3.2).\n- After-hours: Policy defines it as outside 7 AM-8 PM and grants VPs standing authorization; forensic report uses 9 PM and calls the visit anomalous; the CEO email says there was no approved access.\n- Log-only mode: deliberate Aug. 2024 choice (forensic) vs default setting (Policy 4.2).\n- The forensic report says Apr. 26 was \"two weeks\" before resignation (it was six days); the SCTSA misstates his title history.\n- Privilege: the report is also the routine Policy Sec. 7.3 post-separation review, weakening the work-product claim; Trevelyan is a fact witness on the gaps. Use an independent testifying examiner.\n- Whitfield & Crane drafted the agreements; consider independent review of drafting defects.\n\n8. TIMING NOTE (as of Oct. 2, 2026)\nIf nothing has been filed, the 12-month period ended about May 16, 2026; a proven 24-month period runs to about May 16, 2027 (tolling disputed). Delay undercuts irreparable harm; verify events since May 26, 2025. DTSA's three-year limitations period (my recollection, unverified) is not an immediate constraint.\n\n9. RECOMMENDED ACTIONS (priority order)\n1. Immediately: reconcile Sec. 7, engage an independent forensic examiner, extend the hold to Finance/HR/IT configuration records, and image current USB/DLP settings before changing them.\n2. File a verified complaint in Suffolk BLS or D. Mass. against Anand (DTSA, MUTSA, contract, fiduciary duty, declaratory relief on ENCNSA) with a TRO/PI motion: return and non-use of Vellura data, sequestration of USB/Gmail/devices with a neutral examiner, accounting of recipients, preservation, expedited discovery on Novacel. Do not seek to bar the CSO role at the outset; the non-compete is an alternate request.\n3. Serve a preservation/non-use demand on Novacel with the filing, not before.\n4. Keep paying garden leave on schedule; send a written statement that payments are under reservation; instruct Finance not to apply the 4.4 offset below 50%.\n5. Retain California counsel for a likely declaratory action; do not seek non-compete relief there.\n6. Remediate security (USB block, email DLP, anomaly alerts) after preserving configurations; route remediation memos through counsel.\n7. Consider law-enforcement referral after filing; give insurance notice now.\n",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Choice of law governing veil piercing (Ohio/Delaware/Texas/Illinois) and B&N Delaware strategy",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Ohio veil-piercing test, RULLCA 1706.26, application",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Texas alter ego, 21.223/Castleberry, and SBE status after SSP Partners",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Delaware and Illinois veil standards and ratings",
+   "criticality": "important"
+  },
+  {
+   "id": "I5",
+   "text": "Cascade direct liability as HP-4400 designer; exemplary damages; Orvis email",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "IEPA operator (Bestfoods) and alter ego exposure; Illinois jurisdiction over Ohio facility",
+   "criticality": "critical"
+  },
+  {
+   "id": "I7",
+   "text": "Source-document conflicts and numerical errors (49.5M, 9.81x, equity 21.7M, debt direction, dates, representation)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I8",
+   "text": "Insurance gaps",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Procedure and deadlines (special appearance, answer, removal, Garza, IEPA answer)",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Remediation recommendations and their limits",
+   "criticality": "critical"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "birchfield-novak-preliminary-assessment.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "B&N letter frames four-state analysis, SBE as unresolved, Delaware-first choice of law, Ohio test with proximate cause, direct design liability",
+   "verified": true,
+   "current_as_of": "2024-11-22",
+   "entailment": "BACKGROUND"
+  },
+  {
+   "id": "E2",
+   "source": "cascade-corporate-structure-summary.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "Governance, control, branding, shared services, capitalization facts; separateness factors thin; no loan/shared-services/indemnity agreements",
+   "verified": true,
+   "current_as_of": "2024-12-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "iepa-enforcement-complaint.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "Illinois",
+   "level": "background",
+   "proposition": "Counts I-IV; operator and alter ego theories; Whitfield memo 12/8/2022; Yun denial 4/2/2023; Illinois hook is Peoria TSDF manifests; dated 10/3/2024 yet cites 12/31/2024 data",
+   "verified": true,
+   "current_as_of": "2024-10-03",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "insurance-coverage-summary.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "$20M Pryor coverage; D&O subsidiary product exclusion; IEPA penalty uninsured; AI endorsement scope uncertain",
+   "verified": true,
+   "current_as_of": "2024-12-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "intercompany-cash-management-agreement.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "Ohio",
+   "level": "background",
+   "proposition": "Sole-discretion sweeps, no reserve, not arm's length (6.3), fee not benchmarked (4.2), fees included in sweep (4.3, 5.2) but 5.1 'in addition', Intercompany Account credited to Pryor (2.3), Ohio law (9.1)",
+   "verified": true,
+   "current_as_of": "2016-08-01",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "orvis-email-chain-hp4400-safety.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "Orvis 7/14/2022 concern; Choi 7/19/2022 override citing testing, cost, schedule and CEO priority; Colter copied; Pryor did not participate in interlock design",
+   "verified": true,
+   "current_as_of": "2022-07-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E7",
+   "source": "plaintiffs-original-petition.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "Texas",
+   "level": "background",
+   "proposition": "Six causes of action incl. designer strict liability, alter ego, SBE (para. 42 concedes doubt); $49.5M extraction figure; Garza co-defendant",
+   "verified": true,
+   "current_as_of": "2024-11-08",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E8",
+   "source": "pryor-financial-summary-fy2020-fy2024.xlsx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "Total member's equity $21.7M (1.90x D/E); 9.81x uses retained earnings only; $31.6M sweep includes fees; roll-forward and cash flow plug inconsistencies; ~$105M net cash extracted FY2020-24",
+   "verified": true,
+   "current_as_of": "2024-12-31",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E9",
+   "source": "SSP Partners v. Gladstrong Invs. (USA) Corp., 275 S.W.3d 444 (Tex. 2008)",
+   "source_type": "case",
+   "jurisdiction": "Texas",
+   "level": "controlling",
+   "proposition": "Texas Supreme Court rejected single business enterprise liability; no liability merely from centralized control, mutual purposes, shared finances",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E10",
+   "source": "Tex. Bus. Orgs. Code 1.104 (via search summary; statute text fetch blocked)",
+   "source_type": "statute",
+   "jurisdiction": "Texas",
+   "level": "binding",
+   "proposition": "Law of the entity's governing jurisdiction applies to owner/member liability for an obligation of the entity",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E11",
+   "source": "Tex. Bus. Orgs. Code 21.223; Castleberry v. Branscum, 721 S.W.2d 270 (Tex. 1986) (via secondary summary)",
+   "source_type": "statute",
+   "jurisdiction": "Texas",
+   "level": "binding",
+   "proposition": "21.223 actual-fraud limit applies to contractual obligations; Castleberry constructive fraud still applies to tort claims",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E12",
+   "source": "Dombroski v. WellPoint, Inc., 119 Ohio St.3d 506, 2008-Ohio-4827",
+   "source_type": "case",
+   "jurisdiction": "Ohio",
+   "level": "controlling",
+   "proposition": "Ohio veil piercing prong two requires control used to commit fraud, an illegal act, or similarly unlawful act",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E13",
+   "source": "Ohio R.C. 1706.26 (via search summary)",
+   "source_type": "statute",
+   "jurisdiction": "Ohio",
+   "level": "controlling",
+   "proposition": "LLC member not liable solely by membership; failure to observe formalities not a factor or ground for liability",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E14",
+   "source": "Wallace v. Wood, 752 A.2d 1175 (Del. Ch. 1999); 6 Del. C. 18-303; Manichaean Capital v. Exela (Del. Ch. 2021) (via summaries)",
+   "source_type": "case",
+   "jurisdiction": "Delaware",
+   "level": "persuasive",
+   "proposition": "Delaware: single economic entity plus fraud or injustice; LLC member shield; narrow reverse piercing",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E15",
+   "source": "Fontana v. TLD Builders, 362 Ill.App.3d 491 (2005)",
+   "source_type": "case",
+   "jurisdiction": "Illinois",
+   "level": "binding",
+   "proposition": "Illinois two-prong: unity of interest and ownership; fraud, injustice or inequitable consequences",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E16",
+   "source": "United States v. Bestfoods, 524 U.S. 51 (1998)",
+   "source_type": "case",
+   "jurisdiction": "federal",
+   "level": "controlling",
+   "proposition": "Parent is operator only if it manages, directs or conducts operations specifically related to pollution; CERCLA authority, analogical to RCRA",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E17",
+   "source": "Tex. Civ. Prac. & Rem. Code 82.001(4)",
+   "source_type": "statute",
+   "jurisdiction": "Texas",
+   "level": "binding",
+   "proposition": "'Manufacturer' includes a designer that places product in stream of commerce",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E18",
+   "source": "Tex. Civ. Prac. & Rem. Code 41.008(b)",
+   "source_type": "statute",
+   "jurisdiction": "Texas",
+   "level": "binding",
+   "proposition": "Exemplary damages cap: greater of $200,000 or 2x economic plus noneconomic up to $750,000",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E19",
+   "source": "PHC-Minden v. Kimberly-Clark, 235 S.W.3d 163 (Tex. 2007)",
+   "source_type": "case",
+   "jurisdiction": "Texas",
+   "level": "controlling",
+   "proposition": "Jurisdictional veil piercing is distinct and requires more than ownership and shared officers",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E20",
+   "source": "Ohio RCRA authorization (40 CFR 272 Subpart KK; Fed. Reg.)",
+   "source_type": "regulation",
+   "jurisdiction": "Ohio",
+   "level": "binding",
+   "proposition": "Ohio is authorized to run the RCRA subtitle C program (since 1989)",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E21",
+   "source": "415 ILCS 5/31, 5/42 enforcement process (via PCB/secondary summaries)",
+   "source_type": "statute",
+   "jurisdiction": "Illinois",
+   "level": "binding",
+   "proposition": "AG/State's Attorney bring complaints before PCB or circuit court; Board considers 33(c) and 42(h)",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Ohio law most likely governs piercing Pryor's veil (Tex. BOC 1.104; Restatement 307); Delaware unlikely; plaintiffs will argue Texas law for tort",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E10",
+    "E3",
+    "E7"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Ohio test requires fraud/illegal/similarly unlawful act (Dombroski); 1706.26 neutralizes formalities factors only; moderate risk",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E12",
+    "E13"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Texas rejected SBE in SSP Partners; B&N 'unresolved split' is wrong; Castleberry governs tort alter ego; moderate-high risk",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E9",
+    "E11",
+    "E1",
+    "E7"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Delaware low-moderate if applied; Illinois Fontana test moderate-high",
+   "central": false,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E14",
+    "E15"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Cascade has direct designer/negligence/exemplary exposure independent of veil, supported by Orvis chain; defenses and cap noted",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E6",
+    "E7",
+    "E17",
+    "E18"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "IEPA Count III operator exposure high under Bestfoods; Illinois reach over Ohio facility and procedure contestable; Count II stronger",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E16",
+    "E20",
+    "E21"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Financial/source conflicts: 49.5M double count; 9.81x vs 1.90x; roll-forward plug; debt direction; pre-year-end dating; representation conflict",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E8",
+    "E7",
+    "E3",
+    "E2"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Insurance: $20M Pryor cover, D&O exclusion, AI gap, IEPA uninsured",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E4"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Special appearance must precede other pleas; calendar answer, removal, IEPA 45 days; Garza affects diversity",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E19",
+    "E7",
+    "E3"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Remediation is prospective only; prioritize safety fix, forensic reconciliation, equity, CMA amendment, governance, separation, environmental, insurance",
+   "central": true,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E4",
+    "E5",
+    "E8"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C1",
+   "action": "qualify",
+   "reason": "Statute text fetch blocked; stated as likely and flagged tort counter-argument"
+  },
+  {
+   "claim_id": "C3",
+   "action": "qualify",
+   "reason": "21.223/Castleberry scope only via secondary summaries; flagged"
+  },
+  {
+   "claim_id": "C4",
+   "action": "narrow",
+   "reason": "Delaware/Illinois choice-of-law and case text not fully verified; ratings hedged"
+  },
+  {
+   "claim_id": "C5",
+   "action": "narrow",
+   "reason": "Ellender cited from memory; marked unverified"
+  },
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "Illinois procedure and Ohio authorization displacement left as open"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "SSP Partners v. Gladstrong, 275 S.W.3d 444 (Tex. 2008)",
+   "url": "https://www.courtlistener.com/opinion/895058/ssp-partners-v-gladstrong-invusa/",
+   "claim": "C3"
+  },
+  {
+   "citation": "Dombroski v. WellPoint, 2008-Ohio-4827",
+   "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2008/2008-Ohio-4827.pdf",
+   "claim": "C2"
+  },
+  {
+   "citation": "Ohio R.C. 1706.26",
+   "url": "https://codes.ohio.gov/ohio-revised-code/chapter-1706",
+   "claim": "C2"
+  },
+  {
+   "citation": "United States v. Bestfoods, 524 U.S. 51 (1998)",
+   "url": "https://supreme.justia.com/cases/federal/us/524/51/",
+   "claim": "C6"
+  },
+  {
+   "citation": "Fontana v. TLD Builders, 362 Ill.App.3d 491",
+   "url": "https://law.justia.com/cases/illinois/court-of-appeals-second-appellate-district/2005/2050045.html",
+   "claim": "C4"
+  },
+  {
+   "citation": "PHC-Minden v. Kimberly-Clark, 235 S.W.3d 163",
+   "url": "https://www.courtlistener.com/opinion/894898/phc-minden-lp-v-kimberly-clark-corp/",
+   "claim": "C9"
+  },
+  {
+   "citation": "Tex. Civ. Prac. & Rem. Code 82.001",
+   "url": "https://law.justia.com/codes/texas/civil-practice-and-remedies-code/title-4/chapter-82/section-82-001/",
+   "claim": "C5"
+  },
+  {
+   "citation": "Tex. Civ. Prac. & Rem. Code 41.008",
+   "url": "https://codes.findlaw.com/tx/civil-practice-and-remedies-code/civ-prac-rem-sect-41-008/",
+   "claim": "C5"
+  },
+  {
+   "citation": "Wallace v. Wood, 752 A.2d 1175 (Del. Ch. 1999)",
+   "url": "https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1191&context=jcfl",
+   "claim": "C4"
+  }
+ ],
+ "unresolved": [
+  "Texas BOC 1.104 and 21.223 text not retrieved (site blocked); secondary summaries only",
+  "Texas decisions applying 1.104 to tort veil-piercing",
+  "Illinois choice-of-law rule for veil piercing",
+  "R.C. 1706.26 application to pre-2022 conduct",
+  "Mobil Oil v. Ellender cited from memory",
+  "Whether Ohio RCRA authorization displaces the Illinois action",
+  "Pryor financial data inconsistencies and pre-year-end dating",
+  "Procedural posture as of Oct 2026 unknown"
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "birchfield-novak-preliminary-assessment.docx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "cascade-corporate-structure-summary.docx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "iepa-enforcement-complaint.docx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "insurance-coverage-summary.docx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "intercompany-cash-management-agreement.docx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "orvis-email-chain-hp4400-safety.eml",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "plaintiffs-original-petition.docx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "pryor-financial-summary-fy2020-fy2024.xlsx",
+   "purpose": "Read supplied matter document"
+  },
+  {
+   "seq": 9,
+   "type": "web_search",
+   "target": "SSP Partners single business enterprise",
+   "purpose": "Verify SBE holding"
+  },
+  {
+   "seq": 10,
+   "type": "fetch",
+   "target": "statutes.capitol.texas.gov BO ch.1",
+   "purpose": "Fetch 1.104 (blocked)"
+  },
+  {
+   "seq": 11,
+   "type": "fetch",
+   "target": "statutes.capitol.texas.gov BO ch.21",
+   "purpose": "Fetch 21.223 (blocked)"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "Dombroski v. WellPoint",
+   "purpose": "Ohio test"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "Ohio R.C. 1706 LLC formalities",
+   "purpose": "RULLCA"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "Tex BOC 1.104",
+   "purpose": "choice of law"
+  },
+  {
+   "seq": 15,
+   "type": "web_search",
+   "target": "Tex BOC 21.223 Castleberry",
+   "purpose": "tort vs contract"
+  },
+  {
+   "seq": 16,
+   "type": "web_search",
+   "target": "Delaware Manichaean veil piercing",
+   "purpose": "Delaware"
+  },
+  {
+   "seq": 17,
+   "type": "web_search",
+   "target": "Fontana v. TLD Builders",
+   "purpose": "Illinois test"
+  },
+  {
+   "seq": 18,
+   "type": "web_search",
+   "target": "Illinois PCB enforcement 415 ILCS 5/31",
+   "purpose": "Illinois procedure"
+  },
+  {
+   "seq": 19,
+   "type": "web_search",
+   "target": "Bestfoods operator",
+   "purpose": "Operator standard"
+  },
+  {
+   "seq": 20,
+   "type": "web_search",
+   "target": "CPRC 82.001(4) and 41.008",
+   "purpose": "Designer and cap"
+  },
+  {
+   "seq": 21,
+   "type": "web_search",
+   "target": "Ohio RCRA authorization",
+   "purpose": "Ohio program"
+  },
+  {
+   "seq": 22,
+   "type": "web_search",
+   "target": "Texas veil piercing choice of law Restatement 307",
+   "purpose": "choice of law"
+  },
+  {
+   "seq": 23,
+   "type": "web_search",
+   "target": "PHC-Minden jurisdictional veil piercing",
+   "purpose": "jurisdiction"
+  },
+  {
+   "seq": 24,
+   "type": "web_search",
+   "target": "Wallace v. Wood Delaware",
+   "purpose": "Delaware test"
+  }
+ ],
+ "usage": {
+  "tool_calls": 24,
+  "elapsed_sec": null
+ }
+}

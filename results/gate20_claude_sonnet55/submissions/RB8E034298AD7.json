@@ -1,0 +1,636 @@
+{
+ "run_id": "RB8E034298AD7",
+ "benchmark_task_id": "H05",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM (PRIVILEGED AND CONFIDENTIAL - DRAFT FOR EXECUTIVE REVIEW)\nTo: Priya Ramaswamy (CEO); Board of Directors. From: Legal/Regulatory analysis. Re: NovaBridge fintech lending regulatory landscape and 8-state expansion readiness.\nRecord: matter documents run through January 2025. I checked key federal points against public sources current to October 2026; state-law points drawn only from the documents are labeled unverified.\n\n1. BOTTOM LINE\n- Do not commit to April 15, 2025 for all three Phase 1 states. Massachusetts is realistic (application filed October 30, 2024; approval est. late Feb/early March per CCO email). New Jersey and Maryland applications were unfiled as of December 13, 2024, and NJ review is 90-120 days (a deficiency letter resets the clock). Recommend splitting Phase 1: MA on schedule; NJ and MD to May/June at the earliest, with a March 31, 2025 go/no-go.\n- The overarching strategic risk is \"true lender\" recharacterization of the Ridgeline program. On the documented facts, NovaBridge buys 95% of loans within 3 business days, bears more than 90% of default risk, controls marketing, underwriting (NovaScore) and servicing, and Ridgeline keeps 5% (roughly $63M of $1.26B) and is paid about $18.2M versus NovaBridge's reported lending revenue. These facts mirror or exceed those in the PeakFund consent order. About 22% of volume ($277M) carries APRs above 36%, and the top APR is 68.2%.\n- Two existing-footprint violations/gaps need remediation now: Illinois SB 1782 (36% cap, effective January 1, 2025) and New York non-conforming commercial financing disclosures.\n- Fair lending exposure from NovaScore proxy variables is a present federal and company-wide issue, not merely a Maryland problem.\n- Several source documents contain errors or conflicts (Section 8). The board should not rely on them uncorrected, especially on Section 1033.\n\n2. IMMEDIATE GAPS IN CURRENT STATES (per Greystone, CCO tracker, board deck; statutory text not independently verified)\nIllinois SB 1782: extends the 36% all-in APR cap to commercial loans under $250,000 to borrowers with revenue under $2M. 2024 data: $41.3M IL commercial originations; $8.9M to qualifying borrowers; $3.1M (34.8%) above 36%. The tracker shows remediation \"NOT STARTED\"; the board deck says interim controls are being implemented - reconcile. Any qualifying loan made at above 36% on or after January 1, 2025 is a potential violation; run a retroactive review. Rate exportation through Ridgeline should not be relied on given true lender risk (Greystone's recommendation).\nNew York: DFS commercial financing disclosures (23 NYCRR Part 600; under $2.5M) use an \"estimated annual cost\" method built from the draft rule, not the final. NovaBridge has issued non-conforming disclosures since about September 2024 (850-1,100 borrowers per tracker). Remediate templates, decide on corrective disclosures and voluntary self-reporting with counsel. Public sources show Part 600 became mandatory August 1, 2023, not 2024 as the documents state; if so, the non-compliance period and enforcement exposure may be longer than 4-5 months. Verify against the adopted rule.\nMonitor: Colorado AG informal true-lender guidance (Nov. 2024); Virginia proposed commercial disclosure rule. The March 2024 audit is stale and covered only 12 states; several licenses renew in 2025 (TX, OH March 31; IL April 30; NY June 30).\n\n3. BANK PARTNERSHIP AND TRUE LENDER (central)\nLegal frame: Ridgeline is described in the tracker and board deck as a Utah-chartered, FDIC-insured industrial bank; rate exportation therefore rests on FDIA Section 27 (12 U.S.C. 1831d), not 12 U.S.C. 85. Greystone calls Ridgeline a \"Utah-chartered national bank\" and cites section 85; that is inconsistent and must be corrected. State regulators and courts look to substance over form (who has the predominant economic interest, controls underwriting, markets and bears risk). The documents' federal bill H.R. 4417 (\">50% economic interest\" test; 47 co-sponsors; no Senate companion; committee stage) is unverified by me. An unenacted bill creates no present rule, but state enforcement needs no legislation.\nLater development relevant to Colorado (a current state): Colorado's DIDMCA opt-out was upheld 2-1 by the Tenth Circuit on November 10, 2025 (loans are \"made in\" Colorado if either party is there), but the panel decision was vacated when the court granted en banc rehearing (April 2026); it is unresolved. Because Ridgeline is a state-chartered bank, this directly threatens exportation into Colorado, independent of true lender theory.\nConsequences if NovaBridge is the true lender: state licensing and usury apply; loans may be voidable; criminal usury exposure in some states; modeled revenue impact $38M-$52M annually (tracker estimate). Recommended: outside-counsel true lender assessment across all 20 states, contingency plan (March 15, 2025), consider increasing Ridgeline retention (tracker: peers retain 10-20%), and obtain licenses in all expansion states even though the model assumes exportation. A license does not by itself cure usury where the licensing regime caps rates.\n\n4. EXPANSION STATE READINESS (projected 2025 originations $187M; Phase 1 $112M, Phase 2 $75M)\n- NJ ($52M, Phase 1): not licensed; application not filed per December emails (CCO planned early January filing). Tracker says all expansion applications unfiled, but the CCO email says MA was filed October 30, 2024 - reconcile. Pending S.B. 2938 would add disclosures (under $500K, under 50 employees) and a 3-business-day rescission right for loans under $100K (about 67% of comparable loans; average $88,700). That collides with Ridgeline's 3-business-day purchase; options: delay NJ purchases until the window lapses (Ridgeline balance sheet and funding impact) or extend the purchase window. Usury: the documents cite a 30% criminal ceiling for corporations under N.J.S.A. 31:1-1. Public sources indicate N.J.S.A. 2C:21-19 sets criminal usury at 30% for natural persons and 50% for limited-liability business entities, and N.J.S.A. 31:1-1 civil usury is 6% (16% by written contract) with corporations barred from pleading usury. So the correct constraint depends on borrower form: sole proprietors (30%) versus LLCs/corporations (50%). Either way a 68.2% APR exceeds both. Counsel must confirm.\n- MA ($38M, Phase 1): license pending; the documents flag possible 20% criminal usury (G.L. c. 271, s. 49) applicability and 93A (unverified); obtain an opinion.\n- MD ($22M, Phase 1): not licensed; unfiled. HB 1204 (introduced October 28, 2024; committee; unenacted) would require model registration, annual independent audits, a human-review right (15 business days) and bar proxy variables with Pearson correlation above 0.30. NovaScore's own June 2024 testing: zip code 0.41 and owner's educational institution 0.37 exceed the threshold; business name 0.12 does not. Do not launch NovaScore unmodified in Maryland without a decision; build a Maryland variant (8-12 week revalidation per Greystone) or accept post-launch rework.\n- CT ($18M, Phase 2): a disclosure law is effective (cited as CGS 36a-757 by Greystone and SB 1032 by the tracker); 12% general usury limit with licensed-lender exemption; tracker notes possible 18% criminal usury even if licensed (unverified). Without an exemption virtually all volume is non-compliant; license filing by March 2025 and a usury opinion are gating.\n- MN ($15M, Phase 2): the tracker treats SF 2316 (disclosures) as enacted May 2024 and HF 3201 (AI audit) proposed; Greystone treats HF 2877 (disclosures, $500 per violation, private right of action) as proposed and does not mention SF 2316. Conflict unresolved; if a private right of action is enacted, litigation exposure is elevated. 8% general usury cap without licensed-lender status (unverified).\n- OR ($14M), AZ ($16M), NV ($12M): lower risk per documents; licenses still required; OR disclosure templates are only partly built.\nPhase 2 (July 31, 2025) is achievable only if CT and MN licenses are filed by March 2025 and usury answers favor launch; otherwise defer them.\n\n5. NOVASCORE, FAIR LENDING AND AI RULES\nExisting law governs now: ECOA and Regulation B (12 C.F.R. Part 1002) apply to business credit and require specific adverse action reasons. NovaScore (1,400+ variables) maps SHAP outputs to about 30 reason codes and gives four; the model documentation concedes this yields categories, not specific data points. June 2024 testing found a 12.4-point raw approval gap (47.3% versus 59.7%) narrowing to 4.8 points after controls, statistically significant (p<0.01), with no remediation yet. Estimated performance cost of removing zip code and school: Gini 0.72 to 0.68 (the tracker's \"8-12%\" accuracy figure is not reconciled to this). Other variables sit just under 0.30 (average daily balance 0.29, neighborhood rent index 0.27 derived from zip code, website traffic 0.26), so removing only two variables may not eliminate proxy risk; the internal documentation of known correlations creates a knowledge risk. Existing federal disparate-impact doctrine has since been narrowed: CFPB proposed (November 2025) and, per public reports, finalized in 2026 Regulation B amendments rejecting ECOA disparate impact; this reduces federal but not state-law exposure (e.g., HB 1204 if enacted). Verify the final text.\nCFPB \"proposed interpretive rule on AI in credit decisions\" (November 15, 2024; \"specific and actionable\" notices; annual disparate impact reporting): I could not locate any such Federal Register item. Public sources show Circulars 2022-03 and 2023-03 on AI adverse action notices; nothing matching the proposal's description. The law firm alert, Greystone, tracker, model documentation and board deck all rely on it. Treat as unverified until the Federal Register citation is produced; confirm it exists before budgeting engineering or filing comments. Improving explanation fidelity is nonetheless sound under existing Circular guidance. Also, the model documentation says 22% of applications go to manual review, so a human-review workflow is partly in place, contrary to Greystone's statement that decisions are fully automated.\n\n6. CFPB SECTION 1033 (corrected)\nThe outside-counsel bulletin and board deck classify NovaBridge as a Tier 1 \"large provider\" (2.1M requests versus a 500,000 threshold; April 1, 2026 deadline). That is wrong on the public rule: compliance tiers turn on data-provider asset size (depositories) or receipts (non-depositories), not request volume; the first date (April 1, 2026) covers only depositories with at least $250B assets and non-depositories with at least $10B receipts. NovaBridge is an authorized third party, not a covered data provider. The rule covers consumer Regulation E accounts and Regulation Z cards, not business accounts, and the counsel bulletin itself concedes small-business data is for later rulemaking. NovaBridge underwrites small business borrowers. Therefore the $2.5M-$4M API transition, \"screen-scraping prohibition\" and April 2026 deadline are not established obligations for NovaBridge, though sole-proprietor consumer accounts and bank partner restrictions may matter. Later status: the Eastern District of Kentucky stayed the compliance dates on October 29, 2025 (Forcht Bank v. CFPB) while the CFPB reconsiders the rule; the April 2026 date passed without enforcement. Recommendation: downgrade to monitor and obtain a written applicability opinion.\n\n7. RESOURCES AND BUDGET\nCompliance has 6 FTEs for 12 states; the tracker estimates 4 more FTEs are needed. Greystone updated audit: $175K-$225K (CCO email, 6-8 weeks) versus $275K-$400K (tracker) versus a $350K-$500K combined board ask (audit, counsel, FTE). Reconcile before the board vote.\n\n8. RECORD CONFLICTS TO FIX BEFORE BOARD USE\n(a) 2024 revenue: $87.4M (board slide 3 and 13.5% math) versus $187.4M net lending revenue (tracker); if $87.4M is right, the $38M-$52M true lender impact is 43-59% of revenue. (b) MA application status (filed versus none filed). (c) Ridgeline charter description. (d) Board member Diane Kowalski's firm: Aldersgate (emails/tracker) versus Crestview (deck appendix). (e) NY non-compliance duration (4 versus 5 months). (f) 1033 timing (17, 15 and 14 months). (g) Minnesota bill numbers and status. (h) Illinois remediation status. (i) Licensing deadline: board March 1, 2025 versus tracker February 1.\n\n9. RECOMMENDED BOARD DECISIONS\n1) Approve immediate IL/NY remediation and a retroactive IL review (by February 2025). 2) Split Phase 1; set March 31, 2025 go/no-go. 3) File NJ and MD licenses immediately; file all Phase 2 licenses on the tracker schedule. 4) Commission outside-counsel true lender assessment and a state-by-state usury opinion before pricing in expansion states. 5) Direct a NovaScore proxy-variable and business-justification review company-wide; prepare a Maryland variant. 6) Fund the updated Greystone audit and staffing. 7) Verify the CFPB AI proposal and 1033 applicability before spending or filing comments.\n\n10. UNRESOLVED\nExistence and text of the CFPB AI proposal; the state statutes cited (IL SB 1782, CT, MN, OR, MD, NJ bills; H.R. 4417); PeakFund order; MA, CT, MN usury positions; effect of the Colorado en banc ruling; NJ borrower-form usury analysis.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Phase 1/2 expansion timeline and licensing readiness (NJ, MD unfiled; MA filed; 45-120 day processing)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "True lender / bank-partnership rate exportation risk (FDIA s.27, 95% purchase, PeakFund, H.R. 4417, Colorado opt-out)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Existing-state gaps: Illinois SB 1782 36% cap and NY DFS disclosure non-conformity",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "State usury/rate caps in expansion states (NJ criminal usury correction, CT, MN, MA)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "NovaScore proxy variables, ECOA/Reg B fair lending, Maryland HB 1204",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "CFPB AI adverse action proposal: existence/verification and adverse action methodology",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "CFPB Section 1033 applicability, tiers, consumer-only scope, stay status",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "NJ S.B. 2938 rescission vs Ridgeline 3-day purchase conflict",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Disclosure law proliferation (CT, MN private right of action, OR, VA)",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Compliance capacity, audit staleness, budget conflicts",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "Internal source inconsistencies (revenue, MA filing, charter, names, bill numbers)",
+   "criticality": "important"
+  },
+  {
+   "id": "I12",
+   "text": "Recommendations, board decisions and unresolved items",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "cfpb-1033-final-rule-summary.docx (W&C Nov. 4, 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "US federal",
+   "level": "background",
+   "proposition": "Counsel claims request-volume tiers, NovaBridge Tier 1, April 1, 2026; concedes consumer-only and small-business later",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E2",
+   "source": "cfpb-ai-credit-decisions-client-alert.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "US federal",
+   "level": "background",
+   "proposition": "Describes Nov. 15, 2024 proposed AI interpretive rule",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E3",
+   "source": "greystone-state-regulatory-update-q4-2024.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "multi-state",
+   "level": "background",
+   "proposition": "State developments, true lender analysis, NJ/MD/CT/MN/IL/NY facts",
+   "verified": true,
+   "current_as_of": "2024-12-20",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E4",
+   "source": "novascore-model-documentation-exec-summary.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "Variables, SHAP reason codes, Pearson results, 4.8-pt residual gap, Gini impact, 22% manual review",
+   "verified": true,
+   "current_as_of": "2025-01-01",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "novabridge-compliance-gap-analysis.xlsx",
+   "source_type": "matter_document",
+   "jurisdiction": "multi-state",
+   "level": "background",
+   "proposition": "Expansion matrix, Ridgeline structure, federal tracker, action items",
+   "verified": true,
+   "current_as_of": "2025-01-10",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E6",
+   "source": "board-presentation-regulatory-landscape.pptx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "Financials ($87.4M revenue), recommendations, deadlines, Crestview name",
+   "verified": true,
+   "current_as_of": "2025-01-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E7",
+   "source": "expansion-timeline-concerns-email.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "Licensing status: NJ/MD unfiled, MA filed 10/30/2024; capacity; audit cost $175-225K",
+   "verified": true,
+   "current_as_of": "2024-12-13",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E8",
+   "source": "CFPB final rule PFDR / Cooley, Sidley summaries (web)",
+   "source_type": "agency_guidance",
+   "jurisdiction": "US federal",
+   "level": "binding",
+   "proposition": "1033 compliance tiers by asset/receipts; depositories >=$250B or nondepositories >=$10B receipts on 4/1/2026; Reg E/Z consumer accounts",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E9",
+   "source": "Forcht Bank v. CFPB (E.D. Ky.) stay Oct. 29, 2025 (web summaries)",
+   "source_type": "case",
+   "jurisdiction": "US federal district",
+   "level": "persuasive",
+   "proposition": "Compliance dates stayed pending CFPB reconsideration",
+   "verified": true,
+   "current_as_of": "2026-09-27",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E10",
+   "source": "N.J.S.A. 2C:21-19 and 31:1-1 (FindLaw/secondary summaries)",
+   "source_type": "statute",
+   "jurisdiction": "New Jersey",
+   "level": "binding",
+   "proposition": "Criminal usury 30% natural persons, 50% LLC/business entities; civil 6%/16%; corporations cannot plead usury",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E11",
+   "source": "NAIB v. Weiser (10th Cir. Nov. 10, 2025), en banc rehearing granted (web summaries)",
+   "source_type": "case",
+   "jurisdiction": "10th Cir.",
+   "level": "binding",
+   "proposition": "Panel upheld Colorado opt-out; vacated on en banc grant 2026",
+   "verified": true,
+   "current_as_of": "2026-06-08",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E12",
+   "source": "23 NYCRR Part 600 (DFS) / secondary summaries",
+   "source_type": "regulation",
+   "jurisdiction": "New York",
+   "level": "binding",
+   "proposition": "Mandatory August 1, 2023",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E13",
+   "source": "CFPB Circulars 2022-03, 2023-03; no Nov. 2024 AI interpretive rule found (web)",
+   "source_type": "agency_guidance",
+   "jurisdiction": "US federal",
+   "level": "persuasive",
+   "proposition": "AI adverse action guidance exists; proposal not located",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E14",
+   "source": "CFPB Reg B disparate impact amendments (proposed Nov. 2025; final reported 2026) (web)",
+   "source_type": "regulation",
+   "jurisdiction": "US federal",
+   "level": "persuasive",
+   "proposition": "Rejects ECOA effects test",
+   "verified": false,
+   "current_as_of": "2026-04-30",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Phase 1 should be split: MA feasible April 15; NJ/MD unlikely; go/no-go March 31, 2025",
+   "central": true,
+   "issue_ids": [
+    "I1",
+    "I12"
+   ],
+   "evidence_ids": [
+    "E7",
+    "E5",
+    "E6"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Record facts make true-lender recharacterization a high, central risk; exportation rests on FDIA s.27 for a Utah ILC",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E3",
+    "E6"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Colorado opt-out litigation threatens exportation by state-chartered banks; unresolved after en banc grant",
+   "central": false,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E11"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "IL SB 1782 and NY disclosure gaps require immediate remediation; NY Part 600 date appears to be Aug 2023",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E5",
+    "E12"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "NJ usury ceiling in documents is mis-stated; 30% natural persons, 50% business entities",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E10",
+    "E3"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "CT/MN/MA usury positions are unverified and gating for licensing",
+   "central": false,
+   "issue_ids": [
+    "I4",
+    "I9"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E5"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "NovaScore proxies (0.41, 0.37) and 4.8-pt residual gap create present ECOA and MD HB 1204 exposure; federal disparate impact since narrowed but state exposure remains",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E4",
+    "E3",
+    "E14"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "The CFPB AI proposal could not be verified; do not rely on it for budget or comments",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E13"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "1033 as applied by counsel is inconsistent with the public rule (asset-based tiers, consumer-only, third party); stayed",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E8",
+    "E9"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "NJ rescission conflicts with Ridgeline 3-day purchase if enacted",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E5"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "Budget and revenue conflicts and other source inconsistencies must be reconciled",
+   "central": false,
+   "issue_ids": [
+    "I10",
+    "I11"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E6",
+    "E7"
+   ]
+  },
+  {
+   "id": "C12",
+   "text": "Board decisions and unresolved list",
+   "central": false,
+   "issue_ids": [
+    "I12"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E6"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2",
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C5",
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C1",
+    "C12"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C5",
+   "action": "replace",
+   "reason": "Source documents' 30% corporate criminal usury replaced with statute-based 30%/50% split"
+  },
+  {
+   "claim_id": "C9",
+   "action": "replace",
+   "reason": "Counsel's request-volume tiers replaced with rule's asset/receipts tiers"
+  },
+  {
+   "claim_id": "C8",
+   "action": "qualify",
+   "reason": "AI proposal not located; marked unverified"
+  },
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "State usury points not independently verified"
+  },
+  {
+   "claim_id": "C4",
+   "action": "narrow",
+   "reason": "NY effective date flagged as likely 2023; remediation conclusion kept"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "Cooley, CFPB Finalizes Section 1033 Rule",
+   "url": "https://www.cooley.com/news/insight/2024/2024-10-31-cfpb-finalizes-section-1033-rule-on-personal-financial-data-rights",
+   "claim": "C9"
+  },
+  {
+   "citation": "Federal Register, Required Rulemaking on Personal Financial Data Rights, 2024-25079",
+   "url": "https://www.federalregister.gov/documents/2024/11/18/2024-25079/required-rulemaking-on-personal-financial-data-rights",
+   "claim": "C9"
+  },
+  {
+   "citation": "N.J.S.A. 2C:21-19",
+   "url": "https://codes.findlaw.com/nj/title-2c-the-new-jersey-code-of-criminal-justice/nj-st-sect-2c-21-19/",
+   "claim": "C5"
+  },
+  {
+   "citation": "23 NYCRR Part 600",
+   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
+   "claim": "C4"
+  },
+  {
+   "citation": "Tenth Circuit en banc grant, NAIB v. Weiser",
+   "url": "https://www.consumerfinancialserviceslawmonitor.com/2026/04/tenth-circuit-grants-en-banc-rehearing-in-colorado-didmca-opt-out-case-vacating-prior-panel-decision/",
+   "claim": "C3"
+  },
+  {
+   "citation": "CFPB Circular 2023-03, 89 Fed. Reg. (Apr. 17, 2024)",
+   "url": "https://www.federalregister.gov/documents/2024/04/17/2024-08003/consumer-financial-protection-circular-2023-03-adverse-action-notification-requirements-and-proper",
+   "claim": "C8"
+  },
+  {
+   "citation": "CFPB Reg B disparate impact final rule coverage",
+   "url": "https://www.consumerfinancialserviceslawmonitor.com/2026/04/cfpb-finalizes-regulation-b-subpart-a-rule-largely-as-proposed/",
+   "claim": "C7"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "runner/tasks task file / documents/cfpb-1033-final-rule-summary.docx",
+   "purpose": "Read 1033 memo"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "cfpb-ai-credit-decisions-client-alert.docx",
+   "purpose": "Read AI alert"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "greystone-state-regulatory-update-q4-2024.docx",
+   "purpose": "Read"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "novascore-model-documentation-exec-summary.docx",
+   "purpose": "Read"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "novabridge-compliance-gap-analysis.xlsx",
+   "purpose": "Read all tabs"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "board-presentation-regulatory-landscape.pptx",
+   "purpose": "Read slides"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "expansion-timeline-concerns-email.eml",
+   "purpose": "Read thread"
+  },
+  {
+   "seq": 8,
+   "type": "web_search",
+   "target": "CFPB 1033 final rule compliance dates, stay",
+   "purpose": "Verify 1033 tiers/status"
+  },
+  {
+   "seq": 9,
+   "type": "web_search",
+   "target": "CFPB Nov 2024 AI interpretive rule adverse action",
+   "purpose": "Verify existence (several searches)"
+  },
+  {
+   "seq": 10,
+   "type": "web_search",
+   "target": "NJ criminal usury 2C:21-19",
+   "purpose": "Verify NJ usury"
+  },
+  {
+   "seq": 11,
+   "type": "web_search",
+   "target": "10th Cir. NAIB v. Weiser",
+   "purpose": "Verify Colorado opt-out"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "NY DFS 23 NYCRR 600 effective date",
+   "purpose": "Verify NY date"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "1033 Forcht Bank stay reconsideration",
+   "purpose": "Verify stay"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "1033 coverage Reg E/Z, business accounts",
+   "purpose": "Verify scope"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "law.cornell.edu 12 CFR 1033.111",
+   "purpose": "Blocked by egress proxy; not used"
+  }
+ ],
+ "unresolved": [
+  "Existence/text of CFPB Nov. 2024 AI proposed interpretive rule",
+  "State statutes/bills cited only in matter documents (IL SB 1782, CT, MN, OR, MD HB 1204, NJ S.B. 2938, H.R. 4417, PeakFund) not independently verified",
+  "MA/CT/MN usury treatment",
+  "Colorado en banc outcome",
+  "NY Part 600 effective date vs documents",
+  "Revenue figure $87.4M vs $187.4M; MA filing status"
+ ],
+ "usage": {
+  "tool_calls": 19,
+  "elapsed_sec": null
+ }
+}

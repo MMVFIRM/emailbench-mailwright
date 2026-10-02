@@ -1,0 +1,186 @@
+{
+ "run_id": "R40053CF63D03",
+ "benchmark_task_id": "H11",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM\nTO: Rachel Ogilvie, General Counsel\nFROM: Nathan Hsu, Senior In-House Counsel\nRE: UCC Warranty Analysis - AquaPure Max 9000 and \"Total Performance Guarantee\"\n\nVERIFICATION NOTE. Legal research tools (statute sites, web search) were unavailable. All legal authorities below are cited from memory and are UNVERIFIED; cite-check before reliance. Not in the file: AquaMonitor documentation, Redmond pleadings, the Great Lakes LOI, the Triton solicitation, and the \"email campaign\" Stoneridge mentions.\n\nI. BOTTOM LINE\n\n1. Your conspicuousness worry is overstated; the larger problems are elsewhere: the warranty reaches buyers only after sale; marketing and sales scripts create broad express warranties the disclaimer cannot cancel; and the sales memo tells reps to withhold the warranty before purchase.\n2. The \"Total Performance Guarantee\" almost certainly creates express warranties under UCC 2-313.\n3. The consequential-damages exclusion is exposed in some states if repair/replace fails, and the claims data show that remedy is already strained.\n4. AquaMonitor is not warranted at all, and marketing invites a \"false all-clear\" claim.\n5. Do not launch on current paper. Recommended: convert the guarantee into a defined, bounded written performance warranty shown before sale. Alternative: retreat to descriptive specifications; that will not work while reps say \"guaranteed.\"\n\nII. CURRENT WARRANTY (CIT-WRN-2021-001)\n\nConspicuousness. UCC 1-201(b)(10): a term is conspicuous if a reasonable person \"ought to have noticed it\"; the court decides. Examples include a heading in capitals at least as large as the surrounding text, or contrasting type. I inspected the file. The premise (yours and BSK's 2021 memo's) that the disclaimer matches body text is half right: body text is 11-pt, and the disclaimer is all-caps 11-pt, but it sits under a 14-pt bold capitalized heading, \"SECTION 5: DISCLAIMER OF WARRANTIES.\" That fits the statutory example, and the text names merchantability and fitness (2-316(2)). Weak points: Section 7.8 says headings do not affect construction (an opponent will quote it); no bolding, box or buyer initials. Risk: low to moderate; fix cheaply.\n\nGaps.\n- \"Product\" is hardware only. \"Defect\" ties to \"published hardware specifications,\" so a buyer will argue the brochure's 99.97% is a published specification; ambiguity is construed against CIT.\n- The \"no oral or written information creates a warranty\" clause and integration clause (7.3) are weak against the marketing (Part III).\n- BSK's 2021 memo said the warranty had no governing-law or integration clause and quoted shorter disclaimer text; the file version has both. Confirm which version actually ships.\n\nIII. EXPRESS WARRANTIES AND TIMING\n\n2-313: an affirmation of fact or promise relating to the goods that becomes part of the basis of the bargain is an express warranty; no formal words are required; mere opinion or puffery is excluded. Precise numbers (99.97%, 98.5%, 500,000 gpd) and \"meets or exceeds all EPA and state standards\" are facts. The Official Comment treats pre-sale affirmations as presumptively part of the bargain.\n\n- Brochure (strongest): \"We guarantee... or we'll make it right\"; \"our commitment\"; \"ensures\" regulatory compliance; FDA/USDA, USP and cGMP claims. Regulatory outcomes depend on the customer's source water, which CIT does not control.\n- Deck: slide 7 repeats the guarantees and \"make customers whole.\" Slides 10 and 13 claim Water for Injection capability, 21 CFR Part 11 logging and an \"industry average\" comparison, none substantiated in the file; false-advertising exposure.\n- Sales memo (Jan. 8): most dangerous. Scripts \"guaranteed\"; tells reps that, if asked whether numbers are estimates, \"these are the numbers we commit to\"; scripts \"we make customers whole\" for damages questions; and says: \"Do not provide customers with a copy of the warranty document prior to purchase.\" Reps' oral statements bind CIT, and the instruction is evidence of concealment feeding unconscionability, fraud and UDAP theories. Rescind it now.\n- Quote template: softer (\"designed to achieve... standard operating conditions\"; not a binding offer), but it recites the specifications, says warranty terms arrive \"with product delivery,\" and its governing-law blank (\"Oregon / Buyer's state\") conflicts with Warranty 7.1. A court will read it with the brochure, deck and oral statements.\n\nDisclaimer cannot erase these. Under 2-316(1), express warranties and language negating them are read as consistent where reasonable, and negation is inoperative where unreasonable. The parol evidence rule (2-202) may exclude prior statements only if there is a final written agreement, which depends on the warranty being part of the contract at formation.\n\nTiming (highest-value issue). If the contract forms at order or acceptance and the warranty arrives in the crate, its terms are at best proposals under 2-207 or a modification under 2-209; between merchants, a material alteration such as a disclaimer does not bind without express assent. Courts split: ProCD v. Zeidenberg, 86 F.3d 1447 (7th Cir. 1996), and Hill v. Gateway 2000, 105 F.3d 1147 (7th Cir. 1997), enforce post-sale terms in low-price consumer sales with return rights; Step-Saver Data Sys. v. Wyse Tech., 939 F.2d 91 (3d Cir. 1991), and Klocek v. Gateway, 104 F. Supp. 2d 1332 (D. Kan. 2000), do not. A negotiated $475,000 installed sale with no practical return right is on the Step-Saver side. BSK flagged this in 2021 and it was not fixed. Consequence: the disclaimer, exclusive remedy and cap may not bind the buyer, leaving the marketing warranties plus implied warranties (2-314, 2-315; Great Lakes has a strong fitness claim) and full UCC damages.\n\nIV. STATES (all unverified)\n\nTexas / Triton ($5.7M; governmental). No single \"Texas rule\" exists. (1) A political subdivision typically buys through a competitive solicitation (Tex. Loc. Gov't Code ch. 252, confirm) on its own terms; expect rejection of Oregon law and forum, performance warranties, cure periods, liquidated damages and indemnities. Our post-sale warranty will not control. (2) Tex. Civ. Prac. & Rem. Code ch. 271, subch. I waives immunity for written goods/services contracts with local governmental entities and limits damages against the entity (271.153); it protects Triton's payment obligation, not CIT's liability. (3) DTPA treats governmental entities as consumers but exempts transactions over about $500,000 (17.49(g)); a single $5.7M contract should be exempt, unit-by-unit orders blur that. (4) Fair-notice/conspicuousness: Dresser Indus. v. Page Petroleum, 853 S.W.2d 505 (Tex. 1993). (5) Drinking-water treatment is state-regulated (TCEQ approvals, confirm); \"ensures compliance\" is a public-health promise.\n\nCalifornia / Harmon ($2.4M). Song-Beverly (Civ. Code 1790 et seq.) covers goods bought for personal, family or household use (1791(a)); a cooperative buying for members' farm businesses is outside it, and outside Magnuson-Moss. Residual risks: Unfair Competition and False Advertising Laws (Bus. & Prof. Code 17200, 17500) allow business plaintiffs; member farms as intended beneficiaries of marketing warranties; strong reliance; unconscionability (Civ. Code 1670.5; Com. Code 2302); and RRX Indus. v. Lab-Con, 772 F.2d 543 (9th Cir. 1985), voiding a consequential exclusion with the failed remedy. Check California water-treatment-device certification rules (Health & Safety Code 116825 et seq.) for contaminant-reduction claims.\n\nIllinois / Great Lakes ($4.2M; LOI signed). Uniform 810 ILCS 5/2-316 and 2-719. Illinois tests the consequential exclusion separately for unconscionability (Razor v. Hyundai, 222 Ill. 2d 75 (2006); confirm holding). FDA overlay: the sales memo promises FDA-compliant water and \"eliminated\" recall risk (express warranty), and CIT knows the buyer's purpose and reliance (2-315 fitness), which must be disclaimed in a conspicuous writing before sale. Get the LOI now.\n\nNew York / Massachusetts (flags). NY municipal buyers use city procurement rules and standard terms that override ours. Massachusetts is the sleeper: c. 93A section 11 lets a business sue for unfair or deceptive acts, with fees and up to treble damages for willful conduct, so unsubstantiated claims and the \"withhold the warranty\" instruction are targets; non-uniform 2-318 abolishes lack of privity; 2-316A is consumer-goods only. Missouri (Redmond) law was not researched.\n\nV. AQUAMONITOR v3.2\n\nGap. The warranty covers hardware; Section 5 disclaims accuracy of information from the Products; yet marketing says AquaMonitor \"continuously verifies\" performance and gives \"accurate, real-time data you can rely on for regulatory compliance.\" Those are express warranties contradicting the disclaimer.\n\nArticle 2? Embedded or bundled software is generally treated as goods (Advent Sys. v. Unisys, 925 F.2d 670 (3d Cir. 1991)); cloud subscription, updates and support are services, tested by predominant purpose (Bonebrake v. Cox, 499 F.2d 951 (8th Cir. 1974); Triangle Underwriters v. Honeywell, 604 F.2d 737 (2d Cir. 1979)). So 2-316 and 2-719 may not govern the software relationship. UCITA is enacted only in Virginia and Maryland (confirm).\n\nExposure. A false all-clear that leads a municipality to deliver contaminated water produces third-party injury and regulatory claims; contract caps do not bind residents, and Triton will seek indemnity.\n\nFix: separate license, SLA and subscription terms with measurement tolerances and calibration duties; readings are not a compliance determination and do not replace certified lab sampling; cybersecurity and data terms; defined remedies; delete or substantiate the Part 11 and \"audit-ready\" claims.\n\nVI. REMEDY DURABILITY AND CLAIMS DATA\n\nLaw. 2-719(1) permits repair/replace as exclusive remedy; 2-719(2) restores UCC remedies if it \"fails of its essential purpose\"; 2-719(3) permits excluding consequential damages unless unconscionable. Courts split on whether the exclusion survives a failed remedy: independent (e.g., Chatlos Sys. v. National Cash Register, 635 F.2d 1081 (3d Cir. 1980)) versus dependent (RRX). Section 6 declares the exclusion independent, which helps only in independent-line states and nothing if the warranty is not part of the contract. The purchase-price cap is also vulnerable once the remedy fails.\n\nData (workbook checked against Stoneridge). Claims 47, 62, 71 (up 51.1%). Repair cost $1.34M, $1.87M, $2.21M (up 64.9%). FY2024 total expense with $680,000 of consequential settlements is $2.89M, about 116% above FY2022; Stoneridge's 65% omits settlements. The 7000 line (closest analog) doubled from 18 to 36 claims and holds all consequential claims. Specification disputes: 2%, 5%, 11% of claims. Resolution time about 28, 35, 47 days; full replacements 2, 5, 8; one open claim awaits parts eight weeks. Two FY2024 claimants settled after saying repair/replace was inadequate. The warranty allows 15 business days just to respond, sets no repair deadline, and gives CIT sole choice of remedy: the facts courts use to find failure of essential purpose.\n\nRedmond ($1.2M; Missouri). Redmond says 99.5% deck specifications are express warranties; the unit tested 96.8% and was repaired ($54,000). CIT's defenses (estimates; repaired; independent exclusion) are plausible, but an adverse express-warranty ruling is the roadmap for Max 9000 buyers, and \"make customers whole\" scripts will be quoted.\n\nAssessment: for $475,000-$525,000 units with public-health and food-safety uses, the cap/exclusion package is at meaningful risk in California and Missouri, uncertain in Illinois, and largely irrelevant for Triton if its terms control.\n\nVII. INSURANCE\n\nPer Stoneridge: $5M per occurrence/$15M aggregate, $700,000 premium, 22% (about $154,000) increase, no expanded coverage. \"Rounding error\" is the wrong comparison: the premium buys no coverage for the risk at issue, while one consequential incident is projected at $500,000-$2M. Stoneridge's contractual-liability point is incomplete: exclusion b usually does not reach liability that exists without the contract. But other standard CGL provisions likely do the work: no covered \"occurrence\" or property damage for pure performance shortfall or economic loss; \"your product,\" \"impaired property\" and recall exclusions. A false monitoring reading is technology-services risk that CGL forms (with electronic-data exclusions) typically do not cover. Get the policy forms; quote technology E&O/cyber, recall/contamination and warranty coverage; confirm Redmond was noticed.\n\nVIII. ACTIONS BEFORE MARCH 17\n\n1. Withdraw sales-memo section 5 and the \"guaranteed/make customers whole\" scripts; freeze brochure and deck.\n2. Choose: (A) written Performance Warranty with defined metrics (test protocol, influent limits, measurement point, tolerance), a cure period (60-90 days), remedy ladder (re-performance, component replacement, credit or refund) and stated cap; or (B) specifications \"typical under stated conditions.\"\n3. Put the full warranty, boxed disclaimer and buyer initials in the quote and purchase order before sale; add Max 9000 and software to scope.\n4. Draft the software license/SLA.\n5. Substantiate or delete compliance, FDA, USP, WFI, Part 11 and competitor claims; reconcile configuration descriptions.\n6. Deal sheets: Triton (solicitation terms), Harmon (confirm commercial use), Great Lakes (LOI).\n7. Insurance review before the Board relies on the $154,000 figure.\n8. Cite-check; consider outside counsel in Texas, California and Massachusetts.",
+ "citations": [
+  {
+   "citation": "UCC 1-201(b)(10), 2-313, 2-316, 2-719",
+   "url": "",
+   "claim": "Core UCC provisions (conspicuousness, express warranty, disclaimer, remedy limits); cited from memory, not retrieved"
+  },
+  {
+   "citation": "ProCD v. Zeidenberg, 86 F.3d 1447 (7th Cir. 1996); Hill v. Gateway 2000, 105 F.3d 1147 (7th Cir. 1997)",
+   "url": "",
+   "claim": "Enforce post-sale terms in consumer sales; unverified"
+  },
+  {
+   "citation": "Step-Saver Data Sys. v. Wyse Tech., 939 F.2d 91 (3d Cir. 1991); Klocek v. Gateway, 104 F. Supp. 2d 1332 (D. Kan. 2000)",
+   "url": "",
+   "claim": "Reject post-sale terms; unverified"
+  },
+  {
+   "citation": "RRX Indus. v. Lab-Con, 772 F.2d 543 (9th Cir. 1985); Chatlos Sys. v. NCR, 635 F.2d 1081 (3d Cir. 1980)",
+   "url": "",
+   "claim": "Split on consequential-damages exclusion after failed remedy; unverified"
+  },
+  {
+   "citation": "Razor v. Hyundai Motor Am., 222 Ill. 2d 75 (2006)",
+   "url": "",
+   "claim": "Illinois treatment of consequential exclusion; holding to be confirmed"
+  },
+  {
+   "citation": "Advent Sys. v. Unisys, 925 F.2d 670 (3d Cir. 1991); Bonebrake v. Cox, 499 F.2d 951 (8th Cir. 1974); Triangle Underwriters v. Honeywell, 604 F.2d 737 (2d Cir. 1979)",
+   "url": "",
+   "claim": "Software as goods / predominant purpose; unverified"
+  },
+  {
+   "citation": "Dresser Indus. v. Page Petroleum, 853 S.W.2d 505 (Tex. 1993)",
+   "url": "",
+   "claim": "Texas fair notice/conspicuousness; unverified"
+  },
+  {
+   "citation": "Tex. Civ. Prac. & Rem. Code ch. 271 subch. I; Tex. Bus. & Com. Code 17.49(g); Tex. Loc. Gov't Code ch. 252",
+   "url": "",
+   "claim": "Texas government-contract and DTPA points; unverified"
+  },
+  {
+   "citation": "Cal. Civ. Code 1790 et seq.; Cal. Health & Safety Code 116825 et seq.; M.G.L. c. 93A s.11; 15 U.S.C. 2301",
+   "url": "",
+   "claim": "State and federal consumer-statute scope points; unverified"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "type": "document_read",
+   "target": "ogilvie-hsu-memo-assignment.eml",
+   "purpose": "Review supplied matter document",
+   "seq": 1
+  },
+  {
+   "type": "document_read",
+   "target": "stoneridge-insurance-letter.eml",
+   "purpose": "Review supplied matter document",
+   "seq": 2
+  },
+  {
+   "type": "document_read",
+   "target": "cit-standard-limited-warranty.docx",
+   "purpose": "Review supplied matter document",
+   "seq": 3
+  },
+  {
+   "type": "document_read",
+   "target": "bsk-warranty-memo-2021.docx",
+   "purpose": "Review supplied matter document",
+   "seq": 4
+  },
+  {
+   "type": "document_read",
+   "target": "aquapure-max-9000-marketing-brochure.docx",
+   "purpose": "Review supplied matter document",
+   "seq": 5
+  },
+  {
+   "type": "document_read",
+   "target": "draft-quotation-letter-template.docx",
+   "purpose": "Review supplied matter document",
+   "seq": 6
+  },
+  {
+   "type": "document_read",
+   "target": "sales-team-instruction-memo.docx",
+   "purpose": "Review supplied matter document",
+   "seq": 7
+  },
+  {
+   "type": "document_read",
+   "target": "aquapure-max-9000-sales-deck.pptx",
+   "purpose": "Review supplied matter document",
+   "seq": 8
+  },
+  {
+   "type": "document_read",
+   "target": "warranty-claims-summary-fy22-fy24.xlsx",
+   "purpose": "Review supplied matter document",
+   "seq": 9
+  },
+  {
+   "type": "document_read",
+   "target": "cit-standard-limited-warranty.docx (run formatting)",
+   "purpose": "Check font size/bold of disclaimer vs body",
+   "seq": 10
+  },
+  {
+   "type": "fetch",
+   "target": "statutes.capitol.texas.gov CP ch.271",
+   "purpose": "Verify statute text; blocked by egress proxy, no content obtained",
+   "seq": 11
+  },
+  {
+   "type": "fetch",
+   "target": "statutes.capitol.texas.gov BC ch.17",
+   "purpose": "Verify statute text; blocked by egress proxy, no content obtained",
+   "seq": 12
+  },
+  {
+   "type": "fetch",
+   "target": "law.cornell.edu UCC 1-201",
+   "purpose": "Verify statute text; blocked by egress proxy, no content obtained",
+   "seq": 13
+  },
+  {
+   "type": "fetch",
+   "target": "law.cornell.edu UCC 2-719",
+   "purpose": "Verify statute text; blocked by egress proxy, no content obtained",
+   "seq": 14
+  },
+  {
+   "type": "fetch",
+   "target": "texas.public.law 271.153",
+   "purpose": "Verify statute text; blocked by egress proxy, no content obtained",
+   "seq": 15
+  },
+  {
+   "type": "fetch",
+   "target": "law.justia.com MA 2-316A",
+   "purpose": "Verify statute text; blocked by egress proxy, no content obtained",
+   "seq": 16
+  },
+  {
+   "type": "web_search",
+   "target": "Tex CPRC 271.153",
+   "purpose": "Verify authority; search budget exhausted, not performed",
+   "seq": 17
+  },
+  {
+   "type": "web_search",
+   "target": "Mass 2-316A/93A",
+   "purpose": "Verify authority; search budget exhausted, not performed",
+   "seq": 18
+  },
+  {
+   "type": "web_search",
+   "target": "Razor v. Hyundai",
+   "purpose": "Verify authority; search budget exhausted, not performed",
+   "seq": 19
+  },
+  {
+   "type": "web_search",
+   "target": "Cal H&S 116830",
+   "purpose": "Verify authority; search budget exhausted, not performed",
+   "seq": 20
+  }
+ ],
+ "unresolved": [
+  "All legal authorities unverified: web/statute tools blocked or exhausted",
+  "AquaMonitor documentation, Redmond pleadings, Great Lakes LOI, Triton solicitation, email campaign not in file",
+  "Missouri and Oregon law not researched",
+  "Which warranty version actually ships (BSK quotes differ from file version)"
+ ],
+ "usage": {
+  "tool_calls": 20,
+  "elapsed_sec": null
+ }
+}

@@ -1,0 +1,545 @@
+{
+ "run_id": "RD3C84465B460",
+ "benchmark_task_id": "H02",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTO: Miranda Solano, General Counsel (cc: Lena Fischbach, COO)\nRE: FLSA/State Exempt Classification of the Customer Experience & Analytics Specialist (CEAS)\nMatter timeline: memo requested Mar. 28, 2025; hiring target May 19, 2025. Currentness checks run through Oct. 2026 and flagged below.\n\n1. BOTTOM LINE\nDo not classify the CEAS role as exempt. Recommendation: classify all 18 CEAS positions (8 Austin, 6 Irvine, 4 Portland) as non-exempt, hourly or salaried-non-exempt with timekeeping and overtime, unless the role is first redesigned (Section 7). Reasons, in order of strength:\n(a) Irvine (6 hires): $55,200 is below California's exempt salary floor ($68,640 for 2025; $70,304 from Jan. 1, 2026). This alone makes those six positions non-exempt as a matter of law, whatever the duties.\n(b) All locations: on the described duty mix, the employer is unlikely to carry its burden on the federal administrative duties test, and California's more-than-50% test is not met on any reading of the numbers.\n(c) Thornbury's letter is a consulting opinion that expressly disclaims legal advice and state law, and does not support a good-faith defense. Proceeding exempt after this memo creates willfulness exposure.\n\n2. FACTS RELIED ON (matter documents)\n- CEAS merges two eliminated roles (Customer Insights Analyst, exempt, $72,000; Senior CSR, non-exempt, $24.50/hr). Flat $55,200 salary (Grade 7, $50,000-$62,000), no bonus; about $26.54/hr on 2,080 hours; 45th percentile (Thornbury median $58,500). No supervisory duties; reports to a non-exempt Team Lead (Polk email, Feb. 10, 2025; Thornbury letter).\n- Time allocation: 40% customer service/complaints under Tier 1 and Tier 2 scripted protocols; 20% CRM data entry and running pre-built Salesforce reports; 25% analytics (Tableau dashboards, monthly trend analysis, segmentation); 15% sales support/upselling (Polk email; Thornbury Part II).\n- Limitation: I could not read the job description file itself in this run; the duty facts above come from Polk's email and Thornbury's recitation of the job description. Verify against the JD before finalizing.\n- Thornbury reviewed only the written JD, interviewed no incumbents (none exist), addressed federal law only, said it is not legal advice, and recommended counsel review and a 6-12 month re-evaluation (Part VII). Thornbury's letter does not mention California's salary floor, as you noted.\n\n3. SALARY LEVEL\nFederal. The grid and Thornbury cite the 2024 DOL rule ($844/week; $1,128 from Jan. 1, 2025). That rule was vacated nationwide in State of Texas v. U.S. Dep't of Labor, No. 4:24-cv-499 (E.D. Tex. Nov. 15, 2024) (Jordan, J.); Thornbury only says the court \"addressed\" validity, which understates it. The operative threshold reverts to $684/week ($35,568) under the 2019 rule; the $1,128 step never took effect. DOL appealed but, per secondary reports, announced in May 2026 it would not pursue further appeal; confirm current status. Result: $55,200 ($1,061.54/week) clears the federal level under either figure, so the federal salary-level test is not the problem. Grid footnote \"exceeds $844/wk per 2024 DOL rule\" and the \"Pending Regulatory Note\" should be corrected.\nCalifornia (Irvine). Cal. Lab. Code 515(a) requires a monthly salary of at least two times the state minimum wage for full-time work. 2025: $16.50 x 2 x 2,080 = $68,640. $55,200 is $13,440 short. 2026: $16.90 gives $70,304. Failing this makes the employee non-exempt regardless of duties. The compensation grid's own CEAS row leaves the California and Oregon notes blank, while Grade 8 rows apply the $68,640 floor; the Grade 7 CEAS row was never checked. The threshold is recalculated whenever the state minimum wage changes. Threshold figures come from secondary sources (see Section 9).\nOregon (Portland, remote). Oregon has its own exemption statute (ORS 653.020(3); OAR 839-020-0005) requiring a salary basis equal to the regional minimum wage x 2,080 hours (ORS 653.010; OAR 839-020-0004) plus a duties test. The grid's \"follows federal FLSA\" note is wrong in form. Salary is not the obstacle here (about $33,176 at $15.95/hr; confirm the current Portland rate, which rose July 1, 2025), but the Oregon duties test must be separately met and Oregon overtime, meal and rest rules apply to non-exempt staff.\nTexas (Austin). No separate state overtime regime; FLSA governs.\n\n4. FEDERAL ADMINISTRATIVE EXEMPTION - DUTIES (29 C.F.R. 541.200-.202, .700)\nBurden and construction. The employer bears the burden, by a preponderance (E.M.D. Sales, Inc. v. Carrera, 604 U.S. ___ (Jan. 15, 2025); Fifth Circuit practice, e.g., Meza v. Intelligent Mexican Mktg., 720 F.3d 577 (5th Cir. 2013)). Exemptions get a \"fair\" rather than narrow reading (Encino Motorcars v. Navarro, 584 U.S. 79 (2018)); this helps employers at the margin but does not change the facts. Titles and job descriptions do not control; actual duties do (29 C.F.R. 541.2, 541.700).\nPrimary duty. Primary duty is the principal, main, major or most important duty, judged on all facts; time is a factor, and over 50% is a guide but not a rule (541.700(a)-(b)). Here, 25% analytics is the only candidate exempt work. Even adding all contested items, 75% is customer service, data entry, and sales support. Thornbury's argument that the 40% service work is \"incidental\" data collection for analytics inverts the record: Polk himself describes customer service as \"the primary customer-facing piece\" and the role as \"primarily customer-facing.\" Value to the employer (\"the strategic differentiator\") is a factor but cannot override a 25% minority of time, and nothing suggests the analytics work is what the employee is hired principally to do (two years of customer service experience required; Tableau only \"preferred\"; no degree required).\nProng 1 (work related to management or general business operations). Analytics, research and quality-control-type work can qualify (541.201(b)), but the regulation separates running or servicing the business from producing or delivering the employer's service to customers (541.201(a)). Handling inbound inquiries, returns, warranty claims, and billing disputes is delivery of customer service, not administration; sales support/upselling is sales, which is not administrative. The 2022 Ridgewater memo applied the same distinction.\nProng 2 (discretion and independent judgment on matters of significance). Requires comparing and evaluating courses of conduct and deciding, with authority to make independent choices free from immediate direction (541.202(a)-(c)). It excludes applying well-established techniques or procedures, and recording, tabulating or routine work (541.202(e)). Scripted Tier 1/Tier 2 protocols, CRM entry, and running pre-built Salesforce reports fail this on their face. Dashboard building and trend analysis could qualify if the incumbent selects metrics, draws conclusions and makes recommendations that management acts on, but the JD and Thornbury describe outputs \"for management review\" and do not show authority or effect on policy; Thornbury's own conclusion rests on the JD, not observed work. Thornbury's item (d), judgment on escalated complaints beyond scripts, is in tension with the JD's \"scripted protocols\" language and, in any event, is customer-service work.\nOther exemptions. Executive: no supervision (fails 541.100). Learned professional: no degree requirement (fails 541.301). Computer employee (541.400): the role does not center on systems analysis or programming. Outside sales: no. Combination exemption (541.708) cannot aggregate non-exempt duties. None applies.\nAssessment. Federal exemption is weak and likely not defensible; I rate it more likely than not to fail on a litigated record, though the federal \"primary duty\" test is qualitative, so this is a risk judgment rather than a certainty.\n\n5. CALIFORNIA - DUTIES AND SALARY\nIndependently of salary, California's administrative exemption applies a quantitative test: \"primarily engaged\" means more than half of worktime on exempt work (Wage Order text; Lab. Code 515(e) defines the term, and the 2022 Ridgewater memo so states). At 25% analytics, Irvine CEAS employees fail by a wide margin. California also looks to the realistic requirements of the job and how time is actually spent, not the employer's description (Ramirez v. Yosemite Water Co., 20 Cal.4th 785 (1999)). Harris v. Superior Court, 53 Cal.4th 170 (2011), makes the administrative/production dichotomy a non-dispositive analytic tool, so my California conclusion rests on the salary floor and the 50% rule, not the dichotomy. Result: the six Irvine positions are non-exempt under two independent grounds. Non-exempt consequences include daily overtime (over 8 hours/day; double time over 12), seventh-day rules, meal/rest premiums, itemized wage statements, and waiting-time penalties (Lab. Code 203; up to 30 days' wages).\n\n6. EXPOSURE, WILLFULNESS, AND THE RECORD\nFLSA: unpaid overtime at 1.5x, equal liquidated damages unless the employer proves good faith and reasonable grounds (29 U.S.C. 216(b), 260), fees and costs; two-year limitations period, three if willful (29 U.S.C. 255(a)); willful means knowing or reckless disregard (McLaughlin v. Richland Shoe Co., 486 U.S. 128, 133 (1988)). The record now includes the COO's Feb. 12 doubts, your Mar. 28 written concerns, Ridgewater's 2022 advice that consultant recommendations do not substitute for legal analysis, and Thornbury's own disclaimers. Going exempt over those warnings invites a reckless-disregard finding and defeats good-faith reliance on Thornbury. Exposure multiplies across 18 incumbents.\nPAGA update: the 2022 memo states PAGA penalties as $100/$200 per employee per pay period; the 2024 reforms (AB 2288, SB 92, effective for claims from June 19, 2024) cap penalties at $15 per period where violations are cured and reduce them where the employer took reasonable steps. The reforms lower but do not remove PAGA risk; unpaid-wage and Section 203 exposure is unchanged.\nInternal precedent. The 2022 audit reclassified the Marketing Coordinator ($54,000, nearly the same salary) because production-type duties dominated. The CEAS facts are weaker for exemption: 60% of time is service and data entry versus the Marketing Coordinator's 85% production, and both used pre-built dashboards. Note also the 2025 grid row 7 lists the Marketing Coordinator (3 current) as \"Exempt - Administrative,\" contradicting the 2022 reclassification. Verify whether those three were ever kept non-exempt or were silently re-exempted; if the latter, that is a separate, possibly willful, issue.\nCounter-considerations. (i) Thornbury concluded exempt and Polk relied on it; this supports a good-faith argument only weakly, because it was a non-lawyer, federal-only, JD-based opinion with no incumbents. (ii) Analytics work could be exempt if reweighted.\nAnomalies: Thornbury attributes the Jan. 15 approval to the \"Board,\" the JD to the COO; emails use a \"crestviewoutdoor.com\" domain though the company is Aldersgate.\n\n7. OPTIONS\nA. (Recommended) Non-exempt everywhere. Keep $55,200 as pay equal to about $26.54/hr; set hourly or salaried-non-exempt pay with overtime budgeted. Add timekeeping through Lone Star Payroll, California meal/rest/wage statement compliance, Oregon rules. Cost: modest overtime and tracking.\nB. Redesign, then reclassify. Split the role (non-exempt service CEAS; exempt analyst), or shift analytics to well over 50% of time with metric selection, recommendation authority and reduced scripting; pay at least $68,640 (California; $70,304 if hired in 2026) for California. Time-study before classifying.\nC. Exempt in Texas/Oregon, non-exempt in California. Not recommended: the federal duties analysis has the same weakness, and a split classification for one job invites claims and morale issues.\nD. Exempt everywhere as proposed. Not recommended; highest exposure; the California positions would be unlawful on salary alone.\n\n8. ACTION ITEMS\n1. Hold the April 21, 2025 posting and May 19 start date for the non-exempt design unless redesign is decided; classification can be fixed before hiring at low cost.\n2. Update the grid: correct the federal threshold note, fill California/Oregon notes, and reconcile Grade 7 Marketing Coordinator status.\n3. Obtain the JD and confirm duties; if redesigning, document time studies and written decision rationale (legal basis, facts, decision-makers).\n4. Reply to Thornbury and Polk in writing; keep Thornbury's engagement to benchmarking.\n5. Calendar a 6-month actual-duties review and an annual California threshold recalculation each Jan. 1.\n\n9. UNRESOLVED / VERIFICATION\n- JD not read directly in this run (see Section 2).\n- California statute, wage order and Oregon rule text, and 29 C.F.R. text were not retrievable from primary sources (egress blocked); citations come from the supplied 2022 audit memo, DOL/BOLI materials and secondary summaries, and should be cite-checked before reliance. Current Oregon Portland minimum wage not verified.\n- Whether the 2026 DOL decision not to appeal is final should be confirmed.\n- Wage Order applicable to the Irvine role (likely No. 4 or No. 7) not determined.\n",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Federal salary level: 2024 DOL rule vacated (Texas v. DOL); threshold $684/wk; $55,200 passes",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "California salary floor 2x min wage ($68,640 for 2025; $70,304 for 2026) not met for Irvine",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Federal administrative exemption primary duty/prong 1 and 2 on 40/20/25/15 duty mix",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "California more-than-50% primarily engaged test and realistic requirements",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Oregon exemption law and Portland remote employees; grid error",
+   "criticality": "important"
+  },
+  {
+   "id": "I6",
+   "text": "Thornbury letter reliability, limits, and Ridgewater 2022 precedent/advice",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "Willfulness, liquidated damages, limitations, CA penalties/PAGA update, burden of proof",
+   "criticality": "critical"
+  },
+  {
+   "id": "I8",
+   "text": "Recommendation, options, action items, document inconsistencies, unresolved items",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "Polk email chain Feb-Mar 2025 (role facts, duties allocation, Solano concerns)",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Duty allocation 40/20/25/15; no supervision; $55,200; 18 hires by location",
+   "verified": true,
+   "current_as_of": "2025-03-28",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "Thornbury letter Mar. 14, 2025",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Federal-only analysis, JD-based, disclaimers, cites Texas v. DOL as pending/addressed",
+   "verified": true,
+   "current_as_of": "2025-03-14",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "Ridgewater & Calloway memo Sept. 12, 2022",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Marketing Coordinator reclassified; CA threshold method; >50% test; consultant advice not a substitute; PAGA figures (pre-reform)",
+   "verified": true,
+   "current_as_of": "2022-09-12",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "Compensation grid excerpt v3.2",
+   "source_type": "matter_document",
+   "jurisdiction": "N/A",
+   "level": "not_applicable",
+   "proposition": "Grade 7 CEAS row cites $844; CA/OR notes blank; Marketing Coordinator listed exempt; CA floor $68,640 (2025)",
+   "verified": true,
+   "current_as_of": "2025-02-10",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "Texas v. DOL, No. 4:24-cv-499 (E.D. Tex. Nov. 15, 2024) via Bracewell/NatLawReview/GT summaries",
+   "source_type": "case",
+   "jurisdiction": "US-5th Cir. district",
+   "level": "persuasive",
+   "proposition": "2024 rule vacated nationwide; threshold reverts to $684/wk; DOL appealed, reportedly dropped May 2026",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E6",
+   "source": "Cal. Lab. Code 515(a) and 2025/2026 threshold summaries (Skapik, Thompson Coburn, etc.)",
+   "source_type": "statute",
+   "jurisdiction": "California",
+   "level": "controlling",
+   "proposition": "2x min wage x 2080: $68,640 (2025), $70,304 (2026)",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E7",
+   "source": "DOL Fact Sheet 17C (rev. Aug. 2024) and 29 C.F.R. 541.200-.202, .700",
+   "source_type": "regulation",
+   "jurisdiction": "Federal",
+   "level": "controlling",
+   "proposition": "Two-prong admin duties test; functional areas; discretion definition",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E8",
+   "source": "Ramirez v. Yosemite Water, 20 Cal.4th 785; Harris v. Superior Court, 53 Cal.4th 170",
+   "source_type": "case",
+   "jurisdiction": "California",
+   "level": "controlling",
+   "proposition": "Realistic requirements of job; dichotomy non-dispositive",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E9",
+   "source": "BOLI salaried exempt page; ORS 653.020(3), OAR 839-020-0005/0004",
+   "source_type": "statute",
+   "jurisdiction": "Oregon",
+   "level": "controlling",
+   "proposition": "Oregon admin exemption and salary formula (min wage x 2080)",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E10",
+   "source": "Encino Motorcars v. Navarro, 584 U.S. 79; E.M.D. Sales v. Carrera (2025); Meza, 720 F.3d 577",
+   "source_type": "case",
+   "jurisdiction": "Federal/5th Cir.",
+   "level": "binding",
+   "proposition": "Fair reading; employer preponderance burden",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E11",
+   "source": "AB 2288/SB 92 PAGA reform summaries",
+   "source_type": "statute",
+   "jurisdiction": "California",
+   "level": "controlling",
+   "proposition": "Post-June 2024 PAGA penalty caps ($15 cured) supersede $100/$200 figures",
+   "verified": true,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Federal salary level is not the obstacle: 2024 rule vacated, $684/wk governs, $55,200 passes",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Irvine CEAS at $55,200 fail California's exempt salary floor ($68,640/2025; $70,304/2026) and are non-exempt regardless of duties",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E6",
+    "E3",
+    "E4"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Federal admin exemption likely fails: primary duty is customer service/data entry, scripted work lacks discretion, 25% analytics minority",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E7",
+    "E3",
+    "E10"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "California >50% test fails at 25% analytics; Ramirez realistic-requirements approach",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E8"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Oregon has its own exemption statute/salary formula; grid note wrong; duties test must still be met",
+   "central": false,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E9",
+    "E4"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "Thornbury letter is federal-only, JD-based, non-legal, and does not support good faith; Ridgewater 2022 precedent analogous",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E1"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Proceeding exempt after counsel's concerns risks willfulness (3-year SOL), liquidated damages, CA penalties; PAGA figures updated",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E10",
+    "E11",
+    "E1"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Recommend non-exempt for all 18; options, action items, grid/entity anomalies, and open items identified",
+   "central": true,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4",
+    "E2",
+    "E3"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C1",
+   "action": "none",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C2",
+   "action": "qualify",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C3",
+   "action": "none",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C4",
+   "action": "none",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C5",
+   "action": "qualify",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C6",
+   "action": "none",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C7",
+   "action": "none",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  },
+  {
+   "claim_id": "C8",
+   "action": "qualify",
+   "reason": "Primary-source text for some CA/OR/CFR provisions not retrievable (egress blocked); proposition limited to secondary-confirmed content and flagged in unresolved"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "Texas v. U.S. Dep't of Labor, No. 4:24-cv-499 (E.D. Tex. Nov. 15, 2024)",
+   "url": "https://www.bracewell.com/resources/dol-salary-rule-vacated-by-texas-court/",
+   "claim": "C1"
+  },
+  {
+   "citation": "Ramirez v. Yosemite Water Co., 20 Cal.4th 785 (1999)",
+   "url": "https://law.justia.com/cases/california/supreme-court/4th/20/785.html",
+   "claim": "C4"
+  },
+  {
+   "citation": "Harris v. Superior Court, 53 Cal.4th 170 (2011)",
+   "url": "https://scocal.stanford.edu/opinion/harris-v-super-ct-34045",
+   "claim": "C4"
+  },
+  {
+   "citation": "Encino Motorcars v. Navarro, 584 U.S. 79 (2018)",
+   "url": "https://supreme.justia.com/cases/federal/us/584/16-1362/",
+   "claim": "C3"
+  },
+  {
+   "citation": "E.M.D. Sales v. Carrera (2025)",
+   "url": "https://www.supremecourt.gov/opinions/24pdf/23-217_9o6b.pdf",
+   "claim": "C3"
+  },
+  {
+   "citation": "Meza v. Intelligent Mexican Marketing, 720 F.3d 577 (5th Cir. 2013)",
+   "url": "https://law.justia.com/cases/federal/appellate-courts/ca5/12-10785/12-10785-2013-06-18.html",
+   "claim": "C3"
+  },
+  {
+   "citation": "DOL Fact Sheet 17C",
+   "url": "https://www.dol.gov/agencies/whd/fact-sheets/17c-overtime-administrative",
+   "claim": "C3"
+  },
+  {
+   "citation": "BOLI Salaried Exempt Employees",
+   "url": "https://www.oregon.gov/boli/employers/pages/salaried-exempt-employees.aspx",
+   "claim": "C5"
+  },
+  {
+   "citation": "CA exempt threshold 2025",
+   "url": "https://www.skapiklaw.com/blog/exempt-employee-salary-floor-rises-in-2025-new-68640-threshold/",
+   "claim": "C2"
+  },
+  {
+   "citation": "CA 2026 minimum wage/exempt salary",
+   "url": "https://www.thompsoncoburn.com/insights/is-your-payroll-keeping-up-californias-2026-minimum-wage-landscape-just-shifted-again/",
+   "claim": "C2"
+  },
+  {
+   "citation": "PAGA reform",
+   "url": "https://www.klgates.com/UPDATE-California-Legislature-Amends-PAGA-Statute-through-Assembly-Bill-2288-and-Senate-Bill-92-7-11-2024",
+   "claim": "C7"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "JD docx read (denied by environment; not obtained)",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "Read compensation grid xlsx",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "Read email chain",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "Read Thornbury letter",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "Read Ridgewater memo",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 6,
+   "type": "fetch",
+   "target": "Fetch eCFR 541.202 (blocked)",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 7,
+   "type": "web_search",
+   "target": "Search Texas v. DOL status",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 8,
+   "type": "fetch",
+   "target": "Fetch CA Lab. Code 515 (blocked)",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 9,
+   "type": "fetch",
+   "target": "Fetch Cornell 541.202 (blocked)",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 10,
+   "type": "fetch",
+   "target": "Fetch Cornell 541.700 (blocked)",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 11,
+   "type": "web_search",
+   "target": "Search CA exempt threshold 2025",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "Search Oregon exemption",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "Search Fact Sheet 17C/541.201-.203",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 14,
+   "type": "case_search",
+   "target": "Search Ramirez/Harris",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 15,
+   "type": "case_search",
+   "target": "Search Encino/Meza burden",
+   "purpose": "investigate classification"
+  },
+  {
+   "seq": 16,
+   "type": "web_search",
+   "target": "Search PAGA reform and CA 2026 minimum wage",
+   "purpose": "investigate classification"
+  }
+ ],
+ "unresolved": [
+  "Job description file not read directly (access denied in environment)",
+  "Primary text of Cal. Lab. Code 515, Wage Orders, ORS/OAR, and 29 C.F.R. 541 not fetched (egress blocked); secondary-source confirmed",
+  "Final status of DOL appeal after May 2026",
+  "Applicable CA Wage Order and current Portland minimum wage not verified"
+ ],
+ "usage": {
+  "tool_calls": 22,
+  "elapsed_sec": null
+ }
+}

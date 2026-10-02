@@ -1,0 +1,197 @@
+{
+ "run_id": "RBEE5F3FEDE01",
+ "benchmark_task_id": "H14",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTO: Thomas R. Ikeda, General Counsel, Cascade Industrial Holdings, Inc.\nRE: Veil-piercing exposure (Delaware, Ohio, Texas, Illinois), choice of law, direct liability, remediation - Delgado v. Pryor, No. 2024-CV-78412 (Harris Cty.); IEPA-2024-ENF-00341\n\nI. BOTTOM LINE (authority checked via secondary sources; primary sites were blocked; cite-check before filing; Alberto v. Diversified Group, 55 F.3d 201 (5th Cir. 1995), Fontana v. TLD Builders and Ohio R.C. 2307.71 and 1706 section numbers unverified)\n1. Outside counsel's premise that Delaware law is Cascade's best choice is likely wrong. The veil being pierced is Pryor's, an Ohio LLC. Texas directs that the law of the entity's formation jurisdiction governs owner liability (Tex. Bus. Orgs. Code 1.104; internal-affairs provisions at 1.101-1.105). Expect Ohio law. Delaware governs nothing unless plaintiffs pierce Cascade's own veil, which they do not seek (the petition's \"Cascade is the alter ego of Pryor\" language is reverse/loose pleading).\n2. Ohio's test is demanding and Ohio's LLC Act helps, but Cascade's greatest exposure is not veil piercing. It is direct liability: Cascade designed the HP-4400 and its VP overruled a written safety warning. Veil piercing adds only a derivative route to Pryor's liability and to Pryor's own conduct.\n3. The IEPA action has a threshold authority problem (Illinois agency, Ohio facility, Ohio-authorized program). Do not treat it as a routine merits matter; but treat any default deadline as urgent.\n4. The documents contain errors and inconsistencies (Part VI) that must be fixed before any brief, expert report, or board presentation.\n\nII. CHOICE OF LAW\nTexas rule. Tex. Bus. Orgs. Code 1.104 provides that the law of the jurisdiction governing an entity (its formation state for foreign entities) applies to the liability of an owner, member, or managerial official for the entity's obligations. Texas courts and the Fifth Circuit have long applied the law of the state of organization to veil piercing. The Birchfield letter's assertion that Texas lacks a settled approach and may use Restatement \"most significant relationship\" is overstated as to entity-liability questions; the statute is the primary authority.\n\nIII. JURISDICTION-BY-JURISDICTION STANDARDS\nA. Ohio (most likely governing; Pryor's formation state)\nTest: Belvedere Condo. Unit Owners' Ass'n v. R.E. Roark Cos., 67 Ohio St.3d 274 (1993), as modified by Dombroski v. WellPoint, 119 Ohio St.3d 506, 2008-Ohio-4827: (1) control so complete the entity has no separate mind, will, or existence; (2) control exercised to commit fraud, an illegal act, or a similarly unlawful act against the plaintiff; (3) injury or unjust loss resulting. Dombroski stresses extreme misconduct. Mere \"injustice\" or inability to collect is not enough - this is a materially higher bar than the petition pleads.\nLLC Act (R.C. Chapter 1706, effective 2022; it is the \"Ohio Revised LLC Act,\" not a RULLCA as the Birchfield letter says): members are not liable solely by reason of membership, and failure to observe formalities is not a factor or ground for imposing member liability. This neutralizes Cascade's weakest category (no minutes, no meetings, no board) but not control, capitalization, or misuse. Confirm the exact section number (I could not retrieve the text) and whether it applies to pre-2022 conduct (the conduct here is 2022-2024, mostly after the effective date; the 2014 formation and 2016 agreement predate it).\nElement 2 is the contest. Plaintiffs' best theories: (i) the sweep/undercapitalization scheme drained a product-liability manufacturer while shifting risk to tort claimants; (ii) overruling the interlock warning to meet delivery commitments (Choi email: CEO \"made clear\" Q1 2023 delivery is \"a top priority\") and avoiding $4,200/unit;.\nB. Texas (fallback)\nStatute: Tex. Bus. Orgs. Code 21.223-.226 (applied to LLCs by 101.002) requires actual fraud for contract-based claims; for tort claims, Castleberry v. Branscum, 721 S.W.2d 270 (Tex. 1986) alter-ego/injustice doctrine survives, and plaintiffs will invoke it (alter ego plus use to work an inequity); 21.223-.224 actual-fraud limitation and the formalities bar should be argued as applying by analogy, but a tort plaintiff is on stronger footing. Undercapitalization and extraction evidence is more potent here.\nSingle business enterprise: The Birchfield letter is wrong that SSP Partners v. Gladstrong, 275 S.W.3d 444 (Tex. 2008), merely cast \"doubt\" and that appellate courts are split. The Court rejected single-business-enterprise as a basis for imposing liability on separate entities; the theory does not supply the abuse required to disregard separateness. Move for partial summary judgment/special exception on Count Five early. Cheap and strong. Risk: Low.\nRating: Moderate-High.\nC. Delaware\nStandard: Wallace v. Wood, 752 A.2d 1175 (Del. Ch. 1999) - exclusive domination and control plus fraud or similar injustice caused by the corporate structure; a difficult task for plaintiffs. Relevance here is academic. Delaware would apply only if a court treated the claim as piercing Cascade (Delaware) - not plausible. Risk: Low, but largely unavailable.\n\nIV. DIRECT LIABILITY (MORE SERIOUS THAN VEIL PIERCING)\nProduct liability. Tex. Civ. Prac. & Rem. Code 82.001(4) defines \"manufacturer\" to include a \"designer\" ... who places the product in the stream of commerce. Cascade's engineers designed the interlock (EDS-HP4400-Rev3), Choi approved it March 22, 2022, and Cascade branding is on the machine. Plaintiffs plead strict design defect and negligence against Cascade individually (Counts Two, Three). No veil piercing is required.\nGross negligence. The email chain is plaintiffs' best exhibit: written warning of amputation hazard (July 14), a lead engineer's independent QA memo (PM-QA-2022-0047), cost and schedule justification (July 19), and acknowledgment that incident risk \"would be difficult to defend.\" Colter (VP Legal) was copied. Under CPRC 41.003 exemplary damages need clear and convincing proof and unanimity; corporate liability turns on vice-principal conduct (Choi is a VP). Punitive exposure is directed at Cascade, not Pryor, and is generally not insurable under Cascade's program (D&O excludes subsidiary product claims; coverage for Cascade as additional insured on Pryor's CGL for independent design negligence is doubtful).\nRisk rating: High to Very High. Insurance: Pryor policies total $20M against $18.5M claimed; Cascade has none for independent design liability.\n\nV. ILLINOIS EPA ACTION\nThreshold defect. The facility is in Canton, Ohio; Pryor and Cascade are Ohio-based. Ohio, not Illinois, administers RCRA Subtitle C authority for Ohio facilities (authorized state program; Ohio EPA, R.C. Chapter 3734 - verify). Illinois's authorized program and the Illinois Act reach conduct in Illinois. The complaint's jurisdictional hook is receipt at a Peoria TSDF of manifests with inaccurate waste data (paras. 21, 32). That could support limited manifest-related claims (Count II) but not storage violations at an Ohio plant (Count I, Counts III-IV as derived). Also, penalties under 415 ILCS 5/42 are ordinarily sought through the Attorney General before the Illinois Pollution Control Board or a circuit court, not assessed in an agency \"administrative complaint\" (415 ILCS 5/31 process) - the form of this proceeding needs scrutiny. Move to dismiss/contest jurisdiction and authority; raise personal jurisdiction over Cascade.\nDEADLINE. The complaint gave 45 days from service to answer, with default risk (paras. 92-93). Service is not documented but was addressed to Ikeda; if served in early October 2024, the deadline fell in mid-November, before Birchfield was retained (Nov 15). Confirm today whether an answer or extension is on file.\nOperator liability (Count III). Bestfoods, 524 U.S. 51 (1998), is a CERCLA case: a parent is directly liable if it manages, directs, or conducts operations specifically related to pollution (or in a way that is eccentric to normal parental oversight); officers who hold dual roles are presumed to act for the subsidiary. Bestfoods is persuasive for RCRA/state \"operator,\" not controlling. Facts are adverse: Whitfield's December 8, 2022 memo directed the storage configuration; Yun denied the $340,000 compliant-storage request on April 2, 2023; Pryor's GM could not spend over $50,000. Cascade employees acted as Cascade, not as Pryor officers. Direct operator exposure is meaningful (Moderate-High) wherever a forum accepts jurisdiction. Veil piercing (Count IV) adds little and under Ohio law faces Dombroski, though an \"illegal act\" (RCRA violation) in the second element is a better fit than in Delgado. Penalty $2.4M is uninsured; reserve for it.\n\nVI. RECORD PROBLEMS TO FIX NOW\n1. Retained earnings and debt-to-equity. The \"9.81:1\" ratio divides intercompany debt by retained earnings ($41.2M/$4.2M). Pryor's own balance sheet shows total member's equity of $21.7M (1.90:1 on that basis; total liabilities to equity about 2.9:1). The workbook's equity and retained-earnings lines do not reconcile with net income of $12.6-18.3M a year and yearly retention of $4-7M (retained earnings fall from $17.7M to $4.2M in FY2024 despite $16.8M net income; the $14.0M \"undistributed\" line is unexplained). Commission a forensic accountant before anyone repeats these figures.\n2. Double counting. The petition's \"$49.5M aggregate annual extraction\" adds the $5.3M and $12.6M fees to the $31.6M sweep that already includes them (correct total sweep $31.6M; $34.3M with interest). Our own materials say the same; correct it in any filing. Also, FY2024 net income is stated after deducting the management fee, so \"net income $16.8M less $12.6M = $4.2M retained\" double-deducts the fee.\n3. Direction of the intercompany balance. Cash Management Agreement 2.3 credits swept cash to an Intercompany Account on Cascade's books at 6.5% that is described as an obligation of Cascade to Pryor \"to the extent Cascade determines.\" The financials instead show a $41.2M debt owed BY Pryor. Net swept cash (about $105M after loans since FY2020) cannot be reconciled with a net payable by Pryor. Recharacterization risk runs both ways (debt vs. equity vs. receivable from Cascade).\n\nVII. REMEDIATION\nReforms do not erase 2022-2024 conduct, but they reduce ongoing and future-claim exposure and help show good faith. Sequence with litigation counsel; note that some measures may be offered as evidence of control (subsequent remedial measure arguments under Tex. R. Evid. 407 are uncertain for corporate-structure evidence).\nImmediate (0-30 days)\n- Litigation hold; no destruction or \"cleanup\" of ledgers, emails, or loan records. Any new documents must be dated currently; no backdated notes or agreements.\n- Confirm IEPA answer/default status, Texas answer date, special appearance (must precede other pleadings, Tex. R. Civ. P. 120a), removal window, and carrier notices (Ridgeway; Evergreen).\n- Suspend discretionary management-fee distributions and extraordinary sweeps while claims are pending; adopt a minimum cash reserve. Continued extraction after suit invites fraudulent-transfer claims (TUFTA; Ohio UFTA) and Ohio LLC distribution-limit claims. Obtain solvency analysis first.\n- Separate counsel for Pryor; resolve Birchfield's dual-client position.\nNear term (30-120 days)\n- Recapitalize with real equity sized by an independent expert to product-liability and revenue scale; consider converting the intercompany balance to equity after reconciling Part VI.3. Equity infusion, not more debt (Risk Management concurs).\n- Written, arm's-length services agreement with cost-based or benchmarked pricing; third-party transfer-pricing study.\n- Independent governance: board of managers with at least two independent members and real authority over budget, safety, and environmental decisions; written minutes; amend the LLC agreement to remove CEO consent for product-safety stop-ship and environmental spending.\n- Product safety: independent engineering review of the HP-4400 interlock now; evaluate field notice or retrofit. This is the most valuable step for limiting continuing exposure and punitive risk. Coordinate with counsel on notice obligations and discoverability.\n- Environmental: independent compliance officer at Canton with delegated budget; immediate cure of storage; consider Ohio EPA self-disclosure strategy.\n- Separate branding, letterhead, business cards, email domain, signage.\n\nVIII. RISK SUMMARY\nDelgado veil piercing, Ohio law: Moderate. Texas law: Moderate-High. Delaware: Low (likely inapplicable). SBE: Low. Direct design liability/gross negligence: High-Very High. IEPA direct operator theory: Moderate-High on merits, tempered by the forum-authority problem; IEPA alter ego: Moderate. Immediate priority: deadlines, forensic financial reconciliation, product safety review, and a coordinated position across both proceedings.\n\nOther flags: tax return (Form 1065 for a single-member LLC) and Exhibit B insurance statement conflict with other documents; Birchfield's dual representation of Cascade and Pryor needs a conflict check; the Orvis email is unlikely privileged; test whether 29 C.F.R. 1910.217 (mechanical presses) applies to a hydraulic press; Garza's employer immunity affects removal.\n",
+ "citations": [
+  {
+   "citation": "Tex. Bus. Orgs. Code 1.104",
+   "url": "https://tcss.legis.texas.gov/resources/SDocs/BUSINESSORGANIZATIONSCODE.pdf",
+   "claim": "Law of entity's formation jurisdiction governs owner/member liability."
+  },
+  {
+   "citation": "SSP Partners v. Gladstrong Invs. (USA) Corp., 275 S.W.3d 444 (Tex. 2008)",
+   "url": "https://search.txcourts.gov/historical/2008/nov/050721.htm",
+   "claim": "Texas Supreme Court rejected single business enterprise as basis for liability."
+  },
+  {
+   "citation": "Dombroski v. WellPoint, Inc., 119 Ohio St.3d 506, 2008-Ohio-4827",
+   "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2008/2008-Ohio-4827.pdf",
+   "claim": "Ohio second prong: fraud, illegal act, or similarly unlawful act."
+  },
+  {
+   "citation": "Belvedere Condo. Unit Owners' Ass'n v. R.E. Roark Cos., 67 Ohio St.3d 274 (1993)",
+   "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/1993/1993-ohio-119.pdf",
+   "claim": "Ohio three-part veil-piercing test."
+  },
+  {
+   "citation": "Ohio Rev. Code ch. 1706",
+   "url": "https://codes.ohio.gov/ohio-revised-code/chapter-1706",
+   "claim": "Ohio Revised LLC Act; formalities not a ground for member liability (section number unverified)."
+  },
+  {
+   "citation": "United States v. Bestfoods, 524 U.S. 51 (1998)",
+   "url": "https://supreme.justia.com/cases/federal/us/524/51/",
+   "claim": "Parent direct operator liability vs derivative veil piercing under state law."
+  },
+  {
+   "citation": "Tex. Civ. Prac. & Rem. Code 82.001(4)",
+   "url": "https://texas.public.law/statutes/tex._civ._practice_and_remedies_code_section_82.001",
+   "claim": "Manufacturer includes designer who places product in commerce."
+  },
+  {
+   "citation": "Wallace v. Wood, 752 A.2d 1175 (Del. Ch. 1999)",
+   "url": "https://law.justia.com/cases/delaware/court-of-chancery/1999/15731-3.html",
+   "claim": "Delaware veil piercing requires fraud or similar injustice."
+  },
+  {
+   "citation": "Manichaean Capital, LLC v. Exela Techs., Inc. (Del. Ch. 2021)",
+   "url": "https://www.courtlistener.com/opinion/4886220/manichaean-capital-llc-v-exela-technologies-inc/",
+   "claim": "Delaware reverse piercing only in exceptional circumstances."
+  },
+  {
+   "citation": "415 ILCS 5/31, 5/42",
+   "url": "https://ilga.gov/Documents/legislation/ilcs/documents/041500050K42.htm",
+   "claim": "Illinois Act penalties/enforcement procedure via Board or court on complaint."
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "task file",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "birchfield-novak-preliminary-assessment.docx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "cascade-corporate-structure-summary.docx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "iepa-enforcement-complaint.docx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "insurance-coverage-summary.docx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "intercompany-cash-management-agreement.docx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "plaintiffs-original-petition.docx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "orvis-email-chain eml",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "pryor-financial-summary xlsx",
+   "purpose": "Review matter facts"
+  },
+  {
+   "seq": 10,
+   "type": "web_search",
+   "target": "Ohio 1706.19 search",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 11,
+   "type": "web_search",
+   "target": "Ohio LLC formalities 1706",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "SSP Partners holding",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "Tex BOC 1.104",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "Illinois EPA enforcement procedure",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 15,
+   "type": "web_search",
+   "target": "Bestfoods",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 16,
+   "type": "web_search",
+   "target": "Dombroski/Belvedere",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 17,
+   "type": "web_search",
+   "target": "CPRC 82.001",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 18,
+   "type": "web_search",
+   "target": "Delaware Wallace/Manichaean",
+   "purpose": "Verify authority"
+  },
+  {
+   "seq": 19,
+   "type": "fetch",
+   "target": "statutes.capitol.texas.gov BOC ch.1",
+   "purpose": "Attempted primary source; blocked by egress proxy"
+  },
+  {
+   "seq": 20,
+   "type": "fetch",
+   "target": "law.justia.com SSP Partners",
+   "purpose": "Attempted primary source; blocked by egress proxy"
+  },
+  {
+   "seq": 21,
+   "type": "fetch",
+   "target": "codes.ohio.gov 1706.19",
+   "purpose": "Attempted primary source; blocked by egress proxy"
+  }
+ ],
+ "unresolved": [
+  "Primary-source text of Ohio R.C. 1706 liability/formalities section not retrieved; section number unverified.",
+  "Alberto v. Diversified Group, Fontana v. TLD Builders, Ohio R.C. 2307.71 and Ohio EPA/RCRA authorization citations not independently verified.",
+  "Service dates in Delgado and IEPA unknown; deadlines unconfirmed.",
+  "Financial data inconsistencies need forensic accounting."
+ ],
+ "usage": {
+  "tool_calls": 30,
+  "elapsed_sec": null
+ }
+}

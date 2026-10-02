@@ -1,0 +1,282 @@
+[
+  {
+    "run_id": "R1116C48AE6DE",
+    "task_id": "H01",
+    "stratum": "pure_research",
+    "source_path": "tasks/employment-labor/research-non/task.json",
+    "task_file": "task_001_R1116C48AE6DE.md"
+  },
+  {
+    "run_id": "R922AFED0D7C3",
+    "task_id": "H03",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-cpra-enforcement-priorities/task.json",
+    "task_file": "task_002_R922AFED0D7C3.md"
+  },
+  {
+    "run_id": "R3E9F53968775",
+    "task_id": "H06",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-dol-independent-contractor-rule/task.json",
+    "task_file": "task_003_R3E9F53968775.md"
+  },
+  {
+    "run_id": "REC6D84798ADE",
+    "task_id": "H16",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-governance/compare-ai-disclosure-requirements-across-jurisdictions/task.json",
+    "task_file": "task_004_REC6D84798ADE.md"
+  },
+  {
+    "run_id": "R8CECAF3AA250",
+    "task_id": "H08",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/research-fair-use-defense-for-proposed-marketing-use-of-third/task.json",
+    "task_file": "task_005_R8CECAF3AA250.md"
+  },
+  {
+    "run_id": "RE6C5954285A1",
+    "task_id": "H16",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-governance/compare-ai-disclosure-requirements-across-jurisdictions/task.json",
+    "task_file": "task_006_RE6C5954285A1.md"
+  },
+  {
+    "run_id": "RBEE5F3FEDE01",
+    "task_id": "H14",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/research-corporate-veil-piercing-standards-across-target-jurisdictions/task.json",
+    "task_file": "task_007_RBEE5F3FEDE01.md"
+  },
+  {
+    "run_id": "RBC67223A71F5",
+    "task_id": "H04",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/research-fiduciary-duty-standards-for-proposed-related/task.json",
+    "task_file": "task_008_RBC67223A71F5.md"
+  },
+  {
+    "run_id": "RB8E034298AD7",
+    "task_id": "H05",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-emerging-fintech-lending-regulations/task.json",
+    "task_file": "task_009_RB8E034298AD7.md"
+  },
+  {
+    "run_id": "R6206131C6210",
+    "task_id": "H07",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-sec-beneficial-ownership-rule-changes/task.json",
+    "task_file": "task_010_R6206131C6210.md"
+  },
+  {
+    "run_id": "RB9F53283FA72",
+    "task_id": "H10",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/research-statute-of-limitations-for-potential-breach-of-contract-claims/task.json",
+    "task_file": "task_011_RB9F53283FA72.md"
+  },
+  {
+    "run_id": "RD3C84465B460",
+    "task_id": "H02",
+    "stratum": "pure_research",
+    "source_path": "tasks/employment-labor/research-wage-and-hour-classification-for-new-job-role/task.json",
+    "task_file": "task_012_RD3C84465B460.md"
+  },
+  {
+    "run_id": "R3ECDEE816E56",
+    "task_id": "H13",
+    "stratum": "pure_research",
+    "source_path": "tasks/data-privacy-cybersecurity/research-data-localization-requirements-for-planned-market-expansion/task.json",
+    "task_file": "task_013_R3ECDEE816E56.md"
+  },
+  {
+    "run_id": "RC72A44DC5E0C",
+    "task_id": "H02",
+    "stratum": "pure_research",
+    "source_path": "tasks/employment-labor/research-wage-and-hour-classification-for-new-job-role/task.json",
+    "task_file": "task_014_RC72A44DC5E0C.md"
+  },
+  {
+    "run_id": "RF3E742E0BC9F",
+    "task_id": "H20",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/antitrust-competition/extract-relevant-product-market-definitions-from-precedent-decisions/task.json",
+    "task_file": "task_015_RF3E742E0BC9F.md"
+  },
+  {
+    "run_id": "R891436629996",
+    "task_id": "H09",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/research-trade-secret-protections-for-departing-employee/task.json",
+    "task_file": "task_016_R891436629996.md"
+  },
+  {
+    "run_id": "R7EFFC888412C",
+    "task_id": "H01",
+    "stratum": "pure_research",
+    "source_path": "tasks/employment-labor/research-non/task.json",
+    "task_file": "task_017_R7EFFC888412C.md"
+  },
+  {
+    "run_id": "RC5AC70A5F0E6",
+    "task_id": "H10",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/research-statute-of-limitations-for-potential-breach-of-contract-claims/task.json",
+    "task_file": "task_018_RC5AC70A5F0E6.md"
+  },
+  {
+    "run_id": "RE1C01C2676FA",
+    "task_id": "H19",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/healthcare-life-sciences/compare-clinical-trial-protocol-against-fda-regulatory-requirements/task.json",
+    "task_file": "task_019_RE1C01C2676FA.md"
+  },
+  {
+    "run_id": "R9F365BDC9C75",
+    "task_id": "H19",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/healthcare-life-sciences/compare-clinical-trial-protocol-against-fda-regulatory-requirements/task.json",
+    "task_file": "task_020_R9F365BDC9C75.md"
+  },
+  {
+    "run_id": "R120D19A86733",
+    "task_id": "H12",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/research-regulatory-approval-requirements-for-new-fintech-lending-business-line/task.json",
+    "task_file": "task_021_R120D19A86733.md"
+  },
+  {
+    "run_id": "R266A3112086E",
+    "task_id": "H18",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/immigration/compare-immigration/task.json",
+    "task_file": "task_022_R266A3112086E.md"
+  },
+  {
+    "run_id": "R873A919502CA",
+    "task_id": "H09",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/research-trade-secret-protections-for-departing-employee/task.json",
+    "task_file": "task_023_R873A919502CA.md"
+  },
+  {
+    "run_id": "R372556EDFA11",
+    "task_id": "H20",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/antitrust-competition/extract-relevant-product-market-definitions-from-precedent-decisions/task.json",
+    "task_file": "task_024_R372556EDFA11.md"
+  },
+  {
+    "run_id": "R53671E7204A1",
+    "task_id": "H03",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-cpra-enforcement-priorities/task.json",
+    "task_file": "task_025_R53671E7204A1.md"
+  },
+  {
+    "run_id": "RAFBD42A4E23B",
+    "task_id": "H04",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/research-fiduciary-duty-standards-for-proposed-related/task.json",
+    "task_file": "task_026_RAFBD42A4E23B.md"
+  },
+  {
+    "run_id": "R16B878ECC426",
+    "task_id": "H17",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-governance/compare-state-paid-leave-requirements-across-seven-jurisdictions/task.json",
+    "task_file": "task_027_R16B878ECC426.md"
+  },
+  {
+    "run_id": "R40053CF63D03",
+    "task_id": "H11",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/research-ucc-warranty-disclaimer-requirements-for-new-product-launch/task.json",
+    "task_file": "task_028_R40053CF63D03.md"
+  },
+  {
+    "run_id": "R8B096E615B79",
+    "task_id": "H05",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-emerging-fintech-lending-regulations/task.json",
+    "task_file": "task_029_R8B096E615B79.md"
+  },
+  {
+    "run_id": "RD4105E551F1F",
+    "task_id": "H14",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/research-corporate-veil-piercing-standards-across-target-jurisdictions/task.json",
+    "task_file": "task_030_RD4105E551F1F.md"
+  },
+  {
+    "run_id": "R220EC058F4F5",
+    "task_id": "H11",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/research-ucc-warranty-disclaimer-requirements-for-new-product-launch/task.json",
+    "task_file": "task_031_R220EC058F4F5.md"
+  },
+  {
+    "run_id": "RD37304C8E24C",
+    "task_id": "H18",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/immigration/compare-immigration/task.json",
+    "task_file": "task_032_RD37304C8E24C.md"
+  },
+  {
+    "run_id": "R80E90F81BB86",
+    "task_id": "H08",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/research-fair-use-defense-for-proposed-marketing-use-of-third/task.json",
+    "task_file": "task_033_R80E90F81BB86.md"
+  },
+  {
+    "run_id": "R7F70BDFA3361",
+    "task_id": "H12",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/research-regulatory-approval-requirements-for-new-fintech-lending-business-line/task.json",
+    "task_file": "task_034_R7F70BDFA3361.md"
+  },
+  {
+    "run_id": "RD56D28340EAB",
+    "task_id": "H07",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-sec-beneficial-ownership-rule-changes/task.json",
+    "task_file": "task_035_RD56D28340EAB.md"
+  },
+  {
+    "run_id": "R4F5452EE376F",
+    "task_id": "H17",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-governance/compare-state-paid-leave-requirements-across-seven-jurisdictions/task.json",
+    "task_file": "task_036_R4F5452EE376F.md"
+  },
+  {
+    "run_id": "R5C63D001F450",
+    "task_id": "H06",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/summarize-research-dol-independent-contractor-rule/task.json",
+    "task_file": "task_037_R5C63D001F450.md"
+  },
+  {
+    "run_id": "R20EE232C307F",
+    "task_id": "H13",
+    "stratum": "pure_research",
+    "source_path": "tasks/data-privacy-cybersecurity/research-data-localization-requirements-for-planned-market-expansion/task.json",
+    "task_file": "task_038_R20EE232C307F.md"
+  },
+  {
+    "run_id": "R0E25D17E0D7D",
+    "task_id": "H15",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/antitrust-competition/compare-leniency-programs-across-three-jurisdictions/task.json",
+    "task_file": "task_039_R0E25D17E0D7D.md"
+  },
+  {
+    "run_id": "R9E7A8C3D1792",
+    "task_id": "H15",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/antitrust-competition/compare-leniency-programs-across-three-jurisdictions/task.json",
+    "task_file": "task_040_R9E7A8C3D1792.md"
+  }
+]

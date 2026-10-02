@@ -1,0 +1,478 @@
+{
+ "run_id": "R0E25D17E0D7D",
+ "benchmark_task_id": "H15",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "BOARD MEMORANDUM (PRIVILEGED AND CONFIDENTIAL) - Leniency Comparison: U.S. DOJ, European Commission, CADE (Brazil)\nTo: MCI Board of Directors. For the December 18, 2024 meeting. Source basis: the seven matter documents (three jurisdiction memos, investigation report, Greenvale workbook, 15 Nov email, 28 Oct trade article). External-law caveat: my attempts to retrieve primary sources (DOJ FAQs, EU Notice, Law 12,529, USSG) were blocked, so statements of law below are taken from the firm's memos or my general knowledge and are marked [verify] where I doubt them. They should be confirmed against primary text before filing.\n\n1. BOTTOM LINE\n(a) Authorize marker requests in all three jurisdictions now, not on Dec 18 (the 15 Nov email asks for Nov 22). Each marker is cheap, reversible and preserves first-in position; the investigation concluded Nov 8 and the longer MCI waits the more it risks the DOJ's \"prompt reporting\" expectation [verify] and a co-conspirator filing first.\n(b) File all three within one 24-hour window, DOJ and EU first, CADE last the same day, with CADE confidentiality terms pre-negotiated (Section 5).\n(c) Do not make any public/SEC disclosure before the markers are in.\n(d) Fix the factual and legal inconsistencies in Section 4 before anything goes to an authority.\n\n2. COMPARISON\nUS (DOJ). Immunity only to the first corporation; no reduced tier for later applicants (memo). Type A (no prior information at DOJ) is non-discretionary; Type B is discretionary. Type A bars a coercer or \"clear\" leader/originator. Individuals: current directors, officers and employees who cooperate are covered (DiNapoli). Cooperation: full, continuing, complete; proffer, documents, interviews. Civil: ACPERA limits a cooperating leniency applicant to single damages. Limitation: 5 years (18 U.S.C. 3282), running from the last act of a continuing conspiracy (Sept 2024 -> Sept 2029).\nEU (Commission, 2006 Notice). Track A immunity to first applicant giving evidence enabling a targeted inspection (para 8(a)); only exclusion is coercion (para 13 [verify numbering; the Brussels memo cites para 11 for conditions]). Track B reductions: 30-50%, 20-30%, up to 20% for \"significant added value\". Marker with case-by-case deadline (Brussels memo: about 8 weeks). No individual protection; national criminal/ administrative exposure remains (Brandt, Germany). Limitation: 5 years from cessation, interrupted by investigative acts (Reg 1/2003 Art 25).\nBrazil (CADE, Law 12,529/2011 Art 86). First-in only. Full immunity if the General Superintendence lacked prior knowledge; otherwise one-third to two-thirds reduction (per Brazil memo). Applicant must have ceased involvement, admit, cooperate, identify others. Individuals covered only if expressly named (Tavares). Marker, typically 30 days (extendable). \"Everything-in-possession\" cooperation, sworn depositions. Limitation 5 years from cessation (Art 46); criminal 12 years.\nKey structural differences: only the EU rewards second-place applicants; only the DOJ (Type A) and CADE (if no prior knowledge) give automatic criminal-side protection for individuals; the EU gives none. Brazil adds information-sharing exposure; the EU memo says the Commission does not require waivers.\n\n3. MCI-SPECIFIC RISKS\n3.1 Tracker and leadership/coercion. The Market Coordination Tracker (DiNapoli, Jan 2020-Aug 2024, about 340 rows, U.S. and EU prices, no Brazil data) is the main eligibility risk. U.S.: Type A requires MCI \"clearly\" not be leader/originator; Orion approached DiNapoli, so Tracker is likely monitoring, not leadership, but DOJ could probe, and Type B (which tolerates a leader role) is the fallback if prior information exists. EU: the memos conflict. Brussels says coercion is narrow and monitoring alone is not coercion; the investigation report says it is \"broadly construed\". The report also found no coercion and no use of the Tracker to discipline. Treat as a fact question: before filing, interview DiNapoli and Brandt on who supplied EU data, whether Tracker data were ever used to pressure Polykem/Hengda, and who else saw it. Because the Tracker joins U.S. and EU data, any DOJ or EU narrative must be consistent (see 5).\n3.2 Race to file. Orion (U.S.), Polykem (EU, organizer), Hengda, and Resinas do Sul (Brazil) can each file. Orion and Polykem are instigators/organizers with the strongest incentive. U.S. and Brazil lose everything if beaten; in the EU MCI keeps Track B (illustratively EUR 47-111M after band 1; EUR 66-126M band 2 on the Greenvale EUR 94-158M range).\n3.3 CADE. The 28 Oct article reports only informal, conversational distributor contacts, no named targets, and a CADE no-comment. This does not show CADE has \"sufficient evidence\"; Brazil memo says early inquiries do not necessarily meet the threshold. But CADE's own sufficiency view is undisclosed, so full immunity can be lost; a one-third to two-thirds reduction would remain. Resinas could also be alerted by the contacts. Brazil is the most time-sensitive for its signals; the U.S. is highest-stakes (binary, largest exposure, individual jail risk).\n3.4 Cessation and tip-off. All memos say conduct ended \"September 2024\" but not whether before or after Sept 12 (discovery). Fix the exact date per person and jurisdiction: DOJ needs prompt termination on discovery, CADE cessation by proposal, the EU ends involvement immediately after application. Also check that stopping did not itself signal to co-conspirators, and that 14 interviews have not leaked.\n3.5 Individuals. Three employees are exposed in different ways: DiNapoli (up to 10 years, $1M per count; covered if current and cooperating), Tavares (must be named in CADE filing; fines R$6,200-R$24.8M individually per Brazil memo; Law 8,137 criminal 2-5 years), Brandt (no EU protection; engage German counsel; consider national authority summary applications [verify]). Do not terminate any before filing (DOJ protection runs to current employees); consider separate counsel and Upjohn warnings; conflicts are likely.\n3.6 Compliance program. Three deficiencies (optional training, no antitrust hotline, no communications audits; 2020 update cosmetic) do not bar leniency but cut mitigation, notably at CADE and in U.S. sentencing if leniency fails. Sources disagree on EU relevance (Brussels: neutral; email: \"2022 guidance\" may count; I could not verify any such guidance [verify]). Remediate now; describe the 2020 update accurately as cosmetic.\n3.7 Disclosure and civil exposure. Exposure estimates exclude civil damages. The U.S. memo's \"potentially exceeding $3 billion\" trebles total affected commerce; treble damages are driven by overcharge, not sales, so that figure is overstated. ACPERA detrebling needs timely, satisfactory cooperation with plaintiffs.\n\n4. INCONSISTENCIES IN THE RECORD TO RESOLVE BEFORE FILING\n1) U.S. marker: the U.S. memo says DOJ has no formal marker; my understanding is that the Division does grant markers, typically time-limited [verify]. This changes the \"emergency authorization\" advice: a marker call can be made now.\n2) U.S. base fine: Greenvale/report use 10% of affected commerce ($112M). The U.S. memo itself says the Guidelines base is 20% ($224M) with 10% only as a DOJ starting point for cooperators; my recollection is that USSG 2R1.1(d)(1) uses 20% [verify]. Both memos present $112M as the \"base\"; the exposure range for a non-leniency outcome could be at least double that, before culpability multipliers.\n3) Affected-commerce definition. Report: MCI's own sales. Workbook: MCI sales \"plus estimated competitor volumes\". But the figures ($197.6M per year U.S.) are below MCI's own U.S. segment revenue in every year ($198.5-247.2M), so the stated basis cannot be right. Resolve; it drives all fine estimates.\n4) U.S. limitation: the workbook says conduct before about Nov 2019 may be time-barred; the U.S. memo (and law on continuing conspiracies) says the whole conspiracy is in time to Sept 2029. Workbook text is internally inconsistent.\n5) Brazil base: workbook uses FY2022 R$580M (fine R$580K-R$116M; likely R$29-87M); report and Brazil memo use FY2023 R$620M (R$620K-R$124M). The base year is the year before proceedings open, so FY2024 will likely apply if CADE opens in 2025.\n6) Resinas revenue: \"approximately $155 million\" (report, workbook) versus \"R$155 million\" (Brazil memo). MCI's own Brazil revenue is R$620M ($123.6M), so a R$155M competitor would be one quarter of MCI; likely the memo is wrong.\n7) Workbook total: \"maximum $418.2M\" mixes U.S. theoretical maximum ($224M), EU likely-high ($171M) and Brazil ($23.2M), not the EU cap (EUR 316M, about $342M); the true aggregate cap is higher.\n8) EU fine estimate: my rough application of the 2006 Guidelines to MCI-only sales (about EUR 171M, gravity 15-30%, 5.5 years, plus 15-25% entry fee) gives about EUR 165M at the low end of gravity, above the Greenvale EUR 94-158M \"likely\" range. Request Greenvale's workings; the range may be understated.\n9) Information sharing: Brazil memo says CADE may require waivers permitting sharing with DOJ/DG COMP and cites Art 86 para 9; my recollection is that para 9 makes leniency proposals confidential [verify]. The EU memo says the Commission requires no such waiver, and DOJ/EU generally treat sharing as waiver-dependent [verify]. Treat sharing risk as real but negotiable; get CADE's position in writing.\n10) Counting: EU memo lists the UK among \"Member States\"; it is not one. Brazil 63 months is June 2019-Sept 2024 exclusive of the final month (64 inclusive). Email addressee \"mhu@\" versus CEO Margaret Hsu: confirm the address before sending privileged material.\n11) SEC: the email says Item 103 requires disclosure once the board \"acknowledges\" exposure and that an 8-K may follow. Item 103 concerns pending (or known to be contemplated) governmental proceedings; none exists, so the trigger is doubtful [verify with Bellgrove Harding]. ASC 450 accrual/disclosure analysis is genuinely engaged by year-end; the FY2024 10-K is due in roughly 60-90 days after Dec 31 depending on filer status, not \"within weeks\" of Dec 18.\n12) Scope of Leniency Plus: the U.S. memo advises disclosing EU and Brazil conduct to DOJ to earn Leniency Plus; that policy concerns separate conspiracies within Division jurisdiction, and EU/Brazil-only conduct may be outside it [verify]. Disclosing foreign conduct to DOJ is a choice with sequencing consequences, not a Penalty Plus necessity.\n\n5. RECOMMENDED SEQUENCE\nPhase 0 (now to Nov 22): board (or committee) authorizes markers; Bellgrove Harding engaged and SEC timing mapped; preservation holds confirmed; no personnel actions; confirm cessation dates; resolve Tracker questions; instruct Clearstone to keep the evidence package ready; start remediation steps (training, hotline, audits).\nPhase 1 (Day 0, one 24-hour window): (1) Brussels: EU marker request (Track A, para 8(a) basis), also considering national-authority summary applications for Germany [verify]; (2) Washington: call to Antitrust Division for a marker/Type A, limited to U.S. facts initially; (3) São Paulo: CADE marker last, naming Tavares, with express confidentiality request and a written position on information-sharing and waivers. Rationale: DOJ is binary and carries the largest exposure; the EU preserves a fallback but wants Track A; CADE is the only one where leaks to DOJ/DG COMP are plausible, so MCI's U.S./EU positions should be locked first. The three offices should hold a single call before each filing and share one agreed narrative. If CADE is likely to sign off first for any reason, the timing gap should be hours, not days.\nPhase 2 (about 30 days): perfect CADE marker (about mid-January if filed mid-December; sooner if filed Nov 22); EU marker perfection on the deadline set; DOJ proffer. Disclose Brazil/EU conduct to DOJ only after those markers exist, and only if the board decides to; keep the Tracker narrative identical across DOJ and EU.\nPhase 3: continuing cooperation, privilege review and limited waiver decisions (report states leniency may require partial waiver), coordination on individuals, civil-claim strategy (ACPERA cooperation), disclosures only after markers.\nFallbacks: if DOJ already has information, move to Type B (discretionary; leader role tolerated); if beaten in the EU, pursue Track B; if CADE has sufficient evidence or Resinas filed, seek the reduced tier or accept loss of immunity.\n\n6. DECISIONS FOR THE BOARD\nAuthorize markers in all three jurisdictions; approve naming Tavares and covering DiNapoli; approve German counsel for Brandt; approve remediation and independent assessment; instruct securities counsel and the auditor on timing; direct that Greenvale reconcile the figures in Section 4 before any quantitative statement is made to an authority.\n\nUnresolved: items marked [verify]; actual state of DOJ/DG COMP/CADE knowledge; exact cessation dates; the EU view on the Tracker; the correct affected-commerce basis.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Eligibility and structure of DOJ, EU, CADE programs (first-in, tiers, immunity, individuals, cooperation, limitation)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Market Coordination Tracker: leader/originator and EU coercion risk; conflicting memo characterizations",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Race to file / co-conspirator risk and CADE informal inquiries (prior-knowledge test)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Filing sequencing and information-sharing (CADE) risk; timing vs Dec 18 board",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Individual protection: DiNapoli, Brandt, Tavares",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "SEC/ASC 450 disclosure tension with leniency timing",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "Source inconsistencies in figures and law (marker, USSG base, affected commerce, SOL, Brazil base year, currency, total)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I8",
+   "text": "Cessation/prompt-reporting and tip-off risk",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Compliance deficiencies and mitigation",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Financial exposure and civil damages (ACPERA, treble overstatement)",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "Brazil leniency memo (15 Nov 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "Brazil",
+   "level": "background",
+   "proposition": "Art 86 first-in; immunity vs 1/3-2/3 reduction; 30-day marker; name individuals; info sharing risk; SOL; fines",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "EU leniency memo (15 Nov 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "EU",
+   "level": "background",
+   "proposition": "Track A/B, bands 30-50/20-30/<=20, coercion narrow, no individual protection, no waiver required; Greenvale fine math",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "U.S. leniency memo (15 Nov 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Type A/B conditions, no marker claimed, ACPERA, Leniency Plus, 10% vs 20% base, treble >$3B",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "Internal investigation report (15 Nov 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "US/EU/Brazil",
+   "level": "background",
+   "proposition": "Facts, Tracker, roles, evidence, compliance gaps, 'broadly construed' coercion statement, financials",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "Greenvale workbook (12 Nov 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "US/EU/Brazil",
+   "level": "background",
+   "proposition": "Revenue by year, affected commerce incl. competitors, SOL note, FY2022 Brazil base, total $418.2M",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "Velasco-Klein email (15 Nov 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Marker authorization by Nov 22, SEC Item 103/ASC 450 tension, simultaneous filings",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E7",
+   "source": "Chemical Industry Monitor article (28 Oct 2024)",
+   "source_type": "matter_document",
+   "jurisdiction": "Brazil",
+   "level": "background",
+   "proposition": "Informal, unnamed, conversational CADE inquiries; CADE no comment",
+   "verified": true,
+   "current_as_of": "2024-11-15",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E8",
+   "source": "DOJ Leniency FAQs, EU Notice, Law 12,529, USSG 2R1.1, Item 103 (primary text)",
+   "source_type": "statute",
+   "jurisdiction": "US/EU/Brazil",
+   "level": "controlling",
+   "proposition": "Not retrieved: egress blocked; points marked [verify]",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "BACKGROUND"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Programs compared: US binary, EU tiered, CADE first-in with 2-tier reduction; individuals covered in US/CADE only",
+   "central": true,
+   "issue_ids": [
+    "I1",
+    "I5"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Tracker is main eligibility risk; memos conflict on EU coercion breadth; resolve by fact work",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "CADE informal inquiries do not establish sufficient evidence but threaten immunity tier; U.S. is highest stakes",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4",
+    "E7"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "File all markers in one window, DOJ/EU first, CADE last with confidentiality; authorize before Dec 18",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E6"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Individual protections and steps for DiNapoli, Brandt, Tavares",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "SEC disclosure after markers; Item 103 trigger doubtful [verify]",
+   "central": false,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E6",
+    "E8"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Twelve record inconsistencies identified (marker, 10%/20%, affected commerce basis, SOL, FY base, currency, totals, EU fine range, UK, sharing)",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E8"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Confirm cessation date and tip-off risk",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E4"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Compliance gaps reduce mitigation; remediate",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E4"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Exposure excludes civil damages; $3B treble figure overstated",
+   "central": false,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E5"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C1",
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C7",
+   "action": "qualify",
+   "reason": "Primary sources unavailable (egress blocked); legal points marked [verify]"
+  },
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "Item 103 point unverified"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "Matter documents E1-E7",
+   "url": "",
+   "claim": "Facts and firm-memo law"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "brazil-leniency-framework-memo.docx",
+   "purpose": "read source"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "eu-leniency-notice-memo.docx",
+   "purpose": "read source"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "internal-investigation-summary.docx",
+   "purpose": "read source"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "us-leniency-policy-memo.docx",
+   "purpose": "read source"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "chemical-industry-monitor-article.txt",
+   "purpose": "read source"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "velasco-klein-board-email.eml",
+   "purpose": "read source"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "mci-financial-summary.xlsx",
+   "purpose": "read source"
+  },
+  {
+   "seq": 8,
+   "type": "fetch",
+   "target": "justice.gov leniency FAQ",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 9,
+   "type": "fetch",
+   "target": "eur-lex 2006 Notice",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 10,
+   "type": "fetch",
+   "target": "planalto Law 12,529",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 11,
+   "type": "fetch",
+   "target": "ussc 2R1.1",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "DOJ leniency marker search",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "USSG base fine search",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "Law 12,529 art 86 search",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  },
+  {
+   "seq": 15,
+   "type": "web_search",
+   "target": "EU Notice search",
+   "purpose": "primary law; failed (blocked or search budget exhausted)"
+  }
+ ],
+ "unresolved": [
+  "Primary-source verification of DOJ marker, USSG base, EU Notice paragraph numbers, Art 86 para 9, Item 103",
+  "Actual agency knowledge",
+  "Exact cessation dates",
+  "Affected-commerce basis"
+ ],
+ "usage": {
+  "tool_calls": 22,
+  "elapsed_sec": null
+ }
+}

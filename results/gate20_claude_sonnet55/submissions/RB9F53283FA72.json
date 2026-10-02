@@ -1,0 +1,130 @@
+{
+ "run_id": "RB9F53283FA72",
+ "benchmark_task_id": "H10",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTO: Rachel Stein-Nakamura, General Counsel, Verdana Technologies, Inc.\nRE: Statute of limitations - breach of contract claims against Crestline Systems Group, LLC (failed ERP integration)\n\nI. BOTTOM LINE\n1. The controlling period is not the six-year New York statute. MSA Section 14.7 sets an 18-month contractual limitations period for any claim \"arising out of or relating to\" the MSA, in any form of action (contract, tort, warranty, indemnity). Amendment No. 1 Sec. 7.2(f) re-ratified it on November 8, 2020. New York law governs (MSA 14.3, invoking GOL 5-1401), with exclusive New York County venue (14.4).\n2. Section 14.7 is very likely enforceable. CPLR 201 permits a written agreement to shorten the period, and New York courts enforce shortened periods that are reasonable (Executive Plaza, LLC v. Peerless Ins. Co., 22 N.Y.3d 511 (2014); John J. Kassner & Co. v. City of New York, 46 N.Y.2d 544 (1979)). Eighteen months, negotiated between represented commercial parties (so recited in 14.7), is reasonable. Do not rely on a six-year fallback.\n3. No tolling exists. Crestline's June 14, 2022 tolling request was never accepted; the Board declined to authorize a tolling agreement on July 12-13, 2022; your August 30, 2022 email states that no tolling agreement exists. MSA 14.5 provides that neither negotiation nor mediation tolls any period absent a separate signed tolling agreement. The February 4, 2022 notice also disclaimed tolling.\n4. Deadline. Plan around Friday, January 20, 2023 (18 months from the July 22, 2021 delivery is Sunday, January 22, 2023; do not rely on weekend roll-over). The latest arguable date is about July 28, 2023 and should not be relied on.\n5. CRITICAL TIMING FLAG. The record supplied ends August 30, 2022. If this memo is read today (October 2, 2026) and no suit was filed and no signed tolling agreement was executed after that date, every accrual theory under Section 14.7 expired in 2023 and the claims are presumptively time-barred; only the weak arguments in Part VI remain. Please confirm immediately whether suit or a tolling agreement exists outside the documents I received. The analysis applies either way.\n\nII. KEY FACTS\n- MSA March 15, 2019 ($4.25M); Amendment No. 1 (Nov. 8, 2020) added $375K, moved the Phase 3 deadline to June 30, 2021, and ratified 9.2, 11.2, 14.3, 14.4, 14.5 and 14.7 (Sec. 7.2).\n- Phase 3 delivered July 22, 2021 (22 days late). Final Acceptance Test failed October 3, 2021 (23 Severity 1 defects; crash at about 4,000 of 10,000 concurrent calls); report October 5.\n- First breach notice October 18, 2021 (email and FedEx); receipt acknowledged October 22. Cure period stated to expire January 16, 2022. Patch delivered January 10; re-test January 17-28, 2022: 9 Sev 1 defects open, crash at about 6,200 calls. Second notice February 4, 2022; Crestline disputed February 18.\n- Verdana paid $3.4M and withheld $1.225M. No suit, mediation notice or termination appears in the record.\n- Talks March-August 2022; Crestline proposed tolling June 14; Verdana's June 17 reply was non-committal; August 30 Verdana ended talks and denied any tolling.\n\nIII. GOVERNING LAW AND ENFORCEABILITY\nA. Choice of law. The MSA exceeds $250,000 and cites GOL 5-1401, so a New York court will honor the New York choice without conflicts analysis (Ministers & Missionaries Benefit Bd. v. Snow, 26 N.Y.3d 466 (2015)); 14.3 expressly covers \"the contractual limitations period.\" Verdana is Austin-based, and Tex. Civ. Prac. & Rem. Code 16.070 voids contractual limits shorter than two years. That is the main out-of-state attack on 14.7, but the NY choice-of-law clause and exclusive NY forum make it unlikely to succeed; treat it as a residual argument, not a plan. CPLR 202 (borrowing statute) borrows statutory periods and should not change this.\nB. Reasonableness. Executive Plaza confirms that shortened periods are enforceable if reasonable, but that an otherwise reasonable period may be unreasonable if the contractual accrual date leaves too little time to sue. Here accrual is knowledge-based, so Verdana had the full 18 months after learning the facts (all known by January 2022). Commercial contracts routinely carry periods of one year or less.\nC. UCC overlay. If the Platform is \"goods\" (Crestline's packaged, licensed IntegrationHub, gateway, connectors and ETL tool support this), UCC 2-725 applies: four years, reducible by agreement to not less than one year but not extendable, accruing at tender of delivery regardless of knowledge. So (i) 18 months is permitted; (ii) Crestline will argue accrual at tender (July 22, 2021), defeating later knowledge-based dates; (iii) the statutory fallback would be four years (about July 22, 2025, already past), not the six years assumed in the July 12, 2022 Board memo. If the contract is predominantly services (custom development, discovery, testing, training, support), CPLR 213(2) six years applies (July 2027-February 2028 on the Board memo's dates). Predominant-purpose characterization of hybrid software contracts is unsettled; Verdana's services argument is reasonable. Neither route helps if 14.7 is enforced.\n\nIV. ACCRUAL ANALYSIS\nNew York contract claims ordinarily accrue at breach, not discovery (Ely-Cruikshank Co. v. Bank of Montreal, 81 N.Y.2d 399 (1993); CPLR 203(a)). Section 14.7 substitutes a knowledge trigger, enforceable if reasonable. Candidate dates and 18-month deadlines:\n1. Late Phase 3 delivery (July 22, 2021): January 22, 2023 (Sunday). EARLIEST; also the UCC tender date. Plan around this.\n2. Failed Final Acceptance Test (October 3, 2021): April 3, 2023. Crestline will argue all performance claims accrued here; Verdana knew the throughput, Sev 1 and performance failures by October 3-5, 2021.\n3. First breach notice (October 18, 2021): April 18, 2023. A notice is not a breach; weak anchor.\n4. Cure expiry (stated January 16, 2022; January 17-20 if \"receipt\" under 13.2 courier rules governs): July 16-20, 2023. Supported by 9.2 (remedies after failed cure).\n5. Post-cure verification (January 17-28, 2022): July 17-28, 2023. Best argument for the latest date: failed second testing is a material breach under 3.4.\n6. Second breach notice (February 4, 2022): August 4, 2023 (the Board memo's \"latest\" date). Do not rely on it; it is Verdana's own letter and the failure was known by January 28.\nObservations: (a) different claims (late delivery, failed performance, failure to cure) may accrue differently; plead all but calendar the earliest. (b) 3.4 contemplates a formal second Final Acceptance Test; none is documented, so rely mainly on 9.2. (c) Warranty claims (7.2(b),(f)) are tied to \"Final Acceptance,\" which never occurred; I would not treat that as later accrual. (d) Ongoing damages do not restart the clock. (e) The Phase 2 delay (delivered August 14, 2020) is time-barred (18 months ran February 2022) and was released in Amendment Sec. 6.3.\n\nV. TOLLING, MEDIATION AND ESTOPPEL\n1. No written tolling agreement. GOL 17-103 enforces only a promise to waive or extend the limitations period made after accrual in a writing signed by the promisor. Pre-accrual agreements (including the Amendment's ratification) cannot extend it. Crestline asked for tolling; Verdana never signed, and the Board declination and your August 30 email foreclose any implied agreement.\n2. Mediation (14.5) does not toll. Sixty days of good-faith mediation is a condition precedent to suit, and 14.5 states nothing tolls during mediation or negotiation. Verdana must serve a mediation notice at least 60 days before the deadline (for January 20, 2023, no later than about November 18, 2022; earlier is safer given the 10-business-day mediator-selection window), or file suit before the deadline and ask for a stay pending mediation (14.5: litigation \"may be stayed or dismissed\"). Dismissal for unmet mediation is a risk but better than expiry. CPLR 205(a) refiling may not save a contractually barred claim; I have not verified its application, so do not rely on it.\n3. Equitable estoppel is very unlikely. It requires the defendant's affirmative misconduct (fraud, misrepresentation, deception) inducing the plaintiff to refrain from timely suit, plus reasonable reliance and diligence (Simcuski v. Saeli, 44 N.Y.2d 442 (1978); Zumpano v. Quinn, 6 N.Y.3d 666 (2006)). Crestline's invitation to negotiate, request to \"hold off on escalation\" (March 14, 2022) and tolling request are not deception. Verdana, with in-house counsel who flagged the deadline to the Board, refused tolling and disclaimed it in writing. The Board memo itself calls estoppel \"speculative.\" Settlement talks alone neither toll nor estop.\n4. Crestline's counterclaims ($1.225M: Phase 4 $850K; change-order $375K) face the same clock, but CPLR 203(d) may allow recoupment of otherwise barred counterclaims; do not count on 14.7 to eliminate that exposure. The $375K was never due because written acceptance was never issued (Amendment 3.3).\n\nVI. IF THE PERIOD HAS ALREADY RUN (as of October 2, 2026, absent facts outside the record)\nRemaining, weak arguments: (1) 14.7 is unenforceable as unreasonable or contrary to Texas policy; (2) a six-year CPLR 213(2) period applies (alive until July 2027-February 2028 if services; not if UCC goods, where four years expired July 2025); (3) later accrual or independent later breaches (e.g., refusal to remediate after February 18, 2022, or any post-August 2022 repudiation); (4) any post-accrual signed writing (including email with typed signature) by Crestline waiving or extending. Search post-August 30, 2022 correspondence. Verdana's claims may still be usable defensively (recoupment/setoff against Crestline's $1.225M), and 14.7 may bar Crestline's affirmative claims.\n\nVII. ASSUMPTIONS, DISCREPANCIES AND LIMITS\n- The Board memo assumes a six-year fallback without addressing UCC 2-725 and calls 14.7 enforceability \"uncertain\"; I consider it more likely than not enforceable.\n- Several documents miscite the MSA (Acceptance Report criteria; post-cure summary's Sections 6.3/6.4/Exhibit C; Board memo's Section 14.3 as notice clause). The Amendment's 200ms/95th-percentile standard controls (Amendment Sec. 8). Correct before pleading.\n- MSA notice email is mhendricks@; later emails use m.hendricks@. Receipt was acknowledged October 22, 2021, so limitations are unaffected, but cure-expiry dates may shift a day or more.\n- Not verified (cited from memory; cite-check before filing): Kassner, Ely-Cruikshank, Ministers & Missionaries, Tex. CPRC 16.070, CPLR 202/203(d)/205(a), software-as-goods authority. Verified via web: Executive Plaza, Simcuski, Zumpano, UCC 2-725, GOL 17-103.\n\nVIII. RECOMMENDED ACTIONS\n1. Confirm status: any filed action, tolling agreement or post-August 2022 writings.\n2. If still timely: calendar January 20, 2023; serve a 14.5 mediation notice immediately (JAMS/AAA); prepare a New York County complaint to file by early January with a stay request.\n3. Seek a mutual, signed post-accrual tolling agreement compliant with GOL 17-103 with a defined end date, as a supplement to, not a substitute for, filing.\n4. Plead 3.4, 7.2(b),(f), 9.2 and late-delivery breaches together; preserve all accrual theories; note the 11.2 cap ($3.4M paid) and 11.1 consequential-damages exclusion.\n5. Issue a litigation hold; review privilege over the January 28 post-cure summary, which an IT manager authored.",
+ "citations": [
+  {
+   "citation": "Executive Plaza, LLC v. Peerless Ins. Co., 22 N.Y.3d 511 (2014)",
+   "url": "https://www.nycourts.gov/REPORTER/3dseries/2014/2014_00898.htm",
+   "claim": "Shortened contractual limitations periods enforceable if reasonable; unreasonable accrual date can invalidate"
+  },
+  {
+   "citation": "N.Y. Gen. Oblig. Law 17-103",
+   "url": "https://law.justia.com/codes/new-york/gob/article-17/title-1/17-103/",
+   "claim": "Tolling/waiver promise must be post-accrual and in signed writing"
+  },
+  {
+   "citation": "Zumpano v. Quinn, 6 N.Y.3d 666 (2006); Simcuski v. Saeli, 44 N.Y.2d 442 (1978)",
+   "url": "https://www.courtlistener.com/opinion/2025994/zumpano-v-quinn/",
+   "claim": "Equitable estoppel requires defendant's affirmative misconduct inducing delay"
+  },
+  {
+   "citation": "N.Y. UCC 2-725",
+   "url": "https://codes.findlaw.com/ny/uniform-commercial-code/ucc-sect-2-725/",
+   "claim": "Four years; reducible to not less than one year; accrues at tender regardless of knowledge"
+  },
+  {
+   "citation": "Kassner, 46 N.Y.2d 544; Ely-Cruikshank, 81 N.Y.2d 399; Ministers & Missionaries, 26 N.Y.3d 466; Tex. CPRC 16.070 (unverified, from memory)",
+   "url": "",
+   "claim": "Supporting authority; cite-check required"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "master-services-agreement.docx",
+   "purpose": "Limitation, notice, mediation, governing law terms"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "amendment-no-1.docx",
+   "purpose": "Ratification of 14.7, scope changes"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "acceptance-test-report.docx",
+   "purpose": "Accrual facts"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "first-breach-notice.docx",
+   "purpose": "Notice dates"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "second-breach-notice.docx",
+   "purpose": "Notice, tolling disclaimer"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "crestline-dispute-response.docx",
+   "purpose": "Crestline position"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "post-cure-test-summary.docx",
+   "purpose": "Post-cure facts"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "internal-board-memo.docx",
+   "purpose": "Prior analysis, tolling, Board decision"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "settlement-email-chain.eml",
+   "purpose": "Tolling communications"
+  },
+  {
+   "seq": 10,
+   "type": "web_search",
+   "target": "Executive Plaza v. Peerless",
+   "purpose": "Verify enforceability standard"
+  },
+  {
+   "seq": 11,
+   "type": "fetch",
+   "target": "nysenate.gov GOL 17-103",
+   "purpose": "Blocked by proxy; no result"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "Zumpano v. Quinn / Simcuski",
+   "purpose": "Verify estoppel standard"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "NY UCC 2-725",
+   "purpose": "Verify UCC period"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "GOL 17-103 text",
+   "purpose": "Verify tolling statute"
+  }
+ ],
+ "unresolved": [
+  "Whether suit or signed tolling agreement exists after Aug 30, 2022 (today is Oct 2, 2026)",
+  "Unverified from-memory citations",
+  "Goods vs services characterization",
+  "No .docx produced; memo is in final_answer"
+ ],
+ "usage": {
+  "tool_calls": 24,
+  "elapsed_sec": null
+ }
+}

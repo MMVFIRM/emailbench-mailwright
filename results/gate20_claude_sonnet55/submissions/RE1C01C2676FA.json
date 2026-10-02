@@ -1,0 +1,778 @@
+{
+ "run_id": "RE1C01C2676FA",
+ "benchmark_task_id": "H19",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY-CLIENT / WORK PRODUCT\nGAP ANALYSIS MEMORANDUM - Protocol PTX-4820-201 v3.0 (May 18, 2025) vs. FDA requirements and April 2, 2025 Pre-IND minutes\nTo: S. Kowalski (Pinnacle). From: HSL. Target IND date: Sept 15, 2025. Review is of the Protocol and Appendix A ICF only (not CMC, pharm/tox, IB).\n\n1. EXECUTIVE SUMMARY\nThe Protocol is not ready for IND submission. Six of the seven FDA Pre-IND action items (minutes Sec. 6, item 1(a)-(f)) are unimplemented or only partly implemented, although Protocol Sec. 2.1 states the recommendations \"have been incorporated... where appropriate\" - a statement FDA will see is inaccurate. The minutes warn that no DSMB commitment \"could contribute to a clinical hold\" (21 CFR 312.42). Beyond the minutes: no pregnancy/contraception provisions; ICF gaps; a sample-size error leaving ~50% power; no IND safety-report timelines; no Part 11 or Health Canada provisions; and an outdated no-approved-therapy statement. The internal draft Regulatory Requirements Checklist cannot be delivered as is (Sec. 5). Items are remediable by Sept 15 if Trident starts now; sequence DSMB charter, SAP and ICF first.\n\nSeverity key: Critical = likely clinical hold, refuse-to-file or reviewer rejection of the primary endpoint; Major = probable FDA/IRB comment or deficiency letter; Minor = clean-up.\n\n2. FINDINGS (Protocol section -> authority -> remediation)\n\nCRITICAL\nC-1 DSMB discretionary (Sec. 9.4: \"may be convened at the Sponsor's discretion... If convened\"). Minutes 4.4: DSMB \"not optional\"; mandatory language; operational and charter final before first subject; hepatologist, independent biostatistician, clinical pharmacologist; review after first 90 subjects (~25%), at interim, on signals, ad hoc; authority over dose changes, arm termination, enrollment suspension; Sponsor commitment to consider recommendations. Protocol has none of these; Sec. 10.3 shares interim results with the DSMB \"(if convened)\". Fix: replace Sec. 9.4 with \"A DSMB will be established and operational before the first subject is randomized,\" with the composition, schedule, authority and charter-as-appendix terms above. Authority: minutes 4.4; 21 CFR 312.42; 21 CFR 312.56(d).\nC-2 No study-level stopping criteria. Sec. 9.5 has only individual-subject rules (ALT >10x ULN; Hy's Law; anaphylaxis; pregnancy). Hepatic decompensation events (variceal bleeding, ascites, any-grade encephalopathy, hepatorenal syndrome) are only AESIs (Sec. 9.2(5)); no threshold triggers DSMB review. Minutes 4.5 example: >=2 events in any arm or significant active-vs-placebo imbalance triggers expedited unscheduled DSMB review; thresholds fixed in protocol and charter pre-enrollment. Fix: add Sec. 9.5.2 with those triggers. Related: FDA recommends LFTs every 2 weeks for 12 weeks then monthly; Table 4 has Weeks 2, 4, 8, 12 then 4-6 weekly. Add Weeks 6 and 10 and monthly testing.\nC-3 Interim analysis. Sec. 10.3: single efficacy interim at Week 26 of the last enrolled subject (about April 2027, when most subjects have finished); no futility analysis. Minutes 4.6: interim at 50% enrollment (~180 randomized); formal futility analysis, conditional power <20% as threshold; arm-level drop or study termination authority to the DSMB; independent statistician under a firewall; all rules prespecified in SAP/charter before first subject and not changed without notice to FDA. The Protocol also contradicts itself (Week 26 of last subject vs \"if... approximately 50%\", nominal alpha ~0.003). A true O'Brien-Fleming boundary at 50% information is roughly 0.005 two-sided - confirm with the biostatistician. Fix: revise Sec. 10.3; limit \"authorized Sponsor personnel\" access to results. FDA accepted O'Brien-Fleming (agreed).\nC-4 Central pathology. Sec. 8.1 uses one central pathologist, calibrated with \"the Sponsor's medical team\" (a blinding risk), with 10% re-read. Minutes 4.1: strongly recommended panel of at least two independent hepatopathologists, third adjudicator, single-reader assessment called \"unacceptable inter-reader variability\"; prespecify qualifications, blinding (treatment, visit, other readers), disagreement definition (any fibrosis-stage discordance or NAS difference >=2), adjudication method, and training/calibration. Fix: rewrite Sec. 8.1 and SAP; remove Sponsor-team calibration.\nC-5 Reproductive safety. No pregnancy test, contraception requirement, or WOCBP/male-partner provisions anywhere (Sec. 4, 6, Table 4), yet Sec. 4.3/9.5.1 treat pregnancy as a stopping event and the Protocol is a 52-week trial of a novel peptide with unestablished reproductive toxicity (minutes 4.7 ask for any completed reproductive tox data). ICH M3(R2): WOCBP not on highly effective contraception or of unknown pregnancy status should not be enrolled before female reproduction toxicity studies and the genotoxicity battery are completed; precautions include pregnancy testing, highly effective contraception and entry after a confirmed menstrual period. Fix: add serum beta-hCG at screening/Day 1 and urine tests at each visit through follow-up, highly effective contraception through 12+ weeks after last dose, pregnancy follow-up procedure, exclusion of pregnant/lactating women; confirm status of EFD studies with Dr. Chen (not verified by us).\nC-6 ICF omissions (21 CFR 50.25; Appendix A). Missing: (a)(5) confidentiality and possibility of FDA inspection of records; (a)(6) compensation/medical treatment for injury (Protocol Sec. 13.4 has insurance but the ICF is silent); (b)(1) unforeseeable risks to embryo/fetus; (b)(5) significant new findings; and 50.25(c) - the verbatim ClinicalTrials.gov statement (\"A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. Law...\") for an applicable clinical trial; Protocol Sec. 13.6 commits to registration. Partial: (b)(3) additional costs, (b)(4) consequences of withdrawal/orderly termination, (a)(1) procedures (see M-4). Fix: insert required text.\n\nMAJOR\nM-1 Titration. Table 3/Sec. 5.2: Arm C reaches 30 mg at Week 3 (5/15/30). Minutes 4.2 and action item 1(b): at least 4 weeks (e.g., 5, 10, 15, then 30 mg). Revise Table 3, ICF, pharmacy materials, and add GI dose-delay/reduction rules (partly in Sec. 9.5.1). Arm B 1-week titration is optional per FDA.\nM-2 MELD. Sec. 4.2(2) excludes only \"history\" of decompensation. Add exclusion: MELD >=15 at screening (minutes 4.3; action item 1(c)), keeping the clinical criteria. Add washout for high-dose acetaminophen.\nM-3 Misstatement of current therapy. Sec. 2.1 and ICF A5 say no FDA-approved pharmacotherapy exists for NASH with fibrosis. Rezdiffra (resmetirom) received FDA accelerated approval on March 14, 2024 for noncirrhotic NASH with F2-F3 fibrosis (Madrigal press release, per search). This undercuts the ICF alternatives disclosure (50.25(a)(4)), the placebo-control rationale, and the orphan-need narrative. Revise text, ICF alternatives, and placebo-justification. Note the FDA NASH guidance (Nov/Dec 2018) is, per our search, still a draft; the Protocol should not describe it as final guidance.\nM-4 ICF duration error. ICF A2 says \"approximately 12 months.\" Protocol: 52 weeks treatment + 12 weeks follow-up = 64 weeks from randomization; 72 weeks including up to 8 weeks of screening (Sec. 5.1). Correction to the email thread: 64 weeks is about 14.8 months, not 16; about 16.5 months is the 72-week figure. ICF should state both. ICF also does not describe the three follow-up visits, PK sampling, or MRI-PDFF/genotype activities (Protocol 3.3 lists PNPLA3 genotyping and MRI-PDFF subset but neither appears in Table 4 or the ICF - add optional separate consent or delete). Visit payment: $150 x 17 = $2,550 but Sec. 13.4 counts 17 visits \"Day 1 through Week 64,\" which is 16 visits (17 including screening) - reconcile.\nM-5 IND safety reporting (Sec. 9.1). Sponsor reporting is stated only \"as required by applicable law.\" 21 CFR 312.32(c): 15 calendar days for serious, unexpected suspected adverse reactions (c)(1); 7 calendar days for unexpected fatal/life-threatening ones (c)(2); follow-up (c)(3). Protocol needs these, \"reasonable possibility\" causality standard (it uses only related/not related), expectedness vs IB, aggregate-analysis and AESI/hepatic-signal reporting, and IRB notification. Investigator SAE timeline of 48 hours to sponsor is acceptable but should be shortened to 24 hours to preserve the sponsor's 7-day clock for fatal/life-threatening events (recommendation). (Rated Major, not Critical, because sponsor duties exist regardless of protocol text.)\nM-6 Sample size. Sec. 10.1: 30% vs 45%, 80% power, two-sided 0.05 gives 162 evaluable per arm by the standard two-proportion formula (our calculation), not 78; with 15% attrition about 191 randomized per arm (about 760 total), before any multiplicity penalty. At 78 evaluable per arm, power is about 50%. FDA called the assumptions \"generally reasonable\" (minutes Sec. 5) but did not check the arithmetic. Also mITT excludes anyone without a Week 52 biopsy, so the 15% dropout allowance may be low. Fix before IND: re-derive, or restate objectives (Phase 2b dose-ranging, estimation-focused) and state a justified alternative. Underpowered design is a hold ground for Phase 2 under 312.42(b)(2) (\"clearly deficient in design\"; section paragraph numbering from memory - verify). Add an ICH E9(R1) estimand (minutes Sec. 5).\nM-7 21 CFR Part 11 / EDC (Sec. 12.1). TrialVault (Trident's proprietary EDC) is described with password roles only; no statement on validation, computer-generated time-stamped audit trails, electronic signatures (11.50/11.70/11.100), backup, or blinding safeguards, though minutes Sec. 5 expressly require Part 11 compliance and validated EDC with audit trails. Add a Part 11 section and obtain Trident's validation summary.\nM-8 Canada. Sec. 2.2 and 13.1 cite only FDA/ICH; Sec. 11.2 says only \"local\" REB arrangements. Add Health Canada Food and Drug Regulations Part C, Division 5 (C.05.001 ff.), Clinical Trial Application (C.05.005) with the 30-day default period before sale/import for trial purposes (C.05.006), REB approval and Canadian ethical/privacy requirements; also Quebec site language and Canadian privacy law (not verified by us). Suggested Sec. 2.2 text: \"Canadian sites will operate under the Food and Drug Regulations, Part C, Division 5, with Health Canada CTA authorization and REB approval documented before any Canadian site enrolls.\" Sec. 13.1: add CTA submission, a no-objection letter, and amendment submissions to Health Canada. Recommend Canadian counsel; note fee-estimate notice in engagement letter VI.\nM-9 Nonclinical coverage for 52-week dosing. Sec. 2.1 relies on 26-week GLP studies. Minutes 4.7: 39-week non-rodent study should start before/at first dosing, with results before any subject is dosed beyond 26 weeks (about April 2026 for first enrollees). The Protocol has no stage-gate. Add a dosing-duration gate. IND cover letter commitment (action item 3) is outside Protocol scope but must be confirmed.\nM-10 Human experience. Neither the Protocol nor minutes identify any human exposure to PTX-4820 (only PTX-3100); minutes call the compound one with \"limited human safety data.\" Confirm whether a Phase 1 exists; if not, FDA may question a 52-week, 30 mg-arm first-in-human design (starting-dose/safety-margin justification, sentinel dosing). Unresolved fact question for Dr. Anand.\nM-11 Misstatement of FDA alignment. Sec. 2.1 says recommendations have been incorporated. Remove or correct once items C-1 to C-4, M-1, M-2 are done. The 30-day window to dispute the minutes has closed; the minutes call the receptor \"GVP\" (it is GIP) - immaterial, note at next contact.\n\nMINOR\nm-1 Biopsy adequacy: Protocol requires 20 mm and 11 portal tracts, stricter than FDA's 1.5 cm/6; the extra stringency may raise inadequate-specimen rates, and Protocol lacks a repeat-biopsy procedure/time window (action item 4). m-2 Sec. 11.2 cites 45 CFR 46.114(b) for single IRB; for an FDA-regulated study cite 21 CFR 56.114 (cooperative research); confirm local IRB reliance for US sites. m-5 FibroScan at Week 24, FDA-agreed secondary endpoints list Weeks 26 and 52 - align. m-6 Protocol cites ICH E6(R2); ICH adopted E6(R3) in January 2025 (our recollection, not verified) - consider R3 wording; FDA's adoption date is not verified. m-7 Sec. 11.3 has no vulnerable-population provisions.\n\n3. ALIGNED: primary endpoint/paired biopsy, 1:1:1:1 design, age/F4/alcohol criteria, individual ALT/Hy's Law rules, O'Brien-Fleming spending, secondary endpoints, EAC, 30-day IND wait.\n\n4. REMEDIATION SEQUENCE\nWeek 1: DSMB, pathology, interim/SAP, ICF. Week 2: pregnancy, titration, MELD, safety reporting, sample size, Part 11. Week 3: Canada, nonclinical gate. Consider a Type C meeting; issue Protocol v4.0.\n\n5. DRAFT CHECKLIST\nThe draft XLSX checklist conflicts with Protocol v3.0 and must be re-run before delivery: it describes 50/150/300 mg doses, Protocol v2.0 (22-Apr-2024), Ishak endpoint, ANCOVA, 24-hour SAE reporting, a different medical monitor, rat/dog toxicology, ~40 sites, three biopsies, HIPAA/genetic ICF sections and a DSMB with 90/180/270 reviews, and marks DSMB/stopping rules 'Y'. It also cites non-existent 312.23(a)(6)(iii)(h)-(m). Its WOCBP, safety-timeline, Part 11 and ICF flags are directionally right. Use the engagement letter's four-status scale.\n\n6. LIMITS\neCFR/Cornell pages were blocked; regulatory text was confirmed via search summaries only (50.25(c), 312.32 timelines, Division 5 30-day period, M3(R2) WOCBP, Rezdiffra approval, NASH guidance draft status). Unverified: 312.42(b)(2) paragraph numbers, E6(R3) status, Quebec/Canadian privacy points, current status of EFD and 39-week toxicology studies. Do not share with Trident or Ridgeway without a privilege consult.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "DSMB mandatory/charter/review schedule",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Study-level stopping criteria and LFT monitoring frequency",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Interim analysis timing and futility",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Centralized pathology panel",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Pregnancy/contraception/WOCBP",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "ICF missing 50.25 elements incl. (c)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I7",
+   "text": "Titration 4 weeks",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "MELD exclusion",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Outdated no-approved-therapy statement",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "ICF duration 12 vs 64/72 weeks and other ICF-protocol inconsistencies",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "IND safety reporting timelines",
+   "criticality": "important"
+  },
+  {
+   "id": "I12",
+   "text": "Sample size arithmetic and estimand",
+   "criticality": "important"
+  },
+  {
+   "id": "I13",
+   "text": "Part 11 / EDC",
+   "criticality": "important"
+  },
+  {
+   "id": "I14",
+   "text": "Health Canada framework",
+   "criticality": "important"
+  },
+  {
+   "id": "I15",
+   "text": "Chronic tox gating and human data",
+   "criticality": "important"
+  },
+  {
+   "id": "I16",
+   "text": "Draft checklist unreliable; severity scheme",
+   "criticality": "important"
+  },
+  {
+   "id": "I17",
+   "text": "Minor items (biopsy criteria, IRB citation, amendments, E6 version)",
+   "criticality": "secondary"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "Pre-IND minutes 4.4-4.6, Sec. 6 action items",
+   "source_type": "matter_document",
+   "jurisdiction": "FDA",
+   "level": "controlling",
+   "proposition": "FDA recommendations/agreed action items: mandatory DSMB, study-level stopping criteria, 50% interim + 20% CP futility, 2+ pathologists, 4-wk titration, MELD>=15, biopsy adequacy",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "Protocol v3.0 Sec. 2.1, 4.2, 5.2, 8.1, 9.1-9.5, 10.1-10.3, 11-13, App. A",
+   "source_type": "matter_document",
+   "jurisdiction": "US/Canada",
+   "level": "controlling",
+   "proposition": "Protocol text: discretionary DSMB; single pathologist; 2-wk titration; no MELD; Week-26 interim; no pregnancy provisions; 48h SAE; ICF content; 12-month duration; 78/arm sample size",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "Engagement letter June 27, 2025",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Scope, authorities, severity scale, deliverables, July 11 deadline",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "Internal email chain June 18-19, 2025",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Client concerns: ICF elements, 12-month duration, Canada; 64 weeks stated as ~16 months",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "Draft regulatory checklist XLSX",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Checklist contents conflict with Protocol v3.0 (doses, version, endpoints, sites)",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "21 CFR 50.25(c) (via FDA/Federal Register search results)",
+   "source_type": "regulation",
+   "jurisdiction": "US",
+   "level": "binding",
+   "proposition": "ICF for applicable clinical trial must include verbatim ClinicalTrials.gov statement",
+   "verified": false,
+   "current_as_of": "2025-06-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E7",
+   "source": "21 CFR 312.32(c)(1),(c)(2) (via search results of eCFR/FDA)",
+   "source_type": "regulation",
+   "jurisdiction": "US",
+   "level": "binding",
+   "proposition": "15-calendar-day written report for serious unexpected suspected adverse reactions; 7 days for unexpected fatal/life-threatening",
+   "verified": false,
+   "current_as_of": "2025-06-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E8",
+   "source": "FDA draft guidance Noncirrhotic NASH with Liver Fibrosis, Federal Register Dec 4, 2018",
+   "source_type": "agency_guidance",
+   "jurisdiction": "US",
+   "level": "persuasive",
+   "proposition": "Guidance issued as draft, dated Nov 29, 2018",
+   "verified": false,
+   "current_as_of": "2025-06-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E9",
+   "source": "Madrigal press release / AJMC, Rezdiffra approval Mar 14, 2024",
+   "source_type": "secondary",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Resmetirom accelerated approval for noncirrhotic NASH with F2-F3 fibrosis",
+   "verified": false,
+   "current_as_of": "2025-06-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E10",
+   "source": "ICH M3(R2) (EMA/FDA copies, search summary)",
+   "source_type": "agency_guidance",
+   "jurisdiction": "US/ICH",
+   "level": "persuasive",
+   "proposition": "WOCBP not using highly effective contraception/unknown pregnancy status need completed repro tox and genotox before inclusion; precautions include pregnancy tests",
+   "verified": false,
+   "current_as_of": "2025-06-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E11",
+   "source": "Food and Drug Regulations C.05.005-C.05.006 (search summary)",
+   "source_type": "regulation",
+   "jurisdiction": "Canada",
+   "level": "binding",
+   "proposition": "CTA required; sale/import permitted if no Minister notice within 30 days",
+   "verified": false,
+   "current_as_of": "2025-06-30",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E12",
+   "source": "Independent calculation (Python, two-proportion formula)",
+   "source_type": "secondary",
+   "jurisdiction": "n/a",
+   "level": "background",
+   "proposition": "30% vs 45%, 80% power, alpha .05 two-sided: ~162 evaluable per arm; ~191 randomized with 15% attrition",
+   "verified": true,
+   "current_as_of": "2025-06-30",
+   "entailment": "BACKGROUND"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Protocol Sec. 9.4 makes DSMB discretionary contrary to FDA's mandatory requirement",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "No study-level stopping criteria; LFT frequency below FDA recommendation",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Interim at Week 26 of last subject with no futility deviates from FDA 50%/20% CP",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Single central pathologist deviates from two-plus reader panel with adjudication",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "No pregnancy testing or contraception; M3(R2) precautions needed",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E10"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "ICF lacks 50.25(a)(5),(a)(6),(b)(1),(b)(5),(c)",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E6"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Arm C titration 2 weeks vs 4 weeks; MELD missing",
+   "central": true,
+   "issue_ids": [
+    "I7",
+    "I8"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "No-approved-therapy statement is outdated given Mar 2024 resmetirom approval",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E9"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "ICF 12-month duration wrong; 64 weeks is about 14.8 months, 72 weeks about 16.5",
+   "central": true,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E4"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Protocol lacks 7/15-day IND safety report timelines",
+   "central": true,
+   "issue_ids": [
+    "I11"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E7"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "Sample size of 78 evaluable per arm is inconsistent with stated assumptions (~162)",
+   "central": true,
+   "issue_ids": [
+    "I12"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E12"
+   ]
+  },
+  {
+   "id": "C12",
+   "text": "Part 11 provisions absent",
+   "central": false,
+   "issue_ids": [
+    "I13"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ]
+  },
+  {
+   "id": "C13",
+   "text": "Health Canada framework absent; CTA and 30-day period",
+   "central": true,
+   "issue_ids": [
+    "I14"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E11"
+   ]
+  },
+  {
+   "id": "C14",
+   "text": "No chronic-tox stage gate; no PTX-4820 human data identified",
+   "central": false,
+   "issue_ids": [
+    "I15"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C15",
+   "text": "Draft checklist conflicts with Protocol v3.0 and cannot be delivered",
+   "central": true,
+   "issue_ids": [
+    "I16"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E5"
+   ]
+  },
+  {
+   "id": "C16",
+   "text": "Minor items and currentness caveats (draft NASH guidance, E6 version)",
+   "central": false,
+   "issue_ids": [
+    "I17"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E8"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I13",
+   "claim_ids": [
+    "C12"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I14",
+   "claim_ids": [
+    "C13"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I15",
+   "claim_ids": [
+    "C14"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I16",
+   "claim_ids": [
+    "C15"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I17",
+   "claim_ids": [
+    "C16"
+   ],
+   "material": false
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C6",
+   "action": "narrow",
+   "reason": "50.25(c) verified only via search summary; stated as required verbatim statement without pinpoint eCFR text"
+  },
+  {
+   "claim_id": "C10",
+   "action": "qualify",
+   "reason": "Severity rated Major not Critical; eCFR blocked, timelines confirmed via search results"
+  },
+  {
+   "claim_id": "C11",
+   "action": "qualify",
+   "reason": "Hold-ground paragraph numbering unverified; flagged"
+  },
+  {
+   "claim_id": "C16",
+   "action": "qualify",
+   "reason": "E6(R3) status unverified; stated as recollection"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "21 CFR 50.25(a)-(c)",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-50/subpart-B/section-50.25",
+   "claim": "ICF elements and ClinicalTrials.gov statement"
+  },
+  {
+   "citation": "21 CFR 312.32(c)",
+   "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.32",
+   "claim": "7/15-day IND safety reports"
+  },
+  {
+   "citation": "FDA draft guidance NASH with Liver Fibrosis (Dec 2018)",
+   "url": "https://www.federalregister.gov/documents/2018/12/04/2018-26333/noncirrhotic-nonalcoholic-steatohepatitis-with-liver-fibrosis-developing-drugs-for-treatment-draft",
+   "claim": "Guidance is draft"
+  },
+  {
+   "citation": "Madrigal Rezdiffra approval release (Mar 14, 2024)",
+   "url": "https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-fda-approval-rezdiffratm",
+   "claim": "Approved NASH therapy exists"
+  },
+  {
+   "citation": "ICH M3(R2)",
+   "url": "https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf",
+   "claim": "WOCBP precautions"
+  },
+  {
+   "citation": "Food and Drug Regulations C.05.005-C.05.006",
+   "url": "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._870/section-C.05.005.html",
+   "claim": "CTA and 30-day period"
+  },
+  {
+   "citation": "Health Canada GUI-0100",
+   "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement/good-clinical-practices/guidance-documents/guidance-drugs-clinical-trials-human-subjects-gui-0100/application-authorization.html",
+   "claim": "Division 5 application and authorization"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "engagement-letter-scope.docx",
+   "purpose": "scope"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "fda-pre-ind-meeting-minutes.docx (part 1)",
+   "purpose": "minutes"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "fda-pre-ind-meeting-minutes.docx (full via extract)",
+   "purpose": "minutes"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "internal-email-regulatory-concerns.eml",
+   "purpose": "email"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "protocol-ptx4820-201-v3.docx lines 1-110",
+   "purpose": "protocol"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "protocol-ptx4820-201-v3.docx lines 111-260",
+   "purpose": "protocol"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "protocol-ptx4820-201-v3.docx lines 261-390",
+   "purpose": "protocol"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "protocol-ptx4820-201-v3.docx lines 391-510",
+   "purpose": "protocol"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "protocol-ptx4820-201-v3.docx lines 511-650",
+   "purpose": "protocol"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "protocol-ptx4820-201-v3.docx lines 651-788",
+   "purpose": "protocol"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "fda-regulatory-checklist.xlsx sheet dump",
+   "purpose": "checklist"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "fda-regulatory-checklist.xlsx Part 312/50 sheets",
+   "purpose": "checklist"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "fda-regulatory-checklist.xlsx Part 50 remainder",
+   "purpose": "checklist"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "fda-regulatory-checklist.xlsx GCP sheet",
+   "purpose": "checklist"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "ecfr 50.25 (blocked by egress proxy)",
+   "purpose": "statute text, failed"
+  },
+  {
+   "seq": 16,
+   "type": "fetch",
+   "target": "ecfr 312.32 (blocked by egress proxy)",
+   "purpose": "statute text, failed"
+  },
+  {
+   "seq": 17,
+   "type": "fetch",
+   "target": "ecfr 312.42 (blocked by egress proxy)",
+   "purpose": "statute text, failed"
+  },
+  {
+   "seq": 18,
+   "type": "fetch",
+   "target": "cornell 50.25 (blocked by egress proxy)",
+   "purpose": "statute text, failed"
+  },
+  {
+   "seq": 19,
+   "type": "fetch",
+   "target": "cornell 312.32 (blocked by egress proxy)",
+   "purpose": "statute text, failed"
+  },
+  {
+   "seq": 20,
+   "type": "fetch",
+   "target": "cornell 312.42 (blocked by egress proxy)",
+   "purpose": "statute text, failed"
+  },
+  {
+   "seq": 21,
+   "type": "web_search",
+   "target": "50.25(c) ClinicalTrials.gov",
+   "purpose": "verify authority"
+  },
+  {
+   "seq": 22,
+   "type": "web_search",
+   "target": "NASH guidance draft status",
+   "purpose": "verify authority"
+  },
+  {
+   "seq": 23,
+   "type": "web_search",
+   "target": "Rezdiffra approval",
+   "purpose": "verify authority"
+  },
+  {
+   "seq": 24,
+   "type": "web_search",
+   "target": "312.32(c) timelines",
+   "purpose": "verify authority"
+  },
+  {
+   "seq": 25,
+   "type": "web_search",
+   "target": "Health Canada C.05.005/006",
+   "purpose": "verify authority"
+  },
+  {
+   "seq": 26,
+   "type": "web_search",
+   "target": "ICH M3(R2) WOCBP",
+   "purpose": "verify authority"
+  },
+  {
+   "seq": 27,
+   "type": "retrieve",
+   "target": "Python sample-size calculation",
+   "purpose": "check arithmetic"
+  }
+ ],
+ "unresolved": [
+  "eCFR text not directly retrieved (egress blocked); 312.42(b)(2) paragraph numbering unverified",
+  "ICH E6(R3) status and FDA adoption not verified",
+  "Status of EFD and 39-week toxicology studies and any PTX-4820 human exposure unknown",
+  "Quebec/Canadian privacy and language requirements not verified",
+  "Post-2025 changes (e.g., later NASH approvals) not checked"
+ ],
+ "usage": {
+  "tool_calls": 27,
+  "elapsed_sec": null
+ }
+}

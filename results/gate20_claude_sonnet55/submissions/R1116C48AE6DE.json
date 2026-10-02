@@ -1,0 +1,609 @@
+{
+ "run_id": "R1116C48AE6DE",
+ "benchmark_task_id": "H01",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTo: Jennifer Kwan, CLO, Vexalon Technologies, Inc. From: Legal Team. Re: Dr. Marcus Hale - enforceability of RCA Section 4.1 and related remedies. Framed as of the May 5, 2025 request (deadlines May 9 and May 12, 2025).\n\nSOURCE CAVEAT. Colorado statutory text could not be fetched (access blocked); statutory points rest on law-firm and bar summaries and must be cite-checked against C.R.S. 8-2-113 and 7-74-101 et seq. and Tex. Bus. & Com. Code 15.50-.52 before anything goes out.\n\n1. BOTTOM LINE\n(a) Beckford analyzes the wrong statute version. The RCA was entered February 1, 2022. The 2022 overhaul of C.R.S. 8-2-113 (HB 22-1317, effective August 10, 2022; your email and Beckford both say \"SB 22-234,\" which is a misnomer) applies only to covenants entered into or renewed on or after that date. His notice, choice-of-law and penalty arguments largely depend on the amended statute and are overstated as to this RCA. (b) That does not make 4.1 safe. Pre-amendment 8-2-113(2) voided non-competes unless an exception applied; the executive/management exception probably covers Dr. Hale, but a nationwide, 24-month, three-segment restraint is vulnerable on reasonableness, and the choice-of-law/forum fight is genuinely contested. (c) Realistic view: 4.1 is a moderate-to-uncertain claim that more likely yields a narrowed restraint than 24 months nationwide. The firmer levers are confidentiality, trade secret claims and the non-solicits, each needing evidence we lack.\n\n2. FACTS AND RECORD DISCREPANCIES\nHired June 15, 2020 (no covenants); promoted February 1, 2022 to VP Product Engineering reporting to the CEO, with RCA signing an express condition (promotion letter January 20, 2022, countersigned January 24). Consideration: base $220,000 to $265,000, $120,000 bonus target, 80,000 options at $8.50. At departure: base $295,000, target bonus $150,000, annualized cash $445,000; 60,000 options vested, 20,000 forfeited. Dr. Hale moved from Austin to Boulder in late March 2025, resigned April 11 (last day April 25), and starts as Stratos CTO May 12 leading OptiCare. Reconcile before relying: (i) Beckford dates the promotion letter January 18 (actual January 20); (ii) he and our HR spreadsheet use a 2025 threshold of $123,750, which is the 2024 figure - the 2025 threshold is reported as $127,091 ($130,014 for 2026); Dr. Hale exceeds either; (iii) exit notes say he led 68 engineers, Stratos says over 120; (iv) our RCA copy has blank signature lines - locate the executed original; (v) the LinkedIn update \"three days later\" is not in the file; capture it now.\n\n3. SECTION 4.1\n3.1 Version of the statute. Beckford concedes the amendments took effect August 10, 2022 and the RCA predates them, then argues they reach any later \"enforcement.\" That contradicts the prospective-only applicability rule. Risk: he may argue the January 2024 raise was a \"renewal.\" Nothing in the file shows re-execution, and Section 8.2 requires a signed writing for amendments; confirm no later signed equity or compensation documents restate the covenants.\n3.2 Pre-amendment law. Section 8-2-113(2) voided covenants unless an exception applied, including trade-secret protection (2)(b) and \"executive and management personnel and officers and employees who constitute professional staff\" (2)(d). Phoenix Capital, Inc. v. Dowell, 176 P.3d 835 (Colo. App. 2007), reads the management exception narrowly (employee managed no one, three management layers above) and looks to status at signing. Dr. Hale reported to the CEO, sat on the Executive Product Council and led a large engineering organization: a strong fit. The employer bears the burden and, for a preliminary injunction, must show reasonable probability of success; duration and geography must be reasonable.\n3.3 Highly compensated worker exception. It exists only in the amended statute (covenant protects trade secrets, no broader than necessary, and worker earned at least the threshold when entered and when enforced). Beckford is right that we cannot cherry-pick it for a 2022 covenant, but wrong that it adds burdens to a pre-amendment covenant. Even if the amended statute applied, Dr. Hale clears the threshold roughly 3.5x ($445,000 cash; equity excluded) and cleared the 2022 threshold ($385,000 target cash); the contest would be trade-secret purpose and breadth.\n3.4 Scope and duration. Weak: \"Competing Business\" covers any healthcare workflow, revenue cycle or healthcare analytics software nationwide; the restraint bars any role \"whether or not for compensation\"; 24 months is long in software. Strong: access to NeuralFlow source code, the three-year roadmap, pricing and Stratos intelligence; Stratos's OptiCare competes head-to-head with FlowAssist Pro, so the restraint as applied to a CTO is at the core of any reasonable restraint. Beckford cites no authority for a 12-month rule. Expect narrowing to direct competitors and a shorter term rather than voidness; Colorado courts have reformation discretion, Texas courts must reform (Tex. Bus. & Com. Code 15.51(c)).\n3.5 Texas law. A covenant must be ancillary to an otherwise enforceable agreement with reasonable limits (15.50(a)). Options and promised confidential information qualify: Marsh USA Inc. v. Cook, 354 S.W.3d 764 (Tex. 2011); Alex Sheshunoff Mgmt. Servs. v. Johnson, 209 S.W.3d 644 (Tex. 2006). Reformation yields prospective injunctive relief only, no pre-reformation damages, and 15.51(c) allows employee fees if the employer knew the covenant was unreasonable and enforced it beyond what was necessary.\n\n4. CHOICE OF LAW AND FORUM (Section 8.1: Texas law; exclusive Travis County courts)\nBeckford cites \"8-2-113(4)\"; the choice-of-law/forum rule is subsection (6) and, like the other amendments, reaches only post-August 10, 2022 covenants. He nevertheless has a credible common-law argument. Colorado follows Restatement (Second) of Conflict of Laws 187(2): chosen law yields if contrary to a fundamental policy of a state with a materially greater interest. In LS3, Inc. v. Cherokee Federal Solutions, LLC (D. Colo. Sept. 29, 2021), the court treated 8-2-113 as fundamental policy and refused a Maryland clause for Colorado-based employees. Our counters: Texas had the greater interest at formation (nearly five years living and working in Austin, signed there); the Colorado move came about two weeks before resignation and looks like forum positioning; the pre-amendment statute allowed executive covenants, so the conflict is narrower than in LS3; and Texas courts enforce forum clauses and apply their own fundamental-policy test (DeSantis v. Wackenhut Corp., 793 S.W.2d 670 (Tex. 1990)). Unresolved: I found no authority squarely deciding choice of law for a pre-amendment covenant where the employee relocated to Colorado shortly before leaving.\n\n5. NOTICE REQUIREMENTS\nThe amended notice requirements (separate signed notice before the covenant takes effect) apply only to covenants entered or renewed after August 10, 2022, so they do not govern this RCA absent a renewal. Beckford's claim that they apply to \"any enforcement\" is unsupported by the applicability rule.\n\n6. PENALTY EXPOSURE\nAmended 8-2-113(8) (not subsection (3) as Beckford cites) makes an employer liable for actual damages and $5,000 per worker for entering, presenting or attempting to enforce a covenant void under the section, plus fees, with discretion to withhold the penalty on a showing of good faith. The better reading is that a covenant valid under the version in force when made is not \"void under this section,\" but I located no decision; treat exposure as low-to-moderate and unresolved. Beckford overreaches in claiming any communication to Stratos is itself a penalty event. A narrow notice invoking confidentiality, non-solicit and preservation duties is not an attempt to enforce 4.1; asserting Dr. Hale \"cannot work\" at Stratos invites tortious-interference and penalty claims. Texas 15.51(c) fees are the parallel risk in a Texas forum. SB 25-083 (effective August 6, 2025) mainly addresses healthcare-provider and sale-of-business covenants, applies prospectively, and does not appear to change this analysis.\n\n7. NON-SOLICITATION (4.2, 4.3)\nEmployee non-solicit (4.2, 18 months): Atmel Corp. v. Vitesse Semiconductor Corp., 30 P.3d 789 (Colo. App. 2001), is reported to treat employee non-solicits as outside 8-2-113, and HB 22-1317 reportedly does not address them; so 4.2 is likely more enforceable than 4.1, as you suspected. Weakness: 4.2 reaches employees who initiate contact and \"responding to inquiries\" - aggressive but reformable. Customer non-solicit (4.3): pre-amendment cases such as Phoenix Capital treated customer non-solicits as subject to 8-2-113; \"provide services to\" operates as a no-service restraint broader than solicitation. Beckford's letter states Dr. Hale intends to honor 4.2, 4.3 and 5; cite that back to him.\nPerlman and Cho: resignations (May 2 and May 9), both direct reports with NeuralFlow access flagged by HR, are suspicious but are not evidence of solicitation; 4.2 also covers inducement during employment, so pre-April 25 contacts matter. Steps: preserve and review Company Slack, email, calendar and phone records of all three; monitor public LinkedIn, Stratos postings and press without pretext; counsel-led Upjohn-warned interviews of Perlman and Cho before their last days (Cho is still employed through May 9, so restrict access now); check their own confidentiality agreements; avoid threats that invite interference or retaliation claims.\n\n8. TRADE SECRETS\nCUTSA (C.R.S. 7-74-101 et seq.) allows injunctions against actual or threatened misappropriation (7-74-103), damages and fees for willful and malicious misappropriation (7-74-105); TUTSA (Tex. Civ. Prac. & Rem. Code ch. 134A) is parallel; DTSA (18 U.S.C. 1836(b)) adds federal jurisdiction. Critical limit: 1836(b)(3)(A)(i) bars injunctions that prevent employment or rest \"merely on the information the person knows\" and bars orders conflicting with state restraint-of-trade law; Colorado has not clearly adopted inevitable disclosure. Present evidence is thin: one April 10 repository session (files \"downloaded or viewed\"), a signed Separation Certification (Form HR-SC-2025) of no retention, laptop returned April 24. If forensics show transfer to personal devices or accounts, that is the \"threatened misappropriation\" evidence that makes a TRO viable and undermines his certification (bad faith, fees, exemplary damages; the RCA contains the 1833(b) whistleblower notice needed to preserve those remedies). If clean, the theory reduces to inevitable disclosure, which is weak. Stratos competitive-intelligence briefings are probably not Vexalon trade secrets as to Stratos's own platform; do not overclaim. Forensic review: yes, now and through counsel - image the laptop, pull repository, email, VPN, USB, cloud-sync and print logs for 30-90 days, and issue a litigation hold.\n\n9. EXIT INTERVIEW STATEMENTS\nDr. Hale said \"I haven't finalized anything\" and, asked about a competitor, \"No, I haven't finalized anything.\" That is evasive and carefully worded, not a clean denial; \"plainly untrue\" is overstated until we know when he accepted, although Beckford's April 25 letter says he \"has accepted\" the Stratos position, which suggests the statements were misleading when made. Legal significance: no standalone claim (no disclosure duty in the RCA); relevant to equities and credibility at a TRO/preliminary-injunction hearing, as circumstantial evidence of concealment bearing on solicitation and misappropriation, to bad faith in fee and exemplary-damages arguments, and to the certification if retention is proven. It does not cure weaknesses in 4.1.\n\n10. RECOMMENDED COURSE\nBefore May 9: (1) litigation hold, forensic imaging, executed RCA and equity documents; (2) decision memo to Priya and the board; (3) respond to Beckford: reject the \"SB 22-234\" framework, state that pre-August 2022 law governs, reserve rights, demand written confirmation of compliance with Sections 4.2, 4.3 and 5 and certification of no retention, offer a standstill; (4) a short Stratos notice limited to confidentiality, non-solicit and preservation duties; (5) engage Whitfield, Crane & Navarro and Colorado local counsel.\nLitigation: if forensics show exfiltration, file first in Travis County or W.D. Tex. (DTSA/TUTSA plus breach of 4.2, 4.3, 5) with a TRO; first filing may pre-empt a Colorado declaratory action, but Dr. Hale can still sue in Boulder or Denver and invoke Colorado policy. Without exfiltration evidence, a TRO on 4.1 alone is a poor bet (reformation risk, Colorado hostility, penalty rhetoric; bond waivers do not bind the court). Preferred track: negotiate a tailored deal - 6-12 months out of OptiCare's revenue-cycle product, firewall undertakings, no-retention certification, no-hire of Perlman and Cho, audit rights - using 4.2, trade-secret exposure and cost as leverage.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Which version of C.R.S. 8-2-113 governs an RCA signed Feb 1, 2022 (HB 22-1317 prospective only; 'SB 22-234' misnomer)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Highly compensated worker exception and compensation threshold; pre-amendment executive/management exception",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Scope/duration reasonableness and reformation of 4.1",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Texas choice-of-law/forum clause vs Colorado fundamental policy",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Notice requirements and pre-amendment execution date",
+   "criticality": "important"
+  },
+  {
+   "id": "I6",
+   "text": "Penalty exposure and communications with Stratos",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "Non-solicit 4.2/4.3 and Perlman/Cho investigation",
+   "criticality": "critical"
+  },
+  {
+   "id": "I8",
+   "text": "Trade secret claims CUTSA/TUTSA/DTSA and forensic review",
+   "criticality": "critical"
+  },
+  {
+   "id": "I9",
+   "text": "Exit interview statements legal significance",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Strategy, venue, TRO, settlement, immediate steps, deadlines",
+   "criticality": "critical"
+  },
+  {
+   "id": "I11",
+   "text": "Record discrepancies (threshold figure, dates, headcount, unsigned RCA copy)",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "restrictive-covenant-agreement.docx (RCA ss.1.2,1.6,2,4,7,8)",
+   "source_type": "matter_document",
+   "jurisdiction": "Texas/Colorado",
+   "level": "not_applicable",
+   "proposition": "RCA dated Feb 1, 2022; 24-month nationwide non-compete; 18-month non-solicits; Texas law and Travis County forum; signature lines blank in file copy",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "promotion-letter.docx; hale-compensation-summary.xlsx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "Promotion Jan 20, 2022 conditioned on RCA; consideration; $445,000 annualized cash at departure; threshold figure used $123,750",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "ridgeline-demand-letter.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "Colorado",
+   "level": "not_applicable",
+   "proposition": "Beckford arguments, May 9 deadline, concession of Aug 10, 2022 effective date, statement that Hale intends to honor 4.2/4.3/5, wrong promotion letter date",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "exit-interview-notes.docx; stratos-press-release.docx; kwan-memo-request.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "Hale statements 'haven't finalized'; April 10 repository access; laptop returned Apr 24; separation certification; 68 vs 120 engineers; Perlman/Cho; Stratos CTO May 12",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "C.R.S. 8-2-113 as amended by HB 22-1317 (via secondary summaries: Littler, Natl Law Review, Colorado Bar)",
+   "source_type": "statute",
+   "jurisdiction": "Colorado",
+   "level": "controlling",
+   "proposition": "Amendments apply to covenants entered or renewed on/after Aug 10, 2022; highly compensated exception; (6) choice of law; (8) penalties with good-faith discretion",
+   "verified": false,
+   "current_as_of": "2025-12-31",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E6",
+   "source": "Pre-amendment C.R.S. 8-2-113(2)(d); Phoenix Capital, Inc. v. Dowell, 176 P.3d 835 (Colo. App. 2007)",
+   "source_type": "case",
+   "jurisdiction": "Colorado",
+   "level": "binding",
+   "proposition": "Executive/management and professional staff exception, narrowly read; status at signing; reasonableness required",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E7",
+   "source": "LS3, Inc. v. Cherokee Federal Solutions, LLC (D. Colo. Sept. 29, 2021)",
+   "source_type": "case",
+   "jurisdiction": "D. Colo.",
+   "level": "persuasive",
+   "proposition": "8-2-113 is fundamental Colorado policy overriding foreign choice-of-law under Restatement 187",
+   "verified": false,
+   "current_as_of": "2021-09-29",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E8",
+   "source": "DeSantis v. Wackenhut Corp., 793 S.W.2d 670 (Tex. 1990); Marsh USA v. Cook, 354 S.W.3d 764 (Tex. 2011); Tex. Bus. & Com. Code 15.50-.51",
+   "source_type": "case",
+   "jurisdiction": "Texas",
+   "level": "controlling",
+   "proposition": "Texas choice-of-law fundamental policy test; stock options support noncompete; mandatory reformation, no pre-reformation damages, employee fees if employer knowingly overreaches",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E9",
+   "source": "18 U.S.C. 1836(b)(3)(A)(i)",
+   "source_type": "statute",
+   "jurisdiction": "Federal",
+   "level": "controlling",
+   "proposition": "DTSA injunction cannot prevent employment or rest merely on information known; cannot conflict with state restraint-of-trade law",
+   "verified": true,
+   "current_as_of": "2025-05-05",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E10",
+   "source": "Atmel Corp. v. Vitesse Semiconductor Corp., 30 P.3d 789 (Colo. App. 2001) (via summaries)",
+   "source_type": "case",
+   "jurisdiction": "Colorado",
+   "level": "binding",
+   "proposition": "Employee non-solicitation treated as outside 8-2-113",
+   "verified": false,
+   "current_as_of": "2025-05-05",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E11",
+   "source": "C.R.S. 7-74-101 to -110; Tex. Civ. Prac. & Rem. Code ch. 134A (via summaries)",
+   "source_type": "statute",
+   "jurisdiction": "CO/TX",
+   "level": "controlling",
+   "proposition": "State UTSA injunction and fee provisions",
+   "verified": false,
+   "current_as_of": "2025-05-05",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E12",
+   "source": "Colorado PAY CALC thresholds ($127,091 for 2025; $130,014 for 2026) and SB 25-083 summaries",
+   "source_type": "agency_guidance",
+   "jurisdiction": "Colorado",
+   "level": "background",
+   "proposition": "2025 threshold is $127,091, not $123,750; SB 25-083 effective Aug 6, 2025, prospective, healthcare/sale-of-business",
+   "verified": false,
+   "current_as_of": "2026-10-02",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Beckford analyzes the post-HB 22-1317 statute; the amendments apply only to covenants entered or renewed on/after Aug 10, 2022, so his notice, choice-of-law and penalty arguments are largely overstated for this 2022 RCA (subject to a 'renewal' argument).",
+   "central": true,
+   "issue_ids": [
+    "I1",
+    "I5",
+    "I6"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E5"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Pre-amendment executive/management exception likely covers Dr. Hale but reasonableness of nationwide 24-month scope is the weak point; courts likely to narrow.",
+   "central": true,
+   "issue_ids": [
+    "I2",
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E4",
+    "E6",
+    "E8"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Choice-of-law is genuinely contested: LS3 supports Colorado policy, but Texas had greater interest at formation and the pre-amendment statute permitted executive covenants; no squarely controlling authority located.",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E7",
+    "E8",
+    "E4"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Penalty exposure is low-to-moderate and unresolved; good-faith discretion; narrow communications to Stratos.",
+   "central": false,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E3"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "4.2 employee non-solicit is likely more enforceable than 4.1 but no evidence yet of solicitation; investigation steps.",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E10",
+    "E4",
+    "E3"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "Trade secret claims depend on forensic evidence of exfiltration; DTSA bars injunction based only on knowledge; recommend immediate forensic review.",
+   "central": true,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E9",
+    "E11",
+    "E4"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Exit interview statements are evasive, relevant to equities, credibility and bad faith, not an independent claim; Beckford letter indicates acceptance by Apr 25.",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E4",
+    "E3"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Recommended strategy: preserve, forensic, respond before May 9, first-filed Texas action only if exfiltration evidence, otherwise negotiate narrowed restriction.",
+   "central": true,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E4"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Record discrepancies: 2025 threshold is $127,091 not $123,750; promotion letter date; headcount; blank RCA signature lines.",
+   "central": false,
+   "issue_ids": [
+    "I11",
+    "I2"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E12"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2",
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C1",
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C1",
+   "action": "qualify",
+   "reason": "Statute text fetch blocked; applicability rule taken from multiple secondary summaries; flagged cite-check."
+  },
+  {
+   "claim_id": "C4",
+   "action": "qualify",
+   "reason": "Could not verify authority on application of penalty provision to pre-amendment covenants; stated as unresolved."
+  },
+  {
+   "claim_id": "C3",
+   "action": "narrow",
+   "reason": "No controlling authority found for relocation-before-resignation scenario; stated as uncertain."
+  },
+  {
+   "claim_id": "C5",
+   "action": "narrow",
+   "reason": "Atmel holding stated only at the level summaries support."
+  }
+ ],
+ "citations": [
+  {
+   "citation": "C.R.S. 8-2-113 (as amended by HB 22-1317, eff. Aug. 10, 2022)",
+   "url": "https://law.justia.com/codes/colorado/title-8/labor-i-department-of-labor-and-employment/labor-relations/article-2/part-1/section-8-2-113/",
+   "claim": "C1"
+  },
+  {
+   "citation": "Phoenix Capital, Inc. v. Dowell, 176 P.3d 835 (Colo. App. 2007)",
+   "url": "https://caselaw.findlaw.com/court/co-court-of-appeals/1363607.html",
+   "claim": "C2"
+  },
+  {
+   "citation": "LS3, Inc. v. Cherokee Federal Solutions, LLC (D. Colo. 2021)",
+   "url": "https://www.bclplaw.com/en-US/events-insights-news/colorado-law-may-govern-noncompete-despite-choice-of-law-provision.html",
+   "claim": "C3"
+  },
+  {
+   "citation": "DeSantis v. Wackenhut Corp., 793 S.W.2d 670 (Tex. 1990)",
+   "url": "https://www.courtlistener.com/opinion/2376061/desantis-v-wackenhut-corp/",
+   "claim": "C3"
+  },
+  {
+   "citation": "Marsh USA Inc. v. Cook, 354 S.W.3d 764 (Tex. 2011)",
+   "url": "https://www.courtlistener.com/opinion/2541088/marsh-usa-inc-v-cook/",
+   "claim": "C2"
+  },
+  {
+   "citation": "18 U.S.C. 1836",
+   "url": "https://www.law.cornell.edu/uscode/text/18/1836",
+   "claim": "C6"
+  },
+  {
+   "citation": "Atmel Corp. v. Vitesse Semiconductor Corp., 30 P.3d 789 (Colo. App. 2001)",
+   "url": "https://www.studicata.com/case-briefs/case/atmel-corp-v-vitesse-s-corp/",
+   "claim": "C5"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "kwan-memo-request.eml",
+   "purpose": "assignment"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "restrictive-covenant-agreement.docx",
+   "purpose": "covenant terms"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "promotion-letter.docx",
+   "purpose": "consideration"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "ridgeline-demand-letter.docx",
+   "purpose": "opposing arguments"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "hale-compensation-summary.xlsx",
+   "purpose": "comp threshold"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "exit-interview-notes.docx",
+   "purpose": "facts"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "stratos-press-release.docx",
+   "purpose": "facts"
+  },
+  {
+   "seq": 8,
+   "type": "web_search",
+   "target": "8-2-113 HB22-1317 applicability, threshold",
+   "purpose": "statute"
+  },
+  {
+   "seq": 9,
+   "type": "web_search",
+   "target": "8-2-113 (6) and (8) text",
+   "purpose": "choice of law, penalties"
+  },
+  {
+   "seq": 10,
+   "type": "fetch",
+   "target": "Justia 8-2-113 (blocked)",
+   "purpose": "statute text"
+  },
+  {
+   "seq": 11,
+   "type": "fetch",
+   "target": "leg.colorado.gov HB22-1317 (blocked)",
+   "purpose": "applicability"
+  },
+  {
+   "seq": 12,
+   "type": "web_search",
+   "target": "HB22-1317 prospective application",
+   "purpose": "applicability"
+  },
+  {
+   "seq": 13,
+   "type": "web_search",
+   "target": "2025 threshold",
+   "purpose": "threshold"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "Colorado choice of law noncompete",
+   "purpose": "conflict"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "Lexology (blocked)",
+   "purpose": "case name"
+  },
+  {
+   "seq": 16,
+   "type": "web_search",
+   "target": "pre-2022 executive exception Phoenix Capital",
+   "purpose": "old law"
+  },
+  {
+   "seq": 17,
+   "type": "web_search",
+   "target": "Texas 15.51, DeSantis, Marsh",
+   "purpose": "Texas law"
+  },
+  {
+   "seq": 18,
+   "type": "web_search",
+   "target": "LS3 v Cherokee",
+   "purpose": "case name"
+  },
+  {
+   "seq": 19,
+   "type": "web_search",
+   "target": "DTSA 1836(b)(3)(A)(i)",
+   "purpose": "DTSA limits"
+  },
+  {
+   "seq": 20,
+   "type": "web_search",
+   "target": "employee non-solicit Atmel",
+   "purpose": "non-solicit"
+  },
+  {
+   "seq": 21,
+   "type": "web_search",
+   "target": "SB25-083",
+   "purpose": "currentness"
+  },
+  {
+   "seq": 22,
+   "type": "web_search",
+   "target": "Texas 15.51(c) fees; CUTSA/TUTSA",
+   "purpose": "remedies"
+  }
+ ],
+ "unresolved": [
+  "Primary statutory text of 8-2-113 not directly retrieved (egress blocked); verify applicability clause, subsections (4),(6),(8) before external use.",
+  "Whether the (8) penalty applies to pre-August 2022 covenants: no decision located.",
+  "Choice-of-law outcome for pre-amendment covenant with employee relocating to Colorado weeks before resignation: no controlling authority located.",
+  "Atmel, LS3 and Phoenix Capital holdings verified only through secondary summaries.",
+  "Whether any post-Aug 2022 signed document 'renewed' the RCA (2024 salary change).",
+  "Executed RCA signature copy; LinkedIn evidence; headcount discrepancy (68 vs 120); evidence of exfiltration or solicitation.",
+  "Memo framed as of May 2025; later developments (2026) not analyzed beyond threshold and SB 25-083 note."
+ ],
+ "usage": {
+  "tool_calls": 22,
+  "elapsed_sec": null
+ }
+}

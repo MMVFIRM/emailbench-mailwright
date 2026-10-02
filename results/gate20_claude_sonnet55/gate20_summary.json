@@ -1,0 +1,163 @@
+{
+  "gate": "20 - External Expanded Efficacy",
+  "benchmark": "Harvey LAB external subset",
+  "judge_model": "Claude Sonnet 5.5",
+  "n_unique_tasks": 20,
+  "aggregate": {
+    "control": {
+      "all_pass": 0.0,
+      "criterion_pass_macro": 0.8822613317865136,
+      "criterion_pass_micro": 0.8756121449559255,
+      "central_correctness": 0.95,
+      "material_omission": 0.8,
+      "task_omission_rate": 1.0,
+      "unsafe_hallucination": 0.0,
+      "mean_evidence_actions": 18.6,
+      "budget_compliance": 1.0,
+      "word_cap_compliance": 0.95,
+      "verified_citations": 115,
+      "citation_precision": 1.0
+    },
+    "lrpe_pcr_frozen": {
+      "all_pass": 0.0,
+      "criterion_pass_macro": 0.850112638515739,
+      "criterion_pass_micro": 0.8344760039177277,
+      "central_correctness": 0.9,
+      "material_omission": 0.8,
+      "task_omission_rate": 1.0,
+      "unsafe_hallucination": 0.0,
+      "mean_evidence_actions": 17.1,
+      "budget_compliance": 1.0,
+      "word_cap_compliance": 1.0,
+      "verified_citations": 108,
+      "citation_precision": 0.9629629629629629
+    }
+  },
+  "paired_deltas_lrpe_minus_control": {
+    "all_pass": {
+      "n": 20,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "criterion_pass": {
+      "n": 20,
+      "delta": -0.03214869327077453,
+      "ci95": [
+        -0.11746773257037893,
+        0.02136648597294607
+      ]
+    },
+    "central_correctness": {
+      "n": 20,
+      "delta": -0.05,
+      "ci95": [
+        -0.15,
+        0.0
+      ]
+    },
+    "material_omission": {
+      "n": 20,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "task_has_omission_failure": {
+      "n": 20,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "unsafe_hallucination": {
+      "n": 20,
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "strata": {
+    "pure_research": {
+      "criterion_pass_delta": {
+        "n": 14,
+        "delta": -0.05213946563899059,
+        "ci95": [
+          -0.16680944313607474,
+          0.016786253336461283
+        ]
+      },
+      "all_pass_delta": {
+        "n": 14,
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "stress_reconciliation": {
+      "criterion_pass_delta": {
+        "n": 6,
+        "delta": 0.014496442255062969,
+        "ci95": [
+          -0.030714285714285694,
+          0.06896551724137934
+        ]
+      },
+      "all_pass_delta": {
+        "n": 6,
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "mcnemar_all_pass": {
+    "lrpe_only_passes": 0,
+    "control_only_passes": 0,
+    "p_two_sided": 1.0
+  },
+  "failure_stage_counts": {
+    "control": {
+      "authority_selection": 1,
+      "final_output_omission": 13,
+      "authority_reading": 3,
+      "issue_mapping": 2,
+      "none": 1
+    },
+    "lrpe_pcr_frozen": {
+      "authority_selection": 2,
+      "final_output_omission": 8,
+      "issue_mapping": 3,
+      "authority_reading": 3,
+      "none": 2,
+      "legal_retrieval": 1,
+      "document_recall": 1
+    }
+  },
+  "extra_lrpe_tasks_with_omission_failure": 0.0,
+  "citation_rule_testable": true,
+  "pass_rules": {
+    "positive_all_pass_delta": false,
+    "criterion_pass_gain": false,
+    "pure_research_noninferior": false,
+    "omission_cap": true,
+    "central_noninferior": true,
+    "hallucination_noninferior": true,
+    "citation_noninferior_if_testable": false,
+    "budget_compliance": true,
+    "word_cap_compliance": false
+  },
+  "PASS": false,
+  "STRONG_EVIDENCE": false,
+  "interpretation": "PASS indicates external pilot efficacy on 20 unique Harvey LAB tasks under preregistered margins. STRONG_EVIDENCE additionally requires the paired-task bootstrap 95% CI for criterion-pass delta to exclude zero. Neither is deployment certification."
+}
