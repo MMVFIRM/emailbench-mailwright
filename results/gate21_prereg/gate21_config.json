@@ -1,0 +1,37 @@
+{
+  "gate": "21 - Held-out Fresh-Task Efficacy (LRPE v0.7 Coverage-Budgeted Drafting)",
+  "benchmark": "Harvey Legal Agent Benchmark (LAB), pinned public commit",
+  "harvey_repo": "https://github.com/harveyai/harvey-labs.git",
+  "harvey_commit": "f93ae2ac2831e65892fea83094cfb50149bc2e59",
+  "conditions": [
+    "control",
+    "lrpe_v07"
+  ],
+  "unique_tasks": 20,
+  "runs": 40,
+  "repeats_per_task": 1,
+  "answer_word_cap": 2000,
+  "evidence_action_budget": 36,
+  "task_seed": 21021,
+  "judge_blind_seed": 21121,
+  "primary_endpoint": "Harvey criterion all-pass per unique task",
+  "secondary_endpoint": "Harvey criterion pass rate",
+  "pass_thresholds": {
+    "all_pass_delta_min": 0.0,
+    "criterion_pass_delta_min": 0.05,
+    "pure_research_criterion_delta_min": 0.0,
+    "max_extra_task_omissions": 1,
+    "central_correctness_max_regression": 0.05,
+    "unsafe_hallucination_max_increase": 0.05,
+    "citation_precision_max_regression": 0.03,
+    "budget_compliance_rate": 1.0,
+    "word_cap_compliance_rate": 1.0,
+    "note": "all_pass_delta_min is unused: task all-pass was degenerate (0 for both arms) in Gate 20. Replaced by rule task_wins_ge_losses (tasks where v0.7 criterion-pass beats control >= tasks where it loses)."
+  },
+  "strong_evidence_rule": "Paired task bootstrap 95% CI lower bound > 0 for criterion-pass delta; reported separately and not required for pilot PASS.",
+  "interpretation": "Pass = held-out pilot efficacy for v0.7 on 20 unseen tasks; same-model judge; not deployment certification.",
+  "selection_rule": "Pools: Harvey LAB tasks whose directory begins analyze-/assess- (analysis stratum, 14) and compare- (6), at the pinned commit, excluding all 20 Gate 20 tasks; seeded shuffle (21021 / 21022), max 2 tasks per practice area. Harvey has no unused research-named tasks, so the stratum key 'pure_research' in the files denotes the analysis stratum.",
+  "primary_goal": "Test whether v0.7 (deliverable ledger + word-budgeted dense drafting) improves Harvey criterion pass rate over control on previously unused tasks.",
+  "run_integrity_rule": "Before judging, each submission is checked that its final_answer concerns its assigned task (document-name overlap check). A run that fails is re-run once in a fresh context with a run-unique scratch directory; both attempts are logged. Runner agents must write any scratch files only under /tmp/<run_id>/ to prevent cross-run contamination (observed in Gate 20 run RD4105E551F1F).",
+  "development_data": "v0.7 was designed using only aggregate Gate 20 diagnostics (failure-type counts, word counts, run-integrity finding). No Gate 20 rubric text or task content was used."
+}

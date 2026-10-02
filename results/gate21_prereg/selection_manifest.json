@@ -1,0 +1,26 @@
+{
+ "pure_research": [
+  "tasks/corporate-governance/analyze-compliance-program-gaps/task.json",
+  "tasks/litigation-dispute-resolution/analyze-counterpartys-motion-for-summary-judgment/task.json",
+  "tasks/environmental-esg/analyze-counterparty-markup-of-settlement-agreement/task.json",
+  "tasks/antitrust-competition/analyze-antitrust-hsr-strategy/task.json",
+  "tasks/healthcare-life-sciences/analyze-compliance-program-gaps/task.json",
+  "tasks/funds-asset-management/analyze-counterparty-markup-of-limited-partnership-interest-transfer-agreement/task.json",
+  "tasks/environmental-esg/analyze-counterparty-markup-of-environmental-indemnity-agreement/task.json",
+  "tasks/litigation-dispute-resolution/assess-litigation-hold-scope-for-custodian-identification/task.json",
+  "tasks/employment-labor/assess-legal-risk-of-proposed-employee-termination/task.json",
+  "tasks/corporate-governance/analyze-eu-ai-act-high/task.json",
+  "tasks/tax/analyze-counterparty-markup-of-proposed-stipulation-of-facts/task.json",
+  "tasks/international-trade-sanctions/analyze-cross/task.json",
+  "tasks/corporate-ma/analyze-cim-deal-teaser/scenario-01/task.json",
+  "tasks/data-privacy-cybersecurity/assess-breach-notification-obligations-across-affected-jurisdictions/task.json"
+ ],
+ "stress_reconciliation": [
+  "tasks/antitrust-competition/compare-expert-market-share-estimates-against-agency-data/task.json",
+  "tasks/corporate-ma/compare-target-representations-vs-diligence/task.json",
+  "tasks/tax/compare-proposed-settlement-against-original-assessment/task.json",
+  "tasks/corporate-governance/compare-proxy-statement-disclosures-against-sec-regulatory-requirements/task.json",
+  "tasks/real-estate/compare-property-tax-records-against-seller-disclosure-statement/task.json",
+  "tasks/environmental-esg/compare-esg-disclosure-against-regulatory-requirements/task.json"
+ ]
+}
