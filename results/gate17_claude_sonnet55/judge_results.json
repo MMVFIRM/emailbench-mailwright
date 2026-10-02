@@ -1,0 +1,4433 @@
+{
+ "judge_model": "Claude Sonnet 5.5",
+ "pairs": [
+  {
+   "judge_id": "J0001",
+   "question_id": "P-001",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": true,
+       "reason": "Identifies I-290B deadline, sua sponte reopening, new I-130; does not address standing (petitioner vs beneficiary); wrongly says IJ can adjudicate a new I-130 (IJs have no I-130 jurisdiction)."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "INA 240(b)(5)(C), 8 U.S.C. 1229a(b)(5)(C)",
+       "url": "https://www.law.cornell.edu/uscode/text/8/1229a",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "url": "https://www.ecfr.gov/current/title-8/chapter-V/subchapter-A/part-1003/subpart-C/section-1003.23",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "url": "https://www.supremecourt.gov/opinions/23pdf/22-674_bq7d.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "EOIR OBBBA fee: 8 U.S.C. 1812(g); EOIR Inflation Adjustment FY2026, 91 Fed. Reg. (Jan. 21, 2026) (2026-01012)",
+       "url": "https://www.federalregister.gov/documents/2026/01/21/2026-01012/inflation-adjustment-for-eoir-obbba-fees-fiscal-year-2026",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Notice exists and confirms the in absentia exemption, but the stated FY2026 fee ($1,045 incl. $900) is wrong; FY2026 OBBBA fee is $920."
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)",
+       "url": "https://www.federalregister.gov/documents/2026/06/11/2026-11692/eoir-fees",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": false,
+       "reason": "1003.24(b)(2) exempts the motion, but the cited June 2026 Federal Register rule post-dates the April 1, 2026 answer date."
+      },
+      {
+       "citation": "USCIS I-290B guidance",
+       "url": "https://www.uscis.gov/i-290b/eligibility",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.5(a)(1)(i), 103.5(a)(5)(i), 103.2(b)(15)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Correct: 30/33-day deadline, excusable late motion to reopen, sua sponte reopening, abandonment denial not appealable."
+      },
+      {
+       "citation": "8 CFR 1245.2(a)(1), 245.2(a)(5)(ii)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "IJ jurisdiction over adjustment for respondents in proceedings."
+      },
+      {
+       "citation": "Matter of Hashmi, 24 I&N Dec. 785 (BIA 2009)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Continuance factors for pending I-130; real and on point."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Core in absentia analysis, fee exemption, stay, and filing details are correct. Errors: FY2026 fee figure ($1,045 vs $920) and the statement that the IJ can adjudicate a new I-130. Many authorities self-flagged unverified; no fabrication found."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Correctly says no BIA appeal for abandonment denial, 103.5 deadline passed and excusable-delay standard, new I-130, sua sponte; standing not discussed expressly but wife as petitioner is implicit."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "INA 240(b)(5)(C), 8 U.S.C. 1229a(b)(5)(C)",
+       "url": "https://www.law.cornell.edu/uscode/text/8/1229a",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "url": "https://www.ecfr.gov/current/title-8/part-1003/section-1003.23",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)(iii)",
+       "url": "https://www.ecfr.gov/current/title-8/part-1003/section-1003.24",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Pub. L. 119-21 (H.R. 1); EOIR PM 25-36; 91 Fed. Reg. (Jan. 21, 2026) 2026-01012",
+       "url": "https://www.federalregister.gov/documents/2026/01/21/2026-01012/inflation-adjustment-for-eoir-obbba-fees-fiscal-year-2026",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Confirms OBBBA fees and in absentia exemption; does not state an unverified amount."
+      },
+      {
+       "citation": "Matter of M-R-A-, 24 I&N Dec. 665 (BIA 2008)",
+       "url": "unknown",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "M-R-A- real BIA case on rebutting presumption of delivery (ordinary mail)."
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "url": "unknown",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.2(b)(15), 103.3(a)(1)(iii), 103.5",
+       "url": "https://www.ecfr.gov/current/title-8/part-103",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1245.2(a)(1), (a)(5)(ii)",
+       "url": "https://www.ecfr.gov/current/title-8/part-1245/section-1245.2",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Matter of Grijalva, 21 I&N Dec. 27 (BIA 1995)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Real; presumption of delivery."
+      },
+      {
+       "citation": "Pereira v. Sessions, 585 U.S. 198 (2018); Niz-Chavez v. Garland, 593 U.S. 155 (2021)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Correctly characterized, with Campos-Chaves limitation."
+      },
+      {
+       "citation": "8 CFR 103.3(a)(1)(iii)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Pin cite for non-appealability of I-485 denial is loose but proposition (no appeal) is correct."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Complete and accurate on stay, no deadline, no fee, forum, evidence, USCIS routes, and renewal before IJ. Minor loose pin cites; hedges unverified fee amounts without asserting wrong ones."
+    }
+   }
+  },
+  {
+   "judge_id": "J0002",
+   "question_id": "P-001",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Abandonment denial not appealable; I-290B under 103.5 with late-filing excuse; notes IJ has no I-130 jurisdiction. Standing not addressed expressly."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "url": "https://www.law.cornell.edu/cfr/text/8/1003.23",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "INA 240(b)(5)(C)(ii), 8 USC 1229a(b)(5)(C)(ii)",
+       "url": "https://www.law.cornell.edu/cfr/text/8/1003.23",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "url": "https://www.law.cornell.edu/supct/cert/22-674",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.5 and 103.2(b)(15)",
+       "url": "https://www.law.cornell.edu/cfr/text/8/103.5",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1245.2(a)(5)(ii)",
+       "url": "https://www.law.cornell.edu/cfr/text/8/1245.2",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "ILRC/CLINIC H.R.1 EOIR fee advisories (secondary)",
+       "url": "https://www.cliniclegal.org/file-download/download/public/79499",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": false,
+       "reason": "Secondary advisory; $145+$900 figure is the pre-FY2026-adjustment amount ($920 as of Oct 2025-Sept 2026), though irrelevant to the exempt motion."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct bottom line and mechanics. Stale $900 figure for non-applicable fee only."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "103.2(b)(15)/103.5 correctly applied, late-filing standard, new I-130 backstop. Standing not discussed expressly."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)(ii); INA 240(b)(5)(C)(ii)",
+       "url": "https://www.law.cornell.edu/uscode/text/8/1229a",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "url": "https://supreme.justia.com/cases/federal/us/602/22-674/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.2(b)(15)",
+       "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-103",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)",
+       "url": "https://www.ecfr.gov/current/title-8/chapter-V/subchapter-A/part-1003/subpart-C/section-1003.24",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Exemption stated; FY2026 $920 figure correct."
+      },
+      {
+       "citation": "EOIR OBBBA fees, 91 Fed. Reg. (Jan. 21, 2026) FY2026 inflation adjustment",
+       "url": "https://www.federalregister.gov/documents/2026/01/21/2026-01012/inflation-adjustment-for-eoir-obbba-fees-fiscal-year-2026",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.5",
+       "url": "https://www.law.cornell.edu/cfr/text/8/103.5",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct and complete; includes accurate FY2026 fee figures. Minor: FAM 30/60-day reference is dated (current rule is 90 days) but immaterial."
+    }
+   }
+  },
+  {
+   "judge_id": "J0003",
+   "question_id": "P-001",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Mechanisms correct (I-290B deadline/excusal, new I-130); some muddled wording about court adjudicating I-130; standing not addressed."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "INA 240(b)(5)(C)(ii), 8 U.S.C. 1229a(b)(5)(C)(ii)",
+       "url": "https://www.law.cornell.edu/uscode/text/8/1229a",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "url": "https://www.law.cornell.edu/cfr/text/8/1003.23",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)(iii)",
+       "url": "https://www.law.cornell.edu/cfr/text/8/1003.24",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Lehigh Valley Immigration Law / secondary summaries of OBBBA fees",
+       "url": "https://www.lehighvalleyimmigrationlawyers.com/blog/in-absentia-removal-order-motion-to-reopen/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Secondary source; supports exemption."
+      },
+      {
+       "citation": "8 CFR 245.2(a)(1), 1245.2(a)(1)",
+       "url": "https://www.ecfr.gov",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.5(a)(1), 103.2(b)(15)",
+       "url": "https://www.ecfr.gov",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.5(a)(1), 103.2(b)(15)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Correct."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct on all key points including FY2026 $920 adjustment. Some loose wording; no material error."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Correctly states I-290B timeliness/excusal, IJ cannot adjudicate I-130; standing not addressed expressly."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii); INA 240(b)(5)(C)(ii), 8 U.S.C. 1229a(b)(5)(C)",
+       "url": "https://www.cliniclegal.org/file-download/download/public/359",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "url": "https://supreme.justia.com/cases/federal/us/602/22-674/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "EOIR Policy Memorandum 25-36 (July 17, 2025); H.R. 1 EOIR fee summaries",
+       "url": "https://nipnlg.org/sites/default/files/2025-07/Final-Fee-Increases-HR1.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": false,
+       "reason": "Memo supports exemption; but $145+$900=$1,045 figure is superseded by the FY2026 inflation adjustment ($920)."
+      },
+      {
+       "citation": "8 CFR 245.2(a)(5)(ii); 8 CFR 1245.2",
+       "url": "https://www.law.cornell.edu/cfr/text/8/245.2",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "8 CFR 103.5(a)(1)(i)",
+       "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-103/subpart-A/section-103.5",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": false,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct bottom line. Stale fee total for non-applicable motions. Accurate on IJ having no I-130 jurisdiction."
+    }
+   }
+  },
+  {
+   "judge_id": "J0004",
+   "question_id": "P-002",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Names USSG 2B1.1 but never states the base offense level (6); not resolved."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Mentions 2B1.1(b)(7) for >$1M government-program loss but unverified and no tiers."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed: no USSG 3B1.3 abuse-of-trust/special-skill analysis for a physician."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": false,
+       "reason": "Does not give Fourth Circuit law; only vague recollection of Dupree on intended loss (Dupree concerned 4B1.2 commentary) and says split resolved by Amendment 827."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "USSG 5G1.3(b)",
+       "url": "https://www.ussc.gov/sites/default/files/pdf/training/decision-trees/5G13_quick-guide.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG 1B1.3(a)(2)",
+       "url": "https://www.ussc.gov/sites/default/files/pdf/training/primers/2024_Primer_Relevant_Conduct.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG Amendment 827 (eff. Nov. 1, 2024), amending 2B1.1",
+       "url": "https://www.ussc.gov/guidelines/amendment/827",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "18 U.S.C. 1347",
+       "url": "https://www.law.cornell.edu/uscode/text/18/1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "url": "https://www.law.cornell.edu/uscode/text/18/3237",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Dupree, 57 F.4th 1269 (11th Cir. 2023) (en banc)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Real; holds commentary receives Kisor deference only if guideline ambiguous (arose under 4B1.2); applying to loss is an inference."
+      }
+     ],
+     "central_conclusion_correct": false,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Declines to name an office (expected: D.S.C./Fourth Circuit on intended-loss/commentary deference for pre-Amendment-827 conduct). Missed base offense level, 3B1.3, aggregated-bill rule. Relevant conduct/5G1.3/venue analysis is sound."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Names USSG 2B1.1 but never states the base offense level (6); not resolved."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Correctly notes +2 to +4 enhancement for government-program losses over $1M but unverified/no cited text."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed: no USSG 3B1.3 abuse-of-trust/special-skill analysis for a physician."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": false,
+       "reason": "Compares circuits, but says a Fourth Circuit decision (Boler) read loss as actual loss; Boler in fact deferred to commentary's intended loss. Dupree mapped to loss by inference."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Notes criminal history not given only in caveats."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "url": "https://www.law.cornell.edu/uscode/text/18/3237",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "18 U.S.C. 1347",
+       "url": "https://www.law.cornell.edu/uscode/text/18/1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG 1B1.3(a)(2); 5G1.3; 2B1.1",
+       "url": "https://www.ussc.gov/education/training-resources/%C2%A75g13-quick-reference-materials",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Dupree, 57 F.4th 1269 (11th Cir. 2023) (en banc)",
+       "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/19-13776/19-13776-2023-01-18.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Banks, 55 F.4th 246 (3d Cir. 2022)",
+       "url": "https://browngold.com/blog/intended-loss-fraud/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSC Amendment 827 (eff. Nov. 1, 2024)",
+       "url": "https://www.ussc.gov/guidelines/amendment/827",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Boler (4th Cir. 2024)",
+       "url": "https://caselaw.findlaw.com/court/us-4th-circuit/116514689.html",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Boler exists (4th Cir. 2024) but it upheld deference to intended loss; it did not read loss as actual loss."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Tentatively picks D.S.C., consistent with likely expected answer, but misstates Boler (flagged as unverified), omits base level, 3B1.3, and billed-amount rule."
+    }
+   }
+  },
+  {
+   "judge_id": "J0005",
+   "question_id": "P-002",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Names USSG 2B1.1 but never states the base offense level (6); not resolved."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed (no 2B1.1(b)(7) discussion)."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed: no USSG 3B1.3 abuse-of-trust/special-skill analysis for a physician."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": true,
+       "reason": "Identifies Boler (4th) vs Dupree (11th) but says Dupree limited loss to actual loss, overstating Dupree, which did not decide 2B1.1 loss."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. \u00a7 1347",
+       "url": "https://codes.findlaw.com/us/title-18-crimes-and-criminal-procedure/18-usc-sect-1347/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG \u00a7\u00a7 1B1.3, 2B1.1, 3D1.2(d), 5G1.3",
+       "url": "https://www.ussc.gov/sites/default/files/pdf/guidelines-manual/2024/GLMFull.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Boler, No. 23-4352 (4th Cir. 2024)",
+       "url": "https://www.ca4.uscourts.gov/opinions/234352.P.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSC Amendment 827 (eff. Nov. 1, 2024)",
+       "url": "https://www.ussc.gov/guidelines/amendment/827",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "18 U.S.C. \u00a7 3237(a); Fed. R. Crim. P. 18, 20, 21",
+       "url": "unknown",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Dupree, 57 F.4th 1269 (11th Cir. 2023) (en banc)",
+       "url": "unknown",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Dupree exists but did not hold 2B1.1 loss is limited to actual loss."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Conditional recommendation (single indictment; D.S.C. marginally for pre-Nov-2024 conduct) with proper Amendment 827/ex post facto caveat. Misses base level, (b)(7), 3B1.3. Overstates Dupree."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Names USSG 2B1.1 but never states the base offense level (6); not resolved."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": true,
+       "reason": "Recalls Amendment 827 but did not verify or cite it as an authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Mentions 2B1.1(b)(7) only in passing."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed: no USSG 3B1.3 abuse-of-trust/special-skill analysis for a physician."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": false,
+       "reason": "Fourth Circuit described as still following Stinson; Boler applied Kisor and found loss ambiguous; sound end result but outdated rationale."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 1347",
+       "url": "https://codes.findlaw.com/us/title-18-crimes-and-criminal-procedure/18-usc-sect-1347/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "url": "https://www.law.cornell.edu/uscode/text/18/3237",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG 1B1.3, 3D1.2(d), 2B1.1",
+       "url": "https://www.ussc.gov/sites/default/files/pdf/training/primers/2021_Primer_Relevant_Conduct.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Dupree (11th Cir. en banc 2023); Stinson v. United States, 508 U.S. 36 (1993); Kisor v. Wilkie (2019)",
+       "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1502&context=unh_lr",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Names D.S.C. with moderate confidence and states close-to-neutral alternative. Same omissions; thinner authority."
+    }
+   }
+  },
+  {
+   "judge_id": "J0006",
+   "question_id": "P-002",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Names USSG 2B1.1 but never states the base offense level (6); not resolved."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Correctly describes (b)(7) for >$1M government health care program loss but authority unverified."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed: no USSG 3B1.3 abuse-of-trust/special-skill analysis for a physician."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Boler (115 F.4th 316) and Dupree correctly contrasted; claim that Eleventh Circuit courts rejected intended loss is overstated/hedged."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "USSG 1B1.3(a)(2)",
+       "url": "https://www.ussc.gov/sites/default/files/pdf/training/primers/2024_Primer_Relevant_Conduct.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG 3D1.2(d), 5G1.3, 5G1.2(d), 2B1.1(b)(7)",
+       "url": "https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Guideline provisions real and support propositions."
+      },
+      {
+       "citation": "United States v. Dupree, 57 F.4th 1269 (11th Cir. 2023) (en banc)",
+       "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/19-13776/19-13776-2023-01-18.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Boler, 115 F.4th 316 (4th Cir. 2024)",
+       "url": "https://nclawyersweekly.com/2024/11/22/4th-circuit-clarifies-meaning-of-loss-in-sentencing-guidelines/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Boler, 115 F.4th 316 (4th Cir. 2024), real; deferred to commentary intended loss."
+      },
+      {
+       "citation": "18 U.S.C. 1347(a); 18 U.S.C. 3237(a)",
+       "url": "https://www.law.cornell.edu/uscode/text/18/1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Best of the P-002 set: names D.S.C., correct Boler/Dupree contrast, Amendment 827 and ex post facto caveats. Still omits base level, 3B1.3, billed-amount rule, criminal history."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Names USSG 2B1.1 but never states the base offense level (6); not resolved."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "No (b)(7) discussion."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "States billed amount is prima facie evidence of intended loss in government program cases, no cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed: no USSG 3B1.3 abuse-of-trust/special-skill analysis for a physician."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": true,
+       "reason": "Fourth vs Eleventh contrasted correctly; Boler not cited by name; 'later panels questioned intended loss' unsupported."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 1347",
+       "url": "https://codes.findlaw.com/us/title-18-crimes-and-criminal-procedure/18-usc-sect-1347/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "United States v. Dupree, 57 F.4th 1269 (11th Cir. 2023) (en banc)",
+       "url": "https://justice.gov/atr/media/1416636/dl?inline=",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSC Loss Primer 2024 / Amendment 827 (eff. Nov. 1, 2024)",
+       "url": "https://www.ussc.gov/sites/default/files/pdf/training/primers/2024_Primer_Loss.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "USSG 1B1.3, 3D1.2(d), 5G1.2(d), 5G1.3, 2B1.1",
+       "url": "https://www.ussc.gov/guidelines",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Names D.S.C. with correct Amendment 827 caveat and mentions the billed-amount presumption. Misses base level, (b)(7), 3B1.3."
+    }
+   }
+  },
+  {
+   "judge_id": "J0007",
+   "question_id": "P-003",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Only touches on whether arrestees personally blocked traffic; no developed individualized-protection analysis."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Identifies 720 ILCS 5/25-1 mob action; Chicago Mun. Code 8-4-010 failure-to-disperse provision not identified (said unverified)."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Mentioned only as caveat (audibility, route, time to comply)."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Says Seventh Circuit is controlling but did not research it; relies on Ninth Circuit Collins (persuasive) and SCOTUS cases; no Schirmer/Vodak."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372229/usrep372229.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Collins v. Jordan, 110 F.3d 1363 (9th Cir. 1996)",
+       "url": "https://www.courtlistener.com/opinion/7040682/collins-v-jordan/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "url": "http://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=072000050K25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Ward v. Rock Against Racism, 491 U.S. 781 (1989)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Correct bottom line (likely violation if only generalized concerns; fact-dependent), but no Seventh Circuit authority and no 8-4-010 predicate analysis. Authorities cited are real and accurately described."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not addressed beyond noting content of order is unknown."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Mentions probable cause and Devenpeck alternative-offense rule but thin."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "720 ILCS 5/25-1",
+       "url": "https://ilga.gov/legislation/ilcs/fulltext?DocName=072000050K25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Chicago Mun. Code 8-4-010",
+       "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643284",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Schirmer v. Nagode, 621 F.3d 581 (7th Cir. 2010)",
+       "url": "https://caselaw.findlaw.com/court/us-7th-circuit/1537138.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Grayned v. City of Rockford, 408 U.S. 104 (1972)",
+       "url": "https://supreme.justia.com/cases/federal/us/408/104/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "url": "https://firstamendment.mtsu.edu/article/breach-of-peace-laws/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "url": "https://supreme.justia.com/cases/federal/us/379/536/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Strong: Edwards/Cox/Grayned, Chicago Mun. Code 8-4-010 predicate, Schirmer v. Nagode (7th Cir.) correctly described, QI/Monell distinguished. Gaps: individualized protection and warning adequacy."
+    }
+   }
+  },
+  {
+   "judge_id": "J0008",
+   "question_id": "P-003",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "url": "https://supreme.justia.com/cases/federal/us/395/444/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "url": "https://www.courtlistener.com/opinion/212572/vodak-v-city-of-chicago/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Schirmer v. Nagode, 621 F.3d 581 (7th Cir. 2010)",
+       "url": "https://caselaw.findlaw.com/court/us-7th-circuit/1537138.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Chicago Mun. Code 8-4-010(d)",
+       "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643284",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "CPD General Order G02-02",
+       "url": "https://directives.chicagopolice.org/api/publicDirective/6197",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Ward v. Rock Against Racism, 491 U.S. 781 (1989)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Forsyth County v. Nationalist Movement, 505 U.S. 123 (1992)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Thayer v. Chiczewski, 705 F.3d 237 (7th Cir. 2012)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Real 7th Cir. case on Chicago dispersal order/arrests; accurately flagged as not read."
+      },
+      {
+       "citation": "720 ILCS 5/25-1, 5/26-1",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Illinois mob action/disorderly conduct as described."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Comprehensive and accurate: public forum, TPM, Edwards-type imminence (via Brandenburg/Forsyth), 8-4-010 predicate, Vodak/Schirmer/Thayer, individualized PC, order clarity, QI/Monell. Authorities real and fairly characterized."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false,
+       "reason": "Not meaningfully addressed (clarity/audibility/opportunity to comply)."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "url": "https://www.oyez.org/cases/1962/86",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536, 559 (1965)",
+       "url": "https://supreme.justia.com/cases/federal/us/379/536/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Feiner v. New York, 340 U.S. 315 (1951)",
+       "url": "https://caselaw.findlaw.com/court/us-supreme-court/340/315.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Grayned v. City of Rockford, 408 U.S. 104 (1972)",
+       "url": "https://caselaw.findlaw.com/court/us-supreme-court/408/104.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "url": "https://www.courtlistener.com/opinion/212572/vodak-v-city-of-chicago/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010",
+       "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643284",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Accurate and well-grounded (Edwards, Cox, Feiner counterweight, Grayned, Vodak, 8-4-010). Misses the dispersal-warning adequacy issue."
+    }
+   }
+  },
+  {
+   "judge_id": "J0009",
+   "question_id": "P-003",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "url": "https://www.oyez.org/cases/1962/86",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "url": "https://supreme.justia.com/cases/federal/us/379/536/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "url": "https://caselaw.findlaw.com/court/us-7th-circuit/1559740.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010",
+       "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643284",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "720 ILCS 5/26-1",
+       "url": "http://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=072000050K26-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "720 ILCS 5/26-1 real; lacks a failure-to-disperse subsection."
+      },
+      {
+       "citation": "Ward v. Rock Against Racism, 491 U.S. 781 (1989); Forsyth County v. Nationalist Movement, 505 U.S. 123 (1992); Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Accurate: identifies Chicago Mun. Code 8-4-010 failure-to-disperse predicate (lawful order + three or more persons committing disorderly acts), Vodak, order audibility, individualized PC, Nieves, QI/Monell."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Only passing reference to whether specific arrestees blocked traffic."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": false,
+       "reason": "Fails to identify that Chicago Mun. Code 8-4-010 contains the failure-to-disperse offense (with lawful-order predicate); describes it as a clear-and-present-danger provision and says no failure-to-disperse offense was confirmed."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Notes need for audible, repeated order with opportunity to leave, without authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "url": "https://caselaw.findlaw.com/court/us-supreme-court/372/229.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "url": "https://en.wikipedia.org/wiki/Cox_v._Louisiana",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "url": "https://caselaw.findlaw.com/court/us-7th-circuit/1559740.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Collins v. Jordan, 110 F.3d 1363 (9th Cir. 1996)",
+       "url": "https://caselaw.findlaw.com/us-9th-circuit/1097573.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Nieves v. Bartlett, 587 U.S. 391 (2019)",
+       "url": "https://www.supremecourt.gov/opinions/18pdf/17-1174_m5o1.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "720 ILCS 5/26-1",
+       "url": "http://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=072000050K26-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "url": "https://ilga.gov/legislation/ilcs/fulltext?DocName=072000050K25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010",
+       "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2643284",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Chicago Mun. Code 8-4-010 exists but the answer misdescribes it and misses its failure-to-disperse provision."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Correct bottom line and general doctrine, but misses the operative Chicago failure-to-disperse ordinance and does not develop individualized protection."
+    }
+   }
+  },
+  {
+   "judge_id": "J0010",
+   "question_id": "P-004",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Applies Columbia Valley, Guaranty and the on-all-fours In re Zaidi (Tex. Apr. 10, 2026, verified to exist and hold as described); Phoenix Founders/American Home/RSR not named but the controlling line is captured."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Notes disqualification is a severe remedy needing prejudice but never states the abuse-of-discretion/mandamus standard with authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2010/2001591.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re Guaranty Insurance Services, Inc., 343 S.W.3d 130 (Tex. 2011)",
+       "url": "https://caselaw.findlaw.com/court/tx-supreme-court/1572975.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "url": "https://www.txcourts.gov/media/1462571/240245.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026) exists; holds admonishment required at or before the nonlawyer begins work on the conflicted matter, no waiver as a matter of law from e-filing notices; mandamus denied."
+      },
+      {
+       "citation": "In re EPIC Holdings, 985 S.W.2d 41 (Tex. 1998)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "General waiver-by-delay principle, flagged unverified."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct: no error. Accurate two-presumption framework, timely-admonishment rule from Zaidi, late screening ineffective, memory/denials irrelevant, waiver analysis."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Cites Columbia Valley and Zaidi correctly, but mischaracterizes Guaranty Insurance (where the Court actually held disqualification NOT warranted because of effective screening/admonishment)."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "url": "https://www.courtlistener.com/opinion/895259/in-re-columbia-valley-healthcare-system/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re Guaranty Insurance Services, Inc., 343 S.W.3d 130 (Tex. 2011)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2011/2001751.html",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Guaranty exists but the Texas Supreme Court there conditionally granted mandamus and vacated the disqualification; answer says failed screening required disqualification and lack of recall is no defense, which is wrong as to Guaranty."
+      },
+      {
+       "citation": "In re Zaidi (Prestige Consulting d/b/a Turnaround Management Group), No. 24-0245 (Tex. 2026)",
+       "url": "https://www.txcourts.gov/media/1462571/240245.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Correct bottom line and strong Zaidi-based analysis including abuse-of-discretion standard and waiver. Misstates Guaranty Insurance's holding and labels Zaidi as '(Apex Katy Physicians)'; one authority does not support the proposition."
+    }
+   }
+  },
+  {
+   "judge_id": "J0011",
+   "question_id": "P-004",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Phoenix Founders, Godbey, American Home, Columbia Valley, In re Turner (real; 542 S.W.3d 553) and the on-point Zaidi decision."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "States abuse-of-discretion/mandamus posture without authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2026/24-0245.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Zaidi exists and holds as described."
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2010/2001591.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re Turner, 542 S.W.3d 553 (Tex. 2017)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2017/17-0099.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Vaughan v. Walther, 875 S.W.2d 690 (Tex. 1994)",
+       "url": "unknown",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Phoenix Founders v. Marshall; Natl. Med. Enters. v. Godbey; In re American Home Products",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Real Texas Supreme Court side-switching nonlawyer line, correctly described."
+      },
+      {
+       "citation": "In re Turner, 542 S.W.3d 553 (Tex. 2017)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Real; disqualification where nonlawyer obtained and shared confidences; presumption not rebuttable if lawyer directed work."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct: no error. Identifies Zaidi (verified), the timing rule, late screening ineffective, waiver rejected."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Phoenix Founders, American Home, Columbia Valley and Zaidi all captured."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "url": "https://www.txcourts.gov/media/1462571/240245.pdf",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Zaidi exists and holds as described."
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2010/2001591.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re American Home Products Corp., 985 S.W.2d 68 (Tex. 1998)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re EPIC Holdings, Inc., 985 S.W.2d 41 (Tex. 1998); In re Users System Services, Inc., 22 S.W.3d 331 (Tex. 1999)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Natl. Med. Enters. v. Godbey, 924 S.W.2d 123 (Tex. 1996); In re Users System Services, 22 S.W.3d 331 (Tex. 1999)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Real, on point."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct conclusion and complete analysis incl. standard of review; minor loose characterization of Phoenix Founders."
+    }
+   }
+  },
+  {
+   "judge_id": "J0012",
+   "question_id": "P-004",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Columbia Valley, Phoenix Founders/American Home line and In re Zaidi (2026) applied."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "url": "https://www.courtlistener.com/opinion/895259/in-re-columbia-valley-healthcare-system/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "url": "https://law.justia.com/cases/texas/supreme-court/2026/24-0245.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Zaidi exists and holds as described."
+      },
+      {
+       "citation": "Vaughan v. Walther, 875 S.W.2d 690 (Tex. 1994)",
+       "url": "https://caselaw.findlaw.com/court/tx-supreme-court/1323473.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Vaughan v. Walther: 6.5-month delay waived disqualification complaint."
+      },
+      {
+       "citation": "In re EPIC Holdings, Inc., 985 S.W.2d 41 (Tex. 1998)",
+       "url": "https://www.courtlistener.com/opinion/2457042/in-re-epic-holdings-inc/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct and current; applies Zaidi's admonish-at-commencement rule and rejects waiver."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Says firm must ask and screen from hire and that screening was untimely, but does not state Zaidi's rule that admonishment is due at or before the nonlawyer begins work on a later-arising conflict."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": false,
+       "grounded": true,
+       "reason": "Misses the directly controlling Zaidi (2026) decision on near-identical facts; relies on Columbia Valley/Phoenix/AHP only."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Abuse of discretion and severity noted without authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "url": "https://www.courtlistener.com/opinion/895259/in-re-columbia-valley-healthcare-system/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "In re American Home Products Corp., 985 S.W.2d 68 (Tex. 1998)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Vaughan v. Walther, 875 S.W.2d 690 (Tex. 1994)",
+       "url": "",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": false,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "notes": "Right conclusion on the older line but omits the controlling 2026 Zaidi decision and its timing rule, so authority is not current."
+    }
+   }
+  },
+  {
+   "judge_id": "J0013",
+   "question_id": "P-005",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Accepted trailers and used them four months; promises irrevocable on acceptance under 8.2A-407."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Addresses revocation (cites 8.2A-516(2); the operative provision is 8.2A-517, which limits revocation against finance lessors), unconscionability and lessor misconduct; pin cite imprecise."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/chapter/section8.2A-103/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code 8.2A-407",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/subtitle/part4/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "UCC 2A-209 (Va. Code 8.2A-209)",
+       "url": "https://code.dccouncil.gov/us/dc/council/code/sections/28:2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": false,
+       "temporally_valid": true,
+       "reason": "Uniform-text DC enactment, not Virginia; persuasive only."
+      },
+      {
+       "citation": "UCC 2A-407 official comment (via DC Code 28:2A-407)",
+       "url": "https://code.dccouncil.gov/us/dc/council/code/sections/28:2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": false,
+       "temporally_valid": true,
+       "reason": "Uniform official comment via DC code; persuasive only."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct: finance lease, hell-or-high-water on acceptance, no lessor warranty, remedy against Manufacturer estate. Mentions 8.2A-210/211 lessor warranties. Minor pin cite imprecision on revocation."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Concludes accepted-and-used; acceptance/revocation 'not researched' in detail."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Notes lessor misconduct/undertakings exception generally and limited interference/infringement warranties; no 8.2A-210 analysis."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "See notes."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code Ann. 8.2A-407",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-209",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/part2/section8.2A-209/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-103(1)(g)",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct bottom line with verified Va. Code 8.2A-407 and 8.2A-209; thinner on acceptance timing and lessor express warranty."
+    }
+   }
+  },
+  {
+   "judge_id": "J0014",
+   "question_id": "P-005",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Mentions lessor liability only for own misrepresentation and 8.2A-211 limited warranties; no explicit 8.2A-210 analysis."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code Ann. 8.2A-103(1)(g)",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/chapter/section8.2A-103/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-407",
+       "url": "https://law.lis.virginia.gov/vacodefull/title8.2A/part4/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-209",
+       "url": "https://law.lis.virginia.gov/vacodefull/title8.2A/chapter/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-211, 8.2A-212, 8.2A-213, 8.2A-517, 8.2A-501 to 8.2A-529",
+       "url": "https://law.lis.virginia.gov/vacodefull/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "UCC 2A-407 and Official Comment",
+       "url": "https://code.dccouncil.gov/us/dc/council/code/sections/28:2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": false,
+       "temporally_valid": true,
+       "reason": "Uniform comment via DC code; persuasive only."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct and complete on finance-lease elements, 8.2A-407, 8.2A-209, 212/213 exclusion, revocation limits, default remedies, and separate supplier claim."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Notes no express lessor warranty in Lease and misconduct exception; no 8.2A-210 analysis."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code Ann. 8.2A-103",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/chapter1/section8.2A-103/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-407",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-209",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/part2/section8.2A-209/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-212",
+       "url": "https://law.justia.com/codes/virginia/2021/title-8-2a/sections-d-1/section-8-2a-212/index.html",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "UCC 2A-516 and 2A-517 (uniform text; Virginia counterparts 8.2A-516, 8.2A-517)",
+       "url": "https://www.law.cornell.edu/ucc/2A/2A-517",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": false,
+       "temporally_valid": true,
+       "reason": "Uniform text; Virginia enactment not read."
+      },
+      {
+       "citation": "UCC 2A-407 official comment and 2A-508 (via D.C. Code 28:2A-407, 28:2A-508)",
+       "url": "https://code.dccouncil.gov/us/dc/council/code/sections/28:2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": false,
+       "temporally_valid": true,
+       "reason": "DC/uniform commentary; persuasive only."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct; cites 8.2A-212 'except in a finance lease' and 8.2A-209 language accurately; also flags true-lease issue. Same minor gap on 8.2A-210."
+    }
+   }
+  },
+  {
+   "judge_id": "J0015",
+   "question_id": "P-005",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Mentions lessor's own warranties/representations only as an exception; no 8.2A-210 analysis."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Notes revocation under 8.2A-517 is limited and 8.2A-407 controls; unconscionability; not verified."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/chapter1/section8.2A-103/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code 8.2A-407",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/part2/section8.2A-209/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code 8.2A-212, 8.2A-213",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/chapter2/section8.2A-212/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code 8.2A-516",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/part5/section8.2A-516/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct conclusion with accurate finance-lease, 407, 209, 212/213 and 516 notice analysis."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "criterion_id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "Lessor misrepresentation/undertaking exception only; no 8.2A-210 analysis."
+      },
+      {
+       "criterion_id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      },
+      {
+       "criterion_id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": false,
+       "reason": "States revocation against lessor is not a route and 407 bars cancellation; thinly supported."
+      },
+      {
+       "criterion_id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true,
+       "reason": "Addressed; treatment consistent with governing law and supported by cited authority."
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code Ann. 8.2A-103(1)(g)",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/section8.2A-103/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-407",
+       "url": "https://law.lis.virginia.gov/vacodefull/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-209",
+       "url": "https://law.lis.virginia.gov/vacode/title8.2A/section8.2A-209/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-212, 8.2A-213",
+       "url": "https://law.lis.virginia.gov/vacodefull/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      },
+      {
+       "citation": "Va. Code Ann. 8.2A-523, 8.2A-527, 8.2A-528",
+       "url": "https://law.lis.virginia.gov/vacodefull/title8.2A/",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "reason": "Authority exists and supports the stated proposition for the relevant scope/date."
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "notes": "Correct conclusion; accurate on finance lease, 407, 209, 212/213, default remedies; exceptions flagged."
+    }
+   }
+  }
+ ]
+}

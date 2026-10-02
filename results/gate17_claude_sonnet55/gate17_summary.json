@@ -1,0 +1,151 @@
+{
+  "gate": "17 - Blinded Matched-Model Efficacy",
+  "pilot": true,
+  "judge_model": "Claude Sonnet 5.5",
+  "n_pairs": 15,
+  "n_unique_questions": 5,
+  "aggregate": {
+    "control": {
+      "all_pass": 0.5333333333333333,
+      "judge_all_pass": 0.6666666666666666,
+      "issue_recall": 0.8630434782608696,
+      "answer_coverage": 0.8801422924901185,
+      "grounded_coverage": 0.8211747913921827,
+      "critical_issue_recall": 0.8833333333333333,
+      "citation_precision": 0.9755555555555555,
+      "central_correctness": 0.9333333333333333,
+      "material_omission": 0.3333333333333333,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 5.933333333333334,
+      "budget_compliant": 1.0,
+      "blocked": 0.0
+    },
+    "lrpe": {
+      "all_pass": 0.26666666666666666,
+      "judge_all_pass": 0.4666666666666667,
+      "issue_recall": 0.8541062801932368,
+      "answer_coverage": 0.8504281949934124,
+      "grounded_coverage": 0.8105524813350901,
+      "critical_issue_recall": 0.8666666666666667,
+      "citation_precision": 0.8651058201058202,
+      "central_correctness": 1.0,
+      "material_omission": 0.26666666666666666,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 7.6,
+      "budget_compliant": 1.0,
+      "blocked": 0.0
+    }
+  },
+  "paired_deltas": {
+    "all_pass": {
+      "delta": -0.26666666666666666,
+      "ci95_question_cluster_bootstrap": [
+        -0.6666666666666666,
+        0.0
+      ],
+      "per_question_delta": {
+        "P-001": -1.0,
+        "P-002": 0.0,
+        "P-003": -0.3333333333333333,
+        "P-004": 0.0,
+        "P-005": 0.0
+      }
+    },
+    "issue_recall": {
+      "delta": -0.008937198067632846,
+      "ci95_question_cluster_bootstrap": [
+        -0.04347826086956521,
+        0.016666666666666673
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": 0.0,
+        "P-003": -0.07246376811594202,
+        "P-004": 0.0,
+        "P-005": 0.02777777777777779
+      }
+    },
+    "answer_coverage": {
+      "delta": -0.029714097496706195,
+      "ci95_question_cluster_bootstrap": [
+        -0.06996047430830041,
+        0.014909090909090907
+      ],
+      "per_question_delta": {
+        "P-001": -0.041666666666666664,
+        "P-002": -0.04545454545454547,
+        "P-003": -0.10144927536231885,
+        "P-004": 0.04,
+        "P-005": 0.0
+      }
+    },
+    "citation_precision": {
+      "delta": -0.11044973544973546,
+      "ci95_question_cluster_bootstrap": [
+        -0.18518518518518517,
+        -0.035714285714285726
+      ],
+      "per_question_delta": {
+        "P-001": -0.19629629629629627,
+        "P-002": 0.007936507936507908,
+        "P-003": -0.041666666666666664,
+        "P-004": -0.11111111111111112,
+        "P-005": -0.21111111111111114
+      }
+    },
+    "central_correctness": {
+      "delta": 0.06666666666666667,
+      "ci95_question_cluster_bootstrap": [
+        0.0,
+        0.19999999999999998
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": 0.3333333333333333,
+        "P-003": 0.0,
+        "P-004": 0.0,
+        "P-005": 0.0
+      }
+    },
+    "material_omission": {
+      "delta": -0.06666666666666667,
+      "ci95_question_cluster_bootstrap": [
+        -0.19999999999999998,
+        0.0
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": 0.0,
+        "P-003": 0.0,
+        "P-004": -0.3333333333333333,
+        "P-005": 0.0
+      }
+    },
+    "unsafe_hallucination": {
+      "delta": 0.0,
+      "ci95_question_cluster_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": 0.0,
+        "P-003": 0.0,
+        "P-004": 0.0,
+        "P-005": 0.0
+      }
+    }
+  },
+  "pass_rules": {
+    "all_pass_delta": false,
+    "answer_coverage_delta": false,
+    "issue_recall_delta": false,
+    "critical_issue_recall_noninferior": false,
+    "citation_precision": false,
+    "central_correctness_noninferior": true,
+    "unsafe_hallucination_rate": true,
+    "budget_compliance": true
+  },
+  "PASS": false,
+  "note": "This five-question public LRB run is a pilot. Repeats reduce run variance but do not create new independent questions; confirmatory evidence needs a larger held-out unique-question set."
+}

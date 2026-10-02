@@ -1,0 +1,12 @@
+{
+  "valid": false,
+  "expected_runs": 30,
+  "found_runs": 30,
+  "models": [
+    "Claude Sonnet 5.5"
+  ],
+  "errors": [
+    "RE2D56EEC4EA2: answer word cap exceeded (1332)",
+    "REE688D406267: answer word cap exceeded (1645)"
+  ]
+}
