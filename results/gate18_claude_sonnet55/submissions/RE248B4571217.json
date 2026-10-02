@@ -1,0 +1,46 @@
+{
+  "run_id": "RE248B4571217",
+  "question_id": "P-001",
+  "model": "Claude Sonnet 5.5",
+  "final_status": "answered",
+  "final_answer": "IMPORTANT LIMITATION: every attempt to fetch primary sources (Cornell LII, eCFR, uscode.house.gov, govinfo, justice.gov) was blocked by the network proxy. Only one search snippet was seen (quoting 8 CFR 1003.23(b)(4)(ii) and noting the fee rule at 8 CFR 1003.24(b)(2)). No authority was verified at source, so under the firewall none is marked relied on. The statements below are from the search snippet and general knowledge, and should be checked against the primary text before use.\n\n1. Main recourse: the in absentia order. The husband's route is a motion to reopen and rescind the August 1, 2025 in absentia removal order, filed with the immigration court that entered it. Under INA 240(b)(5)(C)(ii) (8 U.S.C. 1229a(b)(5)(C)(ii)) and 8 CFR 1003.23(b)(4)(ii), a motion based on lack of proper notice under INA 239(a)(1) or (2) may be filed at any time. The 180-day deadline (which would have run about January 28, 2026) applies only to the exceptional-circumstances ground, so it does not bar this motion. The facts fit a lack-of-notice theory: the NTA was mailed to an address the couple never provided. The motion should include a declaration that he never received the NTA or any hearing notice, evidence of the address he actually gave USCIS (the I-130/I-485 filings), and evidence that the mailing address was wrong. Because the husband never gave that address, he should argue that the mailing did not satisfy the notice requirement. Only one motion to reopen to rescind an in absentia order is allowed, so it should be complete. The snippet says filing the motion automatically stays removal pending the immigration judge's decision. If granted, the order is rescinded and proceedings are reopened. A new hearing notice would follow.\n\n2. What to file and fees (as of April 1, 2026). File a motion to reopen and rescind the in absentia order, with a supporting declaration and exhibits, proof of service on DHS/ICE OPLA, and a cover page. E-filing through ECAS is generally available, and the immigration court's practice manual should be consulted for current requirements. According to the search snippet, there is no filing fee for a motion to rescind an in absentia order (8 CFR 1003.24(b)(2)). I could not verify this in the regulation text. I did not verify whether any separate fee applies to an accompanying application. The EOIR-26 (appeal) is not used here, because the order was entered by an immigration judge and the relief sought is rescission, not an appeal. If the motion is denied, the husband may appeal to the BIA (Form EOIR-26, with a fee that I have not verified), and may seek review in a federal court of appeals after a final order.\n\n3. The I-130 and I-485 denials. These are USCIS decisions, which the immigration court does not review. (a) I-485: as I recall (not verified), a denied adjustment application cannot be appealed, but if proceedings are reopened the husband may renew the adjustment application before the immigration judge de novo (8 CFR 1245.2(a)(5)(ii)), which is the practical remedy. It would require an approvable I-130, so the I-130 must be dealt with in parallel. (b) I-130: as I recall (not verified), a denial for abandonment (no RFE response) cannot be appealed (8 CFR 103.2(b)(15)). A USCIS motion to reopen or reconsider (Form I-290B) is due within 30 days (33 if mailed), so it is likely untimely, though USCIS may in its discretion excuse a late motion to reopen if the delay was reasonable and beyond the filer's control, and an argument based on USCIS mailing to the wrong address exists. The most reliable path is to file a new I-130 (or ask for the immigration judge to continue the case while a new I-130 is adjudicated). The USCIS fee is not verified. A spouse of a U.S. citizen who was inspected and admitted is generally eligible to adjust despite a later overstay as an immediate relative. A risk is the short time between entry on a B-2 visa (December 1, 2022) and the marriage (December 20, 2022), which may raise a preconceived-intent or misrepresentation issue that should be addressed in the evidence. I did not research this point.\n\n4. Practical points. Check the ECAS/EOIR automated case system and the 1-800-898-7180 hotline to confirm the case status. Have the husband update his address with the court (Form EOIR-33) and with USCIS (AR-11) immediately. The couple should hire an immigration attorney quickly, as ICE may enforce the order until the motion is filed.\n\nUnresolved: all rules above are unverified at source for this run.",
+  "issues": [
+    {"id":"I1","text":"Whether an in absentia order entered after NTA mailed to an unprovided address can be rescinded, and deadline","criticality":"critical"},
+    {"id":"I2","text":"What must be filed with the immigration court and fee","criticality":"critical"},
+    {"id":"I3","text":"Reviewability/recourse for USCIS I-130 abandonment denial and I-485 denial (renewal before IJ, I-290B, new I-130)","criticality":"critical"},
+    {"id":"I4","text":"Automatic stay of removal","criticality":"important"},
+    {"id":"I5","text":"Preconceived intent / misrepresentation risk given marriage 19 days after B-2 entry","criticality":"secondary"}
+  ],
+  "authorities": [
+    {"id":"A1","citation":"8 CFR 1003.23(b)(4)(ii)","title":"Reopening or reconsideration before the immigration court","url":"https://www.law.cornell.edu/cfr/text/8/1003.23","authority_type":"regulation","jurisdiction":"US federal (EOIR)","level":"controlling","proposition":"In absentia order may be rescinded on motion filed any time on lack of notice; 180 days for exceptional circumstances; one motion; filing stays removal","source_verified":false,"good_law_as_of":"unknown","entailment":"BACKGROUND","relied_on":false},
+    {"id":"A2","citation":"8 CFR 1003.24(b)(2)","title":"Fees for motions to reopen","url":"https://www.law.cornell.edu/cfr/text/8/1003.24","authority_type":"regulation","jurisdiction":"US federal (EOIR)","level":"controlling","proposition":"No fee for motion to rescind in absentia order","source_verified":false,"good_law_as_of":"unknown","entailment":"BACKGROUND","relied_on":false},
+    {"id":"A3","citation":"8 U.S.C. 1229a(b)(5)(C)","title":"INA 240(b)(5)(C)","url":"https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title8-section1229a","authority_type":"statute","jurisdiction":"US federal","level":"controlling","proposition":"Rescission of in absentia order for lack of notice at any time","source_verified":false,"good_law_as_of":"unknown","entailment":"BACKGROUND","relied_on":false}
+  ],
+  "claims": [
+    {"id":"C1","text":"A motion to reopen to rescind the in absentia order based on lack of notice may be filed at any time and stays removal (unverified at source)","central":true,"authority_ids":["A1","A3"]},
+    {"id":"C2","text":"No filing fee for the motion to rescind (unverified at source)","central":true,"authority_ids":["A2"]}
+  ],
+  "final_citation_ids": [],
+  "counterauthority_queries": [],
+  "unresolved": [
+    "All primary sources were inaccessible (egress blocked); no authority verified at source",
+    "I-130/I-485 recourse (8 CFR 245.2(a)(5)(ii) / 1245.2(a)(5)(ii), 103.2(b)(15), 103.5) stated from memory only",
+    "Counterauthority (e.g., Campos-Chaves v. Garland) not researched",
+    "USCIS fee amounts and BIA appeal fee not verified"
+  ],
+  "research_actions": [
+    {"seq":1,"type":"fetch","query_or_url":"https://www.law.cornell.edu/cfr/text/8/1003.23","purpose":"verify in absentia motion rule (blocked)"},
+    {"seq":2,"type":"fetch","query_or_url":"https://www.law.cornell.edu/cfr/text/8/1003.24","purpose":"fees (blocked)"},
+    {"seq":3,"type":"fetch","query_or_url":"https://www.law.cornell.edu/uscode/text/8/1229a","purpose":"statute (blocked)"},
+    {"seq":4,"type":"fetch","query_or_url":"https://www.law.cornell.edu/cfr/text/8/245.2","purpose":"renewal of I-485 (blocked)"},
+    {"seq":5,"type":"fetch","query_or_url":"https://www.law.cornell.edu/cfr/text/8/103.2","purpose":"abandonment denial (blocked)"},
+    {"seq":6,"type":"fetch","query_or_url":"https://www.ecfr.gov/ 1003.23","purpose":"verify rule (blocked)"},
+    {"seq":7,"type":"fetch","query_or_url":"https://www.ecfr.gov/ 1003.24","purpose":"fees (blocked)"},
+    {"seq":8,"type":"fetch","query_or_url":"https://uscode.house.gov 1229a","purpose":"statute (blocked)"},
+    {"seq":9,"type":"search","query_or_url":"8 CFR 1003.23(b)(4)(ii) motion to reopen in absentia order lack of notice no fee 1003.24","purpose":"discovery"},
+    {"seq":10,"type":"fetch","query_or_url":"https://www.justice.gov/eoir/policy-manual-eoir/part-II/icpm/chapter-4-9","purpose":"EOIR manual (blocked)"},
+    {"seq":11,"type":"fetch","query_or_url":"https://www.govinfo.gov USCODE 1229a","purpose":"statute (blocked)"},
+    {"seq":12,"type":"fetch","query_or_url":"https://immigrationlitigation.org in absentia practice advisory","purpose":"secondary (blocked)"}
+  ],
+  "usage": {"tool_calls":12,"elapsed_sec":null}
+}

@@ -1,0 +1,5659 @@
+{
+ "judge_model": "Claude Sonnet 5.5",
+ "groups": [
+  {
+   "judge_id": "J0001",
+   "question_id": "P-001",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "INA 240(b)(5)(C)(ii), 8 U.S.C. 1229a(b)(5)(C)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii) (misstated: reg limits to one such motion)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "non_entailing"
+      },
+      {
+       "citation": "CLINIC FAQ on H.R.1 fees",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      },
+      {
+       "citation": "8 CFR 1245.2(a)(1), (a)(5)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "INA 245(a),(c)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_reading",
+     "notes": "Comprehensive and correct on no-deadline, stay, no-fee, IJ jurisdiction over renewed I-485, new I-130. But states the notice-based motion is not subject to the one-motion limit; 8 CFR 1003.23(b)(4)(ii) says only one such motion. Hedged but wrong. Standing of petitioner not explicit."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct core (rescission motion, no deadline, stay, no fee, one motion, renew I-485 before IJ, new I-130). Thin on the substantive notice analysis (INA 239(a)/(c), address duties) and on petitioner standing; heavily hedged as unverified."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "INA 240(b)(5)(C), 8 U.S.C. 1229a(b)(5)(C)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Matter of Grijalva, 21 I&N Dec. 27 / Matter of Mendoza-Hernandez, 24 I&N Dec. 665 (wrong cite; Mendoza-Hernandez is 27 I&N Dec. 520 (BIA 2019); M-R-A- is 24 I&N Dec. 665)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      },
+      {
+       "citation": "EOIR fee guidance PM 25-35/25-36/26-01",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      },
+      {
+       "citation": "8 CFR 103.2(b)(15); 103.5(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 245.2(a)(5)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "citation_only",
+     "notes": "Strongest substantive analysis (Campos-Chaves both-notice requirement, address duty, presumption of delivery, I-130 and I-485 paths, 90-day rule). Correct conclusion of no fee but muddied by reporting a conflicting $145+$900 summary. Miscites Mendoza-Hernandez."
+    }
+   }
+  },
+  {
+   "judge_id": "J0002",
+   "question_id": "P-001",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "H.R.1 EOIR fee provisions; CLINIC FAQ",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      },
+      {
+       "citation": "8 CFR 103.2(b)(8),(15); 103.5(a)(1)(i)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Complete: lack-of-notice motion, no fee with H.R.1 exception, stay, Campos-Chaves, address evidence, I-130 MTR/new I-130, IJ jurisdiction over I-485, misrepresentation risk."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)(iii); OBBBA exception",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1245.2(a)(1)(i),(a)(5)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 103.5(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Matter of G-Y-R-, 23 I&N Dec. 181; Matter of M-D-, 23 I&N Dec. 540",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "INA 245(a),(c)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Complete and accurate; good notice analysis (presumption of delivery, 239(a)(1)(F)); flags unread Diji. Slightly muddled on 90-day rule."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Federal Register EOIR fees / H.R.1 FAQ summaries",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct core and no-fee conclusion; thinner on notice-sufficiency analysis (no Campos-Chaves/239(a)(1)(F)) and I-130 standing. Fully hedged."
+    }
+   }
+  },
+  {
+   "judge_id": "J0003",
+   "question_id": "P-001",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii); 1003.24(b)(2)(iii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "EOIR PM 25-36 (Amended)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 103.5; 103.2(b)(15)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Matter of L-A-B-R-, 27 I&N Dec. 405 (A.G. 2018)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Thorough and accurate on all issues, including Campos-Chaves, address duty, no fee, continuance for new I-130, IJ jurisdiction over I-485."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Campos-Chaves v. Garland, 602 U.S. 447 (2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 103.2(b)(15)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 103.5(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "EOIR OBBBA fee inflation notice (91 FR, Jan. 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "EOIR PM 25-36",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Matter of M-R-A-, 24 I&N Dec. 665 (BIA 2008)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Matter of Hashmi, 24 I&N Dec. 785 (BIA 2009)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Matter of Diji, 30 I&N Dec. 1 (BIA 2026) (post-dates as-of date; flagged, not relied on)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      },
+      {
+       "citation": "USCIS Form G-1055",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Strong and accurate; Hashmi continuance and M-R-A- presumption correctly used; candidly notes Diji post-dates the as-of date."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "8 CFR 1003.23(b)(4)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 U.S.C. 1229a(b)(5)(C)(ii)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "8 CFR 1003.24(b)(2)(iii); H.R.1 guidance",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      },
+      {
+       "citation": "8 CFR 245.2(a)(5)(ii); 1245.2(a)(5)(ii); 103.2(b)(15); 103.5",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct on rescission, no-fee, stay and I-485 renewal; but no real notice-law analysis (no Campos-Chaves/239(a)(1)(F)/presumption of delivery) and leaves de novo review/fees unverified."
+    }
+   }
+  },
+  {
+   "judge_id": "J0004",
+   "question_id": "P-002",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 2B1.1, 1B1.3, 3D1.2(d), 5G1.2, 5G1.3",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSC Amendment 827 (eff. Nov. 1, 2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "United States v. Dupree, 57 F.4th 1269 (11th Cir. 2023) (en banc)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "United States v. Booker (4th Cir. No. 23-4352)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_selection",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Best of the group on circuit loss-deference (Dupree, Amendment 827)."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 1B1.3(a)(2); 3D1.2(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.3(b),(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 1347(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Good venue (3237(a)) discussion."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.3",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Minimal."
+    }
+   }
+  },
+  {
+   "judge_id": "J0005",
+   "question_id": "P-002",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "USSG 1B1.3(a)(2)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 3D1.2(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.3(b); 5G1.2(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_selection",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Mentions (b)(7) thresholds and 3B1.3 without authority."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 1B1.3, 2B1.1, 3D1.2, 5G1.2",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 1B1.3(a)(2); 3D1.2(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG Amendment 827 (2024); 2B1.1 Notes (health care intended loss)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.3(b)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_selection",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Notes the health-care prima facie intended-loss rule and Amendment 827; no Fourth Circuit comparison."
+    }
+   }
+  },
+  {
+   "judge_id": "J0006",
+   "question_id": "P-002",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.2(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.3(b)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 1B1.3(a)(2)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Says choose the district with larger share; no guideline-provision detail."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 1B1.3, 5G1.3",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Declines to name an office; very thin."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "18 U.S.C. 3237(a)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "18 U.S.C. 1347",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.3",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "USSG 5G1.2(d); 1B1.3(a)(2); 2B1.1; 3D1.2(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Fed. R. Crim. P. 18; U.S. Const. art. III sec. 2; amend. VI",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct that relevant conduct/grouping equalizes the guideline range and that one consolidated indictment is better; but does not state the 2B1.1 base level, omits or only gestures at 3B1.3, criminal history and the circuit-by-circuit comparison. Mentions (b)(7) and 3B1.3 only in passing."
+    }
+   }
+  },
+  {
+   "judge_id": "J0007",
+   "question_id": "P-003",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010(d)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Schirmer v. Nagode, 621 F.3d 581 (7th Cir. 2010) (attributes a permanent injunction to it; that was Bell v. Keating)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "non_entailing"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_reading",
+     "notes": "Identifies the Chicago ordinance and its lawful-order predicate and Schirmer, but with no firm Supreme Court rules (Brandenburg, Ward) and misattributes the injunction/facial-invalidity holding. Fully hedged."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Ward v. Rock Against Racism, 491 U.S. 781 (1989)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Forsyth County v. Nationalist Movement, 505 U.S. 123 (1992)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Devenpeck v. Alford, 543 U.S. 146 (2004)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Nieves v. Bartlett, 587 U.S. 391 (2019)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Gonzalez v. Trevino, 602 U.S. 653 (2024)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Collins v. Jordan, 110 F.3d 1363 (9th Cir. 1996) (persuasive)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_selection",
+     "notes": "Good Supreme Court framework and correct bottom line, but no Seventh Circuit authority and no Chicago 8-4-010 failure-to-disperse analysis."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Ward v. Rock Against Racism, 491 U.S. 781 (1989)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Forsyth County v. Nationalist Movement, 505 U.S. 123 (1992)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Collins v. Jordan, 110 F.3d 1363 (9th Cir. 1996) (flagged persuasive)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Schirmer v. Nagode, 621 F.3d 581 (7th Cir. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/25-1; 5/26-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_selection",
+     "notes": "Solid: framework, 8-4-010 lawful-order predicate, mob action/disorderly conduct elements, Schirmer. Misses Bell v. Keating and Vodak; individualized-participant issue only touched."
+    }
+   }
+  },
+  {
+   "judge_id": "J0008",
+   "question_id": "P-003",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Carr v. District of Columbia, 587 F.3d 401 (D.C. Cir. 2009) (out-of-circuit; holding as described uncertain)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      },
+      {
+       "citation": "Collins v. Jordan, 110 F.3d 1363 (9th Cir. 1996) (persuasive)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Reichle v. Howards, 566 U.S. 658 (2012)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "District of Columbia v. Wesby, 583 U.S. 48 (2018)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_selection",
+     "notes": "Good Supreme Court framework and crowd-as-unit discussion, but no Seventh Circuit authority (admits an unidentified opinion) and no Chicago failure-to-disperse ordinance."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Nieves v. Bartlett, 587 U.S. 391 (2019)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Hedged and thin: gives Fourth/First Amendment split and Vodak on audibility, but little on narrow tailoring, individualized protection, or the ordinance."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965); 379 U.S. 559 (1965)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969); Hess v. Indiana, 414 U.S. 105 (1973)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Bell v. Keating, 697 F.3d 445 (7th Cir. 2012)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Schirmer v. Nagode, 621 F.3d 581 (7th Cir. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Grayned v. City of Rockford, 408 U.S. 104 (1972); Ward v. Rock Against Racism, 491 U.S. 781 (1989)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Chicago Municipal Code 8-4-010",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Nieves v. Bartlett, 587 U.S. 391 (2019)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Best of the group: accurate Supreme Court framework plus controlling Seventh Circuit authority on the Chicago 8-4-010 dispersal ordinance (Bell v. Keating; Schirmer), state-law elements, obstruction counterpoint, QI."
+    }
+   }
+  },
+  {
+   "judge_id": "J0009",
+   "question_id": "P-003",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Forsyth County v. Nationalist Movement, 505 U.S. 123 (1992)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Ward v. Rock Against Racism, 491 U.S. 781 (1989)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/26-1(a)(1)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Thayer v. Chiczewski, 705 F.3d 237 (7th Cir. 2012)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Good framework and Seventh Circuit authority (Vodak, Thayer), but admits not retrieving the Chicago ordinance, the key failure-to-disperse offense."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Cox v. Louisiana, 379 U.S. 536 (1965)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Vodak v. City of Chicago, 639 F.3d 738 (7th Cir. 2011)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Thayer v. Chiczewski, 705 F.3d 237 (7th Cir. 2012) (characterization hedged)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Collins v. Jordan, 110 F.3d 1363 (9th Cir. 1996) (persuasive)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/26-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Devenpeck v. Alford, 543 U.S. 146 (2004)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Nieves v. Bartlett, 587 U.S. 391 (2019)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Good: Supreme Court framework, Seventh Circuit cases, 8-4-010 lawful-order predicate, state statutes, narrow tailoring, audibility, QI. Does not cite Bell v. Keating but adequate."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Edwards v. South Carolina, 372 U.S. 229 (1963)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "720 ILCS 5/25-1",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Blocked/unverified generic answer; no Seventh Circuit authority, no ordinance, no individualized analysis."
+    }
+   }
+  },
+  {
+   "judge_id": "J0010",
+   "question_id": "P-004",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re American Home Products Corp., 985 S.W.2d 68 (Tex. 1998)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare, 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Finds the on-point Zaidi decision (timing of instruction, e-filing notice not waiver, no recall defense) and applies it correctly; no error."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Correct conclusion and Zaidi-based reasoning; omits standard of review/severe-remedy discussion (minor)."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re American Home Products Corp., 985 S.W.2d 68 (Tex. 1998)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare, 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Turner, 542 S.W.3d 553 (Tex. 2017)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re EPIC Holdings, 985 S.W.2d 41 (Tex. 1998)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Vaughan v. Walther, 875 S.W.2d 690 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Complete: two-step presumptions, timing, same-matter work, waiver law, severe-remedy/discretion standard, Zaidi."
+    }
+   }
+  },
+  {
+   "judge_id": "J0011",
+   "question_id": "P-004",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare, 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Turner, 542 S.W.3d 553 (Tex. 2017) (parenthetical on facts uncertain)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      },
+      {
+       "citation": "Vaughan v. Walther, 875 S.W.2d 690 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Correct and complete, with Zaidi, waiver law and standard of review. Turner parenthetical is of doubtful accuracy but immaterial."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994); In re American Home Products Corp., 985 S.W.2d 68 (Tex. 1998)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Correct, concise and accurate use of Zaidi and the Phoenix Founders line."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Columbia Valley Healthcare System, L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Zaidi, No. 14-23-00700-CV (Tex. App.-Houston [14th Dist.] Jan. 18, 2024) (docket/date not verified; omits the Texas Supreme Court Zaidi opinion)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "unclear"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Right result but misses the controlling Texas Supreme Court Zaidi decision and the Phoenix Founders line; waiver and timing under-analyzed."
+    }
+   }
+  },
+  {
+   "judge_id": "J0012",
+   "question_id": "P-004",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Correct and complete on all issues using Zaidi."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re American Home Products Corp., 985 S.W.2d 68 (Tex. 1998)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "National Medical Professional Corp. v. Godbey, 924 S.W.2d 123 (Tex. 1996)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re EPIC Holdings, 985 S.W.2d 41 (Tex. 1998)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Users System Services, 22 S.W.3d 331 (Tex. 1999)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "In re Nitla, 92 S.W.3d 419 (Tex. 2002)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "retrieval",
+     "notes": "Correct result but misses Zaidi (controlling, on point); says screening must be in place when she joins the firm, missing the later-arising-conflict timing rule."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Correct; brief but hits timing rule, no-recall, late screen, e-filing waiver via Zaidi."
+    }
+   }
+  },
+  {
+   "judge_id": "J0013",
+   "question_id": "P-005",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-407 (subsection (2) mis-described as acceptance-with-knowledge rule)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "non_entailing"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "UCC 2A-407 official comment",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_reading",
+     "notes": "Correct bottom line and finance-lease analysis, but misdescribes 8.2A-407(2) and does not analyze 8.2A-210 or 517; acceptance only implied."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct but terse and unverified; leaves acceptance as an item to check, no 210 analysis."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Accurate and complete on finance lease, acceptance, hell-or-high-water, 209, bankruptcy, 212/213; no 210 discussion (minor)."
+    }
+   }
+  },
+  {
+   "judge_id": "J0014",
+   "question_id": "P-005",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct bottom line; does not apply acceptance to the facts, silent on 210 and cancellation/revocation remedies."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-212, 213, 523",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Accurate and complete on the key issues, including acceptance and displacement of revocation."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-212, 213, 210, 523",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-516(3) (cited for irrevocability against finance lessor; the revocation limit is in 8.2A-517)",
+       "source_exists": true,
+       "supports_claim": false,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "non_entailing"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "authority_reading",
+     "notes": "Comprehensive and correct result, but cites 8.2A-516(3) for a proposition it does not support."
+    }
+   }
+  },
+  {
+   "judge_id": "J0015",
+   "question_id": "P-005",
+   "candidates": {
+    "A": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-212, 213",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "UCC 2A-103, 209, 407 (uniform text)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Correct and complete; treats revocation of acceptance as a weak theoretical argument rather than barred, minor imprecision."
+    },
+    "B": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": false,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": false,
+       "resolved_in_answer": false,
+       "correct": false,
+       "grounded": false
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-212, 213",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": true,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": false,
+     "primary_failure_stage": "final_output_omission",
+     "notes": "Correct bottom line but admits not researching default remedies; acceptance not applied; no 210 or 517 analysis."
+    },
+    "C": {
+     "issue_coverage": [
+      {
+       "id": "I01",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I02",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I03",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I04",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I05",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I06",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I07",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I08",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I09",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      },
+      {
+       "id": "I10",
+       "covered_in_issue_inventory": true,
+       "resolved_in_answer": true,
+       "correct": true,
+       "grounded": true
+      }
+     ],
+     "citations": [
+      {
+       "citation": "Va. Code 8.2A-103(1)(g)",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-407",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-209",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "Va. Code 8.2A-212, 213, 210, 515, 517, 523, 108",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "none"
+      },
+      {
+       "citation": "ELFA article on hell-or-high-water",
+       "source_exists": true,
+       "supports_claim": true,
+       "correct_jurisdiction_scope": true,
+       "temporally_valid": true,
+       "failure_type": "secondary_when_primary_required"
+      }
+     ],
+     "central_conclusion_correct": true,
+     "material_omission": false,
+     "reconciliation_correct": null,
+     "temporal_validity_correct": true,
+     "unsafe_hallucination": false,
+     "all_pass": true,
+     "primary_failure_stage": "none",
+     "notes": "Most complete: finance lease, acceptance (515), HOHW, 209, 210, 212/213, revocation limits (517), bankruptcy risk allocation."
+    }
+   }
+  }
+ ]
+}

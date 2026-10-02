@@ -1,0 +1,34 @@
+{
+"run_id":"RF40D518B66A3","question_id":"P-002","model":"Claude Sonnet 5.5","final_status":"blocked",
+"final_answer":"Best answer, with a verification limitation: neither office has a Guidelines-based advantage over the other, because the Guidelines are the same in both districts and relevant-conduct rules (USSG 1B1.3(a)(2)) aggregate loss from same-course-of-conduct or common-scheme acts regardless of the district or state in which they occurred. The goal of maximum prison time is therefore served by one comprehensive indictment that captures the Georgia and South Carolina claims together, so the loss amount and number of counts are combined in a single Chapter 3/5 computation, rather than two separate prosecutions. Separate indictments by both offices risk the second sentence being run concurrently or reduced by adjustment under USSG 5G1.3 (where the first conviction's conduct is relevant conduct that increased the offense level, 5G1.3(b) requires adjustment/concurrency), and the second court may group or discount. The office that should indict is whichever can establish proper venue over all claims: under 18 U.S.C. 3237(a), an offense committed in more than one district, or a scheme using mail or interstate commerce, may be prosecuted in any district in which it was begun, continued or completed. If the false claims were executed as one scheme and the claims (or the payor/processing of them) touch both districts, either office may bring the unified case; the choice then turns on which district has the larger share of the claims, loss and payor/venue contacts, and on a government-wide coordination decision. If the two states' claims are factually separate schemes with no venue link, each office can charge only its own claims and the maximum total comes from two prosecutions with the second sentence run consecutively (permitted under 5G1.3(d) 'in any other case') but not required. Statutory ceiling per 1347 count is 10 years (20 if serious bodily injury, life if death), and multiple counts can be stacked under 5G1.2(d) when the guideline range exceeds the statutory maximum of a single count. I could not fetch any primary text (all government/legal domains were blocked by the network proxy), so none of this is source-verified and no authority is cited as firewall-passing. This is recalled law from memory plus search-result snippets only.",
+"issues":[
+{"id":"I1","text":"Venue for 1347 claims across two districts (18 USC 3237(a))","criticality":"critical"},
+{"id":"I2","text":"Guidelines relevant conduct/aggregation of loss across districts (USSG 1B1.3, 2B1.1)","criticality":"critical"},
+{"id":"I3","text":"Consecutive vs concurrent effects of successive prosecutions (USSG 5G1.2, 5G1.3)","criticality":"critical"},
+{"id":"I4","text":"Statutory maximums under 1347","criticality":"important"}],
+"authorities":[
+{"id":"A1","citation":"18 U.S.C. 3237(a)","title":"Offenses begun in one district and completed in another","url":"https://www.law.cornell.edu/uscode/text/18/3237","authority_type":"statute","jurisdiction":"US","level":"controlling","proposition":"Offense committed in more than one district may be prosecuted in any district where begun, continued or completed (seen only in search snippet; fetch blocked)","source_verified":false,"good_law_as_of":"unknown","entailment":"PARTIAL","relied_on":false},
+{"id":"A2","citation":"USSG 5G1.3","title":"Imposition of sentence on defendant subject to undischarged term of imprisonment","url":"https://guidelines.ussc.gov/apex/r/ussc_apex/guidelinesapp/guidelines?APP_GL_ID=%C2%A75G1.3","authority_type":"regulation","jurisdiction":"US","level":"controlling","proposition":"Adjustment/concurrency where prior term is relevant conduct; discretionary otherwise (snippet only; fetch blocked)","source_verified":false,"good_law_as_of":"unknown","entailment":"PARTIAL","relied_on":false}],
+"claims":[
+{"id":"C1","text":"Relevant-conduct aggregation makes one comprehensive indictment superior to split prosecutions; unverified.","central":true,"authority_ids":[]},
+{"id":"C2","text":"Either office may bring the unified case only if venue exists for all claims under 3237(a); unverified.","central":true,"authority_ids":[]}],
+"final_citation_ids":[],
+"counterauthority_queries":[],
+"unresolved":["Could not fetch any primary source (law.cornell.edu, govinfo, uscode.house.gov, justia, ussc.gov, ca11 all blocked); no authority verified.","Which specific office has the stronger venue claim depends on facts not given."],
+"research_actions":[
+{"seq":1,"type":"fetch","query_or_url":"law.cornell.edu 18 USC 3237","purpose":"venue text (blocked)"},
+{"seq":2,"type":"fetch","query_or_url":"law.cornell.edu 18 USC 1347","purpose":"penalties (blocked)"},
+{"seq":3,"type":"fetch","query_or_url":"ussc.gov chapter 5 part G","purpose":"5G1.2/5G1.3 (blocked)"},
+{"seq":4,"type":"fetch","query_or_url":"govinfo 3237","purpose":"venue (blocked)"},
+{"seq":5,"type":"fetch","query_or_url":"govinfo 1347","purpose":"penalties (blocked)"},
+{"seq":6,"type":"fetch","query_or_url":"guidelines.ussc.gov 5G1.3","purpose":"guideline text (blocked)"},
+{"seq":7,"type":"search","query_or_url":"18 U.S.C. 3237 offense begun in one district and completed in another venue any district","purpose":"discover venue text"},
+{"seq":8,"type":"fetch","query_or_url":"uscode.house.gov 3237","purpose":"venue (blocked)"},
+{"seq":9,"type":"fetch","query_or_url":"uscode.house.gov 1347","purpose":"penalties (blocked)"},
+{"seq":10,"type":"search","query_or_url":"USSG 5G1.3 relevant conduct undischarged term of imprisonment 5G1.2 multiple counts consecutive","purpose":"discover guideline text"},
+{"seq":11,"type":"fetch","query_or_url":"law.justia.com 3237","purpose":"(blocked)"},
+{"seq":12,"type":"fetch","query_or_url":"law.justia.com 1347","purpose":"(blocked)"},
+{"seq":13,"type":"fetch","query_or_url":"ussc.gov 2007 5G1.3 archive","purpose":"(blocked)"},
+{"seq":14,"type":"fetch","query_or_url":"media.ca11.uscourts.gov 201611464.pdf","purpose":"5G1.3 case (blocked)"}],
+"usage":{"tool_calls":14,"elapsed_sec":null}
+}

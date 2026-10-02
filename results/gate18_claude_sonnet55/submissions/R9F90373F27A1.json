@@ -1,0 +1,44 @@
+{
+  "run_id": "R9F90373F27A1",
+  "question_id": "P-004",
+  "model": "Claude Sonnet 5.5",
+  "final_status": "answered",
+  "final_answer": "No. The trial court did not err (did not abuse its discretion) in disqualifying Smith Fullingham. This fact pattern tracks In re Zaidi (Tex. Apr. 10, 2026, No. 24-0245, Devine, J.), in which the Supreme Court of Texas denied mandamus against a disqualification order. Caveat: I could not open the full opinion text (egress blocked), so the details below rest on search-result summaries of Zaidi plus summaries of Phoenix Founders and Columbia Valley.\n\nFramework. Disqualification is a severe remedy and the movant bears a heavy burden, but Texas courts look to the disciplinary rules as guidelines and review disqualification orders for abuse of discretion (mandamus is the vehicle). For nonlawyer staff (paralegals, legal assistants) who switch sides: (1) there is an irrebuttable presumption that the nonlawyer obtained confidences in the prior representation; Jones's several hundred privileged communications and strategy meetings make that presumption uncontroversial here. (2) Unlike with lawyers, the presumption that the nonlawyer shared confidences with the new firm is rebuttable, but only if the firm shows effective, formal, institutionalized screening (Phoenix Founders; Columbia Valley). (3) Disqualification of the new firm is required where the nonlawyer actually disclosed confidences, or where the firm failed to take the required prophylactic measures. Per summaries of Zaidi, the firm must instruct the nonlawyer, at or before the time she begins work on the conflicted matter, not to work on any matter she worked on at a prior employer, even where the conflict arises years after hiring; and where a firm lawyer directed the nonlawyer to work on the matter, the presumption of sharing is not rebuttable unless the assigning lawyer should not have known of the conflict.\n\nApplication. Smith Fullingham did no inquiry on hiring in 2017, gave no instruction, and had no screen; Jones worked on the Apex-Prestige matter on thirteen occasions over five years at an attorney's direction and filed documents under her name in March 2022. Screening only 'going forward' after Apex complained in January 2023 is too late, and the firm's assertion that Jones does not recall the matter and shared nothing does not rebut the presumption (the inquiry does not turn on proof of actual disclosure; the court will not inquire into the confidences). Her actual participation in the very case defeats screening as a cure.\n\nWaiver. Waiver by delay requires unreasonable delay, and the movant's knowledge is key. Apex did not know Jones was at Smith Fullingham until the January 2023 e-filing notice and moved to disqualify within about two months (early March 2023). Zaidi held that the movants did not waive as a matter of law on comparable facts (learning from e-filing notifications). The five-year gap of non-knowledge is not attributed to Apex absent facts showing it knew; the burden to show waiver (and that Apex should have known) rested on Smith Fullingham, and filing notices naming her in earlier years are not shown. Also, the earlier 2017 reversal/remand and the fact that Apex had changed counsel in 2011 do not alter the analysis; Owens Farmer's confidences remain Apex's.\n\nBottom line: the presumptions were not rebutted, required prophylactic measures were not taken, and waiver is not shown, so disqualification was within the trial court's discretion. Residual risk: a reviewing court could differ if the record showed Apex earlier knew of Jones's employment; and my account of Zaidi is derived from secondary summaries.",
+  "issues": [
+    {"id":"I1","text":"Governing law and standard of review: Texas state court; disqualification reviewed for abuse of discretion via mandamus","criticality":"important"},
+    {"id":"I2","text":"Nonlawyer side-switching: irrebuttable presumption of obtaining confidences; rebuttable presumption of sharing","criticality":"critical"},
+    {"id":"I3","text":"Adequacy of screening / required prophylactic measures (instruction at or before work begins; formal institutionalized screen) and effect of direct work on the matter","criticality":"critical"},
+    {"id":"I4","text":"Waiver by delay in moving to disqualify (knowledge, 2 months after learning)","criticality":"critical"},
+    {"id":"I5","text":"Effect of 2011 withdrawal of firm, remand, and Jones's lack of recall","criticality":"secondary"}
+  ],
+  "authorities": [
+    {"id":"A1","citation":"In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)","title":"In re Adeel Zaidi, A.K. Chagla and Prestige Consulting d/b/a Turnaround Management Group","url":"https://www.txcourts.gov/media/1462571/240245.pdf","authority_type":"case","jurisdiction":"Texas","level":"controlling","proposition":"Firm must instruct nonlawyer at or before work begins not to work on matters from prior employment; no waiver as matter of law where movant learned via e-filing notices; mandamus denied on disqualification","source_verified":false,"good_law_as_of":"2026-10-02"},
+    {"id":"A2","citation":"Phoenix Founders, Inc. v. Marshall, 887 S.W.2d 831 (Tex. 1994)","title":"Phoenix Founders v. Marshall","url":"https://www.courtlistener.com/opinion/1756897/phoenix-founders-inc-v-marshall/","authority_type":"case","jurisdiction":"Texas","level":"controlling","proposition":"Nonlawyer who worked on matter is presumed to have obtained confidences; screening can rebut presumption of sharing","source_verified":false,"good_law_as_of":"2026-10-02"},
+    {"id":"A3","citation":"In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)","title":"In re Columbia Valley Healthcare System","url":"https://law.justia.com/cases/texas/supreme-court/2010/2001591.html","authority_type":"case","jurisdiction":"Texas","level":"controlling","proposition":"Irrebuttable presumption nonlawyer obtained confidences; rebuttable presumption of sharing requires formal, institutionalized screening","source_verified":false,"good_law_as_of":"2026-10-02"}
+  ],
+  "claims": [
+    {"id":"C1","text":"The trial court did not err in disqualifying Smith Fullingham.","central":true,"authority_ids":["A1","A2","A3"]},
+    {"id":"C2","text":"Jones is irrebuttably presumed to have obtained Apex's confidences; presumption of sharing is rebuttable only by formal, timely screening/instruction, which was absent and could not cure her actual work on the matter.","central":false,"authority_ids":["A1","A2","A3"]},
+    {"id":"C3","text":"Apex did not waive: it moved about two months after learning of Jones's employment, and Zaidi found no waiver as a matter of law on similar facts.","central":false,"authority_ids":["A1"]}
+  ],
+  "counterauthority_queries": [
+    "Texas nonlawyer disqualification Phoenix Founders v. Marshall In re Columbia Valley Healthcare irrebuttable presumption obtained confidences rebuttable presumption shared screening paralegal",
+    "In re Zaidi ... legal assistant disqualification waiver delay mandamus denied Phoenix Founders Columbia Valley instruct nonlawyer"
+  ],
+  "unresolved": [
+    "Full text of Zaidi could not be retrieved (txcourts, justia, courtlistener, findlaw, scotxblog blocked); holding details are from search-result summaries.",
+    "Whether the record shows Apex had earlier knowledge of Jones's employment (waiver) is assumed not."
+  ],
+  "research_actions": [
+    {"seq":1,"type":"search","query_or_url":"In re Thetford 574 S.W.3d 362 paralegal disqualification","purpose":"Locate Texas nonlawyer authority; surfaced Zaidi"},
+    {"seq":2,"type":"fetch","query_or_url":"https://www.txcourts.gov/media/1462571/240245.pdf","purpose":"Read Zaidi (blocked)"},
+    {"seq":3,"type":"fetch","query_or_url":"https://caselaw.findlaw.com/court/tx-supreme-court/118281972.html","purpose":"Read Zaidi (blocked)"},
+    {"seq":4,"type":"fetch","query_or_url":"https://www.courtlistener.com/opinion/10840754/","purpose":"Read Zaidi (blocked)"},
+    {"seq":5,"type":"search","query_or_url":"In re Zaidi Prestige Consulting Texas Supreme Court 2026 paralegal disqualification","purpose":"Get Zaidi holding summary"},
+    {"seq":6,"type":"fetch","query_or_url":"https://law.justia.com/cases/texas/supreme-court/2026/24-0245.html","purpose":"Read Zaidi (blocked)"},
+    {"seq":7,"type":"fetch","query_or_url":"https://www.scotxblog.com/2026/disqualification-case.html","purpose":"Read Zaidi commentary (blocked)"},
+    {"seq":8,"type":"search","query_or_url":"In re Zaidi April 2026 waiver delay mandamus denied Phoenix Founders Columbia Valley","purpose":"Confirm waiver holding and disposition"},
+    {"seq":9,"type":"search","query_or_url":"Texas nonlawyer disqualification Phoenix Founders Columbia Valley presumptions screening","purpose":"Verify background rules and check for contrary rule"}
+  ],
+  "usage": {"tool_calls":10,"elapsed_sec":null}
+}

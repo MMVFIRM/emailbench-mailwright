@@ -1,0 +1,304 @@
+{
+  "gate": "18 - Citation Firewall Rescue & Failure Localization",
+  "pilot": true,
+  "judge_model": "Claude Sonnet 5.5",
+  "n_groups": 15,
+  "aggregate": {
+    "control": {
+      "all_pass": 0.26666666666666666,
+      "judge_all_pass": 0.4666666666666667,
+      "issue_recall": 0.9217171717171717,
+      "answer_coverage": 0.7073021519543259,
+      "grounded_coverage": 0.9217171717171717,
+      "citation_precision": 0.9383333333333334,
+      "central_correctness": 1.0,
+      "material_omission": 0.26666666666666666,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 5.4,
+      "budget_ok": 1.0,
+      "word_cap_ok": 0.9333333333333333
+    },
+    "lrpe_v03": {
+      "all_pass": 0.3333333333333333,
+      "judge_all_pass": 0.5333333333333333,
+      "issue_recall": 0.9212121212121213,
+      "answer_coverage": 0.7168888888888889,
+      "grounded_coverage": 0.9212121212121213,
+      "citation_precision": 0.9582251082251082,
+      "central_correctness": 1.0,
+      "material_omission": 0.2,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 10.466666666666667,
+      "budget_ok": 1.0,
+      "word_cap_ok": 1.0
+    },
+    "lrpe_cf": {
+      "all_pass": 0.13333333333333333,
+      "judge_all_pass": 0.13333333333333333,
+      "issue_recall": 0.8513078612209047,
+      "answer_coverage": 0.5106890645586297,
+      "grounded_coverage": 0.8513078612209047,
+      "citation_precision": 0.9444444444444444,
+      "central_correctness": 1.0,
+      "material_omission": 0.8666666666666667,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 11.333333333333334,
+      "budget_ok": 1.0,
+      "word_cap_ok": 1.0
+    }
+  },
+  "paired_deltas": {
+    "lrpe_v03_vs_control": {
+      "all_pass": {
+        "delta": 0.06666666666666667,
+        "ci95": [
+          -0.19999999999999998,
+          0.39999999999999997
+        ],
+        "per_question_delta": {
+          "P-001": -0.3333333333333333,
+          "P-002": 0.0,
+          "P-003": 0.0,
+          "P-004": 0.6666666666666666,
+          "P-005": 0.0
+        }
+      },
+      "issue_recall": {
+        "delta": -0.0005050505050504972,
+        "ci95": [
+          -0.018181818181818167,
+          0.016666666666666673
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": -0.030303030303030276,
+          "P-003": 0.0,
+          "P-004": 0.0,
+          "P-005": 0.02777777777777779
+        }
+      },
+      "answer_coverage": {
+        "delta": 0.009586736934563017,
+        "ci95": [
+          -0.029270970575318397,
+          0.05853623188405796
+        ],
+        "per_question_delta": {
+          "P-001": -0.02777777777777779,
+          "P-002": -0.030303030303030304,
+          "P-003": -0.02898550724637679,
+          "P-004": 0.09333333333333331,
+          "P-005": 0.041666666666666664
+        }
+      },
+      "citation_precision": {
+        "delta": 0.01989177489177488,
+        "ci95": [
+          -0.02532467532467534,
+          0.061666666666666654
+        ],
+        "per_question_delta": {
+          "P-001": -0.05887445887445889,
+          "P-002": 0.06666666666666665,
+          "P-003": 0.041666666666666664,
+          "P-004": 0.06666666666666665,
+          "P-005": -0.01666666666666668
+        }
+      },
+      "central_correctness": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": 0.0,
+          "P-003": 0.0,
+          "P-004": 0.0,
+          "P-005": 0.0
+        }
+      }
+    },
+    "lrpe_cf_vs_lrpe_v03": {
+      "all_pass": {
+        "delta": -0.19999999999999998,
+        "ci95": [
+          -0.4666666666666666,
+          0.0
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": 0.0,
+          "P-003": 0.0,
+          "P-004": -0.3333333333333333,
+          "P-005": -0.6666666666666666
+        }
+      },
+      "issue_recall": {
+        "delta": -0.06990425999121652,
+        "ci95": [
+          -0.1233640755379886,
+          -0.016444444444444452
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": -0.12121212121212123,
+          "P-003": -0.15942028985507248,
+          "P-004": -0.013333333333333345,
+          "P-005": -0.05555555555555558
+        }
+      },
+      "answer_coverage": {
+        "delta": -0.2061998243302591,
+        "ci95": [
+          -0.3144782608695652,
+          -0.12323232323232322
+        ],
+        "per_question_delta": {
+          "P-001": -0.20833333333333334,
+          "P-002": -0.07575757575757575,
+          "P-003": -0.4057971014492754,
+          "P-004": -0.14666666666666664,
+          "P-005": -0.19444444444444445
+        }
+      },
+      "citation_precision": {
+        "delta": -0.013780663780663782,
+        "ci95": [
+          -0.1111111111111111,
+          0.08354978354978354
+        ],
+        "per_question_delta": {
+          "P-001": 0.12554112554112554,
+          "P-002": 0.0,
+          "P-003": -0.11111111111111112,
+          "P-004": -0.16666666666666666,
+          "P-005": 0.08333333333333333
+        }
+      },
+      "central_correctness": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": 0.0,
+          "P-003": 0.0,
+          "P-004": 0.0,
+          "P-005": 0.0
+        }
+      }
+    },
+    "lrpe_cf_vs_control": {
+      "all_pass": {
+        "delta": -0.13333333333333333,
+        "ci95": [
+          -0.39999999999999997,
+          0.13333333333333333
+        ],
+        "per_question_delta": {
+          "P-001": -0.3333333333333333,
+          "P-002": 0.0,
+          "P-003": 0.0,
+          "P-004": 0.3333333333333333,
+          "P-005": -0.6666666666666666
+        }
+      },
+      "issue_recall": {
+        "delta": -0.07040931049626703,
+        "ci95": [
+          -0.12992973210364517,
+          -0.010888888888888896
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": -0.15151515151515152,
+          "P-003": -0.15942028985507248,
+          "P-004": -0.013333333333333345,
+          "P-005": -0.02777777777777779
+        }
+      },
+      "answer_coverage": {
+        "delta": -0.1966130873956961,
+        "ci95": [
+          -0.3219806763285024,
+          -0.09431313131313132
+        ],
+        "per_question_delta": {
+          "P-001": -0.23611111111111113,
+          "P-002": -0.10606060606060606,
+          "P-003": -0.43478260869565216,
+          "P-004": -0.053333333333333344,
+          "P-005": -0.1527777777777778
+        }
+      },
+      "citation_precision": {
+        "delta": 0.006111111111111095,
+        "ci95": [
+          -0.06055555555555557,
+          0.06666666666666665
+        ],
+        "per_question_delta": {
+          "P-001": 0.06666666666666665,
+          "P-002": 0.06666666666666665,
+          "P-003": -0.06944444444444446,
+          "P-004": -0.10000000000000002,
+          "P-005": 0.06666666666666665
+        }
+      },
+      "central_correctness": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_question_delta": {
+          "P-001": 0.0,
+          "P-002": 0.0,
+          "P-003": 0.0,
+          "P-004": 0.0,
+          "P-005": 0.0
+        }
+      }
+    }
+  },
+  "failure_stage_counts": {
+    "control": {
+      "authority_reading": 2,
+      "none": 7,
+      "authority_selection": 4,
+      "final_output_omission": 1,
+      "retrieval": 1
+    },
+    "lrpe_v03": {
+      "citation_only": 1,
+      "none": 8,
+      "retrieval": 2,
+      "authority_selection": 2,
+      "final_output_omission": 1,
+      "authority_reading": 1
+    },
+    "lrpe_cf": {
+      "final_output_omission": 8,
+      "retrieval": 4,
+      "authority_reading": 1,
+      "none": 2
+    }
+  },
+  "pass_rules": {
+    "citation_floor": false,
+    "citation_gain_vs_v03": false,
+    "all_pass_gain_vs_v03": false,
+    "central_noninferior": true,
+    "issue_recall_noninferior": false,
+    "answer_coverage_noninferior": false,
+    "unsafe_hallucination": true,
+    "budget_compliance": true,
+    "word_cap_compliance": false
+  },
+  "PASS": false,
+  "note": "Gate 18 diagnoses/rescues the Gate 17 citation regression. A pass is not evidence of superiority to control."
+}
