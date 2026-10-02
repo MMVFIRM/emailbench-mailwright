@@ -1,0 +1,50 @@
+{
+"run_id":"R699B9BF5BD9A","question_id":"P-004","model":"Claude Sonnet 5.5","final_status":"answered",
+"final_answer":"No. The trial court did not err (abuse its discretion) in disqualifying Smith Fullingham, and mandamus relief would likely be denied.\n\nGoverning framework. Texas treats disqualification as a severe remedy governed by the Disciplinary Rules as guidelines, and nonlawyer staff are subject to a special two-step test (In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)). Step one: whether the nonlawyer's confidences are presumed shared. A nonlawyer who worked on a matter at the former firm is conclusively presumed to have received the former client's confidences. Step two: whether the new firm is presumed to have received them from the nonlawyer. That presumption is rebuttable only if the firm took minimal prophylactic measures, but it becomes irrebuttable (disqualification required) if the nonlawyer actually performed work on the same matter at the new firm at a lawyer's direction and the lawyer reasonably should have known of the conflict.\n\nApplication. (1) Step one is satisfied: Jones worked on the Apex side for about two years, prepared litigation documents, took part in hundreds of privileged communications and strategy meetings; she is conclusively presumed to hold Apex's confidences. Her claimed lack of recall and the firm's assertion that she shared nothing are legally irrelevant at this step. (2) Step two: the firm did not instruct Jones at or before the start of her employment not to work on matters she handled earlier, and did not screen her. The Texas Supreme Court's April 10, 2026 decision in In re Zaidi (No. 24-0245) reaffirmed that the instruction must be given at or before the time the nonlawyer starts work on the conflicted matter, even if the conflict arises years after hiring, and that a firm that failed to give it faces disqualification. The firm's failure to inquire about her work history does not excuse the omission, and a screen adopted only after Apex complained in 2023 comes too late. (3) Jones then actually worked on the Apex-Prestige matter thirteen times over five years, including secretarial work and e-filing two documents in March 2022 under her own name as filer for the attorney; that is work at a lawyer's direction on the same matter, and the firm, having never asked about her history and having her name on filings, reasonably should have known. Under Columbia Valley this makes the presumption irrebuttable, and limited or clerical work is enough.\n\nWaiver/delay. A party can waive a disqualification complaint by unreasonable delay. Apex learned of Jones's role in January 2023 (from a filing notification) and moved in early March 2023, roughly two months later, after first inquiring of the firm. Zaidi, which also involved e-filing notices, reportedly held that the movants were not untimely as a matter of law; Apex's position is at least as strong, since the 2022 filings did not identify her prior work and Apex had no reason to know earlier. Delay is unlikely to be a basis for reversal, though it is a fact-bound question.\n\nCaveats. I could not open the full text of Zaidi or Columbia Valley (court and aggregator sites were blocked); the rules above rest on search-result excerpts of those opinions and should be confirmed against the opinions before citing. The facts here also track Zaidi closely (the facts appear drawn from it), and Zaidi was decided in a mandamus posture; the question assumes the standard of review is abuse of discretion. I did not independently verify any later history of Zaidi (e.g., rehearing). I did not research whether any Texas authority recognizes an exception where the nonlawyer's prior work was remote in time; the Columbia Valley rule contains no such exception based on the sources seen.",
+"issues":[
+{"id":"I1","text":"Governing standard: Texas disqualification of firm based on side-switching nonlawyer; two-step presumptions","criticality":"critical"},
+{"id":"I2","text":"Step one: conclusive presumption Jones holds Apex confidences despite lack of recall","criticality":"critical"},
+{"id":"I3","text":"Step two: instruction/screening requirement and timing; effect of failure to inquire and late screen","criticality":"critical"},
+{"id":"I4","text":"Irrebuttable presumption where nonlawyer actually worked on matter at lawyer's direction (13 occasions, e-filings)","criticality":"critical"},
+{"id":"I5","text":"Waiver/delay: January 2023 discovery to March 2023 motion","criticality":"important"},
+{"id":"I6","text":"Currentness and later controlling authority (Zaidi 2026); verification limits","criticality":"important"}
+],
+"authorities":[
+{"id":"A1","citation":"In re Columbia Valley Healthcare Sys., L.P., 320 S.W.3d 819 (Tex. 2010)","title":"In re Columbia Valley Healthcare System","url":"https://law.justia.com/cases/texas/supreme-court/2010/2001591.html","authority_type":"case","jurisdiction":"Texas","level":"controlling","proposition":"Two-step presumption framework for nonlawyer disqualification; irrebuttable where nonlawyer worked on matter at lawyer's directive and lawyer should know of conflict; shielding steps otherwise required","source_verified":false,"good_law_as_of":"unknown","entailment":"PARTIAL"},
+{"id":"A2","citation":"In re Zaidi, No. 24-0245 (Tex. Apr. 10, 2026)","title":"In re Adeel Zaidi, A.K. Chagla and Prestige Consulting d/b/a Turnaround Management Group","url":"https://www.txcourts.gov/media/1462571/240245.pdf","authority_type":"case","jurisdiction":"Texas","level":"controlling","proposition":"Firm must instruct nonlawyer at or before start of work on conflicted matter not to work on matters from prior employment, even if conflict arises years later; no instruction means disqualification; movants not untimely as matter of law where learned via e-filing notices","source_verified":false,"good_law_as_of":"2026-04-10","entailment":"PARTIAL"}
+],
+"claims":[
+{"id":"C1","text":"Texas applies a two-step presumption test to disqualification based on side-switching nonlawyers.","central":true,"issue_ids":["I1"],"authority_ids":["A1"]},
+{"id":"C2","text":"A nonlawyer who worked on the matter for the former firm is conclusively presumed to have the former client's confidences; Jones's claimed lack of recall is irrelevant.","central":true,"issue_ids":["I2"],"authority_ids":["A1"]},
+{"id":"C3","text":"Failure to give the instruction at or before the start of work, and a post-complaint screen, is insufficient; disqualification follows.","central":true,"issue_ids":["I3"],"authority_ids":["A2","A1"]},
+{"id":"C4","text":"Actual work on the same matter at a lawyer's direction, even clerical, makes the presumption irrebuttable.","central":true,"issue_ids":["I4"],"authority_ids":["A1"]},
+{"id":"C5","text":"Apex's roughly two-month delay is unlikely to constitute waiver; Zaidi held e-filing-notice movants not untimely as a matter of law.","central":false,"issue_ids":["I5"],"authority_ids":["A2"]},
+{"id":"C6","text":"Zaidi (2026) is the latest controlling authority and supports affirmance; full opinions not read.","central":false,"issue_ids":["I6"],"authority_ids":["A2"]}
+],
+"coverage_lock":[
+{"issue_id":"I1","claim_ids":["C1"],"material":true},
+{"issue_id":"I2","claim_ids":["C2"],"material":true},
+{"issue_id":"I3","claim_ids":["C3"],"material":true},
+{"issue_id":"I4","claim_ids":["C4"],"material":true},
+{"issue_id":"I5","claim_ids":["C5"],"material":true},
+{"issue_id":"I6","claim_ids":["C6"],"material":true}
+],
+"repair_log":[
+{"claim_id":"C3","action":"qualify","before":"Firm must have instructed and screened; holding stated flatly","after":"Stated with explicit caveat that opinions were seen only via search excerpts","reason":"Full-text fetches were blocked by egress proxy; support is PARTIAL"},
+{"claim_id":"C5","action":"narrow","before":"No waiver","after":"Waiver unlikely; fact-bound","reason":"Could not read Zaidi waiver reasoning in full"}
+],
+"counterauthority_queries":["Zaidi 2026 waiver e-filing notices Columbia Valley instruct screening (search for later/contrary treatment)"],
+"unresolved":["Full text of Columbia Valley and Zaidi not retrieved (egress blocked); holdings rest on search excerpts","No check of subsequent history of Zaidi","No search for exception for remote prior work or the standard of review in the particular posture"],
+"research_actions":[
+{"seq":1,"type":"search","query_or_url":"Texas Supreme Court disqualification law firm legal assistant formerly worked opposing side same litigation irrebuttable presumption ... Columbia Valley","purpose":"discover controlling authority"},
+{"seq":2,"type":"fetch","query_or_url":"https://www.txcourts.gov/media/1462571/240245.pdf","purpose":"read Zaidi (blocked)"},
+{"seq":3,"type":"fetch","query_or_url":"https://www.scotxblog.com/2026/disqualification-case.html","purpose":"read summary (blocked)"},
+{"seq":4,"type":"search","query_or_url":"In re Zaidi Texas Supreme Court 2026 disqualification paralegal legal assistant Smith Fullingham Apex Prestige","purpose":"identify Zaidi holding"},
+{"seq":5,"type":"fetch","query_or_url":"https://caselaw.findlaw.com/court/tx-supreme-court/118281972.html","purpose":"read Zaidi (blocked)"},
+{"seq":6,"type":"fetch","query_or_url":"https://law.justia.com/cases/texas/supreme-court/2026/24-0245.html","purpose":"read Zaidi (blocked)"},
+{"seq":7,"type":"fetch","query_or_url":"https://www.courtlistener.com/opinion/10840754/in-re-adeel-zaidi-ak-chagla-and-prestige-consulting-dba-turnaround/","purpose":"read Zaidi (blocked)"},
+{"seq":8,"type":"search","query_or_url":"Zaidi Texas Supreme Court April 10 2026 legal assistant disqualification waiver e-filing notices Columbia Valley instruct screening opinion","purpose":"counterauthority/waiver check"},
+{"seq":9,"type":"search","query_or_url":"In re Columbia Valley Healthcare System 320 S.W.3d 819 legal assistant irrebuttable presumption second presumption rebuttable","purpose":"verify Columbia Valley framework"}
+],
+"usage":{"tool_calls":9,"elapsed_sec":null}
+}

@@ -1,0 +1,155 @@
+{
+  "gate": "19 - Proposition-Preserving Citation Repair",
+  "pilot": true,
+  "judge_model": "Claude Sonnet 5.5",
+  "n_groups": 15,
+  "aggregate": {
+    "lrpe_v03": {
+      "all_pass": 0.4,
+      "judge_all_pass": 0.4666666666666667,
+      "issue_recall": 0.8826306543697848,
+      "answer_coverage": 0.8477821695212999,
+      "grounded_coverage": 0.8798528765920071,
+      "citation_precision": 0.9494708994708995,
+      "central_correctness": 0.8,
+      "material_omission": 0.26666666666666666,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 10.4,
+      "budget_ok": 1.0,
+      "word_cap_ok": 1.0,
+      "schema_alias_count": 0
+    },
+    "lrpe_pcr": {
+      "all_pass": 0.6,
+      "judge_all_pass": 0.6,
+      "issue_recall": 0.8692340799297321,
+      "answer_coverage": 0.8692340799297321,
+      "grounded_coverage": 0.8518208168642951,
+      "citation_precision": 0.9604761904761905,
+      "central_correctness": 0.8666666666666667,
+      "material_omission": 0.3333333333333333,
+      "unsafe_hallucination": 0.0,
+      "research_actions": 12.733333333333333,
+      "budget_ok": 1.0,
+      "word_cap_ok": 1.0,
+      "schema_alias_count": 0
+    }
+  },
+  "paired_delta_pcr_vs_v03": {
+    "all_pass": {
+      "delta": 0.19999999999999998,
+      "ci95": [
+        0.0,
+        0.4666666666666666
+      ],
+      "per_question_delta": {
+        "P-001": 0.6666666666666666,
+        "P-002": 0.0,
+        "P-003": 0.3333333333333333,
+        "P-004": 0.0,
+        "P-005": 0.0
+      }
+    },
+    "issue_recall": {
+      "delta": -0.0133965744400527,
+      "ci95": [
+        -0.06715151515151514,
+        0.040052700922266135
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": -0.06060606060606059,
+        "P-003": 0.08695652173913042,
+        "P-004": -0.09333333333333334,
+        "P-005": 0.0
+      }
+    },
+    "answer_coverage": {
+      "delta": 0.021451910408432143,
+      "ci95": [
+        -0.03933333333333334,
+        0.07417654808959157
+      ],
+      "per_question_delta": {
+        "P-001": 0.08333333333333333,
+        "P-002": 0.030303030303030314,
+        "P-003": 0.08695652173913042,
+        "P-004": -0.09333333333333334,
+        "P-005": 0.0
+      }
+    },
+    "citation_precision": {
+      "delta": 0.011005291005291008,
+      "ci95": [
+        -0.07333333333333333,
+        0.0746031746031746
+      ],
+      "per_question_delta": {
+        "P-001": 0.037037037037037056,
+        "P-002": -0.15,
+        "P-003": 0.08465608465608465,
+        "P-004": 0.08333333333333333,
+        "P-005": 0.0
+      }
+    },
+    "central_correctness": {
+      "delta": 0.06666666666666667,
+      "ci95": [
+        0.0,
+        0.19999999999999998
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": 0.3333333333333333,
+        "P-003": 0.0,
+        "P-004": 0.0,
+        "P-005": 0.0
+      }
+    },
+    "material_omission": {
+      "delta": 0.06666666666666667,
+      "ci95": [
+        0.0,
+        0.19999999999999998
+      ],
+      "per_question_delta": {
+        "P-001": 0.0,
+        "P-002": 0.0,
+        "P-003": 0.0,
+        "P-004": 0.3333333333333333,
+        "P-005": 0.0
+      }
+    }
+  },
+  "failure_stage_counts": {
+    "lrpe_v03": {
+      "temporal": 1,
+      "none": 7,
+      "authority_reading": 1,
+      "authority_selection": 5,
+      "final_output_omission": 1
+    },
+    "lrpe_pcr": {
+      "none": 9,
+      "final_output_omission": 3,
+      "authority_selection": 2,
+      "retrieval": 1
+    }
+  },
+  "pass_rules": {
+    "citation_floor": true,
+    "citation_noninferior": true,
+    "coverage_noninferior": true,
+    "issue_recall_noninferior": true,
+    "central_noninferior": true,
+    "all_pass_noninferior": true,
+    "material_omission_noninferior": true,
+    "final_output_omission_noninferior": false,
+    "unsafe_hallucination": true,
+    "budget_compliance": true,
+    "word_cap_compliance": true
+  },
+  "PASS": false,
+  "schema_alias_count_total": 0,
+  "note": "Gate 19 is a mechanism/non-inferiority test. A pass means post-draft citation repair avoids the Gate 18 omission regression; it does not establish superiority over control."
+}
