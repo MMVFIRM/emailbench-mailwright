@@ -1,0 +1,282 @@
+[
+  {
+    "run_id": "R8B6C59B553CC",
+    "task_id": "H17",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/tax/compare-proposed-settlement-against-original-assessment/task.json",
+    "task_file": "task_001_R8B6C59B553CC.md"
+  },
+  {
+    "run_id": "R62014428C3D0",
+    "task_id": "H19",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/real-estate/compare-property-tax-records-against-seller-disclosure-statement/task.json",
+    "task_file": "task_002_R62014428C3D0.md"
+  },
+  {
+    "run_id": "R2E6ED20D0B22",
+    "task_id": "H11",
+    "stratum": "pure_research",
+    "source_path": "tasks/tax/analyze-counterparty-markup-of-proposed-stipulation-of-facts/task.json",
+    "task_file": "task_003_R2E6ED20D0B22.md"
+  },
+  {
+    "run_id": "R7E9EEE766DBA",
+    "task_id": "H06",
+    "stratum": "pure_research",
+    "source_path": "tasks/funds-asset-management/analyze-counterparty-markup-of-limited-partnership-interest-transfer-agreement/task.json",
+    "task_file": "task_004_R7E9EEE766DBA.md"
+  },
+  {
+    "run_id": "R04FFBEB07AA6",
+    "task_id": "H07",
+    "stratum": "pure_research",
+    "source_path": "tasks/environmental-esg/analyze-counterparty-markup-of-environmental-indemnity-agreement/task.json",
+    "task_file": "task_005_R04FFBEB07AA6.md"
+  },
+  {
+    "run_id": "RFE8CF881D21D",
+    "task_id": "H09",
+    "stratum": "pure_research",
+    "source_path": "tasks/employment-labor/assess-legal-risk-of-proposed-employee-termination/task.json",
+    "task_file": "task_006_RFE8CF881D21D.md"
+  },
+  {
+    "run_id": "R1F23CD2CA51A",
+    "task_id": "H17",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/tax/compare-proposed-settlement-against-original-assessment/task.json",
+    "task_file": "task_007_R1F23CD2CA51A.md"
+  },
+  {
+    "run_id": "R374D4B3A1FD3",
+    "task_id": "H19",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/real-estate/compare-property-tax-records-against-seller-disclosure-statement/task.json",
+    "task_file": "task_008_R374D4B3A1FD3.md"
+  },
+  {
+    "run_id": "RBBD10C189407",
+    "task_id": "H13",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-ma/analyze-cim-deal-teaser/scenario-01/task.json",
+    "task_file": "task_009_RBBD10C189407.md"
+  },
+  {
+    "run_id": "R38B407D42419",
+    "task_id": "H20",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/environmental-esg/compare-esg-disclosure-against-regulatory-requirements/task.json",
+    "task_file": "task_010_R38B407D42419.md"
+  },
+  {
+    "run_id": "RA8BB5BA2ECAC",
+    "task_id": "H03",
+    "stratum": "pure_research",
+    "source_path": "tasks/environmental-esg/analyze-counterparty-markup-of-settlement-agreement/task.json",
+    "task_file": "task_011_RA8BB5BA2ECAC.md"
+  },
+  {
+    "run_id": "R241A8F6856AA",
+    "task_id": "H20",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/environmental-esg/compare-esg-disclosure-against-regulatory-requirements/task.json",
+    "task_file": "task_012_R241A8F6856AA.md"
+  },
+  {
+    "run_id": "R03AB67E45F71",
+    "task_id": "H16",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-ma/compare-target-representations-vs-diligence/task.json",
+    "task_file": "task_013_R03AB67E45F71.md"
+  },
+  {
+    "run_id": "RA08075ABD0AD",
+    "task_id": "H10",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/analyze-eu-ai-act-high/task.json",
+    "task_file": "task_014_RA08075ABD0AD.md"
+  },
+  {
+    "run_id": "RDBD1B5288699",
+    "task_id": "H18",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-governance/compare-proxy-statement-disclosures-against-sec-regulatory-requirements/task.json",
+    "task_file": "task_015_RDBD1B5288699.md"
+  },
+  {
+    "run_id": "R032815AF5EE5",
+    "task_id": "H05",
+    "stratum": "pure_research",
+    "source_path": "tasks/healthcare-life-sciences/analyze-compliance-program-gaps/task.json",
+    "task_file": "task_016_R032815AF5EE5.md"
+  },
+  {
+    "run_id": "RE9274A4DFA01",
+    "task_id": "H12",
+    "stratum": "pure_research",
+    "source_path": "tasks/international-trade-sanctions/analyze-cross/task.json",
+    "task_file": "task_017_RE9274A4DFA01.md"
+  },
+  {
+    "run_id": "R57BA27743B1F",
+    "task_id": "H07",
+    "stratum": "pure_research",
+    "source_path": "tasks/environmental-esg/analyze-counterparty-markup-of-environmental-indemnity-agreement/task.json",
+    "task_file": "task_018_R57BA27743B1F.md"
+  },
+  {
+    "run_id": "R8EE6A5E21DFD",
+    "task_id": "H18",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-governance/compare-proxy-statement-disclosures-against-sec-regulatory-requirements/task.json",
+    "task_file": "task_019_R8EE6A5E21DFD.md"
+  },
+  {
+    "run_id": "R0E395BC80D5E",
+    "task_id": "H04",
+    "stratum": "pure_research",
+    "source_path": "tasks/antitrust-competition/analyze-antitrust-hsr-strategy/task.json",
+    "task_file": "task_020_R0E395BC80D5E.md"
+  },
+  {
+    "run_id": "RD93D8E0CCDB0",
+    "task_id": "H12",
+    "stratum": "pure_research",
+    "source_path": "tasks/international-trade-sanctions/analyze-cross/task.json",
+    "task_file": "task_021_RD93D8E0CCDB0.md"
+  },
+  {
+    "run_id": "R1D919ED93653",
+    "task_id": "H13",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-ma/analyze-cim-deal-teaser/scenario-01/task.json",
+    "task_file": "task_022_R1D919ED93653.md"
+  },
+  {
+    "run_id": "RC58E45F2C9D1",
+    "task_id": "H15",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/antitrust-competition/compare-expert-market-share-estimates-against-agency-data/task.json",
+    "task_file": "task_023_RC58E45F2C9D1.md"
+  },
+  {
+    "run_id": "RF299124EC26F",
+    "task_id": "H16",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-ma/compare-target-representations-vs-diligence/task.json",
+    "task_file": "task_024_RF299124EC26F.md"
+  },
+  {
+    "run_id": "R637B90E8A68E",
+    "task_id": "H03",
+    "stratum": "pure_research",
+    "source_path": "tasks/environmental-esg/analyze-counterparty-markup-of-settlement-agreement/task.json",
+    "task_file": "task_025_R637B90E8A68E.md"
+  },
+  {
+    "run_id": "R987A56093CC2",
+    "task_id": "H04",
+    "stratum": "pure_research",
+    "source_path": "tasks/antitrust-competition/analyze-antitrust-hsr-strategy/task.json",
+    "task_file": "task_026_R987A56093CC2.md"
+  },
+  {
+    "run_id": "R67D6DBFA9A46",
+    "task_id": "H11",
+    "stratum": "pure_research",
+    "source_path": "tasks/tax/analyze-counterparty-markup-of-proposed-stipulation-of-facts/task.json",
+    "task_file": "task_027_R67D6DBFA9A46.md"
+  },
+  {
+    "run_id": "R614FFC03FD57",
+    "task_id": "H08",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/assess-litigation-hold-scope-for-custodian-identification/task.json",
+    "task_file": "task_028_R614FFC03FD57.md"
+  },
+  {
+    "run_id": "RAB25AC381CA6",
+    "task_id": "H01",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/analyze-compliance-program-gaps/task.json",
+    "task_file": "task_029_RAB25AC381CA6.md"
+  },
+  {
+    "run_id": "RF8077D005049",
+    "task_id": "H02",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/analyze-counterpartys-motion-for-summary-judgment/task.json",
+    "task_file": "task_030_RF8077D005049.md"
+  },
+  {
+    "run_id": "RDF8C050F9E41",
+    "task_id": "H05",
+    "stratum": "pure_research",
+    "source_path": "tasks/healthcare-life-sciences/analyze-compliance-program-gaps/task.json",
+    "task_file": "task_031_RDF8C050F9E41.md"
+  },
+  {
+    "run_id": "R43E88C391CDE",
+    "task_id": "H08",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/assess-litigation-hold-scope-for-custodian-identification/task.json",
+    "task_file": "task_032_R43E88C391CDE.md"
+  },
+  {
+    "run_id": "RF966186711D2",
+    "task_id": "H06",
+    "stratum": "pure_research",
+    "source_path": "tasks/funds-asset-management/analyze-counterparty-markup-of-limited-partnership-interest-transfer-agreement/task.json",
+    "task_file": "task_033_RF966186711D2.md"
+  },
+  {
+    "run_id": "R9B14D0095762",
+    "task_id": "H02",
+    "stratum": "pure_research",
+    "source_path": "tasks/litigation-dispute-resolution/analyze-counterpartys-motion-for-summary-judgment/task.json",
+    "task_file": "task_034_R9B14D0095762.md"
+  },
+  {
+    "run_id": "R8D1826108C38",
+    "task_id": "H09",
+    "stratum": "pure_research",
+    "source_path": "tasks/employment-labor/assess-legal-risk-of-proposed-employee-termination/task.json",
+    "task_file": "task_035_R8D1826108C38.md"
+  },
+  {
+    "run_id": "R1A248E335663",
+    "task_id": "H14",
+    "stratum": "pure_research",
+    "source_path": "tasks/data-privacy-cybersecurity/assess-breach-notification-obligations-across-affected-jurisdictions/task.json",
+    "task_file": "task_036_R1A248E335663.md"
+  },
+  {
+    "run_id": "R6FFBCD3DE3C3",
+    "task_id": "H10",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/analyze-eu-ai-act-high/task.json",
+    "task_file": "task_037_R6FFBCD3DE3C3.md"
+  },
+  {
+    "run_id": "R85D681A6DA5A",
+    "task_id": "H01",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/analyze-compliance-program-gaps/task.json",
+    "task_file": "task_038_R85D681A6DA5A.md"
+  },
+  {
+    "run_id": "R898BF7D75D67",
+    "task_id": "H14",
+    "stratum": "pure_research",
+    "source_path": "tasks/data-privacy-cybersecurity/assess-breach-notification-obligations-across-affected-jurisdictions/task.json",
+    "task_file": "task_039_R898BF7D75D67.md"
+  },
+  {
+    "run_id": "R07FC83B4FB29",
+    "task_id": "H15",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/antitrust-competition/compare-expert-market-share-estimates-against-agency-data/task.json",
+    "task_file": "task_040_R07FC83B4FB29.md"
+  }
+]

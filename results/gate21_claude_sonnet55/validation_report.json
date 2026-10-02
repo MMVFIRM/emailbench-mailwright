@@ -1,0 +1,8 @@
+{
+  "expected": 40,
+  "found_valid_structure": 40,
+  "missing": [],
+  "errors": [],
+  "constraint_violations": [],
+  "STRUCTURALLY_VALID": true
+}
