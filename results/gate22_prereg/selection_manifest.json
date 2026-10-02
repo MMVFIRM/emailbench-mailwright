@@ -1,0 +1,26 @@
+{
+ "pure_research": [
+  "tasks/bankruptcy-restructuring/analyze-counterparty-markup-of-plan-of-reorganization/task.json",
+  "tasks/corporate-ma/analyze-term-sheet-markup/scenario-01/task.json",
+  "tasks/corporate-ma/analyze-counterparty-spa-markup/task.json",
+  "tasks/energy-natural-resources/analyze-counterparty-markup-of-credit-agreement/task.json",
+  "tasks/energy-natural-resources/analyze-counterparty-markup-of-power-purchase-agreement/task.json",
+  "tasks/arbitration-international-dispute-resolution/analyze-counterparty-markup-of-arbitration-agreement/task.json",
+  "tasks/intellectual-property/analyze-counterparty-markup-of-saas-agreement/task.json",
+  "tasks/intellectual-property/analyze-counterparty-markup-of-master-services-agreement/task.json",
+  "tasks/corporate-governance/assess-impact-of-cfpb-open-banking-rule-on-existing-data-sharing-agreements/task.json",
+  "tasks/data-privacy-cybersecurity/analyze-counterparty-markup-of-cross/task.json",
+  "tasks/funds-asset-management/analyze-counterparty-markup-of-investment-advisory-agreement/task.json",
+  "tasks/funds-asset-management/analyze-mfn-waterfall/task.json",
+  "tasks/antitrust-competition/analyze-counterparty-markup-of-protective-order/task.json",
+  "tasks/capital-markets/analyze-counterparty-markup-of-underwriting-agreement/task.json"
+ ],
+ "stress_reconciliation": [
+  "tasks/capital-markets/compare-charter-against-offering/task.json",
+  "tasks/intellectual-property/compare-software-license-agreement-against-negotiation-playbook/task.json",
+  "tasks/banking-finance/compare-credit-agreement-to-commitment-letter/task.json",
+  "tasks/funds-asset-management/compare-side-letter-provisions-against-limited-partnership-agreement/task.json",
+  "tasks/banking-finance/compare-credit-agreement-against-term-sheet/task.json",
+  "tasks/corporate-ma/compare-closing-checklist-against-ma-agreement/task.json"
+ ]
+}

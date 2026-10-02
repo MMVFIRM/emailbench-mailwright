@@ -1,0 +1,38 @@
+{
+  "gate": "22 - Held-out Fresh-Task Efficacy (LRPE v0.8)",
+  "benchmark": "Harvey Legal Agent Benchmark (LAB), pinned public commit",
+  "harvey_repo": "https://github.com/harveyai/harvey-labs.git",
+  "harvey_commit": "f93ae2ac2831e65892fea83094cfb50149bc2e59",
+  "conditions": [
+    "control",
+    "lrpe_v08"
+  ],
+  "unique_tasks": 20,
+  "runs": 40,
+  "repeats_per_task": 1,
+  "answer_word_cap": 2000,
+  "evidence_action_budget": 36,
+  "task_seed": 22022,
+  "judge_blind_seed": 22122,
+  "primary_endpoint": "Harvey criterion all-pass per unique task",
+  "secondary_endpoint": "Harvey criterion pass rate",
+  "pass_thresholds": {
+    "all_pass_delta_min": 0.0,
+    "criterion_pass_delta_min": 0.05,
+    "pure_research_criterion_delta_min": 0.0,
+    "max_extra_task_omissions": 1,
+    "central_correctness_max_regression": 0.05,
+    "unsafe_hallucination_max_increase": 0.05,
+    "citation_precision_max_regression": 0.03,
+    "budget_compliance_rate": 1.0,
+    "word_cap_compliance_rate": 1.0,
+    "note": "all_pass_delta_min is unused: task all-pass was degenerate (0 for both arms) in Gate 20. Replaced by rule task_wins_ge_losses (tasks where v0.7 criterion-pass beats control >= tasks where it loses)."
+  },
+  "strong_evidence_rule": "Paired task bootstrap 95% CI lower bound > 0 for criterion-pass delta; reported separately and not required for pilot PASS.",
+  "interpretation": "Pass = held-out pilot efficacy for v0.7 on 20 unseen tasks; same-model judge; not deployment certification.",
+  "selection_rule": "Same rule as Gate 21 (analyze-/assess- 14 + compare- 6; seeded shuffle 22022/22023; max 2 per practice area) but excluding all 40 tasks used in Gates 20 and 21.",
+  "primary_goal": "Test whether v0.8 (v0.7 + specificity rule, use-full-cap, completeness sweep with spare actions, no-blocking stop rule) improves Harvey criterion pass over control on previously unused tasks.",
+  "run_integrity_rule": "As Gate 21: each answer checked against its own task documents; runs with no usable output (no file) re-run once; runner scratch dirs unique per run. Runs labelled blocked that contain a substantive memo are judged as written.",
+  "development_data": "v0.8 designed from aggregate Gate 21 diagnostics only (failure-type counts, word and action usage, blocked-label finding); no rubric text or task content used.",
+  "secondary_reporting": "Also report criterion-pass delta against Gate 21's v0.7 delta (+3.6 pts) descriptively; no formal v0.8 vs v0.7 test (different task batches)."
+}
