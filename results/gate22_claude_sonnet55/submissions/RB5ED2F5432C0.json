@@ -1,0 +1,504 @@
+{
+ "run_id": "RB5ED2F5432C0",
+ "benchmark_task_id": "H17",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "EXECUTIVE SUMMARY MEMO (privileged; contains Fee Letter terms, so restrict distribution per CL s.9 / FL s.3)\nTo: Jennifer Whitfield; Michael Torres. Re: Project Ridgeline, Everstone draft Credit Agreement (CA) dated June 9, 2025 vs Commitment Letter (CL, incl. Exhibit A \"EA\" and Fee Letter \"FL\", all May 22, 2025), standalone Term Sheet (TS) and Sung no-flex email (June 2, 2025). For the June 16, 2025 negotiation session.\n\nBOTTOM LINE. The draft is not conforming. The table below logs 68 line items (14 Critical, 14 High, 14 Medium, 26 Low or conforming); nearly all favor lenders, a few favor Borrower (marked \"B+\"). None is authorized. Sung's email confirms Northbrook \"will not exercise any of its market flex rights\" and that the CA must reflect CL/EA \"without modification or deviation.\" Several changes sit inside flex envelopes (TLB margin +25 bps within FL s.2(a)'s 50 bps; springing trigger 30% equals the FL s.2(e) floor), i.e., flex by drafting. FL s.2(i) also requires written notice to exercise; none is in the file. Severity follows the template key; the 25 bp margin increase is rated Critical because the key lists \"unauthorized interest rate increase\" and the cost (about $875,000/yr, about $6.1M over seven years undiscounted, before the 10 bp CSA) is material.\n\nTOP ISSUES (raise first, no compromise):\n1. Pricing: TLB margin 4.25% vs 4.00% (ABR 3.25% vs 3.00%); new 10 bp SOFR Adjustment; Revolver floor 0.50% vs 0.00%.\n2. Closing conditions: CA s.4.01(h)-(l) and closing paragraph add KYC, insurance/broker, lien searches, three years of audited financials, no-injunction and Acquisition Agreement representations, plus Closing Date Mortgages and local-counsel opinions. CL s.6 says (a)-(g) are the sole conditions and expressly bars audited financials, insurance certificates, surveys and title as conditions. This breaches the SunGard-style framework.\n3. s.6.11 cash-hoarding prepayment ($30M cap with sweep) is barred by EA s.16.\n4. Missing RP leverage basket (4.50x) and incremental revolver; free-and-clear cut to $50M/50% from $75M/75%.\n5. Springing covenant trigger 30% ($22.5M) vs 35% ($26.25M); equity cure period 10 vs 15 BD; no \"no Event of Default\" cure protection.\n6. EBITDA: addback cap 20% vs 25%, 12 vs 18 months, new cap on restructuring, omitted non-recurring addback.\n7. Soft call 12 vs 6 months; asset-sale reinvestment 360 vs 545 days; MFN 18 vs 12 months; permitted acquisition leverage 5.50x vs 5.75x.\n8. Extra Events of Default (MAE, sanctions) not in EA s.18.\n\nFLEX WAIVER. The email is useful waiver/estoppel evidence and goes to Northbrook's own counsel (Chiang), but it is unsigned by Borrower, CL s.12 requires amendments/waivers signed by all parties, and FL s.2 flex survives until syndication completes or Closing. Its boilerplate disclaims waivers \"except as expressly stated herein\"; the waiver is express. Recommend a countersigned flex-waiver letter before Closing. NY-law enforceability not independently researched.\n\nRECOMMENDED NEXT STEPS: (1) send Chiang, copying Sung, a conformed-to-CL issues list before June 16; (2) require a CL-conforming redline and compliance certification; (3) seek signed flex waiver; (4) do not trade Critical items; trade B+ items and Low items only; (5) note ticking fee: FL s.1(e) 0.25% on $425M accrues from July 22, 2025 if Closing is July 31 (about $29,500 for ten days), so timetable matters; (6) correct template errors below.\n\nDEVIATION REPORT. Severity: C/H/M/L. \"+\" = Borrower-favorable. Direction otherwise adverse to Borrower. Cites: CL/EA section, then CA section.\n\nECONOMIC\n1 TLB margin. EA s.3 / CA 1.01 \"Applicable Rate\", 2.05(a). SOFR+4.00%, ABR+3.00% vs 4.25%/3.25%. C. Revert; no flex noticed.\n2 SOFR Adjustment. TS XVIII mentions an unquantified \"credit spread adjustment\"; EA silent / CA 1.01: flat 10 bps on all SOFR loans, floor applied after (about $350k/yr on TLB). H. Delete or fix at zero.\n3 TLB floor 0.50%: conforms. L.\n4 Revolver floor. EA s.3 / CA 1.01 \"Floor\", 2.05(b). 0.00% vs 0.50% (FL s.2(d) says Revolver floor not flexible). H. Revert.\n5 ABR floor. CA \"ABR\" adds 1.00% minimum not in EA. L. Delete.\n6 OID/net proceeds 98.0, $343M: conforms (CA 2.01(a)). L.\n7 Maturities. EA s.4 / CA 1.01: dates hard-coded July 31, 2032/2030 vs \"7/5 years from Closing Date\". M. Draft as years from actual Closing.\n8 Amortization $875k quarterly conforms (CA 2.07). Mandatory prepayments applied in direct order only vs Borrower election of direct or inverse (EA s.7; CA 2.09(f)). M.\n9 Soft call. EA s.6 / CA 2.08(a)(iii): 1% for 6 months vs 12 months; limited to Repricing Transactions (EA also reaches Borrower-directed mandatory prepayments), Agent yield determination \"conclusive\". H. 6 months.\n10 Fees. Arrangement fee 1.75% ($6,125,000), $150k agent fee, ticking fee sit in FL; CA 2.06(b)-(c) cross-refers; sources/uses tie at $780M. L.\n10A Revolver size $75M, LC $15M, swingline $10M, 0.375% commitment fee, 0.125% fronting, 2% default rate: conform (CA 2.01(b), 2.03, 2.04, 2.06, 2.05(c)). L.\n11 Incremental revolving commitments omitted (EA s.15(c)); CA 2.15 term loans only. C. Add.\n12 Free-and-clear. EA s.15(a) / CA 1.01, 2.15(a)(i): $75M/75% vs $50M/50% (about $25M less capacity). C. Revert.\n13 Ratio incremental 3.59x/3.85x conforms; but no reclassification, no limited-condition/payment-and-bankruptcy-only default test for free-and-clear, no separate-facility form. M.\n14 MFN. EA s.15(d) / CA 2.15(d): 18 months vs 12; no free-and-clear carve-out after 12 months; 50 bps and 10 bps floor conform. H.\n\nMANDATORY PREPAYMENTS\n15 ECF thresholds. EA s.7(a) / CA 2.09(b): 4.00x/3.50x vs 3.75x/3.25x. L (B+); also adds $2.5M ECF de minimis and lender decline mechanics (B+). Do not volunteer.\n16 Annual voluntary-prepayment credit. EA s.7 / CA 2.09(b): credit only against ECF and only if internally funded. M. Credit against all mandatory prepayments.\n17 Asset sales. 100% and $7.5M de minimis conform; reinvestment 270+90=360 days vs 365+180=545 (CA 2.09(c)). H. Revert. 75% cash conforms; non-cash basket 10% of Total Assets vs EBITDA (B+, L). Template's \"$15M annual threshold\" does not exist in CL/TS.\n18 Debt issuance 100%: conforms. L.\n19 Extraordinary Receipts. EA s.7(d) / CA 2.09(d)-(e): $2.5M vs $5M threshold; separate insurance rule, 270+90 reinvestment vs 365+180, $2.5M/$5M casualty thresholds. H. Revert.\n20 Anti-cash-hoarding. EA s.16 prohibits; CA 6.11 caps Unrestricted Cash at $30M with quarterly sweep. C. Delete.\n\nFINANCIAL COVENANT\n21 Ratio 6.25x conforms. L.\n22 Trigger. EA s.9 / CA 7.01(a), 11.02(a)(iii), Exh. A: 30% ($22.5M) vs 35% ($26.25M). C (equals FL s.2(e) floor; flex waived).\n23 Term lender protection. TS IX: TLB has no maintenance covenant; CA lets Required Lenders (incl. term lenders) accelerate on breach. H. Add revolver-only standstill.\n24 Equity cure frequency (2/4, 5 life) conforms. L.\n25 Cure period. 15 BD vs 10 BD (CA 7.01(c)). M.\n26 Cure effect. EA s.9(e) no Event of Default if timely cured; CA lacks deemed-cure language and 8.01(c)(i) has no grace; also bars cure amounts in later test periods. H.\n27 Cure amount cap (no over-cure): conforms. L. TS uses net-debt reduction vs EA EBITDA increase; CA follows EA (EA governs per TS).\n\nNEGATIVE COVENANTS\n28 RP general basket and tax/management exceptions conform; sponsor fee cap $2M (EA \"to be agreed\"). L.\n29 RP leverage basket (TNL 4.50x unlimited) omitted; CA 6.04(f) is circular. C. Insert.\n30 RP builder basket conforms. L. Employee repurchases fixed $5M with $10M cap vs greater of $5M/5% EBITDA. M.\n31 Debt baskets (general, 4.25x, 5.50x, leases, acquisition debt): conform (CA 6.01). L.\n32 Investments general $20M/17.5%: conforms (6.05(f)). L.\n33 Permitted Acquisitions. EA s.12(b) / CA 6.06(c): 5.50x vs 5.75x. H. Also adds 60-day guarantor joinder, related-business and certificate conditions. M.\n34 Asset-sale covenant. EA s.13 permits other sales up to $2.5M individually/$7.5M per year; CA 6.09 omits. M.\n\nDEFINITIONS / EBITDA\n35 Cost-savings cap. EA s.14 / CA 1.01 \"Consolidated EBITDA\"(g): 20% vs 25%. H (about $8M less on $97.5M base).\n36 Realization period 12 vs 18 months; adds certification. H.\n37 Other addbacks. CA caps restructuring (f) at greater of $10M/10%; omits non-recurring/extraordinary addback and acquisition/disposition run-rate; (i) needs Agent approval vs \"customary\". H. Transaction-cost addback broader (B+).\n38 Immaterial Subsidiary. EA s.8: $5M/$15M vs $2.5M/$10M (CA 1.01, 5.10, Sch. 1.01). M.\n39 Change of Control. EA s.18 \"to be defined\"; CA adds 50.1% test and Second Lien/Material Indebtedness cross-trigger. M.\n40 Closing Date leverage 3.59x/3.85x: conform. L.\n\nSECURITY\n41 Collateral. EA s.8 vs CA Excluded Assets/Sec. Agt Exh. E: no Excluded Accounts or $500k commercial-tort carve-outs; adds Mortgages on fee property over $2.5M (CA 4.01(a), 11.13; TS \"material real property\"; not in EA). M/H. Conform.\n42 Equity pledges (100% domestic; 65%/100% foreign): conform (5.10). L.\n43 Guarantor carve-outs: no adverse-tax exclusion except by Agent consent. L.\n\nCONDITIONS PRECEDENT\n44 SunGard framework. CL s.6 / CA 4.01: conditions limited to (a)-(g) vs added (h)-(l). C.\n45 KYC (h). C. 46 Insurance/broker (i). C. 47 Lien searches (j). C. 48 Audited financials (k) (CL expressly bars). C. 49 No injunction (l). C (arguably covered by Acquisition closing). \n50 Acquisition Agreement representations condition (closing paragraph). C.\n51 Executed documents: Closing Date Mortgages, local-counsel opinions (4.01(a), (d)(ii)). C.\n52 Company MAE: conforms except \"as in effect on date hereof (May 15)\" vs May 22. L.\n53 Specified Representations. EA s.21 / CA 1.01: ICA rep omitted (and absent from Art. V); AML/OFAC cross-references point to 5.16 not 5.21; Use of Proceeds added (TS only); conflicts rep narrowed (B+); materiality standard conforms. M.\n54 Certificates. Solvency by CFO of Target (CL) vs Borrower or Target (4.01(d)(i), Exh. F). L.\n55 Equity $330M conforms; Schedule 2.01 shows Northbrook as sole lender (syndication pending) (4.01(e)); fees (f) and acquisition (g) conform substantially; waiver standard \"Agent and Lenders\" vs Northbrook. L.\n\nREPS / EoD / MISC\n56 Reps scope customary; non-specified reps only for revolver draws (4.02): conforms. L.\n57 Added EoDs: MAE (8.01(l)), sanctions (8.01(k)). H.\n58 Rep default lacks 30-day cure (8.01(b)); receiver event lacks 60 days. M.\n59 Cross-default, judgment, ERISA $25M, 5 BD interest grace: conform. L.\n60 Required Lenders >50%: conforms. L.\n61 Sacred rights omit lien subordination (10.01(b)). M.\n62 Assignments: minimums, $3,500 fee, Borrower consent/deemed 10 BD conform; Agent consent for TLB assignments follows TS, not EA (revolver only). L.\n63 Governing law NY conforms; jurisdiction non-exclusive vs exclusive; no GOL 5-1401 reference. L.\n64 Benchmark replacement: ARRC-style conforms. L.\n65 Expenses/indemnity. CL s.8 one-counsel limit absent in CA 10.05(b). M.\n66 Reporting 120/60 days conforms to EA (TS says 90/45; EA controls); key-man notice 11.03(d) added. L.\n\nDRAFTING RED FLAGS\n67 CA recites \"Stock Purchase Agreement\" with Fund VI as party vs CL \"Agreement and Plan of Merger\" (Borrower, Target, holders); drives Company MAE and CP(g). M.\n68 CA lists Northbrook as Collateral Agent too; CL names Continental Trust only. Undefined terms (Material Restricted Subsidiary, Subordinated Indebtedness, Transaction Documents). L.\n\nDOCUMENT NOTES. TS claims it is \"substantively identical\" to EA; it is not (ECF framing, Specified Reps adding use of proceeds/perfection, solvency officer, 90/45-day reporting, Agent assignment consent, equity-cure mechanics, guarantor wording). TS and EA both say CL controls; FL governs fees/flex. Template Deal Summary cites wrong EA sections and invents the $15M asset-sale threshold; fix before circulating. Unverified: no external law researched.\n",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Pricing deviations (TLB margin 4.25%, SOFR Adjustment, Revolver floor) vs no-flex confirmation",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Additional closing conditions beyond CL s.6 SunGard framework",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Anti-cash-hoarding prepayment (CA 6.11) barred by EA s.16",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Incremental facility cuts (free-and-clear, no revolver, MFN)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Financial covenant trigger, equity cure, term lender protection",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "EBITDA definition tightening",
+   "criticality": "important"
+  },
+  {
+   "id": "I7",
+   "text": "Mandatory/voluntary prepayment mechanics (soft call, reinvestment, ER)",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "Negative covenants (RP leverage basket omitted, acquisition leverage)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I9",
+   "text": "Events of Default additions and cure gaps",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Flex waiver effectiveness and fee letter ticking fee",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "Source-document inconsistencies (TS vs EA, template errors, Acquisition Agreement title, Collateral Agent)",
+   "criticality": "important"
+  },
+  {
+   "id": "I12",
+   "text": "Security/guarantor and Specified Representation deviations",
+   "criticality": "important"
+  },
+  {
+   "id": "I13",
+   "text": "Executive summary and next steps",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "Commitment Letter incl. Exhibit A and Fee Letter (May 22, 2025)",
+   "source_type": "matter_document",
+   "jurisdiction": "NY/US",
+   "level": "controlling",
+   "proposition": "CL s.6 sole conditions; EA ss.3-21 terms; FL s.2 flex and notice; FL s.1(e) ticking fee",
+   "verified": true,
+   "current_as_of": "2025-06-09",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "Draft Credit Agreement (June 9, 2025) ss.1.01, 2.01-2.15, 4.01, 6.04-6.11, 7.01, 8.01",
+   "source_type": "matter_document",
+   "jurisdiction": "NY/US",
+   "level": "background",
+   "proposition": "Draft terms compared",
+   "verified": true,
+   "current_as_of": "2025-06-09",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "Standalone Term Sheet (May 22, 2025)",
+   "source_type": "matter_document",
+   "jurisdiction": "NY/US",
+   "level": "persuasive",
+   "proposition": "TS yields to CL; differs from EA in places",
+   "verified": true,
+   "current_as_of": "2025-06-09",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "No-flex confirmation email, D. Sung, June 2, 2025",
+   "source_type": "matter_document",
+   "jurisdiction": "NY/US",
+   "level": "persuasive",
+   "proposition": "Northbrook will not exercise flex; CA to conform without deviation",
+   "verified": true,
+   "current_as_of": "2025-06-09",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "comparison-template.xlsx",
+   "source_type": "matter_document",
+   "jurisdiction": "NY/US",
+   "level": "background",
+   "proposition": "Severity key and deviation row structure; Deal Summary contains errors",
+   "verified": true,
+   "current_as_of": "2025-06-09",
+   "entailment": "ENTAILS"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "TLB margin 4.25% and 10 bp SOFR Adjustment and Revolver floor 0.50% deviate from CL/EA and are unauthorized given no-flex confirmation",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E4"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "CA 4.01(h)-(l) and Acq. Agreement reps condition breach CL s.6 sole-conditions",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "CA 6.11 cash sweep violates EA s.16",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Incremental cuts: F&C $50M/50%, no revolver, MFN 18 months",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Springing trigger 30%, cure 10 BD, no cure EoD protection",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "EBITDA 20%/12 months/restructuring cap",
+   "central": false,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Soft call 12 months; reinvestment 360 days; ER $2.5M",
+   "central": false,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "RP leverage basket omitted; acquisition leverage 5.50x",
+   "central": true,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Added MAE/sanctions EoDs; missing cure periods",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Email is useful but not countersigned waiver; recommend signed waiver; ticking fee from July 22",
+   "central": true,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "TS not identical to EA; template errors; Stock Purchase Agreement misdescription; Northbrook listed as Collateral Agent",
+   "central": false,
+   "issue_ids": [
+    "I11"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E5"
+   ]
+  },
+  {
+   "id": "C12",
+   "text": "Immaterial Sub, collateral, Specified Reps deviations",
+   "central": false,
+   "issue_ids": [
+    "I12"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2"
+   ]
+  },
+  {
+   "id": "C13",
+   "text": "Executive summary with next steps delivered",
+   "central": true,
+   "issue_ids": [
+    "I13"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C12"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I13",
+   "claim_ids": [
+    "C13"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C1",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C2",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C3",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C4",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C5",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C6",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C7",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C8",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C9",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C10",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C11",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C12",
+   "action": "none",
+   "reason": "Verified against source text"
+  },
+  {
+   "claim_id": "C13",
+   "action": "none",
+   "reason": "Verified against source text"
+  }
+ ],
+ "citations": [],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "task file",
+   "purpose": "instructions"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "no-flex-confirmation.eml",
+   "purpose": "flex waiver"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "commitment-letter.docx (multiple pages)",
+   "purpose": "CL, EA, FL terms"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "term-sheet.docx (2 pages)",
+   "purpose": "TS terms"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "draft-credit-agreement.docx (front, definitions, Arts II, IV-XI, schedules, exhibits; about 20 reads)",
+   "purpose": "draft terms"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "comparison-template.xlsx",
+   "purpose": "template and severity key"
+  }
+ ],
+ "unresolved": [
+  "NY-law enforceability of email flex waiver not researched (unverified)",
+  "SunGard market-practice characterization not independently verified",
+  "Fee Letter and Exhibit A taken as embedded in commitment-letter.docx; term-sheet.docx differs in places",
+  "Severity ratings are judgment calls under template key; 25 bp margin item sits at the Critical/High boundary"
+ ],
+ "usage": {
+  "tool_calls": 33,
+  "elapsed_sec": null
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "run_id": "RF2CA78671869",
+ "benchmark_task_id": "H04",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM (Privileged and Confidential - Attorney Work Product)\nTo: Russell T. Hadley. From: Priya N. Deshpande. Re: Ridgeline / Graymark October 24 markup of $475M revolver. Baseline: our 9/18/25 draft and the 8/22/25 term sheet summary (TS).\n\n1. BOTTOM LINE\nThe markup reopens the commercial deal. It reverses all four \"hills to die on\" (ECF distribution basket; June 30, 2028 deadline and 15% overrun cushion; EBITDA addbacks; no sponsor guaranty). It also makes silent changes its margin comments omit (commitment fee, reporting dates, default thresholds). The demanded completion guaranty is one the Fund cannot give. Recommend escalating to Trevor Liu before a document response.\n\nSource notes. The transmittal email, commitment/fee letter, \"original\" and \"borrower markup\" credit agreements and the Ashworth Dane RBL playbook concern other matters (Brazoria/Cornerstone; Ridgeline Natural Resources/Crestmark; agent-side RBL). I did not rely on them. No Pinnacle commitment letter for this deal is in the folder. TS is an internal summary, so \"agreed term\" arguments rest on call notes (7/15, 7/22, 8/8) and need written confirmation from Liu. Markup comments cite \"7.06\" for what is Section 6.06, and Exhibit E names the guarantor \"Crestview Infrastructure Partners Fund III, LP\", not Aldersgate.\n\n2. PRICING\n- Grid [Critical]. TS: 225/250/300/325 at 2.50x/3.25x/4.00x. Markup: 275/300/350/375 at 2.25x/3.00x/3.75x: +50 bps per tier and thresholds tighter by 0.25x (GW's comment calls this 25 bps). At 3.08x (model FY2027) we pay Level III 350 instead of Level II 250, plus the 10 bps adjustment: +110 bps, about $3.9M a year on $350M drawn. Today at 1.65x: 7.18% against 6.58% (+60 bps). Model: about $19.6M extra interest and fees over the life, but its debt tab shows different thresholds (2.00x/3.00x), so re-run it; it may understate. Counter: TS grid verbatim. Fallback: only with escalation, TS thresholds with a 25 bps increase at Levels III-IV.\n- SOFR floor 1.00% [Significant]. TS: 0%, explicitly agreed. Not binding at 4.33%; costs only if SOFR is under 1%. Counter 0%; last resort 0.25%.\n- SOFR Adjustment 10 bps [Significant]. TS: none. Reject; stale LIBOR rationale.\n- Commitment fee 50 bps [Significant; silent]. TS 37.5. About $0.5-0.7M a year. Counter 37.5; fallback 42.5 only if the grid is restored.\n- Maturity 12/15/2029 [Critical]. TS: five years; Liu confirmed credit-committee approval. The model shows $250M drawn at FY2029, due the same year as the $185M notes (3/15/2029). Restore 2030; no fallback.\n- Accordion $75M, 3.50x test, ROFO [Significant]. TS $125M. Counter $125M; fallback $100M (Pinnacle's opening number).\n\n3. FINANCIAL COVENANTS\n- Max leverage 4.00x [Critical]. TS 4.50x (0.30x over the ~4.2x peak, so 4.00x fails even before EBITDA cuts if 4.2x is right). Model FY2027 on markup EBITDA: 540/135.1 = 4.00x, zero headroom; 5% EBITDA miss gives 4.21x; $25M more debt gives 4.18x. No cure (8.01(b)). Counter 4.50x plus equity cure (cure counts as EBITDA). Fallback: 4.50x through 12/31/2028, then 4.25x.\n- Acquisition step-up [Significant]. Markup >$75M, 4.50x, one quarter; TS >$50M, 5.00x, two. Fallback: $75M, 5.00x, two quarters.\n- Interest coverage 3.00x [Significant]. TS 2.50x; model FY2027 3.32x on markup terms. Counter 2.50x; fallback 2.75x; keep cash interest.\n- Liquidity $35M at all times [Significant]. TS: none. Counter: delete; fallback $20M quarterly, undrawn commitments counted only if draw conditions are met.\n- Capex cap $200M [Critical]. TS: none. Model FY2026: $165.1M Lateral + $38M other = $203.1M, a breach; the model's note saying about $185M is wrong. Only a carryover from FY2025 could help. Delete; fallback: exclude Lateral and debt-funded capex.\n\n4. EBITDA DEFINITION\n- Projected-revenue addback deleted [Critical]. Model: -$22.4M FY2026, -$38.6M FY2027; FY2027 leverage on the draft definition rises from 3.08x to 3.94x. Counter language: \"Contract Revenue Addback means, for any period ending before Substantial Completion, contracted minimum revenue under executed firm transportation agreements with investment-grade or credit-supported shippers, for months until commencement, not exceeding 25% of Adjusted EBITDA before this addback.\" Fallback: 30% cap, and only contracts commencing within 18 months.\n- Sponsor fee addback deleted [Critical]. Model impact $1.5-1.8M a year; draft permits up to $5M. Side letter: contractual fee is $5M, escalating 2.5% a year, accruing at 5% if blocked; model assumes only $1.6-1.8M, so reconcile with Diana. Restore $5M; fallback $3M.\n- Non-cash cap $10M [Significant]: binds only in FY2029-30 ($10.5M/$11.0M); counter uncapped, fallback $15M. Transaction fees cap $7.5M [Acceptable] if Facility and acquisition fees excluded. Non-recurring losses $8M versus TS $15M [Significant]; fallback $12M. Synergies 15%/12 months versus 25%/18 [Significant]; fallback 20%/18. Quality-of-earnings report [Significant]; fallback only for acquisitions over $50M. Asset-sale pro forma [Acceptable].\n\n5. SECURITY\n- Federal/state right-of-way exclusion deleted; all real property mortgaged, no $15M threshold [Critical]. TS: excluded on Marchetti's own advice that encumbering federal rights-of-way is generally impermissible, so this is a legal problem as well as commercial. I did not verify the underlying authority (Mineral Leasing Act, 30 U.S.C. 185; 43 C.F.R. Parts 2800/2880); confirm before citing. Restore exclusion and threshold; fallback: mortgages on fee and private easements above $15M, with post-closing efforts for assignable state rights-of-way.\n- Contract and permit assignment, DACAs on all accounts [Significant]. Accept \"to the extent assignable\" with the anti-assignment exclusion; restore the $1M DACA threshold with excluded payroll/tax accounts.\n\n6. RESTRICTED PAYMENTS (client priority 1)\n- Basket $15M, ECF alternative deleted, test 3.00x [Critical]. TS: greater of $30M or 50% ECF at 3.50x. Aldersgate needs $40-55M a year. Model FY2028-30: $106.5M draft against $45M markup (about $61.5M less); the model's $76.5M includes pre-closing FY2025, so overstates. The 3.00x test delays first distributions 12-18 months. Restore verbatim; fallback: greater of $25M or 40% ECF at 3.50x.\n- Management fees prohibited [Critical]. TS up to $5M outside the basket. Combined with the addback deletion this is a double hit; unpaid fees accrue at 5% under the side letter. Restore; fallback: $2.5M a year while no Event of Default, remainder accruing.\n- Tax distributions at 25% [Critical]. TS and side letter: actual highest rate (about 37.6%), uncapped, outside baskets, priority; the Fund represented this to its LPs. Shortfall: about $8.7M a year for Aldersgate on the side letter's illustration (about $12M for all members). Restore draft 6.06(d); fallback: actual rate with annual true-up and lender review of the computation.\n\n7. MANDATORY PREPAYMENT\n- Asset sales 100%, $5M/$10M, 180 days [Significant]. TS 75%, $10M/$25M, 365. Fallback 75%, $7.5M/$15M, 270.\n- Casualty 100%, no reinvestment [Critical]. A damaged pipeline must be rebuilt. Restore 365-day reinvestment.\n- ECF sweep 75/50/25, no zero tier [Significant]. TS 50/25/0. Fallback: TS plus no sweep until Substantial Completion.\n- Extraordinary Receipts 100% over $2M [Significant]. Not in TS. Delete; fallback: threshold $10M, excluding tax refunds and proceeds applied to the loss.\n\n8. CONSTRUCTION (client priority 2)\n- Deadline March 31, 2028 [Critical]. TS and model: June 30, 2028; Redstone's base case is April 2028, so the markup deadline is missed in the base case. GW says our schedule shows Q4 2027 completion; the budget tab shows spend through Q2 2028. Demand the source. Counter: June 30, 2028 with up to 180 days' extension for force majeure and permitting delay.\n- Overrun trigger 110% / $341M [Critical]. TS 115% / $356.5M. Restore.\n- Delay LDs $5M a month, $30M cap, EOD at six months [Critical]. TS: none. Delete; fallback: none beyond a cash-sweep trigger 90 days after the deadline.\n- Completion guaranty as closing condition (11.06, 4.01(l), Exhibit E) [Critical]. TS: standalone credit. Side letter: Fund guarantee exposure is capped at 15% of unfunded commitments (about $120M; $47M used; about $73M available), waivable only by 66 2/3% of LPs; Section 5(c) bars any completion, overrun or schedule guaranty, and the Company agreed not to request one. An uncapped guaranty is impossible and the Fund is not a party. Delete; fallback: Borrower-level support only (contingent equity from existing holders), no Fund guaranty. Escalate before any discussion; closing is at risk.\n- Dual certification with lender advisor at our cost [Significant]. Fallback: Redstone certifies; one lender-advisor review at milestones, fees capped.\n- Agent consent to budget/schedule changes [Significant]: allow changes within contingency.\n\n9. CHANGE OF CONTROL\n51% plus board control, GP-change trigger, affiliate carve-out deleted [Significant; GP trigger Critical]. TS: 35%, affiliated funds carved out, no GP or key-person term. The 51% acquirer test helps us and clause (a) is conjunctive, but clause (c) makes any GP change an immediate EOD. Counter: 35%, restore the carve-out, delete (c) or limit to a non-Aldersgate-affiliate GP.\n\n10. REPORTING\n- Required Lender approval of annual budget [Critical]. TS: information only. Operational control is workout-style and invites lender-liability arguments (authority not verified). Counter: informational delivery; fallback: comment right on the construction budget only.\n- Annual 90 days (TS 120), quarterly 45 (TS 60, silent), budget 45 (TS 60, silent) [Significant]. Fallback 105/50/60.\n- Annual environmental site assessments [Significant]; fallback: only on a Phase I recommendation or reportable release. Monthly construction reports [Acceptable]. Semi-annual engineering report and regulatory correspondence [Acceptable if limited to material items].\n\n11. EVENTS OF DEFAULT\n- MAE adds \"prospects\", any obligation, lender remedies, and is a standalone EOD [Critical]. TS: payment ability only. Restore the draft definition; keep it out of draw conditions.\n- Environmental EOD $5M/$3M [Significant]. Counter: $15M, final order, 60-day cure or diligent pursuit, insured amounts excluded.\n- Permit loss, no cure [Critical]. Counter: material-impact test, 90-day cure and contest right. Gathering lines may be outside FERC certificate jurisdiction; confirm facts.\n- Key Person EOD [Significant]. Delete; fallback notice and 180-day replacement, not an EOD.\n- Silent: cross-default $15M/any Subsidiary (TS $25M/Guarantor); judgments $10M/30 days (TS $25M/60); payment grace 3 business days (TS 5) [Significant]; ERISA $15M [Acceptable].\n\n12. VOTING\n- Required Lenders 66 2/3% [Critical]. TS above 50%. In a 5-7 bank group one lender can block. Fallback 51%.\n- Financial covenants on unanimous list [Critical]. TS: Required Lenders. Delete. Commitment-increase unanimity [Acceptable] if limited to increasing lenders. Agent consent to replacement lenders [Significant]; accept if not unreasonably withheld.\n\n13. OTHER\nUnrestricted Subsidiary concept appears removed from negative covenants [Significant]; reinstate. Pinnacle's Issuing Bank and Swingline roles dropped [Acceptable, clarify].\n\n14. INTERACTIONS\n(a) EBITDA cuts + 4.00x + no cure + unanimous amendment: a 5% FY2027 miss breaches with no way to amend. (b) Higher tiers + floor + adjustment erode interest coverage (3.32x against 3.00x). (c) Capex cap + March deadline + 110% trigger + dual certification: accelerating spend breaches capex; delay triggers LDs. (d) Basket cut + 75% sweep + fee ban: no cash reaches equity. (e) MAE \"prospects\" + permit and environmental EODs + 66 2/3%: acceleration on adverse news. (f) Guaranty condition: the Fund cannot sign, so the December 15 closing is at risk.\n\n15. NEXT STEPS\nClient call Oct 30: approve fallbacks and Liu escalation; reconcile model (grid thresholds, 4.2x peak against 3.08x/3.94x, fee amount, capex) with Diana; counter-markup by Nov 7.\n",
+ "citations": [
+  {
+   "citation": "30 U.S.C. 185; 43 C.F.R. Parts 2800/2880",
+   "url": "",
+   "claim": "Federal rights-of-way assignment/encumbrance limits (not verified; flagged for confirmation)"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "partner-instruction-email.eml",
+   "purpose": "Partner assignment and client priorities"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "all docx converted to text (scratch)",
+   "purpose": "Prepare documents for reading"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "internal-term-sheet-summary.docx (1/3)",
+   "purpose": "Agreed terms baseline"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "internal-term-sheet-summary.docx (2/3)",
+   "purpose": "Agreed terms baseline"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "internal-term-sheet-summary.docx (3/3)",
+   "purpose": "Agreed terms, hills to die on"
+  },
+  {
+   "seq": 6,
+   "type": "document_search",
+   "target": "borrower draft vs lender markup text diff",
+   "purpose": "Locate changes"
+  },
+  {
+   "seq": 7,
+   "type": "document_search",
+   "target": "lender markup GW comments",
+   "purpose": "List explained changes"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "lender-markup definitions: EBITDA, Applicable Margin, CoC, MAE",
+   "purpose": "Check definitions"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "lender-markup 2.07 and added/deleted blocks",
+   "purpose": "Mandatory prepayment, guaranty exhibit"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "lender-markup 2.04, 2.05, 2.08, 6.06, 6.10",
+   "purpose": "Pricing, fees, accordion, RP, covenants"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "lender-markup 5.01, 7.01-7.03",
+   "purpose": "Reporting, security"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "lender-markup 8.01, 10.01, 10.02",
+   "purpose": "EODs, voting"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "lender-markup Article XI",
+   "purpose": "Construction provisions"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "aldersgate-sponsor-side-letter.docx",
+   "purpose": "Fee, tax, guarantee cap"
+  },
+  {
+   "seq": 15,
+   "type": "document_read",
+   "target": "ridgeline-financial-summary.xlsx (tabs 1-4)",
+   "purpose": "EBITDA bridge, debt, budget"
+  },
+  {
+   "seq": 16,
+   "type": "document_read",
+   "target": "ridgeline-financial-summary.xlsx (projections)",
+   "purpose": "Covenant stress test"
+  },
+  {
+   "seq": 17,
+   "type": "document_search",
+   "target": "section-level diff attempt",
+   "purpose": "Structures differ; abandoned"
+  },
+  {
+   "seq": 18,
+   "type": "document_search",
+   "target": "borrower draft key provisions",
+   "purpose": "Confirm draft baseline"
+  },
+  {
+   "seq": 19,
+   "type": "document_read",
+   "target": "borrower draft EBITDA, 6.06, 6.11",
+   "purpose": "Draft baseline text"
+  },
+  {
+   "seq": 20,
+   "type": "document_read",
+   "target": "lender-counsel-transmittal-email.eml",
+   "purpose": "Found unrelated matter"
+  },
+  {
+   "seq": 21,
+   "type": "document_search",
+   "target": "commitment-letter-fee-letter.docx",
+   "purpose": "Found unrelated matter"
+  },
+  {
+   "seq": 22,
+   "type": "document_search",
+   "target": "ad-rbl-negotiation-playbook.docx",
+   "purpose": "Found unrelated matter"
+  },
+  {
+   "seq": 23,
+   "type": "document_read",
+   "target": "original and borrower-markup credit agreements (headers)",
+   "purpose": "Found unrelated matter"
+  },
+  {
+   "seq": 24,
+   "type": "document_read",
+   "target": "lender-markup 4.01 and Liquidity definition",
+   "purpose": "Conditions precedent"
+  }
+ ],
+ "unresolved": [
+  "Federal ROW authority not verified online",
+  "Model tab inconsistencies (grid thresholds, 4.2x vs 3.08x/3.94x peak, sponsor fee $1.5M vs $5M, capex note)",
+  "No Pinnacle commitment letter for this deal in folder; several folder documents relate to other matters",
+  "Not every markup section reviewed line-by-line (structure differs from draft); silent changes may remain",
+  "Whether gathering lines need FERC certificates"
+ ],
+ "usage": {
+  "tool_calls": 24,
+  "elapsed_sec": null
+ }
+}

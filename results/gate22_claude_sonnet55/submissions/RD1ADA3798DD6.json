@@ -1,0 +1,497 @@
+{
+ "run_id": "RD1ADA3798DD6",
+ "benchmark_task_id": "H02",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM - Whitfield Capital Partners Fund III / Project Verdana\nTo: Whitfield deal team; T&K. Re: Seller markup (May 2, 2025) v. Buyer term sheet (Apr 14, 2025) - May 12 session.\n\n1. BOTTOM LINE\n- Seller's package is a retrade: EV +$38.4 (9.0x, $347.4 v. $309.0), plus up to $15.0 earnout (effective EV $362.4, about 9.4x), cash-at-close up from 80% to 90%, escrow halved, environmental indemnity capped at $10.0/48 months, fiduciary out, financing condition replaced by a binding commitment-letter deadline, Texas law/arbitration.\n- Constraints: (a) IC authority tops out at 8.5x x 38.6 = $328.1 with \"corresponding adjustments\" in protections; the markup exceeds it by $19.3 before earnout; (b) IC called the financing condition \"non-negotiable\"; no commitment letters exist (expected mid/late May; Crestfield targets June 30), so May 5 cannot be met.\n- Priorities: environmental indemnity; financing/break-fee package; price/earnout; employee-protection clause; exclusivity. Trade the rest.\n- Respond before May 5 reserving rights; Ashcroft wants comments by May 8.\n\n2. PRICE AND EBITDA (Term sheet s.3.1; markup s.2(a)-(b))\n- Markup: 9.0x x 38.6 = $347.4. Ashcroft calls 9.0x the \"midpoint\" of 7.5x-9.5x; the midpoint is 8.5x (Crestfield median 8.5x; its concentrated/environmental/founder-led comps: 7.5x, 7.8x, 8.0x). Top-5 customers are 47% of revenue; the Houston EPA audit is open.\n- Seller's inconsistency argument has merit: our term sheet prices on $38.6 while \"not accepting\" the $0.5 relocation add-back. Reopening to 38.1 would be a visible retrade.\n- Arithmetic: $2.4+$1.8+$0.9+$0.5 = $5.6, not $5.5 (true sum gives 38.7). Buyer's \"preferred\" 38.1 is also wrong: 33.1+2.4+1.8+0.9 = 38.2 (EV at 8.0x = $305.6, not $304.8). Reconcile line items first.\n- Warranty reserve release $0.7 (markup note; Adj. (v) row): Hadley's workbook lists it as a memo item \"not proposed\" (reserve fell 4.0 to 3.3). A release is a one-off gain; normalizing deducts it (38.6 to 37.9), not adds it. Seller's $39.3 (+$6.3 EV at 9.0x) is directionally wrong. Seller reserved it for the definitive agreement: demand express waiver.\n- Relocation ($0.5): Crestfield calls it exploratory (lease runs to Dec 31, 2026); Hadley says \"partial execution\" with $0.2 early-termination costs. Conflicting; trade chip.\n- Baton Rouge $0.9 conflict: term sheet/IC/Crestfield say 2023 $900,000 discharge fine; Hadley says Q2 2024 air-permit settlement ($0.6 + $0.3 fees). A 2023 fine may not belong in FY2024. Verify.\n- QoE flag: P&L EBIT (33.1) equals \"Reported EBITDA\" (33.1) though D&A is $6.7; net-income build gives 39.7 less unexplained $6.6 \"reclassifications\". Resolve in QoE.\n- Recommendation: open at 8.0x on 38.6 ($309.0); package authority to 8.25x ($318.5), no earnout; fallback 8.0x plus earnout (max about $10), all-in within $328.1.\n\n3. CONSIDERATION, ROLLOVER, EARNOUT, ESCROW (s.4-5 / markup s.3-4)\n- Equity value $306.2 v. $267.8 (+$38.4). Cash 90% = $275.58 (+$61.34); rollover 5% = $15.31 (v. $26.78); escrow 5% = $15.31 (v. $26.78); math checks. Incremental cash need about $49.9 (EV +38.4, rollover -11.5) plus earnout up to $15, against a $155 debt + $155 equity plan already tight against $8-10 of costs. Debt of $155 is about 4.7x reported EBITDA (lender haircut risk).\n- Rollover: reduce to 5% shifts alignment away from Buyer; counter 10% at Buyer's entry price, pari passu, no put right; shareholders' agreement terms to be Buyer-drafted.\n- Earnout (markup s.3(d)): $15.0 atop 9.0x double-counts the gap (Crestfield: earnout only in lieu of headline). Formula: (FY2026 Adjusted EBITDA - $44.0) x 5.0, max at $47.0. Historical adjusted growth (9.3%/17.7%) implies about $46 (payout about $10) with no effort; Buyer's own savings ($4.5-5.0) hit the cap. \"Adjusted EBITDA\" is undefined (could import the warranty add-back); capex/no-headcount-cut covenants conflict with the 100-day plan. Reject; if conceded: defined EBITDA excluding synergies/add-ons, good-faith covenant only, indemnity setoff.\n- Escrow: 5%/12 months, 50% released at 6. Our s.5 makes escrow the \"sole and exclusive remedy\" yet s.7.2 gives direct recourse to the 15% cap ($40.17); fix. Counter 10%/18 months, no interim release; lower general escrow only with a separate funded environmental escrow.\n\n4. REPS, SURVIVAL, R&W (s.6 / markup s.5)\n- Deleted reps: undisclosed liabilities, sufficiency, customer/supplier (tracked); untracked: no conflicts/consents, related-party, separate ERISA. Restore all; customer rep is essential (Meridian 15.7%, Sterling 8.3%).\n- Untracked s.1 insertion that no customer exceeds 8% is false against Hadley's data (15.7%; IC memo says about 14%) - require correction and a rep; IC says about 14%, reconcile.\n- Qualifiers: add Briggs to knowledge group; none for environmental, financials, tax, capitalization. Insist on a materiality scrape for damages.\n- Survival 12 mo (general), 24 mo (fundamental) v. 18/36: Seller ties to R&W. Counter 18/36; tax = statute of limitations (unchanged).\n- R&W premium 50/50: low-cost trade (premium likely about $1M; estimate unverified); trade for environmental indemnity. Seller's claim that R&W covers environmental is doubtful: known matters (Houston, Baton Rouge) are typically excluded; confirm with Pinnacle.\n\n5. INDEMNIFICATION (s.7 / markup s.6)\n- Environmental special indemnity (highest stakes): original uncapped, perpetual; markup $10.0 cap, 48 months, \"in addition to\" general cap, basket not applicable. Crestfield: $10 \"wholly inadequate\"; floor 25% of EV ($77), six years; IC: uncapped. Seller's markup also drops the enumerated items (Baton Rouge fine, Houston Tier 2 audit, any permit liability). The Houston audit results (Q3 2025) land after signing target (July 31) but before closing (Aug 30). Counter: uncapped/SOL survival; fallback (needs IC): cap no less than 25% EV ($77) and 6 years, specific coverage of Baton Rouge and Houston audit, separate environmental escrow, and a closing condition or price-protection mechanic tied to audit results. Seller itself invited \"further protections if audit results warrant\" (comment s.13): use it.\n- General cap 10% ($30.62) v. 15% ($40.17); cap carve-outs for fundamental reps/fraud/willful breach (up to Equity Value) vanished untracked. Counter 15%, restore carve-outs; fallback 12.5%.\n- Basket: tipping 1.5% ($4.593) v. true deductible 1.0% ($2.678): a tipping basket is better for Buyer in structure; accept tipping basket at 1.0% (a low-cost trade: take Seller's structure, keep our number). De minimis $150,000 v. $75,000: counter $75,000-$100,000 with aggregation of related claims.\n- Untracked drops: joint and several liability, pre-closing tax indemnity, recourse beyond escrow, willful-breach/equitable-relief exceptions (markup s.6(c): fraud only). Restore.\n\n6. RESTRICTIVE COVENANTS (s.8 / markup s.7)\n- Lanford 5-yr nationwide to 3-yr, contract-states only (plus 5% public carve-out, acceptable); Lanford-Cho 3 to 2 yrs; non-solicit 3 to 2 yrs. Delivery as a closing condition vanished untracked.\n- Law: Delaware courts have struck overbroad sale-of-business non-competes without blue-penciling (Kodiak Building Partners v. Adams, Del. Ch. Oct. 6, 2022; web-verified summaries only) - Seller's enforceability point has force; scope must track Verdana's business. Counter 4 years (Lanford), 3 (Lanford-Cho), states with customers/bids in prior 24 months, non-solicit 3 years, condition restored.\n\n7. MANAGEMENT AND EMPLOYEES (s.9 / markup s.8)\n- Lanford: 12 v. 24 months; salary $550,000 v. $475,000; equity 4.0% v. 2.0%; vesting \"to be agreed\" (cliff dropped); Good Reason with full acceleration (reporting line, 50-mile relocation, any pay cut). IC plans a new CEO after 24 months; Lanford runs key customer relationships. Counter: 24 months (fallback 18 plus consulting), $475,000-$500,000, 2.5-3.0% on four-year vesting, narrow Good Reason with cure, acceleration of next tranche only.\n- Retention: 150%, 75% at closing v. 100%, 50%; front-loading defeats retention. Counter 100% (fallback 125%), 50/50.\n- Employee Protection Period (new): 12 months, no terminations except cause, no headcount reduction, no relocation, for all 412 employees. Directly blocks the 100-day plan (about 45 roles, $4.5-5.0 annual savings, Baton Rouge/Wilmington) and Wilmington consolidation ($1.2-1.5). Reject; fallback: 12-month comp/benefit continuity, severance at pre-set levels, no WARN-triggering action (assess federal WARN, 29 U.S.C. s.2101 et seq., and Delaware analogue; thresholds not verified). Do not disclose the privileged IC plan; do not misstate intentions.\n\n8. EXCLUSIVITY, FIDUCIARY OUT, BREAK FEES (s.11 / markup s.9, 11)\n- Exclusivity cut from 60 days (June 13) to 45 (May 29); our signing target is July 31, so even 60 is short. Counter: through July 31, no fiduciary out.\n- Fiduciary out is weak for selling shareholders (no duty to sell; Redwood covers the ESOT); \"Superior Proposal\" is Sellers' sole judgment, 5-business-day match; forward fee stated $5.214 but 1.5% x 347.4 = $5.211; the fee is not in the binding list while the financing-letter duty is. Ashcroft says several parties are interested and Sellers will \"evaluate all available alternatives\": if Sellers signed our term sheet that risks breaching s.11. Our copy is unsigned; confirm status, send reservation of rights, request no-contact confirmation. Fallback: unsolicited fully financed bids only, 10-day match, forward fee equal to reverse fee.\n- Reverse fee 3.0% ($10.422), payable \"regardless of reason, including financing failure.\" Seller's \"sole and exclusive remedy\" wording is useful: make it the cap on all Buyer liability (no specific performance). Acceptable only as the price of dropping the financing condition and only after commitment letters exist.\n\n9. CONDITIONS (s.12 / markup s.10)\n- Financing: the binding covenant to deliver commitment letters \"within 21 days (i.e., by May 5)\", failure being \"material breach\", is the most dangerous clause: the markup is dated May 2; the clause runs 21 days from execution of an unsigned document yet fixes May 5; Ashcroft calls it \"firm\"; no letters exist. Reject: offer a Fund III equity commitment letter ($1.4B committed) now and debt letters by definitive-agreement signing (by June 30), expiry 60 days past target closing, reverse fee as sole remedy. Restore our untracked-deleted right to share the term sheet with lenders/LPs (needed to get letters).\n- MAE: new carve-outs (announcement, pandemics, missed projections); disproportionate-effect qualifier dropped untracked. Restore it; delete (v)/(vi).\n- Bring-down: MAE standard for all reps, closing only. Trade: accept for general reps; fundamental reps true in all respects; restore signing-date accuracy.\n- Customer consents moved to covenant; Crestfield wants key consents as a condition. Counter: top-5 customers (47% of revenue) as conditions, covenant for others. Hargrove consent is redundant if debt is repaid (change-of-control default, Credit Agreement s.7.01(j); 30-day notice): use a payoff letter.\n- ESOT (14%): review period 30 days post-signing became 45 days from term-sheet execution; condition moved from Buyer's list to Seller's (Buyer loses the walk right); \"same per-share consideration\" dropped untracked; Company bears Redwood's cost. ERISA s.3(18) (29 U.S.C. s.1002(18), \"adequate consideration\"; text unverified) supports the determination. Counter: Redwood determination before signing or mutual condition, equal per-share price, mechanics ensuring Buyer gets 100%, cost as Seller transaction expense.\n- Untracked drops: ancillary/employment/retention-agreement conditions; confirmatory diligence; net-debt closing adjustment and 60-day true-up; transaction expenses in net debt; debt payoff; timetable and Buyer-drafts-definitive; new assignment limit to wholly-owned subsidiaries (inconsistent with a rollover vehicle). Restore.\n\n10. GOVERNING LAW / DISPUTES (s.16 / markup s.15)\n- Texas law/AAA three-arbitrator Houston seat v. Delaware law/Chancery. Target is a Delaware corporation. Counter: Delaware law and Chancery; accounting/earnout disputes to the independent accountant Seller already proposes.\n\n11. NET DEBT AND OTHER DOCUMENT INCONSISTENCIES\n- Balance sheet shows term loan $33.5 non-current plus $3.0 current portion (total $36.5), but the debt schedule says total outstanding is $33.5 (3.0+3.0+3.0+24.5). Net debt may be understated by $3.0 (equity value overstated). Obtain a payoff letter; treat accrued interest, deferred revenue ($2.5), environmental reserve ($1.4), taxes and transaction costs as debt-like; revolver draw has risen 8.2 to 10.5 to 12.7 and all figures are at 12/31/2024; require no-leakage covenant (FY2024 distributions $18.6).\n- Email chain: Thornburg's reply is stamped 07:08 UTC May 2, before the Ashcroft messages it answers (4:47/6:22 PM CDT); Narayanan's address reads \"pnarasimhan\". Verify.\n- The markup's \"original text\" quotes (financing \"sole discretion\", fee \"sole remedy\", $38.1, ESOT timing) do not match our Apr 14 document; run a true compare before accepting any redline.\n\n12. NEXT STEPS\n1. By May 5: holding response rejecting the deadline, reserving rights; confirm exclusivity execution.\n2. Before May 8: IC mandate (price band, earnout, environmental fallback, financing trade); lender timeline.\n3. True redline v. Apr 14; reconcile EBITDA; QoE, payoff letter; Pinnacle on environmental coverage; environmental consultant on Houston audit.\n4. May 12: lead with environmental indemnity and financing package, then price/earnout; hard stops: employee clause, fiduciary out; trades: basket structure, premium split, MAE bring-down for general reps, modest retention increase.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Price/multiple vs IC authority",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "EBITDA bridge and add-backs",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Environmental special indemnity",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Financing condition, commitment deadline, break fees",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Employee protection vs integration plan",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "Earnout, consideration mix, escrow",
+   "criticality": "critical"
+  },
+  {
+   "id": "I7",
+   "text": "Untracked changes and baseline mismatch",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "Exclusivity and fiduciary out",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Restrictive covenants and management terms",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "ESOT, conditions, reps, survival, governing law",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "Net debt and document inconsistencies",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "seller-markup-term-sheet.docx (tracked changes, comments)",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "Seller's proposed changes to price, structure, indemnity, covenants, exclusivity, conditions, law",
+   "verified": true,
+   "current_as_of": "2025-05-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "original-term-sheet.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "Buyer baseline terms; untracked omissions in markup",
+   "verified": true,
+   "current_as_of": "2025-05-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "seller-counsel-transmittal.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "May 5 commitment-letter deadline, May 8 comment request, May 12 session, alternative-bidder statement",
+   "verified": true,
+   "current_as_of": "2025-05-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "ic-memo-excerpt.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "8.5x ceiling ($328.1M), no commitment letters, 45-position reduction plan, financing condition non-negotiable",
+   "verified": true,
+   "current_as_of": "2025-05-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "crestfield-deal-summary.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "Environmental indemnity floor 25% EV/6 yrs, comps, warranty add-back flag, $38.1M figure",
+   "verified": true,
+   "current_as_of": "2025-05-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "verdana-financial-summary.xlsx",
+   "source_type": "matter_document",
+   "jurisdiction": "n/a",
+   "level": "not_applicable",
+   "proposition": "Customer concentration 15.7%, add-back detail, warranty reserve, debt schedule, current portion of term loan",
+   "verified": true,
+   "current_as_of": "2025-05-02",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E7",
+   "source": "Kodiak Building Partners v. Adams (Del. Ch. Oct. 6, 2022) via secondary summaries",
+   "source_type": "case",
+   "jurisdiction": "Delaware",
+   "level": "persuasive",
+   "proposition": "Delaware court declined to blue-pencil overbroad sale-of-business non-compete",
+   "verified": true,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E8",
+   "source": "29 U.S.C. 1002(18) (ERISA s.3(18))",
+   "source_type": "statute",
+   "jurisdiction": "US",
+   "level": "binding",
+   "proposition": "Adequate consideration concept for ESOT; text not fetched",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "BACKGROUND"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Markup exceeds IC authority ($328.1M) by $19.3M before earnout; effective EV with earnout $362.4M",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Adjustment components sum to $5.6M not $5.5M; Buyer preferred should be $38.2M not $38.1M; warranty release is a deduction not add-back",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E2",
+    "E5",
+    "E6"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Environmental indemnity cap $10M/48 months is inadequate; counter uncapped, fallback 25% EV/6 yrs",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E5",
+    "E4"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Financing deadline May 5 cannot be met; binding material-breach clause must be rejected; trade condition only for letters plus sole-remedy reverse fee",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E4"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Employee protection clause conflicts with 100-day plan; reject",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E4"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "Earnout double-counts valuation gap and is likely payable on trend",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E5",
+    "E6"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Many omissions are untracked; markup misquotes original; customer 8% statement false",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E6"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Exclusivity shortened, fiduciary out, forward fee arithmetic error, possible breach if signed",
+   "central": true,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Non-compete narrowing has legal force under Delaware case law; counter with tailored scope",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E7"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "ESOT, MAE, bring-down, consents, governing law positions and counters",
+   "central": false,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E8"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "Net debt possibly understated by $3.0M; other record inconsistencies",
+   "central": false,
+   "issue_ids": [
+    "I11"
+   ],
+   "evidence_ids": [
+    "E6",
+    "E3"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C9",
+   "action": "qualify",
+   "reason": "Kodiak verified only through secondary summaries"
+  },
+  {
+   "claim_id": "C10",
+   "action": "qualify",
+   "reason": "ERISA s.3(18) text fetch blocked; unverified"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "Kodiak Building Partners, LLC v. Adams (Del. Ch. Oct. 6, 2022)",
+   "url": "https://natlawreview.com/article/buyer-beware-delaware-declines-to-enforce-sale-business-non-compete",
+   "claim": "Delaware declined to blue-pencil overbroad sale-of-business non-compete"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "task file",
+   "purpose": "instructions"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "original-term-sheet.docx",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "original-term-sheet.docx (remainder)",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "seller-markup-term-sheet.docx text",
+   "purpose": "markup"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "seller-markup-term-sheet.docx tracked changes",
+   "purpose": "insert/delete"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "seller-markup-term-sheet.docx remainder",
+   "purpose": "markup"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "seller-counsel-transmittal.eml",
+   "purpose": "emails"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "ic-memo-excerpt.docx",
+   "purpose": "IC"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "crestfield-deal-summary.docx part 1",
+   "purpose": "Crestfield"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "verdana-financial-summary.xlsx P&L/Bridge",
+   "purpose": "financials"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "verdana-financial-summary.xlsx Balance/Debt",
+   "purpose": "financials"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "crestfield-deal-summary.docx part 2",
+   "purpose": "Crestfield"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "crestfield-deal-summary.docx tail",
+   "purpose": "Crestfield"
+  },
+  {
+   "seq": 14,
+   "type": "web_search",
+   "target": "Kodiak v. Adams non-compete",
+   "purpose": "sale-of-business non-compete"
+  },
+  {
+   "seq": 15,
+   "type": "fetch",
+   "target": "law.cornell.edu 29 USC 1002",
+   "purpose": "ERISA 3(18) - blocked"
+  }
+ ],
+ "unresolved": [
+  "Whether Sellers executed the Apr 14 term sheet/exclusivity",
+  "ERISA s.3(18) and WARN thresholds not verified",
+  "Source of $0.1M adjustment discrepancy",
+  "Baton Rouge fine year (2023 vs Q2 2024)",
+  "Net debt $3.0M current-portion discrepancy",
+  "EBIT vs EBITDA labeling",
+  "R&W premium and environmental exclusion are market estimates, unverified"
+ ],
+ "usage": {
+  "tool_calls": 15,
+  "elapsed_sec": null
+ }
+}

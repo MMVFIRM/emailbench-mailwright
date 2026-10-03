@@ -1,0 +1,605 @@
+{
+ "run_id": "R96FFA09AD71A",
+ "benchmark_task_id": "H14",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "MEMORANDUM (Privileged)\nTo: Margaret Chen. From: David Kowalski. Date: May 20, 2025. Re: Pinebrook follow-on - Northgate Sullivan redline (May 19) of our May 14 Underwriting Agreement (UA). R = redline section; [O] = our draft. C = Critical, S = Significant, M = Minor. PB = Playbook v4.2.\n\nEXECUTIVE SUMMARY\nBottom line: The redline breaches PB red lines on indemnity cap, \"alleged\" trigger, Underwriter Information, contribution, indemnity floor, lock-up release, quiet period, MAC termination, expense cap, survival and negative-assurance scope. None is acceptable; each exceeds the PB maximum compromise and needs your approval before response (PB XIV). Threshold warning: the redline's \"deleted\" text does not match our May 14 draft, and it contains untracked changes (flagged \"Untracked\" below); tracked changes are not the complete change set. Run a full comparison against our file before the call; if red lines are unresolved, move pricing 1-2 days (PB XV).\n\nCall roadmap (priority order):\n1. Cap deleted (R8(a)): reinstate $200M ($230M with option). PB ceiling 150% ($300M/$345M), your approval only.\n2. \"Actual or alleged\" trigger (R8(a)): reject; offer only separate advancement with repayment undertaking.\n3. Underwriter Information cut to names/addresses (R1): no compromise.\n4. Contribution on relative benefit (R9): about 95/5 against Company.\n5. Underwriter indemnity floor and contribution cap \"net of offering-related expenses\" (R8(b), R9).\n6. Lock-up release needs Clearwater consent (R5(f), Exh. A): board priority; fallback notice only.\n7. New quiet period (R5(g)): reject; Reg FD/Exchange Act conflict.\n8. Company MAC termination right (R10(a)(iv)) and loosened catch-all (R10(a)(v)).\n9. Uncapped expense reimbursement \"regardless of reason\" (R10(b)): restore $150,000.\n10. Indefinite survival (R3): 18 months.\n11. Negative assurance extended to FWPs, testing-the-waters, investor presentations (R7(d), Exh. C): our exposure.\n12. Overallotment 45 days (R2(b)): 30; maximum 35.\n\nPART A - SECTION-BY-SECTION\n\n1. DEFINITIONS\nR1 \"Underwriter Information\" [O1] - C. Orig: names/addresses, share allocations, and three paragraphs on stabilization, over-allotment, penalty bids. Redline: names and addresses only. PB IX/XIV #12: red line, no compromise. Effect: Company indemnifies underwriter-drafted trading disclosure; R3(a) carve-out and R8(b) shrink too. Reject. Do not rely on paragraph numbers: the redline's deleted text says \"third, fourth, fifth\", PB says third/fifth/seventh, and the Prospectus puts them at S-7.3 (overallotment), S-7.5 (stabilization), S-7.7 (penalty bids), with only S-7.5/S-7.7 labeled underwriter-provided. Proposed: \"'Underwriter Information' means (i) the names, addresses and share allocations of the Underwriters in the Prospectus Supplement and Schedule I; (ii) the paragraphs under 'Underwriting' captioned 'Overallotment Option,' 'Stabilization Transactions' and 'Penalty Bids' (and the related short-sale paragraph); and (iii) any other information identified in writing by the Underwriters as furnished for use in the Registration Statement or Prospectus.\" Consider adding S-7.8 (Electronic Distribution) and S-7.9 (FINRA).\n\n2. SALE AND DELIVERY\nR2(b) overallotment period, 30th to 45th day - S. PB II yellow; 45 days = July 11, 2025 vs June 26. Counter 30; ceiling 35 days (July 1) with written justification and your approval. Prospectus S-7.3 discloses 30 days as \"arm's-length negotiated,\" so any change requires prospectus revision before pricing. Size (1,200,000 = 15%), 80/20 split, $25.00 price, $1.25 (5.0%) discount and $23.75 net are unchanged and tie to the Prospectus and Sched. I.\nR2(c) DTC eligibility rep - M, standard (PB green): accept.\nUntracked: option closing window changed from 0-3 to 2-5 business days; venue moved to Northgate's office; [O1] \"third business day after pricing\" replaced by fixed May 27. May 22 pricing plus three business days is May 28 (Memorial Day May 26); May 27 is T+2; PB's \"T+3\" is stale (Rule 15c6-1 T+1 since May 28, 2024). Confirm pricing time and Rule 15c6-1(c)/(d) basis (unverified). Venue: M.\n\n3. REPRESENTATIONS AND WARRANTIES\nR3 survival [O3, O12] - C. 18 months (through Nov. 27, 2026) replaced by \"without limitation as to time\"; Exh. B conformed. PB III red; fallback 24 months, your approval; indefinite rejected and escalated. Untracked: claim-notice tail dropped; only Company reps covered. Markup: \"...shall survive for eighteen (18) months following the Closing Date (through November 27, 2026); no claim may be made thereafter unless written notice was given before expiry. Underwriter representations survive on the same terms.\"\nR3(e) PCAOB sentence - M, standard (PB green): accept.\nUntracked (S): R3(f) MAC rep adds \"any development that would reasonably be expected to result in\" an MAC; new insurance, environmental, ERISA, FCPA, cyber and General Disclosure Package reps. Strike the forward-looking MAC phrase; require knowledge/materiality qualifiers.\n\n4. UNDERWRITER REPS AND COVENANTS\nR4(c) FINRA - S (untracked). [O4(c)] stated Rule 5110 compliance, compensation within limits, filing made, \"sole responsibility of the Underwriters.\" Redline: general rule compliance plus Redfield retention; R7(h) makes Redfield's confirmation a closing condition. PB IV red: broad rep covering Rules 5110/5121 and all compensation (Clearwater $8.5M incl. $500,000 advisory fee; Oakmont $2.0M); no consultant-reliance language. Restore [O4(c)]; delete Redfield from R7(h).\nR4(e) prospectus delivery (Securities Act ss.5(b), 10) - M, standard: accept.\nUntracked: [O4(e)] no-unauthorized-representations and [O6(c)] no-unauthorized-FWP covenant were dropped. Restore (S); otherwise Company indemnity reaches underwriter FWPs (see 7).\n\n5. COVENANTS\nR5(f) lock-up release - C. Orig: Company sole authority [O7(b): \"absolute,\" no consent]. Redline: Lead Underwriter prior written consent, \"sole discretion.\" Exh. A conformed. PB V.C/XII red; fallback only 3 business days' advance notice with Company final say, no \"not unreasonably withheld\" consent. Contradicts Prospectus S-7.4. Markup: \"The Company may waive or release any Lock-Up Agreement in its sole discretion on three (3) Business Days' prior written notice to the Representative; no Underwriter consent is required.\" Untracked (S): Exh. A drops 10b5-1, estate-planning and affiliate carve-outs [O Sched. II]; \"reasonable best efforts\" became \"shall cause\" (Company cannot compel 5% holders); Company lock-up carve-outs [O7(c)(A)-(D)] (option exercises, RSU vesting, equity plans, acquisitions) cut to Form S-8. Restore all.\nR5(g) quiet period - C. New: pricing through fifth business day after closing (June 3), no press release, public statement, clinical data statement or SEC filing without Clearwater consent, \"sole discretion,\" 2 business days' written request, breach \"material,\" surviving termination. PB V.B: consent covenant and post-closing restriction both red; yellow alternative is 24-48 hour notice, legal-disclosure/SEC/Reg FD carve-out, ending at closing. Only clause (iii) has a \"required by law\" exception. See Part C. Markup: \"Before the Closing Date the Company shall, where practicable, give the Representative 24 hours' notice of press releases; nothing herein restricts any disclosure or filing required by law, the Exchange Act, Regulation FD or Nasdaq rules.\" Delete material-breach and survival language.\nUntracked (S): [O5(j)] Exchange Act reporting covenant dropped; R5(d) use of proceeds omits $35M preclinical and $15M capex in the Prospectus (restore \"as described in the Prospectus\"); R5(a) Representative may \"reasonably object\" to filings, so add carve-out for Exchange Act reports.\nR5(e) blue sky - M, standard (PB green): accept; the no-foreign-qualification proviso helps.\n\n6. CONDITIONS\nR7(d) negative assurance - C (our exposure). Orig: Registration Statement and Prospectus. Redline adds FWPs \"filed or used by or on behalf of\" the Company, TTW communications and investor presentations; Exh. C conformed. PB VI: TTW/investor presentations red, never; fallback only Company-filed FWPs after adequate review. Counter: original scope; at most Company-filed FWPs. Untracked: [O8(f)] \"without independent verification,\" discussions with officers, and \"other procedures specified\" were removed; restore.\nR7(j) market-out condition (untracked) - S. Duplicates R10 termination; PB VI says no standalone market-outs. Our own [O8(m)] had a Company-specific limb, itself off-playbook; delete R7(j). Also R7(h) Redfield (above); officer certificate lost its \"knowledge after reasonable inquiry\" qualifier (restore); R7(k) Secretary and good-standing certificates - M, customary, accept.\n\n7. INDEMNIFICATION AND CONTRIBUTION\nR8(a) cap deleted - C. [O9(a)] cap at gross proceeds ($200M; $230M with option). PB VII.A: hard red, no fallback; board's top concern; Company had about $185M cash at 3/31/25. Reinstate verbatim, including the $230M alternative (omitted from the redline's deleted text).\nR8(a) \"actual or alleged\" - C. PB red; Company would owe on a bare complaint, before adjudication. Counter: actual untrue statement or omission only (tracks Securities Act ss.11/12); compromise only a separate advancement clause: advances on written request, with undertaking to repay if not ultimately entitled.\nR8(a) untracked - C. Indemnity now covers \"any free writing prospectus\" (not just those authorized by the Company) and General Disclosure Package, with the narrower Underwriter Information carve-out, so Company bears underwriters' own FWPs. Restore \"authorized for use by the Company.\"\nR8(b) floor net of \"offering-related expenses\" - C. PB VII.B red; fallback only documented third-party legal fees up to $250,000 per underwriter. Floors $8M/$2M. Untracked: [O9(b)] minimums ($8M/$2M/$10M) and \"no cap on Underwriters' obligations\" deleted; redline also adds \"alleged\" to Underwriter indemnity (helps us). Restore.\nR9 contribution - C. Relative fault replaced with relative benefit (net proceeds $190M vs discount $10M, so Company bears 95%; a $20M loss would be $19M Company/$1M underwriters); the \"benefit alone is not equitable\" sentence deleted; underwriter cap now net of expenses. PB VIII red; fallback: hybrid, fault primary. Cap should be each underwriter's total compensation without expense deductions: Clearwater $8.5M, Oakmont $2.0M. [O9(d)] used aggregate discount ($10M/$11.5M), so our own draft understates Clearwater by the $500,000 advisory fee; fix. Redline also computes the advisory fee on \"aggregate gross proceeds\" while [O11(a)] used Firm Shares ($500,000 vs $575,000 on $230M): confirm.\n\n8. TERMINATION AND EXPENSES\nR10(a)(iv) company MAC - C. \"Any MAC in the business, financial condition, or results... whether or not arising in the ordinary course,\" no marketability nexus. PB X red: converts firm commitment into best efforts; PBX-4071 data is a foreseeable trigger. Fallback (your approval): unforeseen, undisclosed, marketability-based. Untracked: R10(a)(v) now reaches \"any other event or condition\" (not just market calamity), and [O10(a)] \"exclusive grounds\" sentence was deleted; restore both. No Company termination right in either draft; PB X yellow asks for one: add as a trade.\nR10(b) expenses - C. Orig: reasonable documented expenses, $150,000 cap, 30 days after documentation. Redline: all out-of-pocket expenses \"regardless of the reason,\" payable on demand. PB XI red: cap holds; no reimbursement on without-cause termination; fallback $200,000 for cause, or $75,000 without cause/$150,000 for cause if scope expands. PB: uncapped may reach $500K-$1M; Prospectus S-7.2 discloses $150,000. Untracked: Company-expense clause [O11(a)], advisory-fee mechanics and \"Underwriters bear own expenses on closing\" [O11(b)] vanished; restore.\n\n9. MISCELLANEOUS\nGoverning law (NY), Manhattan courts, counterparts, notices, severability: M, accept. Untracked: jury-waiver [O13(d)], no-third-party-beneficiary and several-obligations [O13(k),(l)] clauses removed; restore as neutral (M). Company address: UA and Prospectus say 200 Technology Square; PB says 400.\n\nPART B - STANDARD ITEMS: blue sky, DTC eligibility, prospectus delivery, PCAOB language, R7(k) certificates, Nasdaq listing, comfort letters, notices: acceptable; no call time.\n\nPART C - REGULATORY AND COMPLIANCE FLAGS (separate)\n1. Quiet period (R5(g)). A consent-based ban on \"public statements\" about clinical data cannot override Exchange Act s.13(a) reporting (Form 8-K, four business days), Regulation FD (17 CFR 243.101(d): public disclosure within 24 hours or next trading day after an unintentional selective disclosure), Nasdaq Rule 5250(b)(1) (prompt disclosure of material information), or the duty to supplement a misleading prospectus (Securities Act ss.11, 12(a)(2); Rule 159) (unverified against current text). With PBX-4071 Phase 2 data possible at any time, the 2-business-day request period and \"sole discretion\" create an impossible compliance conflict. Only clause (iii) has a \"required by law\" exception.\n2. Indemnification public policy. SEC views Securities Act indemnification as unenforceable (Reg. S-K Items 510/512(h)); courts limit it (Eichenholtz v. Brennan, 3d Cir. 1995, which PB cites for relative fault) (unverified). Section 11(f) contribution supports fault-based allocation.\n3. Prospectus consistency. Preliminary Prospectus discloses 30-day option (S-7.3), Company-sole lock-up release (S-7.4), $150,000 expense cap (S-7.2). Redline terms would make these statements inaccurate at the time of sale (Rule 159) and require recirculation or supplement and a Rule 424(b) conformity check.\n4. FINRA: uncapped reimbursement is likely underwriting compensation, yet Prospectus S-7.9 states total compensation will not exceed 5.25% (unverified).\n5. FWP/TTW (Rules 433, 163B) negative assurance expands H&W liability.\n6. Settlement cycle: see R2(c).\n\nPART D - NEXT STEPS\n(1) Full comparison against our file; ask Northgate to confirm its base document; (2) escalate red-line items to you before responding; (3) log consideration for yellow concessions (35-day option, notice-only quiet period, FWP fallback); (4) conform Prospectus; (5) verify cited authorities and the S-3 file number/date history (333-278451).\n",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Indemnification cap deletion (R8(a))",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "'Actual or alleged' indemnity trigger",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Underwriter Information definition narrowed",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Contribution relative benefit and expense-net caps; floor net of expenses",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Lock-up release consent to Clearwater",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "Quiet period covenant and Reg FD/Exchange Act conflict",
+   "criticality": "critical"
+  },
+  {
+   "id": "I7",
+   "text": "Company-specific MAC termination and broadened catch-all",
+   "criticality": "critical"
+  },
+  {
+   "id": "I8",
+   "text": "Uncapped expense reimbursement on termination",
+   "criticality": "critical"
+  },
+  {
+   "id": "I9",
+   "text": "Indefinite survival of representations",
+   "criticality": "critical"
+  },
+  {
+   "id": "I10",
+   "text": "Negative assurance scope expansion",
+   "criticality": "critical"
+  },
+  {
+   "id": "I11",
+   "text": "Overallotment period 45 days",
+   "criticality": "important"
+  },
+  {
+   "id": "I12",
+   "text": "Untracked changes and base-document mismatch in redline",
+   "criticality": "critical"
+  },
+  {
+   "id": "I13",
+   "text": "Standard changes (blue sky, DTC, prospectus delivery, PCAOB)",
+   "criticality": "secondary"
+  },
+  {
+   "id": "I14",
+   "text": "Prospectus consistency, FINRA, settlement-cycle and playbook inconsistencies",
+   "criticality": "important"
+  },
+  {
+   "id": "I15",
+   "text": "Underwriter FINRA rep weakening and FWP indemnity expansion",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "partner-instructions.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Assignment scope, board priorities, deal numbers",
+   "verified": true,
+   "current_as_of": "2025-05-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "hw-negotiation-playbook.docx v4.2",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Red/yellow/green positions and fallbacks",
+   "verified": true,
+   "current_as_of": "2025-05-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "underwriter-redline-ua.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Tracked and untracked redline changes",
+   "verified": true,
+   "current_as_of": "2025-05-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "original-underwriting-agreement.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Original H&W draft provisions (O1-O13, schedules, exhibits)",
+   "verified": true,
+   "current_as_of": "2025-05-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "preliminary-prospectus-summary.docx S-7",
+   "source_type": "matter_document",
+   "jurisdiction": "US",
+   "level": "background",
+   "proposition": "Underwriting section: 30-day option, $150,000 cap, lock-up release, paragraph captions, 5.25% FINRA",
+   "verified": true,
+   "current_as_of": "2025-05-19",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "Reg FD 17 CFR 243.101(d); Exchange Act s.13(a); Nasdaq Rule 5250(b)(1)",
+   "source_type": "statute",
+   "jurisdiction": "US federal",
+   "level": "binding",
+   "proposition": "Prompt disclosure and reporting obligations conflict with consent-based quiet period",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  },
+  {
+   "id": "E7",
+   "source": "Reg S-K Items 510/512(h); Eichenholtz v. Brennan, 52 F.3d 478 (3d Cir. 1995); Securities Act s.11(f)",
+   "source_type": "statute",
+   "jurisdiction": "US federal",
+   "level": "binding",
+   "proposition": "Indemnification public policy and contribution",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "PARTIAL"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Indemnity cap deleted; reinstate $200M/$230M",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "'Alleged' trigger must be rejected; advancement with repayment fallback",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Underwriter Information narrowed; paragraph references inconsistent; use captions",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E5",
+    "E2"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Contribution relative benefit ~95/5; caps net of expenses; floor net of expenses",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Lock-up release consent is critical; contradicts prospectus",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E5",
+    "E2"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "Quiet period conflicts with Reg FD/Exchange Act",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E2",
+    "E6"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Company MAC termination and (v) catch-all",
+   "central": true,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Expense reimbursement uncapped",
+   "central": true,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E5",
+    "E2"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Indefinite survival",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Negative assurance expansion",
+   "central": false,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E2"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "45-day option",
+   "central": false,
+   "issue_ids": [
+    "I11"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E5",
+    "E2"
+   ]
+  },
+  {
+   "id": "C12",
+   "text": "Untracked changes and base mismatch",
+   "central": false,
+   "issue_ids": [
+    "I12",
+    "I15"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4"
+   ]
+  },
+  {
+   "id": "C13",
+   "text": "Standard items acceptable",
+   "central": false,
+   "issue_ids": [
+    "I13"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E2"
+   ]
+  },
+  {
+   "id": "C14",
+   "text": "Prospectus consistency, FINRA, settlement, playbook inconsistencies",
+   "central": false,
+   "issue_ids": [
+    "I14",
+    "I4"
+   ],
+   "evidence_ids": [
+    "E5",
+    "E2",
+    "E3"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4",
+    "C14"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C12"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I13",
+   "claim_ids": [
+    "C13"
+   ],
+   "material": false
+  },
+  {
+   "issue_id": "I14",
+   "claim_ids": [
+    "C14"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I15",
+   "claim_ids": [
+    "C12"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C6",
+   "action": "qualify",
+   "reason": "External authorities not retrieved; marked unverified"
+  },
+  {
+   "claim_id": "C14",
+   "action": "qualify",
+   "reason": "Rule 15c6-1 and FINRA points marked unverified"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "17 CFR 243.101(d)",
+   "url": "",
+   "claim": "Reg FD prompt disclosure"
+  },
+  {
+   "citation": "Eichenholtz v. Brennan, 52 F.3d 478 (3d Cir. 1995)",
+   "url": "",
+   "claim": "Indemnification public policy (unverified)"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "partner-instructions.eml",
+   "purpose": "assignment"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "playbook p1",
+   "purpose": "positions"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "playbook p2",
+   "purpose": "positions"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "playbook p3",
+   "purpose": "positions"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "playbook p4",
+   "purpose": "positions"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "redline p1",
+   "purpose": "changes"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "redline p2",
+   "purpose": "changes"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "redline p3",
+   "purpose": "changes"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "redline p4",
+   "purpose": "changes"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "redline p5",
+   "purpose": "changes"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "original definitions/s2",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "original s3-4",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "original s5,6,7",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "original s8-9",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 15,
+   "type": "document_read",
+   "target": "original s9-12",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 16,
+   "type": "document_read",
+   "target": "original s13/schedules",
+   "purpose": "baseline"
+  },
+  {
+   "seq": 17,
+   "type": "document_read",
+   "target": "prospectus keyword scan",
+   "purpose": "consistency"
+  },
+  {
+   "seq": 18,
+   "type": "document_read",
+   "target": "prospectus underwriting section",
+   "purpose": "consistency"
+  }
+ ],
+ "unresolved": [
+  "External authorities (Reg FD, Nasdaq 5250(b)(1), Eichenholtz, Globus, Items 510/512(h), Rule 15c6-1, FINRA 5110 compensation treatment) not retrieved; unverified",
+  "Redline base text does not match our May 14 draft; full comparison needed",
+  "Paragraph numbering of Underwriter Information inconsistent across redline, playbook, prospectus",
+  "Playbook shows 400 Technology Square vs 200 in UA/prospectus",
+  "S-3 file number/date history not verified on EDGAR",
+  "Docx file not generated; memo text delivered in final_answer"
+ ],
+ "usage": {
+  "tool_calls": 24,
+  "elapsed_sec": null
+ }
+}

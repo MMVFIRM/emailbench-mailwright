@@ -1,0 +1,181 @@
+{
+ "run_id": "RF689B5583905",
+ "benchmark_task_id": "H11",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY-CLIENT / WORK PRODUCT\nREDLINE REVIEW MEMORANDUM: Harland PERS markup of Crestline Investment Advisory Agreement (received April 8, 2025)\n\n1. BOTTOM LINE\nDeal-breakers as drafted: (a) sovereign immunity (Sec. 18); (b) the no-notice FOIA carve-out (Sec. 15(e)); (c) the liability, indemnity and termination asymmetries (Secs. 9, 11). The rest is tradeable. The fee cut equals the floor Mr. Thornton pre-authorized, so there is no further fee room; trade it for the three items above. Labels follow Playbook v4.2.\n\nWarnings:\n- The redline's unmarked text is not the March 14 form. Pryor's \"37 changes\" appendix omits tracked edits (Applicable Law and Investment Guidelines definitions; Sec. 3 approved-securities list; Sec. 24 third-party beneficiaries; Exhibit C) and the base text has silent changes. Ask Pryor what it compared against; run our own comparison.\n- Silent changes: the Client's enforceability rep (form 7(b)(ii)), the form 9(a) exclusions (market, custodian, force majeure), the 9(c) fraud carve-out, the 60-day cure extension, and the 6(e) expense and 12(c) retention clauses are gone; 9(a) now excludes any \"violation of Applicable Law\"; Sec. 17 adds CGL ($5M), a $10M fidelity bond and a 2-year E&O tail (not in the form); Sec. 10(a) reps run \"on a continuing basis\" and add an RFP-accuracy rep; non-renewal notice drops from 90 to 60 days; the notice email is \"crestlinecap.com\" (form: crestlinecapital.com), so notices would misroute.\n- Your email says Sec. 15(f) bars name use \"even with consent\"; the text permits it with consent in Client's \"sole and absolute discretion\" (see 3.4).\n- June 1, 2025 is a Sunday and not a quarter start, contrary to Ms. Voss's comment. Make the Effective Date the later of June 1 and Board approval (May 22 meeting).\n\n2. SOVEREIGN IMMUNITY (Secs. 18(a)-(d)) - REJECT; counter below\nLaw (from memory): The Eleventh Amendment bars private suits against a State and its \"arms\" in federal court (Regents of Univ. of Cal. v. Doe, 519 U.S. 425 (1997); Hess v. Port Auth., 513 U.S. 30 (1994)). State immunity also applies in the State's own courts (Alden v. Maine, 527 U.S. 706 (1999)) and in other States' courts (Franchise Tax Bd. v. Hyatt, 587 U.S. 230 (2019)). Waiver must be unequivocal and there is no constructive waiver (Edelman v. Jordan, 415 U.S. 651 (1974); College Savings Bank v. Florida Prepaid, 527 U.S. 666 (1999)). Arm-of-the-state status is fact-specific. Contract-claim waivers are a matter of Harland law, which we have not seen; the Harland Public Investment Act and AG Opinion 2022-14 are unverified, so request copies.\nSec. 18(c) reserves all immunity, including the Eleventh Amendment, while 18(b) sends all disputes to Harland County courts and makes only the Adviser waive immunity. That waiver is illusory because Crestline has none. The Client can sue us at home; we cannot reliably sue it. Dropping arbitration also removes the forum where a state's consent to arbitrate may amount to a waiver (courts are not uniform). Unless a Harland statute waives immunity for written contracts, the agreement is functionally unenforceable against the Client, repeating the prior loss. Our collection exposure is bounded (about $342,500 a quarter); our exposure to Client claims and 18(d) fee-shifting is not.\nCounter: (1) Client cites the Harland statute waiving immunity for written contracts, or gives an opinion or AG confirmation of authority, and restores form 7(b)(ii) (valid, binding, enforceable); (2) retain AAA arbitration seated in Harland or a neutral city (Playbook-acceptable), with Client consent to enforcement; (3) otherwise litigation only with mutual jurisdiction, jury waiver and fees, and an express Client waiver for claims on the Agreement (at minimum fees due and Client breach), in state and federal forums; (4) delete the one-way Adviser waiver; (5) payment workaround: Client's standing instruction to Northern Ridge to pay invoiced fees from Account assets (Client-directed; no Adviser custody); (6) 18(d) only if mutual and covered by the waiver; (7) Harland law only with arbitration or the waiver, after outside-counsel review. If immunity cannot be waived, escalate to Mr. Thornton as a walk-away item.\n\n3. OTHER MATERIAL ITEMS\n3.1 FOIA (15(e)) - REJECT as drafted; notice floor is non-negotiable (5 business days). The Client gives no notice, takes no liability, and may release fees, holdings and \"investment process\" information. Counter: (a) fees, the relationship and aggregate performance may be released; (b) trade-level data, holdings, models and methodology are marked \"Trade Secret\" and withheld to the extent Harland FOIA exemptions allow; (c) Client notifies us within 2 business days of a request and gives at least 5 business days before release (if the statutory deadline is shorter, notice is immediate and release waits until the legal limit); (d) we may object or seek a protective order at our expense; (e) Client releases only what is legally required; (f) restore the form's trade-secret tail (survival up to 5 years is acceptable); (g) mark the SOC 1 report restricted-use. Persuasive analog: federal reverse-FOIA (Chrysler Corp. v. Brown, 441 U.S. 281 (1979); E.O. 12600). Test Ms. Voss's AG Opinion 2022-14 claim; AG opinions typically do not bind courts.\n3.2 Liability (9(a)-(d)). \n- 9(a): Deleting \"breach of fiduciary duty\" narrows our exposure on its face, but the Playbook requires restoring it (hedge-clause risk: SEC Release IA-5248 (2019); Advisers Act Secs. 206, 215). The deletion is offset by the new \"violation of Applicable Law\" exception, 14(c) and beneficiary rights. Restore the carve-out in exchange for deleting the Applicable Law exception and restoring the (A)-(D) exclusions.\n- 9(b): REJECT. Uncapped Adviser indemnity on ordinary negligence; Client indemnity one-way and capped at 12 months' fees. The form already covers gross negligence, willful misconduct, fiduciary breach, material breach and legal violations. Counter: restore mutuality with an aggregate cap (Playbook-acceptable).\n- 9(c): REJECT. Asymmetric and garbled (the Adviser waives damages \"arising from Adviser's claims\"). Restore mutuality, or cap consequential damages at 12 months' fees.\n- 9(d): NEGOTIATE/REJECT as drafted. 1.5x quarterly fee = $513,750 per \"transaction\" outside Guidelines (at 42/32/22), cumulative with all other remedies, with no materiality, cause or cure. Not a genuine pre-estimate; likely a penalty (Truck Rent-A-Center v. Puritan Farms 2nd, 41 N.Y.2d 420 (1977); JMD Holding v. Congress Fin., 4 N.Y.3d 373 (2005); Harland law unknown). Counter: make-whole for actual losses from active (not passive) breaches, or a capped, exclusive per-event amount.\n3.3 Termination (11). \n- Client 30 days: REJECT (Playbook minimum 60). Adviser 180 days plus Board approval: REJECT. Counter: 60 days mutual (fallback: Client 60, Adviser 90, courtesy notice to the Board).\n- New Cause triggers: performance (two consecutive quarters net of fees) REJECT; Key Person departure as Cause REJECT (handle only in 13(b)); \"reputational event\" in Client's discretion REJECT; catch-all \"cause under Applicable Law\" REJECT unless identified. Offer Playbook grounds: fraud, Key Person felony, material guideline breach with cure. The Playbook's Sec. 205(a)(1) theory is weak (a termination right is not compensation); rely on the practical point: with +/-200 bps tracking error, a 2-quarter test is routinely tripped (at a 40%-45% chance of lagging in any quarter, a 78%-85% chance of at least one such pair in 3 years). Offer an annual review or watch process.\n- 11(d) transition: ACCEPT; restore the 30-day post-termination limit.\n3.4 Name use (15(f)) - NEGOTIATE: ask for \"not unreasonably withheld\" for RFP/DDQ responses, consultant databases and filings (form 15(d)); keep confidentiality mutual.\n3.5 Key Person (1, 13(b)) - NEGOTIATE. Marchetti: accept with \"meaningful professional time and attention consistent with role\" (not \"substantially all\"), 5-business-day notice, and a Client option (not automatic) to terminate on 30 days' notice. Thornton: reject \"substantially all\" (impossible; he oversees four strategies and $4.2B per ADV Item 10, and sits on the Best Execution Committee); offer \"continued executive oversight consistent with firm-wide responsibilities\"; leave trigger 90 days; delete Key Person from Cause.\n3.6 Change of Control (13(a)) - NEGOTIATE. 25% (plus a vague \"control of investment management\" test) fails the Playbook's 50% floor, and the \"deemed assignment under Sec. 205(a)(2)\" language cannot redefine the statute. the Playbook's claim that SEC guidance equates control with 50% is shaky (Form ADV and Investment Company Act Sec. 2(a)(9) presume control above 25%; Rule 202(a)(1)-1 excludes transfers without actual change of control). Lead with a functional test (Thornton or successors ceasing to control the investment process), carve out employee-plan, succession and passive transfers, 30-60 days' notice \"to the extent legally permitted,\" and a no-penalty Client termination right instead of a veto.\n3.7 Investment Guidelines (3, 4, definitions) - REJECT unilateral amendment on 30 days' notice (Playbook must-reject) and the approved-securities list (pre-trade approval by another name). Counter: mutual written amendment; define the universe by IPS criteria. Exhibit B (IPS) is blank: no sign-off before review. Restore the form 2(c) tracking-error non-guarantee.\n3.8 Fees (6). \n- Rates 42/32/22: ACCEPT (at the pre-authorized floor). Annual fee at $350M: $1,370,000 vs $1,475,000, a $105,000 (7.12%) reduction. At $500M: $1,850,000 vs $2,000,000 (-$150,000, 7.5%). Do not go lower without Mr. Thornton.\n- End-of-quarter NAV (6(b)): ACCEPT with intra-quarter cash-flow proration (a late add is otherwise charged a full quarter); form 6(e) expenses restored.\n- MFN (6(d)): REJECT as drafted; NEGOTIATE a narrow version. Defects: retroactive; matches \"at any tier\"; no vehicle, service or size matching (any U.S. public plan of $200M+, versus the Playbook's +/-25% band, $262.5M-$437.5M); no materiality threshold (Playbook: 2 bps); 10-business-day notice (Playbook: 30 days, GC certification); a warranty that no such plan pays less today, which we must verify against our fee book now; survives termination; and bypasses Thornton approval for sub-floor rates. Each 1 bp costs $35,000 a year at $350M ($50,000 at $500M); a 3 bp trigger is about $105,000 a year plus refunds. Counter: SMAs only, same Strategy, prospective only, comparable size, effective-fee comparison, 2 bp threshold, GC certification, effective from notice.\n3.9 Soft dollars (8(b)) - NEGOTIATE (fee adjustment). A Board policy since March 2023 means the Playbook directs a fee adjustment, not walking away. Cost: $1.8M x 8.33% = about $150,000 a year, 10.95% of the reduced fee, or about 4.3 bps. Form ADV Item 12 already offers an execution-only opt-out (1-2 versus 3-5 cents per share), so no ADV change is needed. Client-side argument: it saves the embedded research cost through lower commissions. Options: (i) fee add-back up to about 4.3 bps (needs GC and Thornton approval); (ii) a research payment arrangement; (iii) enhanced disclosure and annual consent. The 14(c) \"solely in the interest\" wording could attack disclosed conflicts; use Advisers Act fiduciary language.\n3.10 Regulatory (14). 14(c): NEGOTIATE; identify the Act's provisions for counsel review (Playbook); acknowledge the Advisers Act fiduciary duty; reject \"highest fiduciary duty ... solely\" and the Sec. 24 beneficiary exception. 14(e) Inspector General: NEGOTIATE; \"at any time without limitation, premises, personnel\" fails the Playbook (account-specific records only, annually, 30 days' notice, business hours, confidentiality, no other-client data); request the statute and comply to the extent it requires.\n3.11 Items you asked to treat as acceptable: SOC 1 (14(f)) ACCEPT, but deem Pennfield approved. Pay-to-play (14(d)) ACCEPT (ADV Item 14 consistent); limit rep (ii) to Rule 206(4)-5 \"covered associates\" and delete duplicate 10(a)(viii). Brokerage reports (8(d)) ACCEPT; qualify the best-execution certification \"in accordance with Adviser's policies.\" Broker list (8(e)): NEGOTIATE (quarterly updates, broad list, no removal that impairs best execution). Proxy (16) ACCEPT; \"10 business days\" becomes 5 (Playbook minimum) or as soon as practicable if materials arrive late. \n3.12 Smaller items. Reports (7): ACCEPT; CCO or officer, not PM, signs the compliance certificate. 10(a): ACCEPT (vi) after compliance confirms the 5-year history (ADV Item 9 not provided), with materiality; delete \"continuing basis\" and the RFP-accuracy rep; define the Strategy by Exhibit, not the RFP response. 12 (7-year retention): ACCEPT. Recitals, $500M recital, board approval block, Client-selected qualified custodian, copy to Pryor: ACCEPT.\n\n4. SEQUENCING\nHold fees; trade them for immunity authority, FOIA notice, mutual liability, 60-day mutual termination and MFN limits. Concede early: proxy, SOC 1, pay-to-play, reporting, retention, EOQ NAV, Marchetti. \n\n5. CAVEATS\nHarland law and Opinion 2022-14 are unverified; citations are from memory, not live-checked.",
+ "citations": [
+  {
+   "citation": "Regents of Univ. of Cal. v. Doe, 519 U.S. 425 (1997)",
+   "url": "",
+   "claim": "Eleventh Amendment protects arms of the State; fact-specific arm-of-state test"
+  },
+  {
+   "citation": "Hess v. Port Authority Trans-Hudson Corp., 513 U.S. 30 (1994)",
+   "url": "",
+   "claim": "Arm-of-state analysis centers on state treasury exposure"
+  },
+  {
+   "citation": "Alden v. Maine, 527 U.S. 706 (1999)",
+   "url": "",
+   "claim": "State sovereign immunity applies in state's own courts"
+  },
+  {
+   "citation": "Franchise Tax Bd. of Cal. v. Hyatt, 587 U.S. 230 (2019)",
+   "url": "",
+   "claim": "Immunity from private suits in other States' courts"
+  },
+  {
+   "citation": "Edelman v. Jordan, 415 U.S. 651 (1974)",
+   "url": "",
+   "claim": "Waiver of state immunity must be unequivocal"
+  },
+  {
+   "citation": "College Savings Bank v. Florida Prepaid, 527 U.S. 666 (1999)",
+   "url": "",
+   "claim": "No constructive waiver of state immunity"
+  },
+  {
+   "citation": "Chrysler Corp. v. Brown, 441 U.S. 281 (1979)",
+   "url": "",
+   "claim": "Reverse-FOIA persuasive analog for pre-disclosure objection"
+  },
+  {
+   "citation": "Truck Rent-A-Center v. Puritan Farms 2nd, 41 N.Y.2d 420 (1977)",
+   "url": "",
+   "claim": "Liquidated damages valid only if reasonable relation to probable loss"
+  },
+  {
+   "citation": "JMD Holding Corp. v. Congress Fin. Corp., 4 N.Y.3d 373 (2005)",
+   "url": "",
+   "claim": "Liquidated damages burden on challenger; penalty analysis"
+  },
+  {
+   "citation": "Advisers Act Secs. 202(a)(1), 205(a)(1)-(2), 206, 215; Rules 202(a)(1)-1, 206(4)-2, 206(4)-5; SEC Release IA-5248 (2019)",
+   "url": "",
+   "claim": "Assignment, performance fee, hedge clause, custody and pay-to-play analysis"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "brightwell-to-halperin-email.eml",
+   "purpose": "client instructions"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "harland-pers-redline-markup.docx (4 segments)",
+   "purpose": "redline text"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "harland-pers-redline-markup.docx (4 segments)",
+   "purpose": "redline text"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "harland-pers-redline-markup.docx (4 segments)",
+   "purpose": "redline text"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "harland-pers-redline-markup.docx (4 segments)",
+   "purpose": "redline text"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "crestline-negotiation-playbook.docx (6 segments)",
+   "purpose": "positions"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "crestline-negotiation-playbook.docx (6 segments)",
+   "purpose": "positions"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "crestline-negotiation-playbook.docx (6 segments)",
+   "purpose": "positions"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "crestline-negotiation-playbook.docx (6 segments)",
+   "purpose": "positions"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "crestline-negotiation-playbook.docx (6 segments)",
+   "purpose": "positions"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "crestline-negotiation-playbook.docx (6 segments)",
+   "purpose": "positions"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "crestline-form-adv-excerpts.docx (2 segments)",
+   "purpose": "ADV consistency"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "crestline-form-adv-excerpts.docx (2 segments)",
+   "purpose": "ADV consistency"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "crestline-standard-form-iaa.docx (5 segments)",
+   "purpose": "baseline comparison"
+  },
+  {
+   "seq": 15,
+   "type": "document_read",
+   "target": "crestline-standard-form-iaa.docx (5 segments)",
+   "purpose": "baseline comparison"
+  },
+  {
+   "seq": 16,
+   "type": "document_read",
+   "target": "crestline-standard-form-iaa.docx (5 segments)",
+   "purpose": "baseline comparison"
+  },
+  {
+   "seq": 17,
+   "type": "document_read",
+   "target": "crestline-standard-form-iaa.docx (5 segments)",
+   "purpose": "baseline comparison"
+  },
+  {
+   "seq": 18,
+   "type": "document_read",
+   "target": "crestline-standard-form-iaa.docx (5 segments)",
+   "purpose": "baseline comparison"
+  }
+ ],
+ "unresolved": [
+  "Harland Public Investment Act, Harland FOIA and AG Opinion 2022-14 not supplied or verified",
+  "Case/statute citations from memory; not live-verified",
+  "Form ADV Item 9 and insurance (CGL, fidelity bond) not supplied; need confirmation",
+  "Existing fee book must be checked against MFN warranty",
+  "Redline not machine-compared to transmitted March 14 form; base-text differences identified by reading",
+  "Deliverable docx not generated; memo supplied as plain text in final_answer"
+ ],
+ "usage": {
+  "tool_calls": 18,
+  "elapsed_sec": null
+ }
+}

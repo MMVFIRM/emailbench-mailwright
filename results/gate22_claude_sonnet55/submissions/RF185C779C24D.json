@@ -1,0 +1,155 @@
+{
+ "run_id": "RF185C779C24D",
+ "benchmark_task_id": "H12",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "DELIVERABLES: /tmp/RF185C779C24D/mfn-waterfall-analysis.xlsx (Summary; Corrected MFN Matrix at provision level, ~68 rows; Draft Corrections, 22 items; Fee Model with formulas; Governance Math; Risk Ranking & Strategy) and /tmp/RF185C779C24D/gp-recommendation-memo.docx (about 1,750 words). Workbook formulas could not be recalculated in LibreOffice in this environment; key outputs were independently checked in Python.\n\nBOTTOM LINE\n1. Timing. LPA 12.8(d)(a) requires the MFN Schedule within 30 days of the 1/15/2025 Final Closing, i.e. 2/14/2025. The 30-day extension (to 3/17/2025) requires written notice to each MFN-Eligible LP stating the date and reasons (12.8(d)(b)). The 3/1 and 4/30 dates in the Engstrom email, compilation and economics memo are not LPA dates (the economics memo also says 30 business days). Confirm or send the extension notice now; deliver by 3/1, outside date 3/17. Elections run 60 days from receipt and take effect on GP receipt of the Election Notice (12.8(d)(c),(e)), not from closing. Waiver under 12.8(d)(d) covers only provisions actually on the Schedule.\n\n2. Carve-outs (12.8(b), narrowly construed, 'squarely within'). Truly carved out: four LPAC seats ((b)(ii); LPA 8.1(b)); CalWest co-invest allocation ((b)(iv), $300M > $200M); Bridgeworth 48-hour key-person notice ((b)(iii)); Stanhope NAIC and Ironbridge BMA reporting, Stanhope ECI and Ironbridge US trade-or-business structuring ((b)(i),(v)); Great Lakes (Illinois FOIA) and Cascadia (Oregon public records) provisions ((b)(i)). Arguable but self-limiting (list on Schedule): Stanhope and Ironbridge regulatory excuse and withdrawal rights; Great Lakes sanctions excuse.\n\n3. Draft matrix corrections. (a) Arden 100% dollar-for-dollar fee offset omitted; MFN-eligible under (c)(x); SL cites LPA 4.3, correct is 4.2. (b) Pinnacle no-fee/no-carry co-invest wrongly carved out; it is economics under (c)(xii) from a $100M LP. (c) Bridgeworth co-invest allocation not squarely carved out: commitment is exactly $200M, not above. (d) FOIA/public-records provisions wrongly shown electable. (e) Nordvest anti-corruption covenant wrongly carved out; binds GP, not LP-status law. (f) Nordvest KP right is a right to suspend its own capital calls 120 days (Hale only); Cascadia KP right is a permanent 50% unfunded-commitment cut in addition to LPA suspension. (g) Meridian post-IP is not a reduction; '9 of 10' should be 8. (h) Fee total double-counts Nordvest: $8.90M should be $8.15M; incremental worst case is $9.225M, not $8.475M. Engstrom email cites 'Section 9.3' for the no-fault threshold; correct is 11.1(a). Pinnacle SL cites LPA 5.4; the gross-up cap is 5.2(b).\n\n4. Governance. MFN bloc = $1,390M = 50.13% of LP Interests. No-fault: 75% needs $689.8M non-MFN support; 66.67% needs $458.7M; Stanhope 60% needs $273.8M (19.8% of non-MFN) - Engstrom's math confirmed. Missed in the email: the 50%+1 for-cause threshold (Great Lakes SL5 s.7, Cascadia SL9 s.5) is cleared by the bloc alone (needs >$1,386.5M), subject to the LPA 'Cause' definition. Also LPA 12.8(e)(b) applies the most restrictive fund-level provision elected by ANY LP to the whole fund unless the GP finds LP-by-LP application workable; a single removal vote cannot be run LP-by-LP, so one election may reset the threshold. Removal thresholds are expressly listed in 12.8(c)(viii)-(ix); no credible carve-out argument.\n\n5. Fees (investment period, $M). Fee base excludes GP Commitment (LPA 4.1(d)): 2,773 x 1.5% x 5 = 207.975 (not 210). Existing concessions 8.15 -> 199.825. Worst case all 10 elect CalWest 1.25%: reduction 17.375, incremental 9.225, gross 190.6 (cushion 5.6 over 185). Add 100% Arden offset elected by all 10: +2.11 offset at $4.2M/yr portfolio fees (+3.0 at $6M). Net-of-offset basis: standard 191.2; existing concessions 183.0 (already below 185); worst case 171.7 ($4.2M fees) or 163.6 ($6M fees). Whether the $185M target is gross or net must be settled. Post-IP worst-case incremental about 4.2 (midpoint $80M standard fees; 3.7-4.7 for $70-90M). Election-date effectiveness (about 4/30/2025) reduces IP incremental to about 8.7. Total fund-life incremental about 15.5 (excluding items below). Co-invest no-fee/no-carry: $16-26M lifetime if all to electors; $8-13M pro rata. Cascadia 50% reduction: up to $695M commitments and about $10.4M/yr fee base lost. Pinnacle 30% clawback cap: on a hypothetical $50M clawback, +$7.5M GP exposure fund-wide or +$3.8M LP-by-LP.\n\n6. Risk ranking. Critical: for-cause 50%+1; Stanhope 60%; Pinnacle KP secondary conversion and Cascadia KP reduction; Pinnacle clawback cap. High: Arden advance draft reports (selective disclosure with public-records LPs), Arden offset, Pinnacle and Bridgeworth co-invest, rate reductions, board observers (CalWest >$75M equity and Arden >30% stake stack to up to 10 observers), Nordvest 120-day call suspension. Medium/Low: excuse proliferation (12+ categories, reallocation under LPA 9.3), reporting, ESG, transfers.\n\n7. Recommended strategy. (i) Cure timing immediately. (ii) Reconcile data: non-MFN commitments stated as $1,383M across 13 LPs at $10-65M each (max $845M) while compilation Appendix A lists $335M; if $335M were right, total LP commitments would be $1,725M and the bloc 80.6%. (iii) Pre-Schedule consensual amendments under 12.8(f) only with written LP consent (cannot impair rights without express consent; good faith toward all LPs), sequenced: Great Lakes/Cascadia for-cause, Stanhope no-fault, Pinnacle conversion and clawback cap, Cascadia reduction, Arden advance reports. Do not offer consideration that is itself MFN-eligible. (iv) If refused, list accurately; pre-document 12.8(e)(b) approach and reserve 12.8(e)(c) limits (law, PTP, ERISA). (v) List arguable carve-outs as self-limiting; keep a carve-out determination log. (vi) Accept fee elections as priced; confirm $185M definition; rebuild model on $2,773M; accrue from Election Notice receipt. (vii) Implementation protocols for observers, advance reports, excuses. (viii) LPAC: all four members are MFN beneficiaries - recuse; do not excerpt the privileged memo (waiver risk); give LPAC a separate non-privileged process summary.\n\nLIMITS. Only LPA excerpts and a summary of SLs 11-19 were available; no outside legal research was done and no case law is cited; Delaware good-faith observations are unverified.",
+ "citations": [
+  {
+   "citation": "LPA s.12.8(a)-(f)",
+   "url": "runner/task_data/H12/documents/fund-iv-lpa-excerpts.docx",
+   "claim": "MFN eligibility, carve-outs (narrow construction), eligible categories, 30-day schedule deadline (2/14/2025), 30-day extension on notice, 60-day election, effectiveness on receipt, fund-level most-restrictive rule, GP amendment only with LP consent"
+  },
+  {
+   "citation": "LPA ss.4.1(d), 4.2, 5.2(b), 5.3, 8.1(b), 11.1(a), 11.2(a), 7.2, 9.3",
+   "url": "runner/task_data/H12/documents/fund-iv-lpa-excerpts.docx",
+   "claim": "Fee base excludes GP commitment; 80% offset; 45% Tax Gross-Up Cap; top-4 LPAC seats; 75% / 66.67% removal thresholds"
+  },
+  {
+   "citation": "Side Letters 1-10 (compilation)",
+   "url": "runner/task_data/H12/documents/side-letter-compilation.docx",
+   "claim": "Provision-level text used for corrected classification"
+  },
+  {
+   "citation": "Draft MFN matrix (2/18/2025)",
+   "url": "runner/task_data/H12/documents/mfn-comparison-matrix-draft.xlsx",
+   "claim": "Errors identified and corrected"
+  },
+  {
+   "citation": "GP fundraising economics summary (2/5/2025)",
+   "url": "runner/task_data/H12/documents/gp-fundraising-economics-summary.docx",
+   "claim": "$185M target, $4.2M annual portfolio fees, co-invest assumptions, $210M base overstated"
+  },
+  {
+   "citation": "Engstrom email chain",
+   "url": "runner/task_data/H12/documents/engstrom-email-mfn-strategy.eml",
+   "claim": "Stanhope governance math; Section 9.3 mis-cite; 3/1 and 4/30 dates; client instructions"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "fund-iv-lpa-excerpts.docx (definitions, s.4)",
+   "purpose": "Fee mechanics and defined terms"
+  },
+  {
+   "seq": 2,
+   "type": "document_search",
+   "target": "fund-iv-lpa-excerpts.docx s.12.8 locate",
+   "purpose": "Find MFN section"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "fund-iv-lpa-excerpts.docx s.12.8 and Appendix A",
+   "purpose": "MFN framework and commitments"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "fund-iv-lpa-excerpts.docx s.5.1 search",
+   "purpose": "Waterfall references"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "side-letter-compilation.docx chars 0-15000",
+   "purpose": "SL1"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "side-letter-compilation.docx chars 15000-30000",
+   "purpose": "SL1-SL4"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "side-letter-compilation.docx chars 30000-45000",
+   "purpose": "SL4-SL6"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "side-letter-compilation.docx chars 45000-60000",
+   "purpose": "SL6-SL8"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "side-letter-compilation.docx chars 60000-78000",
+   "purpose": "SL8-SL10, Appendix A"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "engstrom-email-mfn-strategy.eml",
+   "purpose": "Client instructions and prior analysis"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "mfn-comparison-matrix-draft.xlsx",
+   "purpose": "Draft matrix to correct"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "gp-fundraising-economics-summary.docx chars 0-14500",
+   "purpose": "Fund terms and fee model"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "gp-fundraising-economics-summary.docx chars 14500-27000",
+   "purpose": "Concessions, co-invest"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "gp-fundraising-economics-summary.docx chars 27000-end",
+   "purpose": "Risks, next steps"
+  },
+  {
+   "seq": 15,
+   "type": "document_read",
+   "target": "mfn-process-memo-template.docx (two parts)",
+   "purpose": "Process template and QC checklist"
+  },
+  {
+   "seq": 16,
+   "type": "document_read",
+   "target": "fund-iv-lpa-excerpts.docx ss.5.2, 7, 9, 11 extracts",
+   "purpose": "Clawback cap, key person, excuse, removal text"
+  },
+  {
+   "seq": 17,
+   "type": "document_read",
+   "target": "fund-iv-lpa-excerpts.docx ss.8.1, 11.1, 9.3 headings",
+   "purpose": "LPAC composition and cross-reference checks"
+  }
+ ],
+ "unresolved": [
+  "Non-MFN commitments ($1,383M across 13 LPs at $10-65M each) cannot be reconciled; compilation lists $335M. Verify against administrator records.",
+  "Whether a 12.8(d)(b) extension notice was sent; none appears in the file.",
+  "Whether the $185M target is gross or net of fee offsets.",
+  "LPA excerpts only: ss.6.2, 14 and full amendment provisions not reviewed; SLs 11-19 known only by summary.",
+  "No outside legal research or case law verified; Delaware implied-covenant and privilege-waiver observations are general and unverified.",
+  "Workbook formulas not recalculated in LibreOffice (sandbox error); values cross-checked in Python."
+ ],
+ "usage": {
+  "tool_calls": 30,
+  "elapsed_sec": null
+ }
+}

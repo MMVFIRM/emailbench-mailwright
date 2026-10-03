@@ -1,0 +1,282 @@
+[
+  {
+    "run_id": "RF32964220337",
+    "task_id": "H03",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-ma/analyze-counterparty-spa-markup/task.json",
+    "task_file": "task_001_RF32964220337.md"
+  },
+  {
+    "run_id": "R217FB96305F5",
+    "task_id": "H11",
+    "stratum": "pure_research",
+    "source_path": "tasks/funds-asset-management/analyze-counterparty-markup-of-investment-advisory-agreement/task.json",
+    "task_file": "task_002_R217FB96305F5.md"
+  },
+  {
+    "run_id": "R5C86A81D5C82",
+    "task_id": "H08",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/analyze-counterparty-markup-of-master-services-agreement/task.json",
+    "task_file": "task_003_R5C86A81D5C82.md"
+  },
+  {
+    "run_id": "R3BBAC697E6B9",
+    "task_id": "H18",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/funds-asset-management/compare-side-letter-provisions-against-limited-partnership-agreement/task.json",
+    "task_file": "task_004_R3BBAC697E6B9.md"
+  },
+  {
+    "run_id": "R7F302EDCE687",
+    "task_id": "H10",
+    "stratum": "pure_research",
+    "source_path": "tasks/data-privacy-cybersecurity/analyze-counterparty-markup-of-cross/task.json",
+    "task_file": "task_005_R7F302EDCE687.md"
+  },
+  {
+    "run_id": "RFF4CEFBFE47D",
+    "task_id": "H18",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/funds-asset-management/compare-side-letter-provisions-against-limited-partnership-agreement/task.json",
+    "task_file": "task_006_RFF4CEFBFE47D.md"
+  },
+  {
+    "run_id": "R36FA9B13D0F9",
+    "task_id": "H20",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-ma/compare-closing-checklist-against-ma-agreement/task.json",
+    "task_file": "task_007_R36FA9B13D0F9.md"
+  },
+  {
+    "run_id": "R265033FE74DC",
+    "task_id": "H15",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/capital-markets/compare-charter-against-offering/task.json",
+    "task_file": "task_008_R265033FE74DC.md"
+  },
+  {
+    "run_id": "RB5ED2F5432C0",
+    "task_id": "H17",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/banking-finance/compare-credit-agreement-to-commitment-letter/task.json",
+    "task_file": "task_009_RB5ED2F5432C0.md"
+  },
+  {
+    "run_id": "R5FF4DAA6A1AF",
+    "task_id": "H04",
+    "stratum": "pure_research",
+    "source_path": "tasks/energy-natural-resources/analyze-counterparty-markup-of-credit-agreement/task.json",
+    "task_file": "task_010_R5FF4DAA6A1AF.md"
+  },
+  {
+    "run_id": "R2861ABC565C4",
+    "task_id": "H01",
+    "stratum": "pure_research",
+    "source_path": "tasks/bankruptcy-restructuring/analyze-counterparty-markup-of-plan-of-reorganization/task.json",
+    "task_file": "task_011_R2861ABC565C4.md"
+  },
+  {
+    "run_id": "R7FE70EB1B09E",
+    "task_id": "H10",
+    "stratum": "pure_research",
+    "source_path": "tasks/data-privacy-cybersecurity/analyze-counterparty-markup-of-cross/task.json",
+    "task_file": "task_012_R7FE70EB1B09E.md"
+  },
+  {
+    "run_id": "R8D3F1586393D",
+    "task_id": "H07",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/analyze-counterparty-markup-of-saas-agreement/task.json",
+    "task_file": "task_013_R8D3F1586393D.md"
+  },
+  {
+    "run_id": "RD7B5CE11026B",
+    "task_id": "H19",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/banking-finance/compare-credit-agreement-against-term-sheet/task.json",
+    "task_file": "task_014_RD7B5CE11026B.md"
+  },
+  {
+    "run_id": "RC5A5675F03ED",
+    "task_id": "H05",
+    "stratum": "pure_research",
+    "source_path": "tasks/energy-natural-resources/analyze-counterparty-markup-of-power-purchase-agreement/task.json",
+    "task_file": "task_015_RC5A5675F03ED.md"
+  },
+  {
+    "run_id": "RD1ADA3798DD6",
+    "task_id": "H02",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-ma/analyze-term-sheet-markup/scenario-01/task.json",
+    "task_file": "task_016_RD1ADA3798DD6.md"
+  },
+  {
+    "run_id": "R8DD083572AF5",
+    "task_id": "H06",
+    "stratum": "pure_research",
+    "source_path": "tasks/arbitration-international-dispute-resolution/analyze-counterparty-markup-of-arbitration-agreement/task.json",
+    "task_file": "task_017_R8DD083572AF5.md"
+  },
+  {
+    "run_id": "RE979B4CDF43C",
+    "task_id": "H12",
+    "stratum": "pure_research",
+    "source_path": "tasks/funds-asset-management/analyze-mfn-waterfall/task.json",
+    "task_file": "task_018_RE979B4CDF43C.md"
+  },
+  {
+    "run_id": "RF689B5583905",
+    "task_id": "H11",
+    "stratum": "pure_research",
+    "source_path": "tasks/funds-asset-management/analyze-counterparty-markup-of-investment-advisory-agreement/task.json",
+    "task_file": "task_019_RF689B5583905.md"
+  },
+  {
+    "run_id": "R8512008A405A",
+    "task_id": "H09",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/assess-impact-of-cfpb-open-banking-rule-on-existing-data-sharing-agreements/task.json",
+    "task_file": "task_020_R8512008A405A.md"
+  },
+  {
+    "run_id": "R7CB8EC35A537",
+    "task_id": "H16",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/intellectual-property/compare-software-license-agreement-against-negotiation-playbook/task.json",
+    "task_file": "task_021_R7CB8EC35A537.md"
+  },
+  {
+    "run_id": "R2FEC9F113A00",
+    "task_id": "H19",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/banking-finance/compare-credit-agreement-against-term-sheet/task.json",
+    "task_file": "task_022_R2FEC9F113A00.md"
+  },
+  {
+    "run_id": "RBA2424068C5B",
+    "task_id": "H06",
+    "stratum": "pure_research",
+    "source_path": "tasks/arbitration-international-dispute-resolution/analyze-counterparty-markup-of-arbitration-agreement/task.json",
+    "task_file": "task_023_RBA2424068C5B.md"
+  },
+  {
+    "run_id": "R107D18D08368",
+    "task_id": "H16",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/intellectual-property/compare-software-license-agreement-against-negotiation-playbook/task.json",
+    "task_file": "task_024_R107D18D08368.md"
+  },
+  {
+    "run_id": "R85EDA44E53FB",
+    "task_id": "H13",
+    "stratum": "pure_research",
+    "source_path": "tasks/antitrust-competition/analyze-counterparty-markup-of-protective-order/task.json",
+    "task_file": "task_025_R85EDA44E53FB.md"
+  },
+  {
+    "run_id": "RF8038B9B20FE",
+    "task_id": "H09",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-governance/assess-impact-of-cfpb-open-banking-rule-on-existing-data-sharing-agreements/task.json",
+    "task_file": "task_026_RF8038B9B20FE.md"
+  },
+  {
+    "run_id": "RCCE7747711F7",
+    "task_id": "H01",
+    "stratum": "pure_research",
+    "source_path": "tasks/bankruptcy-restructuring/analyze-counterparty-markup-of-plan-of-reorganization/task.json",
+    "task_file": "task_027_RCCE7747711F7.md"
+  },
+  {
+    "run_id": "RE24A03B175BB",
+    "task_id": "H20",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/corporate-ma/compare-closing-checklist-against-ma-agreement/task.json",
+    "task_file": "task_028_RE24A03B175BB.md"
+  },
+  {
+    "run_id": "R941E51C68E77",
+    "task_id": "H15",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/capital-markets/compare-charter-against-offering/task.json",
+    "task_file": "task_029_R941E51C68E77.md"
+  },
+  {
+    "run_id": "R96FFA09AD71A",
+    "task_id": "H14",
+    "stratum": "pure_research",
+    "source_path": "tasks/capital-markets/analyze-counterparty-markup-of-underwriting-agreement/task.json",
+    "task_file": "task_030_R96FFA09AD71A.md"
+  },
+  {
+    "run_id": "R952A1DB244CA",
+    "task_id": "H17",
+    "stratum": "stress_reconciliation",
+    "source_path": "tasks/banking-finance/compare-credit-agreement-to-commitment-letter/task.json",
+    "task_file": "task_031_R952A1DB244CA.md"
+  },
+  {
+    "run_id": "RD2EE0CC02A5B",
+    "task_id": "H13",
+    "stratum": "pure_research",
+    "source_path": "tasks/antitrust-competition/analyze-counterparty-markup-of-protective-order/task.json",
+    "task_file": "task_032_RD2EE0CC02A5B.md"
+  },
+  {
+    "run_id": "RB20BA68FABE4",
+    "task_id": "H07",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/analyze-counterparty-markup-of-saas-agreement/task.json",
+    "task_file": "task_033_RB20BA68FABE4.md"
+  },
+  {
+    "run_id": "R31EA1D43D7CA",
+    "task_id": "H03",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-ma/analyze-counterparty-spa-markup/task.json",
+    "task_file": "task_034_R31EA1D43D7CA.md"
+  },
+  {
+    "run_id": "RF2CA78671869",
+    "task_id": "H04",
+    "stratum": "pure_research",
+    "source_path": "tasks/energy-natural-resources/analyze-counterparty-markup-of-credit-agreement/task.json",
+    "task_file": "task_035_RF2CA78671869.md"
+  },
+  {
+    "run_id": "RD7E99B00978F",
+    "task_id": "H05",
+    "stratum": "pure_research",
+    "source_path": "tasks/energy-natural-resources/analyze-counterparty-markup-of-power-purchase-agreement/task.json",
+    "task_file": "task_036_RD7E99B00978F.md"
+  },
+  {
+    "run_id": "R080AC24C607B",
+    "task_id": "H14",
+    "stratum": "pure_research",
+    "source_path": "tasks/capital-markets/analyze-counterparty-markup-of-underwriting-agreement/task.json",
+    "task_file": "task_037_R080AC24C607B.md"
+  },
+  {
+    "run_id": "R585EDCE1F892",
+    "task_id": "H08",
+    "stratum": "pure_research",
+    "source_path": "tasks/intellectual-property/analyze-counterparty-markup-of-master-services-agreement/task.json",
+    "task_file": "task_038_R585EDCE1F892.md"
+  },
+  {
+    "run_id": "RF185C779C24D",
+    "task_id": "H12",
+    "stratum": "pure_research",
+    "source_path": "tasks/funds-asset-management/analyze-mfn-waterfall/task.json",
+    "task_file": "task_039_RF185C779C24D.md"
+  },
+  {
+    "run_id": "RC1C6088BEFF4",
+    "task_id": "H02",
+    "stratum": "pure_research",
+    "source_path": "tasks/corporate-ma/analyze-term-sheet-markup/scenario-01/task.json",
+    "task_file": "task_040_RC1C6088BEFF4.md"
+  }
+]

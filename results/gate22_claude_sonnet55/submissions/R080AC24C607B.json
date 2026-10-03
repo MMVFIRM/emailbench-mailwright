@@ -1,0 +1,123 @@
+{
+ "run_id": "R080AC24C607B",
+ "benchmark_task_id": "H14",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTo: Margaret Chen | From: David Kowalski | Date: May 20, 2025\nRe: Pinebrook follow-on - Northgate Sullivan redline of Underwriting Agreement (UA) v. our May 14 draft; playbook v4.2 comparison\n\nEXECUTIVE SUMMARY\nNorthgate moved every board-priority term against the Company. Only about 11 deletions are tracked; most changes are UNMARKED (quiet-period covenant, termination MAC and catch-all, expense-cap deletion, deletion of our expense section, FWP indemnity extension, lock-up exceptions, indemnity-procedure limits). I compared full text. Ask Vasquez to confirm no other unmarked changes and reserve rights.\n\nCall roadmap (all Critical and playbook Red unless noted):\n1. Indemnification package (board priority 1): $200M cap deleted; \"actual or alleged\" trigger; Underwriter Information cut to names and addresses; contribution moved to relative benefit; underwriter floor and contribution cap reduced by \"offering-related expenses.\" Reject as a package.\n2. Lock-up release now needs Clearwater consent in its sole discretion. Reject; fallback is 3-business-day notice only.\n3. New quiet period (5(g)): Clearwater consent for press releases, clinical data or SEC filings, pricing through five business days post-closing. Reject (Regulation FD/Exchange Act).\n4. Termination: new company-specific MAC (10(a)(iv)) and discretionary catch-all (v); exclusivity deleted. Strike.\n5. Expense reimbursement: $150,000 cap removed, payable \"regardless of the reason.\" Restore cap and cause-only scope.\n6. Negative assurance extended to FWPs, testing-the-waters (TTW) communications and investor presentations (our liability). Reject TTW and presentations.\n7. Rep survival 18 months to indefinite. Reject.\n8. Overallotment period 30 to 45 days (Yellow). Hold 30; ceiling 35 with your approval.\nYour approval is required for any fallback beyond a playbook maximum.\n\nDETAILED ANALYSIS (Orig = our draft; RL = redline; PB = playbook)\n\nI. DEFINITIONS\n1. \"Underwriter Information\" (Sec. 1). CRITICAL (PB IX: Red, no compromise). Orig: names, addresses, share allocations; the stabilization, over-allotment and penalty-bid paragraphs; stated as the entirety. RL: names and addresses only. Effect: the Company indemnifies for underwriter-drafted trading disclosure; the preliminary prospectus (S-7.5 to S-7.7) says the stabilization text was \"provided by the underwriters.\" Reject. Markup: \"'Underwriter Information' means (i) the names, addresses and share allocations of the Underwriters in the Prospectus Supplement and Schedule I; (ii) the paragraphs under 'Underwriting' captioned 'Stabilization Transactions,' 'Short Sales and Covering Transactions' and 'Penalty Bids,' and the description of the over-allotment option; and (iii) other information identified in writing by an Underwriter as furnished for use therein.\" The redline's \"third, fourth, fifth\" and PB's \"third, fifth, seventh\" paragraph references conflict; identify by caption.\n2. Applicable Time, Prospectus, new \"General Disclosure Package\" (GDP): standard; accept, limiting GDP to scheduled Company-authorized issuer FWPs. MINOR.\n\nII. SALE AND DELIVERY\n3. Overallotment period (2(b)). SIGNIFICANT (PB Yellow). 30 days (expires June 26) to 45 days (July 11). Option size stays 1,200,000 (15%), consistent with PB. Prospectus (S-7.3) discloses 30 days. Counter 30; last resort 35 with written market justification. Notice window of 2-5 business days, DWAC/DTC delivery and closing mechanics: accept. Price, discount, 80/20 split and advisory fee are unchanged.\n\nIII. REPRESENTATIONS AND WARRANTIES\n4. Survival. CRITICAL (Red). Orig 18 months (to Nov. 27, 2026) with notice-of-claim mechanics; RL \"without limitation as to time,\" repeated in Ex. B and Sec. 11(i). Exceeds Securities Act limitation periods (15 U.S.C. 77m: one year from discovery, three from offering). Reject; fallback 24 months with approval.\n5. Bring-down (Sec. 7 lead-in, unmarked). SIGNIFICANT. Orig required reps true \"in all material respects\"; RL lead-in drops it. Restore.\n6. Compliance with laws (3(g)) and no-MAC rep (3(f)). SIGNIFICANT. RL drops the orig MAE qualifier for compliance (including FDA), adds historic \"has been\" compliance, and adds forward-looking \"any development that would reasonably be expected to result in\" a MAC. Restore the MAE qualifier; strike the prospective phrase.\n7. Underwriter reps (Sec. 4). CRITICAL (Red). Deleted unmarked: Rule 5110 compliance and compensation-limit rep and FINRA filing statement (orig 4(c)); no-unauthorized-representations (4(e)); no unauthorized FWPs (6(c)). RL references Redfield. PB requires a broad direct rep covering all compensation (Clearwater $8.5M, Oakmont $2.0M; 5.25% total per S-7.9). Restore all.\n8. Standard: GDP rep, DTC eligibility, PCAOB/Thornberry, transfer agent, FCPA, cybersecurity, ERISA, environmental. Accept (PB Green). IP and tax reps are now MAE-qualified (favorable).\n\nIV. COVENANTS\n9. Lock-up release (5(f); Ex. A). CRITICAL (Red; board priority). Orig 7(b): Company sole, absolute authority. RL: Clearwater prior written consent, sole discretion. The preliminary prospectus (S-7.4) tells investors the Company has sole discretion; accepting the redline makes it inaccurate (Securities Act Secs. 11/12(a)(2)). PB also raises a Delaware DGCL 141(a) delegation point (not independently verified). Reject. Fallback: 3 business days' notice, no consent. Markup: \"The Company may release or waive any Lock-Up Agreement in its sole discretion upon three Business Days' notice to the Representative; no Underwriter consent is required.\" FINRA Rule 5131(d)(2) separately requires lock-ups to provide for lead-manager notice and announcement two business days before releases for officers and directors; adding that mechanic does not require consent.\n10. Other lock-up changes (unmarked). SIGNIFICANT. \"Reasonable best efforts to cause\" becomes absolute \"shall cause\" for 5% holders the Company does not control; delivery due at signing rather than before Closing; with condition 7(g) that is a walk right. Ex. A omits the exceptions in our form (existing 10b5-1 plans, estate planning, operation of law, open-market purchases) that the prospectus describes; Company-lock-up carve-outs (equity plans, acquisitions) also dropped. Restore all.\n11. Quiet period (new 5(g)). CRITICAL (Red; see Flag A). Not in our draft; unmarked. Reject. Fallback (PB Yellow): notice only, 24-48 hours, legal/SEC/Reg FD carve-out, ending at Closing. Markup: \"From pricing to the Closing Date, the Company will, where practicable, give the Representative advance notice of press releases regarding its clinical programs; nothing herein restricts any disclosure or filing the Company determines is required by law, Nasdaq rules or Regulation FD.\" Delete the \"material breach\" sentence and 5(g) from survival clauses (10(a), 10(b), 11(i)).\n12. Standard covenants (blue sky, prospectus delivery, SEC notices, earnings statement, use of proceeds, listing): accept.\n\nV. CONDITIONS TO CLOSING\n13. Negative assurance (7(d), Ex. C). CRITICAL (Red for TTW/presentations; Yellow for FWPs). Orig 8(f): Registration Statement and Prospectus only, express exclusion, discussions-and-inquiries/no-independent-verification qualifiers, defined dates. RL adds FWPs, TTW and investor presentations, drops qualifiers, and measures \"at the relevant times.\" Reject TTW and presentations. Fallback with your approval: GDP at the Applicable Time limited to scheduled Company-filed FWPs after our review. Restore qualifiers.\n14. FINRA/Redfield (7(h)). SIGNIFICANT. New condition that Redfield confirm its review, and FINRA must \"confirm\" no objection (orig: none raised). Gives a Clearwater-selected third party control over closing; PB says no reliance on the consultant. Delete both.\n15. Officer's certificate (7(b)): orig knowledge-and-reasonable-inquiry qualifier removed. SIGNIFICANT. Restore.\n16. Market-out (7(j)). SIGNIFICANT. Replaces orig 8(m) with market-out plus Representative-judgment catch-all, duplicating termination rights (PB: no standalone market-out). Candidly, our 8(m)(ii) already contained a Representative-judgment \"prospective change\" test, which Northgate will cite; propose deleting 7(j)(iv) and conforming 8(m) to systemic events only.\n\nVI. INDEMNIFICATION AND CONTRIBUTION\n18. Company indemnity (8(a)). CRITICAL (Red; board priority 1). (i) Cap at gross proceeds ($200M; $230M with option) deleted. (ii) \"actual or alleged\" plus \"in whole or in part caused\" added: the Company pays on complaint with no recovery right. (iii) Indemnity covers \"any free writing prospectus\" (orig: Company-authorized only) while the underwriter FWP covenant is gone. Reject all. Securities Act Sec. 11(e) caps damages at the offering price, which supports a gross-proceeds cap (it does not reach Exchange Act claims). Fallbacks: 150% of gross proceeds (your approval only; never conceded before); for \"alleged,\" a separate advancement clause with repayment undertaking. Markup: \"...arising out of or based upon any untrue statement of a material fact or omission...; provided that aggregate liability under this Section 8(a), including expense reimbursement, shall not exceed the gross proceeds received by the Company hereunder; 'free writing prospectus' means only an issuer free writing prospectus authorized by the Company.\" Public-policy leverage: indemnity for an underwriter's own culpable conduct is unenforceable under Globus v. Law Research Service, 418 F.2d 1276 (2d Cir. 1969), and Eichenholtz v. Brennan, 52 F.3d 478 (3d Cir. 1995); the SEC position appears in Regulation S-K Items 510 and 512(h). Persuasive only; pin cites not re-verified.\n19. Underwriter indemnity floor (8(b)). CRITICAL (Red). Orig: not less than total discount ($8.0M Clearwater, $2.0M Oakmont), expressly uncapped. RL: discount net of undefined \"offering-related expenses\"; no-cap sentence deleted. Reject. Fallback (Yellow): deduct documented third-party legal fees only, max $250,000 per underwriter. Restore \"There is no cap.\"\n20. Procedures (8(c), unmarked). SIGNIFICANT. Orig limited separate counsel to one firm plus local counsel and barred assumption of defense in conflict cases; RL drops both. Restore.\n21. Contribution (Sec. 9). CRITICAL (Red). Relative fault replaced by relative benefit measured by net proceeds ($190M) versus discount ($10M), roughly 95:5 against the Company; underwriter cap also reduced by expenses. Sec. 11(f) and Eichenholtz support fault-based allocation, but expect Northgate to say relative-benefit with a discount cap is common market language, so the likely landing zone is the PB Yellow hybrid. Response: restore relative fault; fallback \"relative benefits and also relative fault, with relative fault controlling.\" Cap underwriter contribution at total compensation received ($8.5M Clearwater including advisory fee; $2.0M Oakmont), no expense deduction; subordinate contribution to Sec. 8.\n\nVII. TERMINATION AND EXPENSES\n22. Triggers (10(a)). CRITICAL (Red). Orig: exclusive list of systemic triggers. RL adds (iv) any MAC in the Company \"whether or not arising in the ordinary course\" and (v) any event the Representative deems \"impracticable or inadvisable\"; exclusivity deleted. With PBX-4071 Phase 2 data pending, a negative readout gives Clearwater a free option, converting firm commitment to best efforts. Strike (iv), (v); restore exclusivity; add Company termination right without penalty (PB Yellow). Fallback only with your approval: MAC limited to unknown, undisclosed events materially impairing marketability. Favorable RL change to keep: termination right ends at Closing Date.\n23. Expenses (10(b)). CRITICAL (Red). Orig: documented out-of-pocket, capped at $150,000, only for cause; none on termination without cause. RL: all out-of-pocket expenses including counsel, \"regardless of the reason,\" on demand (PB estimates $500,000-$1M). The prospectus (S-7.2) discloses the $150,000 cap. Restore cap and scope. Fallback: $200,000 for cause; if scope broadens, $75,000 without cause. Restore orig Sec. 11(a) (Company expense list and advisory-fee payment) and the statement that underwriters bear their own expenses if the offering closes.\n\nVIII. MISCELLANEOUS\n24. Governing law, Manhattan forum, counterparts, notices, severability, amendments, assignment: standard; accept. Conform Sec. 11(i). The playbook lists 400 Technology Square; UA and prospectus say 200 Technology Square; confirm with client.\n\nREGULATORY AND COMPLIANCE FLAGS\nA. Quiet period v. Regulation FD/Exchange Act. Runs May 22 to June 3 (five business days after a May 27 closing). Consent is in Clearwater's sole discretion on two business days' written request. (1) Form 8-K is due within four business days, and a Regulation FD cure must be \"prompt\" (generally within 24 hours or before the next NYSE open), 17 CFR 243.100-103; a two-day consent loop cannot meet that. (2) 5(g)(iii) excepts filings \"required by applicable law\" but not press releases or public statements, so a Nasdaq Rule 5250(b)(1) prompt-disclosure announcement could be blocked. (3) If PBX-4071 data arrive pre-closing, the Company would be selling stock while barred from disclosing material information: Rule 10b-5 and Section 12(a)(2) exposure and prospectus-supplement duties. (4) It conflicts with our own Exchange Act compliance covenant (5(b)); a missed filing becomes a \"material breach.\" Reg FD's registered-offering exclusion (Rule 100(b)(2)(iv)) has exceptions; I did not verify it applies to this shelf takedown, so do not rely on it.\nB. Prospectus conflicts: lock-up discretion (S-7.4), 30-day option (S-7.3), $150,000 cap (S-7.2), indemnification (S-7.10) and negative assurance (S-8) descriptions. Any concession requires corrected disclosure before pricing and Rule 159 time-of-sale analysis.\nC. Counsel exposure: expanded negative assurance raises Halsted & Whitmore liability.\n\nPROCESS: Red items beyond the maximum compromise go to you before we respond. Pricing can slip 1-2 days (PB XV); do not trade Critical items for timing.\n\nUNRESOLVED: machine compare to catch further unmarked edits; verification of case pin cites, FINRA 5131(d)(2) and Reg FD exclusion text; client confirmation of notice address and acquisition-share carve-out.\n",
+ "citations": [
+  {
+   "citation": "15 U.S.C. 77k(e),(f) (Securities Act Sec. 11)",
+   "url": "https://www.law.cornell.edu/uscode/text/15/77k",
+   "claim": "Damages capped at offering price; contribution under Sec. 11(f) (from memory, not re-fetched)"
+  },
+  {
+   "citation": "15 U.S.C. 77m",
+   "url": "https://www.law.cornell.edu/uscode/text/15/77m",
+   "claim": "One-year/three-year limitations periods"
+  },
+  {
+   "citation": "Globus v. Law Research Service, 418 F.2d 1276 (2d Cir. 1969)",
+   "url": "",
+   "claim": "Underwriter indemnity for own culpability against public policy (not re-verified)"
+  },
+  {
+   "citation": "Eichenholtz v. Brennan, 52 F.3d 478 (3d Cir. 1995)",
+   "url": "",
+   "claim": "Indemnification/contribution among underwriters and issuer under securities laws (not re-verified)"
+  },
+  {
+   "citation": "17 CFR 243.100-103 (Regulation FD)",
+   "url": "https://www.ecfr.gov/current/title-17/part-243",
+   "claim": "Selective disclosure and prompt public disclosure (exclusion text not verified)"
+  },
+  {
+   "citation": "FINRA Rule 5131(d)(2)",
+   "url": "",
+   "claim": "Lock-up release notice mechanics (not re-verified)"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "runner/tasks/task_037_R080AC24C607B.md",
+   "purpose": "Read task"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "partner-instructions.eml",
+   "purpose": "Partner assignment"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "underwriter-redline-ua.docx (parts 1-4, extracted)",
+   "purpose": "Read full redline"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "underwriter-redline-ua.docx (part 5)",
+   "purpose": "Read redline schedules/exhibits"
+  },
+  {
+   "seq": 5,
+   "type": "document_search",
+   "target": "original-underwriting-agreement.docx (diff/keyword)",
+   "purpose": "Locate changed provisions"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "original-underwriting-agreement.docx (Secs 2,9,10,11,12)",
+   "purpose": "Original indemnity, termination, expenses, survival"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "original-underwriting-agreement.docx (Sec 8)",
+   "purpose": "Original conditions"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "hw-negotiation-playbook.docx (parts 1-4)",
+   "purpose": "Playbook positions"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "original-underwriting-agreement.docx (Secs 3-7)",
+   "purpose": "Original reps, covenants, lock-up"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "original-underwriting-agreement.docx (Sec 9 procedures, 8(f))",
+   "purpose": "Procedure and negative assurance text"
+  },
+  {
+   "seq": 11,
+   "type": "document_search",
+   "target": "preliminary-prospectus-summary.docx (keywords)",
+   "purpose": "Underwriting, lock-up, Reg FD disclosures"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "preliminary-prospectus-summary.docx (lines 185-235)",
+   "purpose": "Underwriting section detail"
+  }
+ ],
+ "unresolved": [
+  "Case pin cites, FINRA 5131(d)(2) and Reg FD Rule 100(b)(2)(iv) not verified against primary sources (no web research used)",
+  "Redline has few tracked marks; unmarked changes found by manual comparison and others may remain",
+  "Deliverable redline-analysis-memo.docx not generated; memo supplied in final_answer",
+  "Notice address and acquisition-share carve-out need client confirmation"
+ ],
+ "usage": {
+  "tool_calls": 12,
+  "elapsed_sec": null
+ }
+}

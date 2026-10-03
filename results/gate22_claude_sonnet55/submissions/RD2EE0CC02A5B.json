@@ -1,0 +1,618 @@
+{
+ "run_id": "RD2EE0CC02A5B",
+ "benchmark_task_id": "H13",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "PRIVILEGED AND CONFIDENTIAL - ATTORNEY WORK PRODUCT\nMEMORANDUM\nTO: James R. Ostrander; Priya Chandrasekaran (cc: D. Yamashiro, CIS General Counsel)\nRE: U.S. v. Cascadia Industrial Solutions, No. 2:25-cv-00482-RAJ (W.D. Wash.) - Analysis of DOJ May 23, 2025 redline of CIS's May 5 proposed Protective Order\n\n1. BOTTOM LINE\nDo not sign. Taken together, the changes let DOJ move CIS's Confidential and AEO material (OptiPrice included, because Tier 3 is deleted) to the FTC, state attorneys general and unnamed \"agency personnel\" on five calendar days' notice, and use it in any \"related investigation,\" including the open grand jury probe. Designations also expire automatically at 18 months. Judge Jennings's prior rulings (per our internal survey) support CIS on tiers, de-designation, sharing and experts. Tiers, sharing/use, and de-designation are non-negotiable. The remaining items can be traded. Response is due to DOJ Friday June 6; filing deadline is Monday June 16 (competing proposals plus briefs of up to 15 pages; responses of up to 10 pages by June 23). No discovery may be served or produced until an order is entered, so delay compresses the schedule (fact discovery closes Feb. 27, 2026; trial Sept. 14, 2026).\n\n2. THRESHOLD RED FLAGS\n(a) The redline's unmarked baseline is not our May 5 draft. It has different numbering (e.g., Section 5 is access, not challenges), a different Section 6 challenge process, and a different 12-month in-house bar (ours: six months, Sec. 7.4). Our Sec. 2.8 \"related investigation\" language does not exist in our draft. It omits, with no tracked deletion, provisions we drafted: Sec. 13 (no disclosure to FTC, state AGs, co-defendants or cooperators without consent or court order), Sec. 17 (no automatic de-designation), Sec. 7.1(c) (competitive-decision-making bar for in-house recipients), Sec. 8.2 secure review, Sec. 12.3 (parallel possession does not release discovery material), Sec. 16.3 (seven business days' notice before filing), Sec. 10.1 prior-employer and CV disclosure, and Sec. 3.3 (no blanket confidentiality). Cover email says unmarked provisions are \"acceptable\"; that is untrue of the text. Demand a machine comparison against the file we sent, treat every unmarked divergence as rejected, and send our own full redline.\n(b) The redline contains no-op tracked changes (\"Government\" to \"Government\"; \"Producing Party\" to \"Producing Party\"), which obscure real edits.\n(c) The email understates the redline (items 3, 4, 7, 13).\n\n3. CHANGE-BY-CHANGE ANALYSIS (risk / recommendation)\n1. Three tiers to two (deleted Secs. 2.4, 5.3, 8.3; AEO definition now includes \"proprietary algorithms\"). CRITICAL. OptiPrice code (~4,500 docs/28,000 pages) and patent files (~1,200/8,500) fall to AEO, losing the secure-room access, named-counsel limit, bar on in-house access and copy restrictions. DOJ's \"patent-only tier\" rationale ignores that its pricing-coordination theory makes the algorithm likely discoverable. Reject. Cite Pacific Aggregate Supply (approved third tier on a DTSA/state-law showing with categorical description; rejected \"two tiers suffice for government\"). Fallback: a \"Source Code Supplement\" limited to OptiPrice code and technical documentation. Gap in our showing: the three patents publicly disclose the claimed methods and issued prosecution files are public, which undercuts trade-secret status for patent files and disclosed concepts. Confine Tier 3 to unpublished code, parameters and development records; drop patent prosecution files unless non-public. Obtain the Yamashiro declaration (access controls, air-gapped server). The $12.5M figure is a patent portfolio valuation, not a trade-secret valuation.\n2. DOJ in-house access: two to four attorneys \"including EAG\" (Secs. 5.1(b), 5.2(b)); CIS stays at two. HIGH. Email justifies this by EAG \"economists and attorneys,\" but economists are not attorneys, so the real vehicle is item 3. Counter: DOJ keeps two in-house, plus up to two more named EAG attorneys if each signs Exhibit A and is walled from other agencies' matters; EAG economists enter as consulting experts under Section 10 (Scheduling Order allows three consulting experts per side).\n3. \"Government agency personnel assisting with the investigation\" (new 5.1(g), 5.2(e)). CRITICAL. Applies to Confidential as well as AEO (email mentions AEO only); no names, no undertaking, \"investigation\" undefined, not tied to this Action. Reject. Fallback: named individuals of DOJ's own staff only, each signing Exhibit A.\n4. Inter-agency disclosure (new Sec. 21). CRITICAL. FTC and \"any\" state AG in a \"multistate investigation,\" five calendar days' notice, CIS must obtain a court order in that period, silence is deemed consent (21.2), and it applies \"notwithstanding any other provision.\" The email calls this a \"safeguard\"; it reverses the burden. 21.3 binds agencies \"as if\" parties but 14 and 1 let DOJ use it elsewhere. Reject; restore our Sec. 13 (consent or order on notice). Fallback tracking Pacific Aggregate and Western Timber: Confidential tier only, named agency and named individuals, signed undertakings, at least 10 business days' notice, no AEO/Tier 3 without a court order, no further dissemination, and no state AG unless it is a party or has intervened. Also a no-sharing rule for any co-defendant (Halcyon), cooperator or their counsel without court approval (our Sec. 13.3; GC Priority 2), plus notice within 10 business days if anyone seeks access.\n5. Use limitation and parallel-proceedings clause (Secs. 1, 7.1, 14; deleted 2.7 definition). CRITICAL. \"Solely for this litigation\" becomes \"this litigation and any related investigation, enforcement action, or regulatory proceeding\"; Section 14 now lets DOJ use \"any information produced in this Action\" in any civil, criminal, or administrative proceeding. Our carve-out only freed independently obtained information (the email wrongly calls it a restriction on use of discovery material). The grand jury is open (email admits), so civil discovery could feed a criminal case against CEO Thornbury and pricing-committee members. Rule 26(c) protective orders can limit use, although courts often permit parallel use (Kordel, 397 U.S. 1; SEC v. Dresser, 628 F.2d 1368 (D.C. Cir. 1980) (en banc); Foltz v. State Farm, 331 F.3d 1122 (9th Cir. 2003), all unverified here). Reject; restore Sec. 11 and Sec. 12 (independent-source only; Sec. 12.3). Fallback: use limited to this Action and other proceedings only by court order on motion and notice. Consider seeking a stay as leverage.\n6. Automatic de-designation after 18 months (new 4.4, \"notwithstanding any other provision\"). CRITICAL. Impossible for 3.2M documents (~18.4M pages); unrestricted use after lapse. Reject; Northline (24-month version rejected as \"unworkable,\" \"trap for the unwary\"). Offer the Northline compromise: DOJ may challenge any designation at any time; CIS responds in 14 business days; failure means deemed withdrawal. Add safeguards: challenges by Bates range, capped batch size, good-cause extension, and never deemed withdrawal for Tier 3.\n7. Challenge response window (Sec. 6.2: 30 to 10 business days, deemed withdrawal on silence; Sec. 6.3 meet-and-confer 7 to 5 business days; Sec. 8.3 deposition designation 30 to 10 business days). HIGH. The email calls Sec. 6.2 a \"challenge window\" and our internal survey calls it the same; it is actually the producing party's response deadline. The 14-business-day Western Timber norm concerns a different time limit (receiving party's challenge window), so cite carefully. Counter: 14 to 20 business days, good-cause extension, meet-and-confer 7 business days, deposition 15 business days (our Sec. 4.3) or 30 days.\n8. Sealing (Sec. 16.1 \"compelling need\" and strong presumption; Sec. 22). MEDIUM. The Ninth Circuit applies \"compelling reasons\" to dispositive filings and \"good cause\" to non-dispositive ones (Kamakana, 447 F.3d 1172; Center for Auto Safety, 809 F.3d 1092, unverified here), so \"compelling need\" for all filings overstates law; LCR 5(g) is procedural. Counter: restate both standards, restore seven business days' pre-filing notice, require designating party burden and a stipulated-motion mechanism.\n9. Prosecution bar deleted (Sec. 11 of redline). MEDIUM-HIGH. Our original Sec. 9.3 expressly excluded PTAB proceedings, but redline baseline's bar covered IPR. GC wants an IPR bar for experts reviewing OptiPrice (patent challenges). Counter: drop USPTO prosecution bar; keep a narrower \"competitive-activity bar\" for recipients of Tier 3 or CIS-technical AEO: no participation in IPR/PGR against the three CIS patents for 12 months, applying to experts, not DOJ attorneys.\n10. Return/destruction (Sec. 15: 60 to 120 days; new 15.3 government-records carve-out). MEDIUM. Federal Records Act, 44 U.S.C. \u00a7 3301 is a real constraint, but 15.3 also exempts documents \"subject to litigation hold obligations in other matters\" (not in email) and says nothing on continuing confidentiality. Accept 90 to 120 days if retained records stay under the Order, sequestered, usable only per its terms, and the \"other matters\" language is deleted.\n11. Clawback (Sec. 13.2: 15 to 5 business days). MEDIUM. Because Sec. 13.1 keeps the Rule 502(d) non-waiver (regardless of negligence), the waiver risk the GC fears is limited. Counter: 10-15 business days from discovery, keep 5-business-day return duty, and make the 502(d) language explicit that it protects \"regardless of 502(b) diligence\" (our Sec. 15.2).\n12. Experts (Sec. 10: notice 10 to 3 days; objection 7 to 3 days; undertaking replaced by \"deemed bound\"; Exhibit B deleted). HIGH. Jennings required standalone undertakings and 10-14 days' notice in both Pacific Aggregate and Western Timber. Reject; counter with 10 business days (GC wants business days), objections within 7 days, and restore Exhibit C with personal-jurisdiction consent, five-year affiliation disclosure and CV.\n13. Sec. 9.3 and Exhibit A: DOJ attorneys declared not \"in-house counsel,\" exempt from undertaking and competitive-decision-making restrictions. HIGH (omitted from email). Reject: all AEO recipients sign undertakings submitting to jurisdiction and exclusion from competition matters involving CIS's competitors, or at least a DOJ-specific undertaking.\n14. Halcyon. New recital says Halcyon \"is separately negotiating protective order terms.\" This confirms the cooperation risk from the GC memo (reported plea discussions; Halcyon is competitor, supplier and co-defendant). Make CIS's PO terms a floor for Halcyon's order; use the July 31, 2025 deadline in Scheduling Order Para. 10 to move for coordination. Ask DOJ for Halcyon's draft.\n\n4. CUMULATIVE EFFECT\nItems 1, 3, 4, 5 and 13 operate as one pipeline: AEO access without tier, agency personnel, FTC/state sharing by default, use in related investigations, and no undertakings. GC memo estimates $25-40M annual harm from leakage versus $36.5M alleged exposure (365M x 10%; note the arithmetic is correct, but a government Sherman Act suit under 15 U.S.C. \u00a7\u00a7 1, 4 generally yields injunctive relief, not \"civil penalties,\" so confirm the exposure theory).\n\n5. JUDGE JENNINGS AUTHORITY - HOW TO USE IT\nThese are unreported orders summarized in an internal memo (not independently verified; obtain copies and check quotations, docket and unsealed status). They are persuasive only. Adverse points: Pacific Aggregate allowed Confidential-tier sharing with other agencies (named agencies/individuals, undertakings, 10 business days' notice), so an absolute ban is unlikely to be adopted; Northline placed the burden of changing designation on the challenger, yet our drafts (Secs. 3.3, 5.4, redline 6.5) place it on the producing party. Reconcile before filing. Pacific Aggregate also limited Tier 3 outside counsel to four and made challenges motion-based; our draft says two counsel.\n\n6. RECOMMENDED STRATEGY AND TIMELINE\n- By May 30: ask DOJ for the true baseline and Halcyon draft; call Yamashiro.\n- By June 2: authorize positions; prioritize 1, 3, 4, 5, 6, 12, 13 (no trade), trade 7, 8, 10, 11 to preserve credibility.\n- Week of June 2: meet and confer; June 6 written response with full redline and cover letter citing Jennings.\n- If no agreement by June 9, start the 15-page brief; file June 16; reply June 23.\n- Notify Linden Strategy Group (non-party; redline Sec. 11) and consider its letter or declaration.\n\n7. INCONSISTENCIES AND CLEAN-UP\n- Judge named \"Richard A. Jennings\" in GC memo; correct is Robert A. Jennings.\n- Our draft recites scheduling order entered April 30; actual April 28 (redline: Dkt. 24).\n- Our draft lists CIS at 8200 Elliott Ave W; redline and GC memo list 2200 First Ave S, Suite 1400.\n- Our draft telephone for Ostrander (206) 555-4800; redline (206) 628-7000.\n- GC memo sensitivity table totals ~2.93M documents/16.8M pages versus 3.2M/18.4M stated.\n- GC memo expects trial \"late 2026 or early 2027\"; order sets Sept. 14, 2026.\n- Caption lists only CIS although Halcyon is a co-defendant.",
+ "issues": [
+  {
+   "id": "I1",
+   "text": "Redline baseline diverges from CIS May 5 draft; silent omissions (Secs. 13, 17, 7.1(c), 8.2, 16.3)",
+   "criticality": "critical"
+  },
+  {
+   "id": "I2",
+   "text": "Tier-3 deletion and OptiPrice exposure; DTSA showing and patent-disclosure weakness",
+   "criticality": "critical"
+  },
+  {
+   "id": "I3",
+   "text": "Expanded DOJ in-house access, agency personnel, Sec. 9.3/Exhibit A exemption",
+   "criticality": "critical"
+  },
+  {
+   "id": "I4",
+   "text": "Sec. 21 inter-agency sharing with deemed consent; Halcyon/cooperator sharing",
+   "criticality": "critical"
+  },
+  {
+   "id": "I5",
+   "text": "Use limitation and parallel-proceedings clause; open grand jury",
+   "criticality": "critical"
+  },
+  {
+   "id": "I6",
+   "text": "Automatic 18-month de-designation",
+   "criticality": "critical"
+  },
+  {
+   "id": "I7",
+   "text": "Challenge/response windows, deemed withdrawal, deposition designation",
+   "criticality": "important"
+  },
+  {
+   "id": "I8",
+   "text": "Sealing standard and Sec. 22",
+   "criticality": "important"
+  },
+  {
+   "id": "I9",
+   "text": "Prosecution bar deletion / IPR protection",
+   "criticality": "important"
+  },
+  {
+   "id": "I10",
+   "text": "Return/destruction and government records exception",
+   "criticality": "important"
+  },
+  {
+   "id": "I11",
+   "text": "Clawback period and Rule 502(d)",
+   "criticality": "important"
+  },
+  {
+   "id": "I12",
+   "text": "Expert notice/undertaking",
+   "criticality": "important"
+  },
+  {
+   "id": "I13",
+   "text": "Judge Jennings prior rulings: reliability, adverse points, conflation",
+   "criticality": "important"
+  },
+  {
+   "id": "I14",
+   "text": "Deadlines, strategy and document inconsistencies",
+   "criticality": "important"
+  }
+ ],
+ "evidence": [
+  {
+   "id": "E1",
+   "source": "doj-redline-markup.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "W.D. Wash.",
+   "level": "background",
+   "proposition": "Redline changes and PH comments",
+   "verified": true,
+   "current_as_of": "2025-05-25",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E2",
+   "source": "cis-original-protective-order.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "W.D. Wash.",
+   "level": "background",
+   "proposition": "CIS May 5 draft provisions incl. Secs. 7.1(c), 9, 12, 13, 16.3, 17",
+   "verified": true,
+   "current_as_of": "2025-05-25",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E3",
+   "source": "doj-cover-email.eml",
+   "source_type": "matter_document",
+   "jurisdiction": "W.D. Wash.",
+   "level": "background",
+   "proposition": "DOJ characterization of changes; June 6 response date",
+   "verified": true,
+   "current_as_of": "2025-05-25",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E4",
+   "source": "scheduling-order.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "W.D. Wash.",
+   "level": "binding",
+   "proposition": "June 16 filing, 15/10-page briefs, no discovery before PO, July 31 Halcyon coordination",
+   "verified": true,
+   "current_as_of": "2025-05-25",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E5",
+   "source": "cis-discovery-sensitivity-memo.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "W.D. Wash.",
+   "level": "background",
+   "proposition": "CIS priorities, volumes, harm estimates, OptiPrice facts",
+   "verified": true,
+   "current_as_of": "2025-05-25",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E6",
+   "source": "jennings-prior-rulings-summary.docx",
+   "source_type": "matter_document",
+   "jurisdiction": "W.D. Wash.",
+   "level": "background",
+   "proposition": "Summaries of Pacific Aggregate, Northline, Western Timber rulings (unverified internal summary)",
+   "verified": false,
+   "current_as_of": "2025-05-25",
+   "entailment": "ENTAILS"
+  },
+  {
+   "id": "E7",
+   "source": "Kamakana v. City & County of Honolulu, 447 F.3d 1172 (9th Cir. 2006); Center for Auto Safety v. Chrysler, 809 F.3d 1092 (9th Cir. 2016)",
+   "source_type": "case",
+   "jurisdiction": "federal",
+   "level": "binding",
+   "proposition": "Compelling reasons for dispositive filings; good cause for non-dispositive",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "BACKGROUND"
+  },
+  {
+   "id": "E8",
+   "source": "United States v. Kordel, 397 U.S. 1 (1970); SEC v. Dresser Indus., 628 F.2d 1368 (D.C. Cir. 1980); Foltz v. State Farm, 331 F.3d 1122 (9th Cir. 2003)",
+   "source_type": "case",
+   "jurisdiction": "federal",
+   "level": "persuasive",
+   "proposition": "Parallel civil/criminal use of discovery generally permitted absent protective limits",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "BACKGROUND"
+  },
+  {
+   "id": "E9",
+   "source": "44 U.S.C. 3301; Fed. R. Evid. 502(d); Fed. R. Civ. P. 26(c)",
+   "source_type": "statute",
+   "jurisdiction": "federal",
+   "level": "binding",
+   "proposition": "Federal records definition; non-waiver orders; protective-order authority",
+   "verified": false,
+   "current_as_of": "unknown",
+   "entailment": "BACKGROUND"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Redline baseline is not CIS's May 5 draft and silently omits protections",
+   "central": true,
+   "issue_ids": [
+    "I1"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3"
+   ]
+  },
+  {
+   "id": "C2",
+   "text": "Tier 3 deletion exposes OptiPrice; reject, fallback source code supplement",
+   "central": true,
+   "issue_ids": [
+    "I2"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E5",
+    "E6"
+   ]
+  },
+  {
+   "id": "C3",
+   "text": "Agency personnel, 4 DOJ in-house, Sec. 9.3 are unacceptable as drafted",
+   "central": true,
+   "issue_ids": [
+    "I3"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E3",
+    "E6"
+   ]
+  },
+  {
+   "id": "C4",
+   "text": "Sec. 21 reverses burden with deemed consent; reject and fall back to named-individual, 10-business-day, Confidential-only sharing",
+   "central": true,
+   "issue_ids": [
+    "I4"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E6"
+   ]
+  },
+  {
+   "id": "C5",
+   "text": "Use limitation and Sec. 14 enable use in grand jury and other proceedings; reject",
+   "central": true,
+   "issue_ids": [
+    "I5"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E8"
+   ]
+  },
+  {
+   "id": "C6",
+   "text": "Auto de-designation unworkable for 3.2M docs; offer Northline model",
+   "central": true,
+   "issue_ids": [
+    "I6"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E5",
+    "E6"
+   ]
+  },
+  {
+   "id": "C7",
+   "text": "Sec. 6.2 is a response window, not a challenge window; counter 14-20 business days",
+   "central": false,
+   "issue_ids": [
+    "I7"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E6"
+   ]
+  },
+  {
+   "id": "C8",
+   "text": "Sealing standard overstated; counter with Ninth Circuit standards",
+   "central": false,
+   "issue_ids": [
+    "I8"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E7"
+   ]
+  },
+  {
+   "id": "C9",
+   "text": "Prosecution bar: counter with narrower IPR/competitive-activity bar",
+   "central": false,
+   "issue_ids": [
+    "I9"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E2",
+    "E5"
+   ]
+  },
+  {
+   "id": "C10",
+   "text": "Return/destruction: accept limited records exception",
+   "central": false,
+   "issue_ids": [
+    "I10"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E9"
+   ]
+  },
+  {
+   "id": "C11",
+   "text": "Clawback: 502(d) limits waiver risk; counter 10-15 business days",
+   "central": false,
+   "issue_ids": [
+    "I11"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E9"
+   ]
+  },
+  {
+   "id": "C12",
+   "text": "Expert undertaking and notice must be restored",
+   "central": false,
+   "issue_ids": [
+    "I12"
+   ],
+   "evidence_ids": [
+    "E1",
+    "E6"
+   ]
+  },
+  {
+   "id": "C13",
+   "text": "Jennings summaries are unverified, persuasive, with adverse points",
+   "central": false,
+   "issue_ids": [
+    "I13"
+   ],
+   "evidence_ids": [
+    "E6"
+   ]
+  },
+  {
+   "id": "C14",
+   "text": "Timeline and inconsistencies",
+   "central": false,
+   "issue_ids": [
+    "I14"
+   ],
+   "evidence_ids": [
+    "E3",
+    "E4",
+    "E5",
+    "E2"
+   ]
+  }
+ ],
+ "coverage_lock": [
+  {
+   "issue_id": "I1",
+   "claim_ids": [
+    "C1"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I2",
+   "claim_ids": [
+    "C2"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I3",
+   "claim_ids": [
+    "C3"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I4",
+   "claim_ids": [
+    "C4"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I5",
+   "claim_ids": [
+    "C5"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I6",
+   "claim_ids": [
+    "C6"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I7",
+   "claim_ids": [
+    "C7"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I8",
+   "claim_ids": [
+    "C8"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I9",
+   "claim_ids": [
+    "C9"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I10",
+   "claim_ids": [
+    "C10"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I11",
+   "claim_ids": [
+    "C11"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I12",
+   "claim_ids": [
+    "C12"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I13",
+   "claim_ids": [
+    "C13"
+   ],
+   "material": true
+  },
+  {
+   "issue_id": "I14",
+   "claim_ids": [
+    "C14"
+   ],
+   "material": true
+  }
+ ],
+ "repair_log": [
+  {
+   "claim_id": "C1",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C2",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C3",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C4",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C5",
+   "action": "qualify",
+   "reason": "external authority unverified"
+  },
+  {
+   "claim_id": "C6",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C7",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C8",
+   "action": "qualify",
+   "reason": "external authority unverified"
+  },
+  {
+   "claim_id": "C9",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C10",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C11",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C12",
+   "action": "none",
+   "reason": "supported by matter documents"
+  },
+  {
+   "claim_id": "C13",
+   "action": "qualify",
+   "reason": "external authority unverified"
+  },
+  {
+   "claim_id": "C14",
+   "action": "none",
+   "reason": "supported by matter documents"
+  }
+ ],
+ "citations": [
+  {
+   "citation": "Kamakana, 447 F.3d 1172 (9th Cir. 2006)",
+   "url": "",
+   "claim": "C8"
+  },
+  {
+   "citation": "Center for Auto Safety, 809 F.3d 1092 (9th Cir. 2016)",
+   "url": "",
+   "claim": "C8"
+  },
+  {
+   "citation": "United States v. Kordel, 397 U.S. 1 (1970)",
+   "url": "",
+   "claim": "C5"
+  },
+  {
+   "citation": "SEC v. Dresser Indus., 628 F.2d 1368 (D.C. Cir. 1980)",
+   "url": "",
+   "claim": "C5"
+  },
+  {
+   "citation": "Foltz v. State Farm, 331 F.3d 1122 (9th Cir. 2003)",
+   "url": "",
+   "claim": "C5"
+  },
+  {
+   "citation": "44 U.S.C. 3301",
+   "url": "",
+   "claim": "C10"
+  },
+  {
+   "citation": "Fed. R. Evid. 502(d)",
+   "url": "",
+   "claim": "C11"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "doj-cover-email.eml",
+   "purpose": "Read matter document"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "scheduling-order.docx",
+   "purpose": "Read matter document"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "cis-discovery-sensitivity-memo.docx",
+   "purpose": "Read matter document"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "cis-original-protective-order.docx",
+   "purpose": "Read matter document"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "doj-redline-markup.docx",
+   "purpose": "Read matter document"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "jennings-prior-rulings-summary.docx",
+   "purpose": "Read matter document"
+  }
+ ],
+ "unresolved": [
+  "External case/statute citations not verified (no research tools used); Jennings orders unverified internal summaries",
+  "Why redline baseline differs from CIS May 5 draft (wrong version vs altered text) unresolved",
+  "Whether LCR 26(c)(2) model order deviations must be explained (unverified)",
+  "Exposure theory (civil penalties) unconfirmed"
+ ],
+ "usage": {
+  "tool_calls": 14,
+  "elapsed_sec": null
+ }
+}

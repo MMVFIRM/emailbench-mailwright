@@ -1,0 +1,194 @@
+{
+ "run_id": "R7F302EDCE687",
+ "benchmark_task_id": "H10",
+ "model": "Claude Sonnet 5.5",
+ "final_status": "answered",
+ "final_answer": "DEVIATION REPORT - Cascadia / Eurocloud DTA (Linden & Hale; privileged work product). To: M. Chen. Matter: email says 2025-0412, playbook says LH-2025-0482 (reconcile). Playbook tiers: P=Preferred, A=Acceptable, WA=Walk Away. Playbook 2.2: no counter-language goes to Fionn Whitmore until you sign off; fallbacks below are internal.\n\nA. THRESHOLD FINDINGS\n1. The markup is not a true redline of our April 14 draft. Its section numbering differs (our s.7 breach = markup s.9; s.8 = 6; s.13 = 7; s.15 = 10; s.16 = 13; s.18 = 15; s.17 = 16), several \"deleted\" passages do not match our text, and its list of \"47 modifications\" omits tracked changes (e.g. 18.1-18.2, 19.5, 20.2-20.3, 21.2, 23.2-23.3, 24.3, 24.5, 27.2, 28.5, 28.8, Annex I/II/III edits). I also found untracked changes: our s.6.2 (no mirroring/replication/routing outside EEA without consent), 6.3 (EEA-only remote access), 13.4 (SCC fallback if DPF fails), 13.5(4) (prior written consent to any third-country transfer), 7.3/7.5, 15.2/15.4/15.6, 16.4 (named legal basis for retention), 17.2 (mutual fines allocation), 18.3(2) and (4) carve-outs, 19.1 (our Eurocloud cyber minimum EUR20m/40m, now a EUR25m \"currently maintains\" statement), 23.3 immediate termination triggers, 11.1 (48-hour notice of DPC inquiries), \"Security Incident\" definition. Annex II also silently drops Cascadia-held encryption keys, Cascadia-controlled key rotation, Dublin/Frankfurt geo-redundant backup, and \"where technically feasible\" pseudonymization with EEA-only mapping tables; the TIA's split-key architecture and Condition 1 depend on these. Annex IV Clause 9 was silently switched from Option 1 (specific) to Option 2 (general), and Clause 12 now makes SCC liability \"subject to Section 15\". Action: demand a machine redline against our draft; reserve rights on everything not shown. Also note our own Annex IV paraphrases the SCCs; the TIA promises verbatim text, so our re-draft must annex the official Module Two text.\n2. Module fit: Eurocloud (importer, Ireland) is itself subject to GDPR, and Cascadia (exporter, US) is a US controller. Module Two (Decision 2021/914) is designed for EEA exporter to non-EEA importer (Recital 7), so the real Chapter V flows are Eurocloud-to-Cascadia (US) and any onward flow to non-EEA affiliates (Module Three). Confirm structure and Art. 27 representative. Also confirm Cascadia has an EU main establishment; otherwise one-stop-shop (Art. 56) does not cover Cascadia and Annex I.C/Clause 13 must identify a specific authority.\n3. Law check: DPF challenge Latombe v Commission (T-553/23) was dismissed by the General Court on 3 Sept 2025; appeal C-703/25 P is pending. This reinforces keeping SCCs as backbone. UK adequacy (Decision 2021/1772) had a June 2025 sunset; verify extension for Signalpath. Brazil's adequacy status has been moving; verify, but Singapore is non-adequate and the TIA covers neither.\n\nB. WALK AWAY (REJECT) - escalate; severity in brackets\nW1 [Critical] Breach notice. Orig s.7.1: 24h from \"becoming aware\"; markup 9.1: 72h from \"confirming\"; 1.1 adds \"as confirmed following internal investigation\". Playbook 4.1: P 24h; A 36h; WA >48h or any \"confirming\" trigger (double WA). Risk: leaves zero buffer for Art. 33(1) 72h; narrows Art. 4(12) and Art. 33(2) (\"without undue delay\"); processor controls the clock. Response: restore 24h/aware and delete the definitional gloss. Fallback (needs sign-off): 36h from awareness, preliminary notice permitted, phased updates (our 7.3).\nW2 [Critical] 9.4 penalty. Orig EUR50k/day (7.6); markup limits to wilful/gross negligence and cap. Playbook: A EUR25k/day, outside cap. Outside Playbook; rate High if 9.1 not restored. Fallback: EUR25k/day, fault-neutral, outside cap.\nW3 [Critical] Sub-processors, 6.1-6.2. Orig 8.1-8.4: specific consent, 30 days, no sole-termination remedy. Markup: general authorization, 14 days, 10-day objection window, 5-day resolution, sole remedy termination of whole DTA. Playbook 4.2: WA <20 days and sole-remedy termination. Risk: Art. 28(2) objection illusory. Fallback: A tier: general authorization for EEA/adequate-country sub-processors only, 30 days, objection on reasonable grounds, Eurocloud must not engage or Cascadia may terminate affected services penalty-free; non-EEA sub-processors stay on specific consent. SCC Clause 9(a) must state the period.\nW4 [Critical] Localization, 5.1 (\"including its Affiliates\"), 6.5, 7.1, Annex II.6, Annex III (Singapore and Brazil entities for \"overflow\", \"follow-the-sun support\", DR), Eurocloud Operational Facilities definition. Orig 6.1-6.3, 13.5. Playbook 4.6: WA blanket \"any facility\" clauses and any transfer outside TIA scope. TIA s.3.2/Condition 3: Singapore/Brazil not assessed; no reliance permitted. Risk: unlawful Chapter V transfers of health, biometric and mental-health data (Art. 83(5)(c) fines to EUR20m/4%); remote support access from third countries is itself a transfer; Module Two does not cover processor-to-affiliate onward transfers. Response: reject; restore 6.1-6.3 and 13.5. Fallback (A): DR only in adequate jurisdictions, listed in Annex, TIA completed first, specific consent, no follow-the-sun access.\nW5 [Critical] Transfer mechanism, 7.2 and 7.4. Orig 13.1-13.2: SCCs primary; TIA before any transfer. Markup: mechanism chosen by Eurocloud (including Art. 49 derogations); TIA optional \"where parties mutually agree\"; Annex IV appendix says further TIAs \"as parties deem appropriate\". Playbook 4.10/4.6(c). Risk: derogations cannot support systematic transfers (EDPB Guidelines 2/2018); SCC Clause 14 requires assessment; Eurocloud's \"not mandatory\" comment is wrong for SCC reliance. Fallback (A): TIA within 30 days of a contemplated transfer; no transfer until complete.\nW6 [Critical] SCC integrity, Annex IV \"may mutually agree to modify\" clause; 28.8 (SCC precedence replaced by negotiation); Clause 12 (liability subject to s.15); Clause 9 option change; Cl. 15 challenge duty trimmed. Playbook 4.10 WA(b); TIA Condition 2. Risk: modified SCCs lose Art. 46(2)(c) validity. Response: delete; restore original 28.7 (SCCs first). No fallback.\nW7 [Critical] Governing law/forum, 26.1-26.2, Clauses 17-18, 14.3 (\"arbitral tribunal\"). Orig 26/Clause 17-18: Irish law, Dublin courts. Markup: Singapore law, SIAC, three arbitrators. Playbook 4.7 WA (non-EU law; non-EU arbitration). Module Two Clause 17 requires an EU Member State law permitting third-party-beneficiary rights; Clause 18 requires Member State courts. Response: reject. Fallback (A): another EU Member State law and courts. SCC disputes must stay in courts; any EU-seated arbitration for commercial claims needs your approval (outside playbook).\nW8 [Critical] Audit, 10.1-10.2. Orig 15.1-15.4: unlimited on-site on 10 Business Days; certifications \"supplementary only\". Markup: SOC 2, ISO 27001 and DPO self-summary \"satisfy in full\" Art. 28(3)(h); on-site deleted. Playbook 4.3 WA. Risk: Art. 28(3)(h) expressly includes inspections; SCC Clause 8.9(c)-(d). Fallback (A): one annual on-site at Cascadia cost plus cause-based audits (breach, regulator, material change) at Eurocloud cost on breach; certifications may satisfy routine review only; multi-tenant protections (scoped to Cascadia environment, escort, NDA).\nW9 [Critical] DPIA, 11.3 deleted. Orig 11.3: 10 Business Days; DPO participates; Art. 36 support. Playbook 4.9 WA. Art. 28(3)(f) and 35(3)(b) apply (1.8m subjects, special categories). Eurocloud's comment is wrong; it is a statutory processor duty. Fallback (A): 15 Business Days, written DPO input, follow-ups within 10 days.\nW10 [High] DPO, 12.1 and Recital (I). Orig 12.2: 5 Business Days, email. Markup: registered post only, 20 Business Days. Playbook 4.8 WA (>15 days; single channel). Fallback (A): 10 Business Days; email mandatory; phone; DPO email/phone stated in DTA (Art. 38(4)).\nW11 [Critical] Deletion, 13.1-13.3. Orig 16.2-16.4: 30 days, officer certification, specified legal-retention notice. Markup: 180 days; certification deleted; retention clause drops legal basis/categories/period; plus 30-day backup tail (up to 210 days). Playbook 4.4 WA (>90 days; no certification; open retention). SCC Clause 8.5 itself requires certification. Backup tail alone is acceptable. Fallback (A): 60 days plus 30-day encrypted backup (90 total), certification within 10 business days, retention only with specified law.\nW12 [High] Liability, 15.3, 16.2. Orig 18.3: uncapped data protection. Markup: everything capped at 2x (EUR8.4m Y1); 15.2 loses gross-negligence/wilful carve-outs. Playbook 4.5 WA(b). Eurocloud's comment concedes an \"enhanced cap\". Art. 82 liability to data subjects remains regardless. Fallback (A): 2x general plus separate 3x data-protection cap (EUR12.6m Y1), wilful/gross negligence and late-notice damages outside cap.\nW13 [High] Indemnity, 16.3 (one-way Cascadia fines indemnity). Orig 17.2 mutual. Playbook 4.11 WA(a). Fallback: mutual, fault-based; else delete 16.3 (playbook prefers deletion); A cap 3x. Enforceability of fine indemnities under Irish law unsettled (Irish counsel).\nW14 [Critical] Anonymization, 1.1 and 5.6. Orig 2.5: no own-purpose use. Markup: Eurocloud anonymizes and uses for product development, benchmarking and marketing, \"industry-standard techniques\", outside GDPR. Playbook 4.12 WA. The definition describes pseudonymization (Art. 4(5)), not anonymity; biometrics cannot realistically be anonymized; HIPAA 164.514 applies. Response: delete. Fallback only with your approval: dual-standard, independently verified, Controller-approved method, no marketing.\n\nC. OUTSIDE PLAYBOOK (NEGOTIATE)\n- Annex II keys/backup/pseudonymization removals; \"may update measures\" [High: TIA Condition 1]. Restore Cascadia-held keys; updates only if no reduction, with notice.\n- 23.3 \"reasonable efforts to challenge\" [High]: restore SCC Clause 15.2 standard.\n- 24.3 immediate termination to 30 days; lost orig 23.3 triggers [Medium]: restore immediate suspension/termination for unauthorized transfers/sub-processors; short cure otherwise. 24.5 early fees [Medium]: none on regulator-driven or breach-driven exit.\n- Annex I.B catch-all data categories [High]: reject (Art. 28(3), Art. 9).\n- 2.7 \"other activities\" [Medium]: reject. 5.4, 20.3 cost reimbursement; 5.5 \"commercially reasonable and technically feasible\" [Medium]: accept costs only for manifestly excessive requests; use Art. 28(3)(f) wording.\n- 11.3 regulator cooperation costs [Medium]: only for Cascadia-caused matters.\n- 21.2 15 business days for records [Medium]: 5 days; 48h for DPC.\n- 19.5 absolute \"lawful at all times\" [Medium]: knowledge-qualified (orig 4.3); confirm HIPAA BAA need.\n- 28.5 assignment \"to an Affiliate\" (untracked) [High]: reject; require notice, EEA-only, termination right.\n- Annex I.C authority wording [Medium]; 19.4 \"as of Effective Date\" [Low]: accept with notice-of-change covenant (SCC Clause 14(e)).\n- 3.3/24.4 survival narrowed [Medium]: restore. 14.2 [Low]: 3 years for commercial confidences; Personal Data indefinite.\n- 25 Force majeure [Low]: acceptable (25.3 preserves data duties); exclude power/telecom failures covered by DR (RPO/RTO). 18.1-18.2 insurance [Low]: restore EUR20m/40m; 4.6 Cascadia EUR10m cover: commercial team.\n- 17.4 HICP escalator, EURIBOR vs ECB interest: commercial team (playbook s.5).\n\nD. WITHIN PLAYBOOK / ACCEPTABLE [Low]\n3.2 (120 days; trade chip); 8.2, 8.3, 8.4 (AES-256 \"or equivalent\" already in our Annex II); 11.1 (5-day DSAR assistance); 11.2 phrase tracks Art. 28(3)(f); 13.2 backup tail alone; 14.3; 15.5 (our 18.2 already had it); 16.4; 17.2 VAT (our 22.3); 20.2; 22.1 (our 21.1); 27.2; witness lines; oral-instructions language (2.2; add emergency-instruction route); \"no legal analysis\" (2.2) if Eurocloud still must flag infringements immediately (Art. 28(3)).\n\nE. RISK MATRIX\nCritical: W1, W2 (if 9.1 stays), W3, W4, W5, W6, W7, W8, W9, W11, W14.\nHigh: W10, W12, W13, Annex II, 23.3, Annex I.B, 28.5.\nMedium: 2.7, cost clauses, 24.3/24.5, 21.2, 19.5, survival, Annex I.C.\nLow: all Section D items, force majeure, insurance, 14.2.\n\nF. NEGOTIATION STRATEGY (call May 28; playbook asked for contact by May 19, so move earlier if possible)\n1. Pre-call: obtain redline; partner sign-off on fallbacks; confirm Module/establishment points; request Eurocloud confirm no data has moved or will move outside EEA.\n2. Standalone first (not tradable, they define the legal frame): governing law/SCC integrity/precedence, localization/transfer/TIA, Affiliates. Message: Cascadia cannot lawfully sign; TIA conditions fail; Singapore/Brazil require new TIA and SCC modules before any discussion. Offer a path: affiliate DR only after TIA and consent.\n3. Package B (Art. 28 core): breach, audit, DPIA, DPO, deletion, sub-processors, anonymization. Move to A-tier only as a bundle, e.g. 36h notice and 60+30 deletion in exchange for on-site audit and DPIA reinstatement.\n4. Package C (risk allocation): 2x/3x cap, mutual indemnity, penalty, in return for concessions D.\n5. Give-ups: 120-day notice, 3-year commercial confidentiality, testing, witnesses, VAT, escalator, force majeure, 15.5, recital (I).\n6. Timeline: June 6 signing is at risk; GC allows about two weeks, hard stop late June, else runner-up. Set decision date for W4-W7 resolution by June 6 and the rest by June 13. Irish counsel needed (fine indemnity, Irish law). Singapore specialist is unnecessary unless the localization position moves; flag Brazil/Singapore counsel only then.",
+ "citations": [
+  {
+   "citation": "Commission Implementing Decision (EU) 2021/914, Module Two Clauses 9, 17, 18; Art. 1; Recital 3, 7",
+   "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj/eng",
+   "claim": "SCCs may not be modified; Clause 17 requires EU Member State law allowing third-party beneficiary rights; Clause 18 requires Member State courts (clause text confirmed via secondary search results; Recital 7 point from knowledge)"
+  },
+  {
+   "citation": "Latombe v Commission, Case T-553/23 (General Court, 3 Sept 2025); appeal C-703/25 P",
+   "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2025-09/cp250106en.pdf",
+   "claim": "General Court upheld DPF adequacy decision; appeal pending, supporting SCC fallback"
+  },
+  {
+   "citation": "GDPR Arts 4(5), 4(12), 28(2)-(3), 33, 35, 36, 44-49, 82, 83",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "claim": "Statutory basis for processor duties and Chapter V (cited from knowledge, not fetched)"
+  }
+ ],
+ "evidence_actions": [
+  {
+   "seq": 1,
+   "type": "document_read",
+   "target": "partner-instructions.eml",
+   "purpose": "Assignment scope and client posture"
+  },
+  {
+   "seq": 2,
+   "type": "document_read",
+   "target": "cascadia-tia-summary.docx (sections 1-3)",
+   "purpose": "TIA scope"
+  },
+  {
+   "seq": 3,
+   "type": "document_read",
+   "target": "cascadia-tia-summary.docx (sections 3-5, text extraction)",
+   "purpose": "TIA mechanisms and US analysis"
+  },
+  {
+   "seq": 4,
+   "type": "document_read",
+   "target": "cascadia-tia-summary.docx (grep for Singapore/Brazil/conditions)",
+   "purpose": "Scope limits"
+  },
+  {
+   "seq": 5,
+   "type": "document_read",
+   "target": "cascadia-tia-summary.docx (sections 6-8)",
+   "purpose": "Supplementary measures, conditions"
+  },
+  {
+   "seq": 6,
+   "type": "document_read",
+   "target": "lh-dta-playbook.docx chars 1-15000",
+   "purpose": "Playbook thresholds"
+  },
+  {
+   "seq": 7,
+   "type": "document_read",
+   "target": "lh-dta-playbook.docx chars 15001-30000",
+   "purpose": "Playbook thresholds"
+  },
+  {
+   "seq": 8,
+   "type": "document_read",
+   "target": "lh-dta-playbook.docx chars 30001-45000",
+   "purpose": "Playbook thresholds"
+  },
+  {
+   "seq": 9,
+   "type": "document_read",
+   "target": "lh-dta-playbook.docx chars 45001-60000",
+   "purpose": "Playbook thresholds"
+  },
+  {
+   "seq": 10,
+   "type": "document_read",
+   "target": "lh-dta-playbook.docx chars 60001-75000",
+   "purpose": "Playbook thresholds"
+  },
+  {
+   "seq": 11,
+   "type": "document_read",
+   "target": "lh-dta-playbook.docx chars 75001-end",
+   "purpose": "Playbook thresholds"
+  },
+  {
+   "seq": 12,
+   "type": "document_read",
+   "target": "eurocloud-markup-dta.docx chars 1-15000",
+   "purpose": "Markup changes"
+  },
+  {
+   "seq": 13,
+   "type": "document_read",
+   "target": "eurocloud-markup-dta.docx chars 15001-30000",
+   "purpose": "Markup changes"
+  },
+  {
+   "seq": 14,
+   "type": "document_read",
+   "target": "eurocloud-markup-dta.docx chars 30001-45000",
+   "purpose": "Markup changes"
+  },
+  {
+   "seq": 15,
+   "type": "document_read",
+   "target": "eurocloud-markup-dta.docx chars 45001-60000",
+   "purpose": "Markup changes"
+  },
+  {
+   "seq": 16,
+   "type": "document_read",
+   "target": "eurocloud-markup-dta.docx chars 60001-end",
+   "purpose": "Markup changes"
+  },
+  {
+   "seq": 17,
+   "type": "document_read",
+   "target": "original-draft-dta.docx lines 24-135",
+   "purpose": "Original language and silent-change comparison"
+  },
+  {
+   "seq": 18,
+   "type": "document_read",
+   "target": "original-draft-dta.docx lines 114-208",
+   "purpose": "Original language and silent-change comparison"
+  },
+  {
+   "seq": 19,
+   "type": "document_read",
+   "target": "original-draft-dta.docx lines 208-300",
+   "purpose": "Original language and silent-change comparison"
+  },
+  {
+   "seq": 20,
+   "type": "document_read",
+   "target": "original-draft-dta.docx lines 298-391",
+   "purpose": "Original language and silent-change comparison"
+  },
+  {
+   "seq": 21,
+   "type": "document_read",
+   "target": "original-draft-dta.docx lines 392-700 (annexes, part 1)",
+   "purpose": "Original language and silent-change comparison"
+  },
+  {
+   "seq": 22,
+   "type": "document_read",
+   "target": "original-draft-dta.docx lines 484-700 (SCC annex, part 2)",
+   "purpose": "Original language and silent-change comparison"
+  },
+  {
+   "seq": 23,
+   "type": "document_read",
+   "target": "scratch diff of original vs markup (original-view)",
+   "purpose": "Detect untracked changes; output not usable due to structural rewrite"
+  },
+  {
+   "seq": 24,
+   "type": "web_search",
+   "target": "Latombe v Commission T-553/23 DPF appeal",
+   "purpose": "Current status of DPF challenge"
+  },
+  {
+   "seq": 25,
+   "type": "fetch",
+   "target": "eur-lex.europa.eu CELEX:32021D0914",
+   "purpose": "Verify SCC text; blocked by proxy"
+  },
+  {
+   "seq": 26,
+   "type": "web_search",
+   "target": "SCC 2021/914 Module Two Clause 17, 18, 9(a)",
+   "purpose": "Verify governing law/forum/sub-processor clauses"
+  }
+ ],
+ "unresolved": [
+  "Brazil adequacy status and UK adequacy extension not verified",
+  "Cascadia EU establishment/Art. 27 representative unconfirmed",
+  "Module Two fit not confirmed",
+  "Markup's 47-change count does not match actual changes; true redline needed",
+  "Matter number discrepancy (2025-0412 vs LH-2025-0482)",
+  "GDPR and EDPB guidance cited from knowledge; eur-lex fetch blocked"
+ ],
+ "usage": {
+  "tool_calls": 30,
+  "elapsed_sec": null
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "expected": 40,
+  "found_valid_structure": 40,
+  "missing": [],
+  "errors": [],
+  "constraint_violations": [
+    {
+      "run_id": "RD7B5CE11026B",
+      "type": "word_cap",
+      "value": 2213,
+      "limit": 2000
+    },
+    {
+      "run_id": "R585EDCE1F892",
+      "type": "word_cap",
+      "value": 2801,
+      "limit": 2000
+    }
+  ],
+  "STRUCTURALLY_VALID": true
+}
